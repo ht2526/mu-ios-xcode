@@ -1,0 +1,15 @@
+Unity=2021.3.26f1
+Mode=ProjectOnly
+Result=XcodeProjectExported
+ExpectedOutput=D:\Game\MU\Build\iOS\Xcode
+OutputExists=True
+DependencyProblemCount=3
+ReleaseWorkflowGate=NotBypassed
+SigningArchiveIpaUpload=NotRun
+Detail=No signing, archive, IPA build, or upload was run.
+Scenes=Assets/Res/Entrance/GameMain.unity
+Utc=2026-07-30T19:56:47.6065740Z
+Safety=No Android/Windows plugin fallback and no synthetic iOS native library was used.
+UnresolvedDependency=missing native iOS plugin for xlua
+UnresolvedDependency=missing native iOS plugin for nav
+UnresolvedDependency=missing native iOS plugin for gamecppdll

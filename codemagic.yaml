@@ -1,0 +1,61 @@
+workflows:
+  ios-unsigned-sideloadly:
+    name: MU iOS ARM64 - Unsigned IPA
+    instance_type: mac_mini_m2
+    max_build_duration: 120
+    environment:
+      xcode: 26.4
+      vars:
+        XCODE_PROJECT: "Unity-iPhone.xcodeproj"
+        XCODE_SCHEME: "Unity-iPhone"
+        IOS_BUNDLE_ID: "com.htp.mu21"
+    scripts:
+      - name: Verify exported Unity Xcode project
+        script: |
+          set -euo pipefail
+          test -f "$CM_BUILD_DIR/$XCODE_PROJECT/project.pbxproj"
+          xcodebuild \
+            -project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            -scheme "$XCODE_SCHEME" \
+            -showBuildSettings \
+            > "$CM_BUILD_DIR/xcode-build-settings.txt"
+
+      - name: Build unsigned ARM64 device archive
+        script: |
+          set -euo pipefail
+          set -o pipefail
+          mkdir -p "$CM_BUILD_DIR/build"
+          xcodebuild archive \
+            -project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            -scheme "$XCODE_SCHEME" \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination "generic/platform=iOS" \
+            -archivePath "$CM_BUILD_DIR/build/MU.xcarchive" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            DEVELOPMENT_TEAM="" \
+            ARCHS=arm64 \
+            ONLY_ACTIVE_ARCH=NO \
+            ENABLE_BITCODE=NO \
+            2>&1 | tee "$CM_BUILD_DIR/build/xcodebuild.log"
+
+      - name: Package unsigned IPA for Sideloadly
+        script: |
+          set -euo pipefail
+          app_path="$(find "$CM_BUILD_DIR/build/MU.xcarchive/Products/Applications" \
+            -maxdepth 1 -type d -name '*.app' -print -quit)"
+          test -n "$app_path"
+          mkdir -p "$CM_BUILD_DIR/build/Payload"
+          ditto "$app_path" "$CM_BUILD_DIR/build/Payload/$(basename "$app_path")"
+          cd "$CM_BUILD_DIR/build"
+          /usr/bin/zip -qry "MU-unsigned-arm64.ipa" Payload
+          test -s "$CM_BUILD_DIR/build/MU-unsigned-arm64.ipa"
+    artifacts:
+      - build/MU-unsigned-arm64.ipa
+      - build/xcodebuild.log
+      - xcode-build-settings.txt
+      - unresolved-ios-dependencies.txt
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+

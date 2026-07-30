@@ -1,0 +1,6 @@
+﻿#include "Libraries/libil2cpp/il2cpp-config.h"
+#include "Libraries/libil2cpp/icalls/mscorlib/System.Globalization/CalendarData.cpp"
+#include "Libraries/libil2cpp/icalls/mscorlib/System.Globalization/CompareInfo.cpp"
+#include "Libraries/libil2cpp/icalls/mscorlib/System.Globalization/CultureData.cpp"
+#include "Libraries/libil2cpp/icalls/mscorlib/System.Globalization/CultureInfo.cpp"
+#include "Libraries/libil2cpp/icalls/mscorlib/System.Globalization/RegionInfo.cpp"

@@ -1,0 +1,110 @@
+ManifestFileVersion: 0
+CRC: 1408386683
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 84f3c35baa1c38e66be4c21c55205362
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 394aeb2d19789d75ba4b9904c355fb09
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e1e11fd209f21ee48b53e87253f9b2e4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3de98057b0756194d859b1754f4feac1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6847aea721c3be240bf587f8d8e14870, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b9dce0eedd4a604fbf1cbeed9b53ceb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 80ba9c48ebb2edc4c8afa3ada451fdf1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 034b02b6b7e049949879274106393780, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 72be31f10c98a8040bd4cd34203e3edc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28192bcb5fbfbd540b77f8df362beb18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2b4b726f656c4364ebc2c8bf3e2d5d99, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cb57dbd519d4239408babe9e19864367, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 81d0b561b806f5c41a03d34621399a3c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Slider/SliderEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: pure
+  ClassName: pure.database.ColorPlatter
+Assets:
+- Assets/Res/UI/Panel/Scene/dynamic/transition_sp/SceneTransition_Slider_0.prefab
+- Assets/Res/UI/Panel/Scene/dynamic/transition_sp/Game_Loadinglight.wav
+- Assets/Res/UI/Panel/Scene/dynamic/transition_sp/TransitionPanel_0_Animation_FadeOut.anim
+- Assets/Res/UI/Panel/Scene/dynamic/transition_sp/TransitionPanel_0_Animation_FadeIn.anim
+- Assets/Res/UI/Panel/Scene/dynamic/transition_sp/SceneTransitionPanel_0.prefab
+- Assets/Res/UI/Panel/Scene/dynamic/transition_sp/SceneTransition_Slider_1.prefab
+Dependencies: []

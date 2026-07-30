@@ -1,0 +1,7 @@
+﻿#include "Libraries/libil2cpp/il2cpp-config.h"
+#include "Libraries/libil2cpp/gc/BoehmGC.cpp"
+#include "Libraries/libil2cpp/gc/GarbageCollector.cpp"
+#include "Libraries/libil2cpp/gc/GCHandle.cpp"
+#include "Libraries/libil2cpp/gc/NullGC.cpp"
+#include "Libraries/libil2cpp/gc/WriteBarrier.cpp"
+#include "Libraries/libil2cpp/gc/WriteBarrierValidation.cpp"

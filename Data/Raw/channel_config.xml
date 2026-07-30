@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Channel_Config>
+    <!-- 此部分参数每个渠道有所区别，视具体情况而定 -->
+    <Channel_Name>HuanYu</Channel_Name>
+    <Channel_HY_URL1>.khoinguyenroland.com/</Channel_HY_URL1>
+    <Channel_HY_URL2>.huanyu-gm.com/</Channel_HY_URL2>
+    <!-- 欢娱：  .hyuteach.com/    .huanyu-gm.com/   -->
+    <!-- 三九：  .39sdk.com/    .999sdk.com/   -->
+    <!-- 七龙：  .7dragon.cn/    -->
+    <!-- 上海游码：  .umawan.com/    -->
+</Channel_Config>

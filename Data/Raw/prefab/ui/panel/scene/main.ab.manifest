@@ -1,0 +1,354 @@
+ManifestFileVersion: 0
+CRC: 322732352
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cae127004177e3108de56155006072fb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5a61853d30909b78440a769c86ffcb03
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 51b769e94138a8044ad51fd38f23b277, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 32f9c33d3e33d3d418cc56ac286040b0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c0f5ab8f750bd3c43b92bc6ddd694f2c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c3bec1b3006652140a083bedd4ef1f4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 656ee3616a0c8a04eaeadc420ba03a6e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c59859297481db346a222ac322b4951e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3a9a33d4a8d10e64691a9d3b5d465b3c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b53f27067b914e05a4a8540585e995b8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4a2d896b32fe6b94da3fc7e2b0975e17, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b768a81798e0d5489c9e96c62e37719, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3de98057b0756194d859b1754f4feac1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 43bf740a4177a74449bfce860cf103da, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0ec1ec0d58e5f1745910f7f923e0b104, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c78355614c083b94b9430b9b5c8b152c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 63d4ddbe7740c4b41993e0ba8b976d9c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8eccacce9e259df438e3cd2e5ea7832e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e6c777d262452954f924c5706db340ad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9bf2e3653f6cdee4788279651558441d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95969254e71a1ce40b6a9a0f6d013b56, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7ddfead01c00d0b4a89cf599e373e3bd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 43fb0f849eedf334aaface4121ceafe4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eb62b4d831820ed4981c95cf2c5c319d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6847aea721c3be240bf587f8d8e14870, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b9dce0eedd4a604fbf1cbeed9b53ceb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a6b23ce6fd290d4089c77afddfb040f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5698ac7f3a1c09f4eada6016f0a35088, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e76bc39c2e76f4c49ace5b6cd168c84b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 80ba9c48ebb2edc4c8afa3ada451fdf1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f5a2791a6e61c3e47b36fdb94738adb9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6888e5ef089f2224eac8a5e8697299ca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3a61e85e62d753546871683962702134, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 72be31f10c98a8040bd4cd34203e3edc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28192bcb5fbfbd540b77f8df362beb18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: baeecc2b2e981fa4096d226102c60ac6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b2d1520bb5ba0a48a0cd5f1a46c5c4b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a4be970afab385d4e83efc9c5909a03f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 202888c35f74dd6408f5b08a43cbb0e7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 58ecc73f0be2b694fb3ba545c4f8ab28, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f152f1694103acb4e8290e21f21f79aa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 93bc3453b66d52045a7edfca847926c8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 13ee48d5a59905f44b2161987b21b5dc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e21a91525e6d53478948687c7af13c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d6f9389cb68360846917de6c44f4114b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2b4b726f656c4364ebc2c8bf3e2d5d99, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f34bfd610b237645829214a2835ca73, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b2f1ec9bdaae920478ec2cb73077140e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4d6dd3c96238244fb46db76c3233e72, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bf5dbd612bd7d6f48a398d70ea8d9c0a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cee86e80bde7d9d4e89da7c60bfd21d2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a9610937923a1e24eb22e9f583ad25a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c36996c61884d6f49b865df055bd30db, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d434fed1158658c43bd1636d6391a183, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cb57dbd519d4239408babe9e19864367, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 81d0b561b806f5c41a03d34621399a3c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cf62890d25ff6494ab8c4dfd7e8f97bd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bad18b649ae94854cbb8a389ab682166, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 21ac2f315d83dad4596f95872d7ab05f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b5669bd9eef4558897b658080fb608c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 280389b63e82ca74293756c2e1cbcd6b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/EndEditEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/OnChangeEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.InputField/SubmitEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Scrollbar/ScrollEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Toggle/ToggleEvent
+- AssemblyName: game
+  ClassName: game.mono.range.Range_Data
+- AssemblyName: game
+  ClassName: game.ui.MapStyle
+- AssemblyName: game
+  ClassName: game.ui.MapSymbol
+- AssemblyName: game
+  ClassName: game.ui.ScrollViewStyle
+- AssemblyName: game
+  ClassName: game.ui.UIAnimUnit
+- AssemblyName: game
+  ClassName: pure.ui.TextStyle
+- AssemblyName: pure
+  ClassName: pure.assetdb.AssetPtr
+- AssemblyName: pure
+  ClassName: pure.database.ColorPlatter
+- AssemblyName: pure
+  ClassName: pure.lua.LuaScript
+- AssemblyName: pure
+  ClassName: pure.ui.SpriteInfo
+Assets:
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_right/ItemSkill_Effect.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_GoldInvasion.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_DrawCard.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/button/Button_Friend.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_right/Toggle_TopRight_Arrow_0.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/item_battle_btn.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/Item_BottomMid_Props.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopLeft/MainButton_AngelChallenge.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/button/Button_Roland.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/MainButtonCollections.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/button/Button_TeamApply.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_right/ItemSkill_Effect_0_Animator.anim
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_Reminder.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/Bar_BottomMid_Hp.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/button/Button_Revive.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/Animation/EA_MainButton_Bag.anim
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Fashion.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/button/Button_Mail.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_Sponsor.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_MasterWay.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/BottomMidPanel_Scene.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_right/TopRightPanel_Scene.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_right/Item_SkillIcon_2.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopLeft/MainButton_ChangeJob.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_Boss.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_DivineWeaponWelfare.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/Animation/EA_MainButton_Auto.anim
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/Bar_Exp_0.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Setting.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Rank.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_DragonInvasion.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_mid/TopMidPanel_Scene_Sub0_EnterScene.anim
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_Efficiency.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_CrossServer.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/ChooseModePanel_Main.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_GodCast.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopLeft/MainButton_Offline.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/PaneIIcon_Pos_0.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_right/Fx_xiaoDiTuguangQuan.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_left/TopLeftPanel_Module_EnterScene.anim
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_DivineWeapon.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Friend.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_NurturingTips.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Mounts.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_GuildSiege.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_right/Fx_xiaoDiTuguangQuan_Anim.anim
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_right/BottomRightPanel_Scene_Sub0_ExitScene.anim
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/Item_BottomMid_TipsIcon.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_Directpurchas.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/Item_BottomMid_Props_Qty.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Bag.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_right/BottomRightPanel_Scene_Sub1_ExitScene.anim
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/item_buffinfo.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_Openserver.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_mid/TopMidPanel_Scene.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_FreeVip.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_Escort.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/Item_MainIcon_0.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/PaneIIcon_Pos_1.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_GuildRoland.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_mid/activity_btn.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_right/Toggle_PanelSwitch.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_left/TopLeftPanel_Module_ExitScene.anim
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Mail.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_FirstCharge.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_TimeLimitGift.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Soulmark.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Auto.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopLeft/MainButton_Download.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_left/TopLeftPanel_Module.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/main_chat_item.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_Transaction.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_left/TopLeftPanel_Scene.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Baodian.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Jiadian.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_MustDaily.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Auction.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/BuffPanel_Main.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_TailTower.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/BottomMidPanel_Storage.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_right/BottomRightPanel_Scene_Sub0_EnterScene.anim
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_right/BottomRightPanel_Scene_Sub1_EnterScene.anim
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/Animation/EA_MainButton_NurturingTips.anim
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_right/BottomRight_IconPos.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Guild.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_GrowUp.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Talent.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/JoystickPanel_Scene.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Compound.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Pet.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/top_mid/TopMidPanel_Scene_Sub0_ExitScene.anim
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopLeft/MainButton_FunctionPreview.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Skill.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/MainButton_Null.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_Vip.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_Welfare.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/item_buff.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/Item_BottomMid_MainIcon.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_ImperialFortress.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_mid/Bar_BottomMid_Mp.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_MergeServer.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/TopMid/MainButton_Afk.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_right/BottomRightPanel_Scene.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/button/Right/MainButton_Forge.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_right/Item_SkillIcon_0.prefab
+- Assets/Res/UI/Panel/Scene/main_sp/bottom_right/Item_SkillIcon_1.prefab
+Dependencies: []

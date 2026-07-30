@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 1591893003
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f0813f2c7b7b17c34b2eec77545cf266
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c29c357128feff56790ec9816c4fc93d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Lang/zh_cn/UI/Login_SP/CreateRole/UITex_logInSystem_Create_Icon_1_3.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/UILangTex_logInSystem_Font_ZuiJinDengLu_1_3.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/SelectRole/UILangTex_logInSystem_Font_ShanChuJueShe_1_1.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/Login/UITex_logInSystem_Connect_Font_LianJie.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/SelectRole/UILangTex_logInSystem_Font_JinRuYouXi_1_1.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/CreateRole/UITex_logInSystem_Create_Icon_3_3.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/CreateRole/UILangTex_logInSystem_Font_YaoQingMa.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/Login/UITex_logInSystem_Enter_Font_1.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/CreateRole/UITex_logInSystem_Create_Icon_4_3.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/Login/UITex_logInSystem_Connect_Font_ZhangHao.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/SelectRole/UILangTex_logInSystem_Font_XuanZeJueSe_1_1.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/CreateRole/UITex_logInSystem_Create_Icon_2_3.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/UILangTex_logInSystem_Icon_ChuanJianXinJueShe.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/UILangTex_logInSystem_Font_XuanZeQuZu_1_1.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/CreateRole/UILangTex_logInSystem_Font_ChuangJianJueSe_1_2.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/Announce/UILangTex_logInSystem_Font_GongGao_1_1.png
+- Assets/Res/Lang/zh_cn/UI/Login_SP/CreateRole/UILangTex_logInSystem_Font_ChuangJianJueSe_1_1.png
+Dependencies: []
