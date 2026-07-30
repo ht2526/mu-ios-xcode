@@ -13,8 +13,11 @@ workflows:
       - name: Build verified xLua libraries for iOS ARM64
         script: |
           set -euo pipefail
+          set -o pipefail
           export IOS_NATIVE_OUTPUT_DIR="$CM_BUILD_DIR/NativeGenerated"
-          bash "$CM_BUILD_DIR/Tools/iOSNative/build-ios-native.sh"
+          mkdir -p "$CM_BUILD_DIR/Build/iOS"
+          bash "$CM_BUILD_DIR/Tools/iOSNative/build-ios-native.sh" \
+            2>&1 | tee "$CM_BUILD_DIR/Build/iOS/ios-native-xlua-build.log"
           test -s "$IOS_NATIVE_OUTPUT_DIR/libxlua.a"
           test -s "$IOS_NATIVE_OUTPUT_DIR/libmu_xlua_extensions.a"
 
@@ -65,6 +68,7 @@ workflows:
     artifacts:
       - build/MU-unsigned-arm64.ipa
       - build/xcodebuild.log
+      - Build/iOS/ios-native-xlua-build.log
       - Build/iOS/ios-native-xlua-summary.txt
       - xcode-build-settings.txt
       - unresolved-ios-dependencies.txt
