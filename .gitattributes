@@ -6,4 +6,4 @@
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.tga filter=lfs diff=lfs merge=lfs -text
 *.xcassets/** filter=lfs diff=lfs merge=lfs -text
-
+Tools/iOSNative/legacy/LegacyNative filter=lfs diff=lfs merge=lfs -text

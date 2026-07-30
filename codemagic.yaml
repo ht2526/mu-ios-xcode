@@ -21,6 +21,44 @@ workflows:
           test -s "$IOS_NATIVE_OUTPUT_DIR/libxlua.a"
           test -s "$IOS_NATIVE_OUTPUT_DIR/libmu_xlua_extensions.a"
 
+      - name: Prepare legacy proprietary native bridge
+        script: |
+          set -euo pipefail
+          set -o pipefail
+          source_binary="$CM_BUILD_DIR/Tools/iOSNative/legacy/LegacyNative"
+          source_plist="$CM_BUILD_DIR/Tools/iOSNative/legacy/Info.plist"
+          bridge="$CM_BUILD_DIR/NativeGenerated/LegacyNative.framework"
+          log="$CM_BUILD_DIR/Build/iOS/ios-native-legacy-bridge.log"
+
+          {
+            test -s "$source_binary"
+            test -s "$source_plist"
+            rm -rf "$bridge"
+            mkdir -p "$bridge"
+            ditto "$source_binary" "$bridge/LegacyNative"
+            ditto "$source_plist" "$bridge/Info.plist"
+            chmod 755 "$bridge/LegacyNative"
+            codesign --remove-signature "$bridge/LegacyNative" 2>/dev/null || true
+            install_name_tool \
+              -id "@rpath/LegacyNative.framework/LegacyNative" \
+              "$bridge/LegacyNative"
+
+            file "$bridge/LegacyNative"
+            lipo "$bridge/LegacyNative" -verify_arch arm64
+            otool -D "$bridge/LegacyNative"
+            nm -gU "$bridge/LegacyNative" > "$CM_BUILD_DIR/NativeGenerated/legacy-native-symbols.txt"
+
+            for symbol in \
+              _nav_create_scene \
+              _tile_init_scene \
+              _cpp_read_asset \
+              _rectpack_create \
+              _sensitive_censor; do
+              grep -q "[[:space:]]${symbol}$" \
+                "$CM_BUILD_DIR/NativeGenerated/legacy-native-symbols.txt"
+            done
+          } 2>&1 | tee "$log"
+
       - name: Verify exported Unity Xcode project
         script: |
           set -euo pipefail
@@ -51,7 +89,8 @@ workflows:
             ONLY_ACTIVE_ARCH=NO \
             ENABLE_BITCODE=NO \
             "LIBRARY_SEARCH_PATHS=$CM_BUILD_DIR/NativeGenerated \$(inherited)" \
-            "OTHER_LDFLAGS=\$(inherited) -force_load $CM_BUILD_DIR/NativeGenerated/libxlua.a -force_load $CM_BUILD_DIR/NativeGenerated/libmu_xlua_extensions.a" \
+            "FRAMEWORK_SEARCH_PATHS=$CM_BUILD_DIR/NativeGenerated \$(inherited)" \
+            "OTHER_LDFLAGS=\$(inherited) -force_load $CM_BUILD_DIR/NativeGenerated/libxlua.a -force_load $CM_BUILD_DIR/NativeGenerated/libmu_xlua_extensions.a -framework LegacyNative" \
             2>&1 | tee "$CM_BUILD_DIR/build/xcodebuild.log"
 
       - name: Package unsigned IPA for Sideloadly
@@ -60,6 +99,10 @@ workflows:
           app_path="$(find "$CM_BUILD_DIR/build/MU.xcarchive/Products/Applications" \
             -maxdepth 1 -type d -name '*.app' -print -quit)"
           test -n "$app_path"
+          mkdir -p "$app_path/Frameworks"
+          ditto \
+            "$CM_BUILD_DIR/NativeGenerated/LegacyNative.framework" \
+            "$app_path/Frameworks/LegacyNative.framework"
           mkdir -p "$CM_BUILD_DIR/build/Payload"
           ditto "$app_path" "$CM_BUILD_DIR/build/Payload/$(basename "$app_path")"
           cd "$CM_BUILD_DIR/build"
@@ -70,6 +113,8 @@ workflows:
       - build/xcodebuild.log
       - Build/iOS/ios-native-xlua-build.log
       - Build/iOS/ios-native-xlua-summary.txt
+      - Build/iOS/ios-native-legacy-bridge.log
+      - NativeGenerated/legacy-native-symbols.txt
       - xcode-build-settings.txt
       - unresolved-ios-dependencies.txt
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
