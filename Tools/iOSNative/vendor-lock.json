@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "target": "ios-arm64",
+  "minimumIos": "12.0",
+  "dependencies": {
+    "xlua": {
+      "repository": "https://github.com/Tencent/xLua.git",
+      "commit": "59bf42685dbe36fe0e1678a6ba8597f859ef7ca3",
+      "artifact": "Assets/Plugins/iOS/libxlua.a",
+      "sha256": "4bfffee31684f7a10b7758f269ed3d2a6cc4c22b60df1d5a44472ff74b28d8a3"
+    },
+    "luaRapidjson": {
+      "repository": "https://github.com/xpol/lua-rapidjson.git",
+      "commit": "ac827bd5531589e374ab499b58d0ff17e6532e64"
+    },
+    "luaProtobuf": {
+      "repository": "https://github.com/starwing/lua-protobuf.git",
+      "commit": "bbe744fd25738cccbda973e8fbccdf32c0fb4f9d"
+    },
+    "lpeg": {
+      "url": "https://www.inf.puc-rio.br/~roberto/lpeg/lpeg-1.1.0.tar.gz",
+      "version": "1.1.0",
+      "sha256": "4b155d67d2246c1ffa7ad7bc466c1ea899bbc40fef0257cc9c03cecbaed4352a"
+    }
+  }
+}

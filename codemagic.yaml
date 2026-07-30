@@ -10,6 +10,14 @@ workflows:
         XCODE_SCHEME: "Unity-iPhone"
         IOS_BUNDLE_ID: "com.htp.mu21"
     scripts:
+      - name: Build verified xLua libraries for iOS ARM64
+        script: |
+          set -euo pipefail
+          export IOS_NATIVE_OUTPUT_DIR="$CM_BUILD_DIR/NativeGenerated"
+          bash "$CM_BUILD_DIR/Tools/iOSNative/build-ios-native.sh"
+          test -s "$IOS_NATIVE_OUTPUT_DIR/libxlua.a"
+          test -s "$IOS_NATIVE_OUTPUT_DIR/libmu_xlua_extensions.a"
+
       - name: Verify exported Unity Xcode project
         script: |
           set -euo pipefail
@@ -39,6 +47,8 @@ workflows:
             ARCHS=arm64 \
             ONLY_ACTIVE_ARCH=NO \
             ENABLE_BITCODE=NO \
+            "LIBRARY_SEARCH_PATHS=$CM_BUILD_DIR/NativeGenerated \$(inherited)" \
+            "OTHER_LDFLAGS=\$(inherited) -force_load $CM_BUILD_DIR/NativeGenerated/libxlua.a -force_load $CM_BUILD_DIR/NativeGenerated/libmu_xlua_extensions.a" \
             2>&1 | tee "$CM_BUILD_DIR/build/xcodebuild.log"
 
       - name: Package unsigned IPA for Sideloadly
@@ -55,7 +65,7 @@ workflows:
     artifacts:
       - build/MU-unsigned-arm64.ipa
       - build/xcodebuild.log
+      - Build/iOS/ios-native-xlua-summary.txt
       - xcode-build-settings.txt
       - unresolved-ios-dependencies.txt
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
-
