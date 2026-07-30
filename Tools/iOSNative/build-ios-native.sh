@@ -63,7 +63,7 @@ test -s "$source_xlua" || fail "Pinned Tencent xLua iOS archive is missing"
 test "$(sha256_file "$source_xlua")" = "$xlua_hash" ||
   fail "Pinned Tencent xLua archive hash mismatch"
 cp "$source_xlua" "$output_root/libxlua.a"
-xcrun lipo -verify_arch arm64 "$output_root/libxlua.a" ||
+xcrun lipo "$output_root/libxlua.a" -verify_arch arm64 ||
   fail "Pinned Tencent xLua archive does not contain ARM64"
 
 rapid_repo="$(read_lock dependencies.luaRapidjson.repository)"
@@ -142,7 +142,7 @@ compile_cxx "$tool_root/src/mu_luv.cpp"
 
 "$ar" -rcs "$output_root/libmu_xlua_extensions.a" "${objects[@]}"
 "$ranlib" "$output_root/libmu_xlua_extensions.a"
-xcrun lipo -verify_arch arm64 "$output_root/libmu_xlua_extensions.a" ||
+xcrun lipo "$output_root/libmu_xlua_extensions.a" -verify_arch arm64 ||
   fail "Generated xLua extension archive is not ARM64"
 
 cat > "$output_root/libxlua.a.meta" <<'META'
