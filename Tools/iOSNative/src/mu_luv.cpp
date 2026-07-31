@@ -2,8 +2,10 @@
 // Assets/Test/LuaDll/builtin/serv/tcp_client.lua. All Lua callbacks run from
 // tcp:update(), keeping Unity/Lua access on the main thread.
 
+extern "C" {
 #include "lua.h"
 #include "lauxlib.h"
+}
 
 #include <arpa/inet.h>
 #include <cerrno>
