@@ -1,4 +1,4 @@
-﻿#include "pch-cpp.hpp"
+#include "pch-cpp.hpp"
 
 #ifndef _MSC_VER
 # include <alloca.h>
@@ -22535,7 +22535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_set_logger_m00920C4BA10479
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_set_logger", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_set_logger", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22562,7 +22562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_anim_hash_m4FE6F52847B4488
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_anim_hash", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_anim_hash", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22699,7 +22699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NavDll_nav_init_scene_m10EE52A49D49D
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(uint8_t*) + sizeof(int32_t) + sizeof(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_init_scene", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_init_scene", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22722,7 +22722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavDll_nav_set_name_mAE6397FEA54DF171B0B
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_set_name", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_set_name", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22752,7 +22752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_find_path_buffer_m34186538
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_pathfind_context_t583673038B2C0708F4451AFDF461AB2135ED3109) + sizeof(uint8_t*) + sizeof(int32_t*) + sizeof(int32_t*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_find_path_buffer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_find_path_buffer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22775,7 +22775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_find_jump_path_buffer_mE9B
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B) + sizeof(int32_t*) + sizeof(int32_t*) + sizeof(uint8_t*) + sizeof(int32_t*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_find_jump_path_buffer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_find_jump_path_buffer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22798,7 +22798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_get_jump_path_buffer_mA922
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int16_t) + 2 + sizeof(uint8_t*) + sizeof(int32_t*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_get_jump_path_buffer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_get_jump_path_buffer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22821,7 +22821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_raycast_mF8E67D1496C27A856
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_raycast", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_raycast", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22844,7 +22844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_get_height_mC7AAC9CFD8275F
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_get_height", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_get_height", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22867,7 +22867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_get_normal_mE561D29FB7B8DA
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_get_normal", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_get_normal", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22890,7 +22890,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_pushcast_m7686E657E65709AA
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B) + sizeof(float) + sizeof(float);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_pushcast", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_pushcast", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22913,7 +22913,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_blockray_m8EAAB0A61F3528B9
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B) + sizeof(float);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_blockray", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_blockray", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22936,7 +22936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_screen_passable_m66AA72172
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B) + sizeof(float);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_screen_passable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_screen_passable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22959,7 +22959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_get_triangle_under_pos_m7C
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_get_triangle_under_pos", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_get_triangle_under_pos", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -22982,7 +22982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_get_passable_mAB933CCF8435
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_get_passable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_get_passable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23005,7 +23005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_get_nearest_passable_posit
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(float) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_get_nearest_passable_position", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_get_nearest_passable_position", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23028,7 +23028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_set_jump_path_policy_mF3B2
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_set_jump_path_policy", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_set_jump_path_policy", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23051,7 +23051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_set_terrain_mode_mFE10B35C
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int16_t) + 2;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_set_terrain_mode", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_set_terrain_mode", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23074,7 +23074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_set_terrain_mode_list_m8A8
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t*) + sizeof(int32_t) + sizeof(int16_t) + 2;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_set_terrain_mode_list", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_set_terrain_mode_list", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23097,7 +23097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_remove_scene_mEC9E0BE2BDB0
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_remove_scene", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_remove_scene", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23120,7 +23120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_update_agent_m73DA2BF71FAB
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_rvo_tFE1B0859C78A3A184A494085459497A6EE2E07C3) + sizeof(cpp_agent_t78311B224B76769D8992A3416D87A4F5B9B5BBBD*) + sizeof(int32_t) + sizeof(cpp_bullet_t0DA7E56DAA3C81BB51D9F064E01704F9E4C4D15A*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_update_agent", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_update_agent", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23143,7 +23143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_get_location_info_m90D2AD9
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_location_info_t2163CCADC2FF29A924D0C9C0AF71EC09BD5E199B*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_get_location_info", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_get_location_info", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23166,7 +23166,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_find_camera_position_m3285
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_find_camera_position", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_find_camera_position", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23189,7 +23189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavDll_nav_set_pmode_m677CA3F775D80860BC
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_set_pmode", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_set_pmode", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23211,7 +23211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_nav_height_map_m7587D5EC42104B
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_height_map", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_height_map", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23234,7 +23234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NavDll_nav_create_scene_m03ECDC9105F
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "nav_create_scene", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "nav_create_scene", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23257,7 +23257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_plant_updateforce_gpuinstancin
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(PlantInstance_t385FD23995441FE1909BC5058969A8F657238EE8*) + sizeof(int32_t) + sizeof(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*) + sizeof(int32_t) + sizeof(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*) + sizeof(float) + sizeof(float);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "plant_updateforce_gpuinstancing", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "plant_updateforce_gpuinstancing", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23280,7 +23280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_plant_updateforce_m2B9400F495B
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(PlantInstance_t385FD23995441FE1909BC5058969A8F657238EE8*) + sizeof(int32_t) + sizeof(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*) + sizeof(int32_t) + sizeof(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*) + sizeof(float) + sizeof(float);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "plant_updateforce", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "plant_updateforce", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23303,7 +23303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NavDll_tile_init_scene_m925022FD41AD
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(uint8_t*) + sizeof(int32_t) + sizeof(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_init_scene", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_init_scene", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23326,7 +23326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_find_path_buffer_mF53E057
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_pathfind_context_t583673038B2C0708F4451AFDF461AB2135ED3109) + sizeof(uint8_t*) + sizeof(int32_t*) + sizeof(int32_t*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_find_path_buffer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_find_path_buffer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23349,7 +23349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_raycast_m9D4286DEE17B5E69
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_raycast", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_raycast", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23372,7 +23372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_pushcast_m91A35C2345FBBAE
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B) + sizeof(float) + sizeof(float);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_pushcast", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_pushcast", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23395,7 +23395,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_blockray_m1D39D6E8BC36FEE
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B) + sizeof(float);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_blockray", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_blockray", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23418,7 +23418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_screen_passable_m27BCA437
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B) + sizeof(float);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_screen_passable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_screen_passable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23441,7 +23441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_get_tile_under_pos_mEB955
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_get_tile_under_pos", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_get_tile_under_pos", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23464,7 +23464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_get_passable_m8DC96261CF0
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_get_passable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_get_passable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23487,7 +23487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_get_nearest_passable_posi
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(float) + sizeof(cpp_vector3_t2D29E11DC604A7C20EF6F1A6EAA0E805EAD8394B*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_get_nearest_passable_position", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_get_nearest_passable_position", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23510,7 +23510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_set_terrain_mode_m0C73F1B
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int16_t) + 2;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_set_terrain_mode", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_set_terrain_mode", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23533,7 +23533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_set_terrain_mode_list_m29
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t*) + sizeof(int32_t) + sizeof(int16_t) + 2;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_set_terrain_mode_list", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_set_terrain_mode_list", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23556,7 +23556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_remove_scene_m356DC11B03D
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_remove_scene", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_remove_scene", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23579,7 +23579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_update_agent_mB2A461FAB23
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_rvo_tFE1B0859C78A3A184A494085459497A6EE2E07C3) + sizeof(cpp_agent_t78311B224B76769D8992A3416D87A4F5B9B5BBBD*) + sizeof(int32_t) + sizeof(cpp_bullet_t0DA7E56DAA3C81BB51D9F064E01704F9E4C4D15A*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_update_agent", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_update_agent", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23602,7 +23602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_get_location_info_m0C9A33
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_location_info_t2163CCADC2FF29A924D0C9C0AF71EC09BD5E199B*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_get_location_info", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_get_location_info", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23625,7 +23625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_range_rolecount_m96E7B04E
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_rect_t72903B9B3C8AC07704291D44A34901426AF05409) + sizeof(float);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_range_rolecount", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_range_rolecount", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23648,7 +23648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_range_rolelist_m00082FD65
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(cpp_rect_t72903B9B3C8AC07704291D44A34901426AF05409) + sizeof(int64_t*) + sizeof(int32_t*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_range_rolelist", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_range_rolelist", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23671,7 +23671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_rolecount_m4B84B7A7811A42
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_rolecount", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_rolecount", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23694,7 +23694,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_rolelist_m1DB6BD9ACD2CA00
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int64_t*) + sizeof(int32_t*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_rolelist", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_rolelist", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23717,7 +23717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_map_info_mB79EECD3CD2A9DF
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(tile_info_tE69CB48EB693E4332035E9C6E6C9BC84C30003C7*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_map_info", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_map_info", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23740,7 +23740,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_insert_entity_m02808DC71C
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int64_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_insert_entity", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_insert_entity", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -23763,7 +23763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NavDll_tile_remove_entity_mC01952A10C
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int64_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("nav"), "tile_remove_entity", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "tile_remove_entity", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif

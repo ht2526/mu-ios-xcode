@@ -1,4 +1,4 @@
-﻿#include "pch-cpp.hpp"
+#include "pch-cpp.hpp"
 
 #ifndef _MSC_VER
 # include <alloca.h>
@@ -9550,7 +9550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppFileTools_cpp_read_asset_m740FD395
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(char*) + sizeof(int32_t) + sizeof(CppBuffer_t47B837D03E6CC460F1C95B1D2599E1F834560600*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_read_asset", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_read_asset", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -9589,7 +9589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppFileTools_cpp_read_asset_block_m22
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(char*) + sizeof(PageInfo_tF587D19BE77EAD391E18C17BC501D72E8151DBFF) + sizeof(CppBuffer_t47B837D03E6CC460F1C95B1D2599E1F834560600*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_read_asset_block", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_read_asset_block", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -9628,7 +9628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppFileTools_cpp_read_file_mDCAFD08B5
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(int32_t) + sizeof(CppBuffer_t47B837D03E6CC460F1C95B1D2599E1F834560600*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_read_file", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_read_file", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -9659,7 +9659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppFileTools_cpp_read_file_block_mA26
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(PageInfo_tF587D19BE77EAD391E18C17BC501D72E8151DBFF) + sizeof(CppBuffer_t47B837D03E6CC460F1C95B1D2599E1F834560600*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_read_file_block", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_read_file_block", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -10087,7 +10087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppFileTools_cpp_copy_stream_persiste
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(char*) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_copy_stream_persistent", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_copy_stream_persistent", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -10181,7 +10181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CppSensitive_sensitive_read_file_m60
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "sensitive_read_file", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "sensitive_read_file", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -10212,7 +10212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CppSensitive_sensitive_read_asset_m7
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + sizeof(char*) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "sensitive_read_asset", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "sensitive_read_asset", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -10251,7 +10251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CppSensitive_sensitive_read_mem_mD05
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(CppBuffer_t47B837D03E6CC460F1C95B1D2599E1F834560600) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "sensitive_read_mem", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "sensitive_read_mem", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -10274,7 +10274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CppSensitive_sensitive_exclude_mD90A1BAF
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(uint8_t*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "sensitive_exclude", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "sensitive_exclude", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -10296,7 +10296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CppSensitive_sensitive_find_m0AA4B9973D0
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(uint8_t*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "sensitive_find", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "sensitive_find", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -10319,7 +10319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CppSensitive_sensitive_censor_m6D86C404B
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(uint8_t*) + sizeof(int32_t*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "sensitive_censor", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "sensitive_censor", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -10341,7 +10341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CppSensitive_sensitive_setmode_m0A4FC8BB
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "sensitive_setmode", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "sensitive_setmode", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -10363,7 +10363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CppSensitive_sensitive_dispose_mC190141C
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "sensitive_dispose", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "sensitive_dispose", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -11238,7 +11238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppZipper_cpp_zip_m61054CBE6586F8B244
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(uint8_t*) + sizeof(int32_t) + sizeof(int32_t) + sizeof(CppBuffer_t47B837D03E6CC460F1C95B1D2599E1F834560600*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_zip", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_zip", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -11261,7 +11261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppZipper_cpp_unzip_m17DAC362EFA279E0
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(uint8_t*) + sizeof(int32_t) + sizeof(CppBuffer_t47B837D03E6CC460F1C95B1D2599E1F834560600*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_unzip", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_unzip", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -11548,7 +11548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameCppDll_cpp_set_logger_m6DAD93B1E9
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(void*) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_set_logger", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_set_logger", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -11575,7 +11575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameCppDll_cpp_set_package_name_m9026
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_set_package_name", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_set_package_name", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -11606,7 +11606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameCppDll_cpp_send_message_to_native_m2
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(char*) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_send_message_to_native", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_send_message_to_native", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -11636,7 +11636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t GameCppDll_cpp_get_cpu_tick_m337CEB5D
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_get_cpu_tick", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_get_cpu_tick", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
@@ -11659,7 +11659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameCppDll_cpp_free_memory_mA7D8FDC56D44
 	if (il2cppPInvokeFunc == NULL)
 	{
 		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "cpp_free_memory", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("__Internal"), "cpp_free_memory", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
 		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
 	}
 	#endif
