@@ -18,6 +18,10 @@ command -v curl >/dev/null || fail "curl is required"
 command -v python3 >/dev/null || fail "python3 is required"
 test -f "$tool_root/vendor-lock.json" || fail "Missing vendor-lock.json"
 test -f "$tool_root/src/mu_luv.cpp" || fail "Missing project luv implementation"
+test -f "$tool_root/legacy/legacy_resolver.cpp" ||
+  fail "Missing lazy legacy resolver"
+test -f "$tool_root/legacy/legacy_trampolines.S" ||
+  fail "Missing lazy legacy ARM64 trampolines"
 
 read_lock() {
   python3 - "$tool_root/vendor-lock.json" "$1" <<'PY'
@@ -145,6 +149,29 @@ compile_cxx "$tool_root/src/mu_luv.cpp"
 xcrun lipo "$output_root/libmu_xlua_extensions.a" -verify_arch arm64 ||
   fail "Generated xLua extension archive is not ARM64"
 
+legacy_resolver_object="$object_root/legacy_resolver.o"
+legacy_trampolines_object="$object_root/legacy_trampolines.o"
+"$cxx" "${common[@]}" -std=c++14 -stdlib=libc++ \
+  -c "$tool_root/legacy/legacy_resolver.cpp" \
+  -o "$legacy_resolver_object"
+"$cc" "${common[@]}" \
+  -c "$tool_root/legacy/legacy_trampolines.S" \
+  -o "$legacy_trampolines_object"
+"$ar" -rcs "$output_root/liblegacy_native_bridge.a" \
+  "$legacy_resolver_object" "$legacy_trampolines_object"
+"$ranlib" "$output_root/liblegacy_native_bridge.a"
+xcrun lipo "$output_root/liblegacy_native_bridge.a" -verify_arch arm64 ||
+  fail "Generated lazy legacy bridge archive is not ARM64"
+
+legacy_bridge_symbols="$work_root/legacy-bridge-symbols.txt"
+xcrun nm -gU "$output_root/liblegacy_native_bridge.a" \
+  > "$legacy_bridge_symbols"
+for symbol in nav_create_scene tile_init_scene cpp_read_asset \
+              rectpack_create sensitive_censor; do
+  grep -Eq "[[:space:]]_?${symbol}$" "$legacy_bridge_symbols" ||
+    fail "Lazy legacy bridge symbol is missing: $symbol"
+done
+
 cat > "$output_root/libxlua.a.meta" <<'META'
 fileFormatVersion: 2
 guid: ae4c856e39a746f6bc49cfb95de91201
@@ -242,4 +269,4 @@ mkdir -p "$project_root/Build/iOS"
 } > "$project_root/Build/iOS/ios-native-xlua-summary.txt"
 
 echo "Built real iOS ARM64 xLua runtime: $output_root"
-echo "The separate proprietary nav/gamecppDll gate remains active."
+echo "Built lazy iOS ARM64 legacy native bridge: $output_root"

@@ -6,6 +6,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Core();
 	RegisterModule_Core();
 
+	void RegisterModule_AndroidJNI();
+	RegisterModule_AndroidJNI();
+
 	void RegisterModule_Animation();
 	RegisterModule_Animation();
 
@@ -193,7 +196,7 @@ class SpriteMask;
 class SpriteRenderer; template <> void RegisterUnityClass<SpriteRenderer>(const char*);
 class SpriteShapeRenderer; 
 class TilemapRenderer; 
-class TrailRenderer; template <> void RegisterUnityClass<TrailRenderer>(const char*);
+class TrailRenderer; 
 class VFXRenderer; 
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
 class Rigidbody2D; template <> void RegisterUnityClass<Rigidbody2D>(const char*);
@@ -295,7 +298,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 97 non stripped classes
+	//Total: 96 non stripped classes
 	//0. Animation
 	RegisterUnityClass<Animation>("Animation");
 	//1. AnimationClip
@@ -444,51 +447,49 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<Texture3D>("Core");
 	//73. TimeManager
 	RegisterUnityClass<TimeManager>("Core");
-	//74. TrailRenderer
-	RegisterUnityClass<TrailRenderer>("Core");
-	//75. Transform
+	//74. Transform
 	RegisterUnityClass<Transform>("Core");
-	//76. ParticleSystem
+	//75. ParticleSystem
 	RegisterUnityClass<ParticleSystem>("ParticleSystem");
-	//77. ParticleSystemRenderer
+	//76. ParticleSystemRenderer
 	RegisterUnityClass<ParticleSystemRenderer>("ParticleSystem");
-	//78. Unity::ArticulationBody
+	//77. Unity::ArticulationBody
 	RegisterUnityClass<Unity::ArticulationBody>("Physics");
-	//79. CapsuleCollider
+	//78. CapsuleCollider
 	RegisterUnityClass<CapsuleCollider>("Physics");
-	//80. Collider
+	//79. Collider
 	RegisterUnityClass<Collider>("Physics");
-	//81. MeshCollider
+	//80. MeshCollider
 	RegisterUnityClass<MeshCollider>("Physics");
-	//82. PhysicMaterial
+	//81. PhysicMaterial
 	RegisterUnityClass<PhysicMaterial>("Physics");
-	//83. PhysicsManager
+	//82. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
-	//84. Rigidbody
+	//83. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//85. Collider2D
+	//84. Collider2D
 	RegisterUnityClass<Collider2D>("Physics2D");
-	//86. CompositeCollider2D
+	//85. CompositeCollider2D
 	RegisterUnityClass<CompositeCollider2D>("Physics2D");
-	//87. Physics2DSettings
+	//86. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//88. PhysicsMaterial2D
+	//87. PhysicsMaterial2D
 	RegisterUnityClass<PhysicsMaterial2D>("Physics2D");
-	//89. PolygonCollider2D
+	//88. PolygonCollider2D
 	RegisterUnityClass<PolygonCollider2D>("Physics2D");
-	//90. Rigidbody2D
+	//89. Rigidbody2D
 	RegisterUnityClass<Rigidbody2D>("Physics2D");
-	//91. TextRendering::Font
+	//90. TextRendering::Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//92. UI::Canvas
+	//91. UI::Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//93. UI::CanvasGroup
+	//92. UI::CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//94. UI::CanvasRenderer
+	//93. UI::CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
-	//95. VideoClip
+	//94. VideoClip
 	RegisterUnityClass<VideoClip>("Video");
-	//96. VideoPlayer
+	//95. VideoPlayer
 	RegisterUnityClass<VideoPlayer>("Video");
 
 }

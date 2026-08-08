@@ -1,5 +1,0 @@
-﻿#include "Libraries/libil2cpp/il2cpp-config.h"
-#include "Libraries/libil2cpp/icalls/System/System.Diagnostics/DefaultTraceListener.cpp"
-#include "Libraries/libil2cpp/icalls/System/System.Diagnostics/FileVersionInfo.cpp"
-#include "Libraries/libil2cpp/icalls/System/System.Diagnostics/Process.cpp"
-#include "Libraries/libil2cpp/icalls/System/System.Diagnostics/Stopwatch.cpp"

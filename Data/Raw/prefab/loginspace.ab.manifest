@@ -1,0 +1,179 @@
+ManifestFileVersion: 0
+CRC: 152889935
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7d5c936e577ebbff55928155252acd54
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aac1fc10acb0917330f7f16cd5a97314
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fdedcfb508d6c814780b796520941f5d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/solandeff02_R.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object30.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object19.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat10.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat06.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat02t.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HSSailboat02_R.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HSSailboat01_R.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/hs_sailboat01.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat03t.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat05.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object20.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat03t.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object02.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/so_land01.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat02t.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/sosee02_R.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat15.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HSSailboat04_R.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat09.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object12.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_GWing.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/dark350gloves.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat06.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat09.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/solandef_R.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object11.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object09.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat10.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat03.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/dark350helmet.png
+- Assets/Res/Arts/Login/LoginSpace_SP/LoginSpace3D_Extra.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat07.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat05t.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object13.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object21.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat07t.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat13.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Terrain/sea.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object06.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat12.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/dark350gloves.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat11.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat16.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat17.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/sowater01_R.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat07.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat05t.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object20.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/dark350boots.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object14.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/dark350cape.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/solandeff03_R.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object21.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/sosee02_R.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/sokep02_R.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object13.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/hs_sailboat01.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat04.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/solandeff02_R.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_GWing.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/dark400_head.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/so_see01.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat17.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Gbody.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/dark.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/dark350helmet.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object09.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat12t.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat14.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat02.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object06.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat14.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object11.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat05.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object08.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Terrain/TileWater01.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Terrain/sea.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat07t.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/dark350lower.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat13.png
+- Assets/Res/Arts/Login/LoginSpace_SP/DengLu/Materials/EM_DengLu01.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object03.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object12.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat12t.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/so_see01.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat04.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/dark.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat15.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat11.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/dark350cape.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/dark350boots.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/dark350upper.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/DengLu/Textures/ET_DengLu01.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat08.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/so_land01.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Terrain/sea.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/dark350lower.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object04.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat03.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat08.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object19.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/sokep02_R.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/solandef_R.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/dark350upper.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HSSailboat01_R.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object08.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object14.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/dark400_head.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/sowater01_R.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat16.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object30.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/so_cloud03.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HSSailboat04_R.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object03.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Terrain/TerrainLight.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Fbx/Object04.fbx
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/so_cloud03.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HSSailboat02_R.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Prefab/Object02.prefab
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/solandeff03_R.mat
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Gbody.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Textures/HS_Sailboat12.png
+- Assets/Res/Arts/Login/LoginSpace_SP/Obj/Materials/HS_Sailboat02.mat
+Dependencies:
+- E:/Client_MU/MU/Stream/Android/audio/music/login.ab

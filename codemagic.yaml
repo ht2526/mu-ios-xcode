@@ -20,6 +20,7 @@ workflows:
             2>&1 | tee "$CM_BUILD_DIR/Build/iOS/ios-native-xlua-build.log"
           test -s "$IOS_NATIVE_OUTPUT_DIR/libxlua.a"
           test -s "$IOS_NATIVE_OUTPUT_DIR/libmu_xlua_extensions.a"
+          test -s "$IOS_NATIVE_OUTPUT_DIR/liblegacy_native_bridge.a"
 
       - name: Prepare legacy proprietary native bridge
         script: |
@@ -90,7 +91,7 @@ workflows:
             ENABLE_BITCODE=NO \
             "LIBRARY_SEARCH_PATHS=$CM_BUILD_DIR/NativeGenerated \$(inherited)" \
             "FRAMEWORK_SEARCH_PATHS=$CM_BUILD_DIR/NativeGenerated \$(inherited)" \
-            "OTHER_LDFLAGS=\$(inherited) -force_load $CM_BUILD_DIR/NativeGenerated/libxlua.a -force_load $CM_BUILD_DIR/NativeGenerated/libmu_xlua_extensions.a -framework LegacyNative" \
+            "OTHER_LDFLAGS=\$(inherited) -force_load $CM_BUILD_DIR/NativeGenerated/libxlua.a -force_load $CM_BUILD_DIR/NativeGenerated/libmu_xlua_extensions.a -force_load $CM_BUILD_DIR/NativeGenerated/liblegacy_native_bridge.a" \
             2>&1 | tee "$CM_BUILD_DIR/build/xcodebuild.log"
 
       - name: Package unsigned IPA for Sideloadly

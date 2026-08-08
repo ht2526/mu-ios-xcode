@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1984393101
+CRC: 1971663148
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 34814b0e3cb71d5abaad0b74c48e313f
+    Hash: fcde98f9c024d95fdb60182927d90c9c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 6e4f3973f751a5bd33c1f7eb5de4887e
@@ -157,4 +157,4 @@ Assets:
 - Assets/Res/UI/Panel/Bag_Sp/Recycle_SP/Item_ExtraRecycle_Filter.prefab
 - Assets/Res/UI/Panel/Bag_Sp/Recycle_SP/RecyclePanel_Main.prefab
 Dependencies:
-- D:/Game/MU/Stream/Android/prefab/ui/panel/bag_sp/subviewbag.ab
+- E:/Client_MU/MU/Stream/Android/prefab/ui/panel/bag_sp/subviewbag.ab

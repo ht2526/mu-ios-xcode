@@ -72,6 +72,614 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility
 
+	//Start Registrations for type : UnityEngine.AndroidJNI
+
+		//System.Boolean UnityEngine.AndroidJNI::CallBooleanMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallBooleanMethod();
+		Register_UnityEngine_AndroidJNI_CallBooleanMethod();
+
+		//System.Boolean UnityEngine.AndroidJNI::CallStaticBooleanMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStaticBooleanMethod();
+		Register_UnityEngine_AndroidJNI_CallStaticBooleanMethod();
+
+		//System.Boolean UnityEngine.AndroidJNI::GetBooleanArrayElement(System.IntPtr,System.Int32)
+		void Register_UnityEngine_AndroidJNI_GetBooleanArrayElement();
+		Register_UnityEngine_AndroidJNI_GetBooleanArrayElement();
+
+		//System.Boolean UnityEngine.AndroidJNI::GetBooleanField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetBooleanField();
+		Register_UnityEngine_AndroidJNI_GetBooleanField();
+
+		//System.Boolean UnityEngine.AndroidJNI::GetStaticBooleanField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStaticBooleanField();
+		Register_UnityEngine_AndroidJNI_GetStaticBooleanField();
+
+		//System.Boolean UnityEngine.AndroidJNI::IsAssignableFrom(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_IsAssignableFrom();
+		Register_UnityEngine_AndroidJNI_IsAssignableFrom();
+
+		//System.Boolean UnityEngine.AndroidJNI::IsInstanceOf(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_IsInstanceOf();
+		Register_UnityEngine_AndroidJNI_IsInstanceOf();
+
+		//System.Boolean UnityEngine.AndroidJNI::IsSameObject(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_IsSameObject();
+		Register_UnityEngine_AndroidJNI_IsSameObject();
+
+		//System.Boolean[] UnityEngine.AndroidJNI::FromBooleanArray(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromBooleanArray();
+		Register_UnityEngine_AndroidJNI_FromBooleanArray();
+
+		//System.Byte[] UnityEngine.AndroidJNI::FromByteArray(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromByteArray();
+		Register_UnityEngine_AndroidJNI_FromByteArray();
+
+		//System.Char UnityEngine.AndroidJNI::CallCharMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallCharMethod();
+		Register_UnityEngine_AndroidJNI_CallCharMethod();
+
+		//System.Char UnityEngine.AndroidJNI::CallStaticCharMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStaticCharMethod();
+		Register_UnityEngine_AndroidJNI_CallStaticCharMethod();
+
+		//System.Char UnityEngine.AndroidJNI::GetCharArrayElement(System.IntPtr,System.Int32)
+		void Register_UnityEngine_AndroidJNI_GetCharArrayElement();
+		Register_UnityEngine_AndroidJNI_GetCharArrayElement();
+
+		//System.Char UnityEngine.AndroidJNI::GetCharField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetCharField();
+		Register_UnityEngine_AndroidJNI_GetCharField();
+
+		//System.Char UnityEngine.AndroidJNI::GetStaticCharField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStaticCharField();
+		Register_UnityEngine_AndroidJNI_GetStaticCharField();
+
+		//System.Char[] UnityEngine.AndroidJNI::FromCharArray(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromCharArray();
+		Register_UnityEngine_AndroidJNI_FromCharArray();
+
+		//System.Double UnityEngine.AndroidJNI::CallDoubleMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallDoubleMethod();
+		Register_UnityEngine_AndroidJNI_CallDoubleMethod();
+
+		//System.Double UnityEngine.AndroidJNI::CallStaticDoubleMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStaticDoubleMethod();
+		Register_UnityEngine_AndroidJNI_CallStaticDoubleMethod();
+
+		//System.Double UnityEngine.AndroidJNI::GetDoubleArrayElement(System.IntPtr,System.Int32)
+		void Register_UnityEngine_AndroidJNI_GetDoubleArrayElement();
+		Register_UnityEngine_AndroidJNI_GetDoubleArrayElement();
+
+		//System.Double UnityEngine.AndroidJNI::GetDoubleField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetDoubleField();
+		Register_UnityEngine_AndroidJNI_GetDoubleField();
+
+		//System.Double UnityEngine.AndroidJNI::GetStaticDoubleField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStaticDoubleField();
+		Register_UnityEngine_AndroidJNI_GetStaticDoubleField();
+
+		//System.Double[] UnityEngine.AndroidJNI::FromDoubleArray(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromDoubleArray();
+		Register_UnityEngine_AndroidJNI_FromDoubleArray();
+
+		//System.Int16 UnityEngine.AndroidJNI::CallShortMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallShortMethod();
+		Register_UnityEngine_AndroidJNI_CallShortMethod();
+
+		//System.Int16 UnityEngine.AndroidJNI::CallStaticShortMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStaticShortMethod();
+		Register_UnityEngine_AndroidJNI_CallStaticShortMethod();
+
+		//System.Int16 UnityEngine.AndroidJNI::GetShortArrayElement(System.IntPtr,System.Int32)
+		void Register_UnityEngine_AndroidJNI_GetShortArrayElement();
+		Register_UnityEngine_AndroidJNI_GetShortArrayElement();
+
+		//System.Int16 UnityEngine.AndroidJNI::GetShortField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetShortField();
+		Register_UnityEngine_AndroidJNI_GetShortField();
+
+		//System.Int16 UnityEngine.AndroidJNI::GetStaticShortField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStaticShortField();
+		Register_UnityEngine_AndroidJNI_GetStaticShortField();
+
+		//System.Int16[] UnityEngine.AndroidJNI::FromShortArray(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromShortArray();
+		Register_UnityEngine_AndroidJNI_FromShortArray();
+
+		//System.Int32 UnityEngine.AndroidJNI::AttachCurrentThread()
+		void Register_UnityEngine_AndroidJNI_AttachCurrentThread();
+		Register_UnityEngine_AndroidJNI_AttachCurrentThread();
+
+		//System.Int32 UnityEngine.AndroidJNI::CallIntMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallIntMethod();
+		Register_UnityEngine_AndroidJNI_CallIntMethod();
+
+		//System.Int32 UnityEngine.AndroidJNI::CallStaticIntMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStaticIntMethod();
+		Register_UnityEngine_AndroidJNI_CallStaticIntMethod();
+
+		//System.Int32 UnityEngine.AndroidJNI::DetachCurrentThread()
+		void Register_UnityEngine_AndroidJNI_DetachCurrentThread();
+		Register_UnityEngine_AndroidJNI_DetachCurrentThread();
+
+		//System.Int32 UnityEngine.AndroidJNI::EnsureLocalCapacity(System.Int32)
+		void Register_UnityEngine_AndroidJNI_EnsureLocalCapacity();
+		Register_UnityEngine_AndroidJNI_EnsureLocalCapacity();
+
+		//System.Int32 UnityEngine.AndroidJNI::GetArrayLength(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetArrayLength();
+		Register_UnityEngine_AndroidJNI_GetArrayLength();
+
+		//System.Int32 UnityEngine.AndroidJNI::GetIntArrayElement(System.IntPtr,System.Int32)
+		void Register_UnityEngine_AndroidJNI_GetIntArrayElement();
+		Register_UnityEngine_AndroidJNI_GetIntArrayElement();
+
+		//System.Int32 UnityEngine.AndroidJNI::GetIntField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetIntField();
+		Register_UnityEngine_AndroidJNI_GetIntField();
+
+		//System.Int32 UnityEngine.AndroidJNI::GetStaticIntField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStaticIntField();
+		Register_UnityEngine_AndroidJNI_GetStaticIntField();
+
+		//System.Int32 UnityEngine.AndroidJNI::GetStringLength(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStringLength();
+		Register_UnityEngine_AndroidJNI_GetStringLength();
+
+		//System.Int32 UnityEngine.AndroidJNI::GetStringUTFLength(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStringUTFLength();
+		Register_UnityEngine_AndroidJNI_GetStringUTFLength();
+
+		//System.Int32 UnityEngine.AndroidJNI::GetVersion()
+		void Register_UnityEngine_AndroidJNI_GetVersion();
+		Register_UnityEngine_AndroidJNI_GetVersion();
+
+		//System.Int32 UnityEngine.AndroidJNI::PushLocalFrame(System.Int32)
+		void Register_UnityEngine_AndroidJNI_PushLocalFrame();
+		Register_UnityEngine_AndroidJNI_PushLocalFrame();
+
+		//System.Int32 UnityEngine.AndroidJNI::Throw(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_Throw();
+		Register_UnityEngine_AndroidJNI_Throw();
+
+		//System.Int32 UnityEngine.AndroidJNI::ThrowNew(System.IntPtr,System.String)
+		void Register_UnityEngine_AndroidJNI_ThrowNew();
+		Register_UnityEngine_AndroidJNI_ThrowNew();
+
+		//System.Int32[] UnityEngine.AndroidJNI::FromIntArray(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromIntArray();
+		Register_UnityEngine_AndroidJNI_FromIntArray();
+
+		//System.Int64 UnityEngine.AndroidJNI::CallLongMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallLongMethod();
+		Register_UnityEngine_AndroidJNI_CallLongMethod();
+
+		//System.Int64 UnityEngine.AndroidJNI::CallStaticLongMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStaticLongMethod();
+		Register_UnityEngine_AndroidJNI_CallStaticLongMethod();
+
+		//System.Int64 UnityEngine.AndroidJNI::GetLongArrayElement(System.IntPtr,System.Int32)
+		void Register_UnityEngine_AndroidJNI_GetLongArrayElement();
+		Register_UnityEngine_AndroidJNI_GetLongArrayElement();
+
+		//System.Int64 UnityEngine.AndroidJNI::GetLongField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetLongField();
+		Register_UnityEngine_AndroidJNI_GetLongField();
+
+		//System.Int64 UnityEngine.AndroidJNI::GetStaticLongField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStaticLongField();
+		Register_UnityEngine_AndroidJNI_GetStaticLongField();
+
+		//System.Int64[] UnityEngine.AndroidJNI::FromLongArray(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromLongArray();
+		Register_UnityEngine_AndroidJNI_FromLongArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::AllocObject(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_AllocObject();
+		Register_UnityEngine_AndroidJNI_AllocObject();
+
+		//System.IntPtr UnityEngine.AndroidJNI::CallObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallObjectMethod();
+		Register_UnityEngine_AndroidJNI_CallObjectMethod();
+
+		//System.IntPtr UnityEngine.AndroidJNI::CallStaticObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStaticObjectMethod();
+		Register_UnityEngine_AndroidJNI_CallStaticObjectMethod();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ExceptionOccurred()
+		void Register_UnityEngine_AndroidJNI_ExceptionOccurred();
+		Register_UnityEngine_AndroidJNI_ExceptionOccurred();
+
+		//System.IntPtr UnityEngine.AndroidJNI::FindClass(System.String)
+		void Register_UnityEngine_AndroidJNI_FindClass();
+		Register_UnityEngine_AndroidJNI_FindClass();
+
+		//System.IntPtr UnityEngine.AndroidJNI::FromReflectedField(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromReflectedField();
+		Register_UnityEngine_AndroidJNI_FromReflectedField();
+
+		//System.IntPtr UnityEngine.AndroidJNI::FromReflectedMethod(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromReflectedMethod();
+		Register_UnityEngine_AndroidJNI_FromReflectedMethod();
+
+		//System.IntPtr UnityEngine.AndroidJNI::GetFieldID(System.IntPtr,System.String,System.String)
+		void Register_UnityEngine_AndroidJNI_GetFieldID();
+		Register_UnityEngine_AndroidJNI_GetFieldID();
+
+		//System.IntPtr UnityEngine.AndroidJNI::GetMethodID(System.IntPtr,System.String,System.String)
+		void Register_UnityEngine_AndroidJNI_GetMethodID();
+		Register_UnityEngine_AndroidJNI_GetMethodID();
+
+		//System.IntPtr UnityEngine.AndroidJNI::GetObjectArrayElement(System.IntPtr,System.Int32)
+		void Register_UnityEngine_AndroidJNI_GetObjectArrayElement();
+		Register_UnityEngine_AndroidJNI_GetObjectArrayElement();
+
+		//System.IntPtr UnityEngine.AndroidJNI::GetObjectClass(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetObjectClass();
+		Register_UnityEngine_AndroidJNI_GetObjectClass();
+
+		//System.IntPtr UnityEngine.AndroidJNI::GetObjectField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetObjectField();
+		Register_UnityEngine_AndroidJNI_GetObjectField();
+
+		//System.IntPtr UnityEngine.AndroidJNI::GetStaticFieldID(System.IntPtr,System.String,System.String)
+		void Register_UnityEngine_AndroidJNI_GetStaticFieldID();
+		Register_UnityEngine_AndroidJNI_GetStaticFieldID();
+
+		//System.IntPtr UnityEngine.AndroidJNI::GetStaticMethodID(System.IntPtr,System.String,System.String)
+		void Register_UnityEngine_AndroidJNI_GetStaticMethodID();
+		Register_UnityEngine_AndroidJNI_GetStaticMethodID();
+
+		//System.IntPtr UnityEngine.AndroidJNI::GetStaticObjectField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStaticObjectField();
+		Register_UnityEngine_AndroidJNI_GetStaticObjectField();
+
+		//System.IntPtr UnityEngine.AndroidJNI::GetSuperclass(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetSuperclass();
+		Register_UnityEngine_AndroidJNI_GetSuperclass();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewBooleanArray(System.Int32)
+		void Register_UnityEngine_AndroidJNI_NewBooleanArray();
+		Register_UnityEngine_AndroidJNI_NewBooleanArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewCharArray(System.Int32)
+		void Register_UnityEngine_AndroidJNI_NewCharArray();
+		Register_UnityEngine_AndroidJNI_NewCharArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewDoubleArray(System.Int32)
+		void Register_UnityEngine_AndroidJNI_NewDoubleArray();
+		Register_UnityEngine_AndroidJNI_NewDoubleArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewFloatArray(System.Int32)
+		void Register_UnityEngine_AndroidJNI_NewFloatArray();
+		Register_UnityEngine_AndroidJNI_NewFloatArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewGlobalRef(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_NewGlobalRef();
+		Register_UnityEngine_AndroidJNI_NewGlobalRef();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewIntArray(System.Int32)
+		void Register_UnityEngine_AndroidJNI_NewIntArray();
+		Register_UnityEngine_AndroidJNI_NewIntArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewLocalRef(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_NewLocalRef();
+		Register_UnityEngine_AndroidJNI_NewLocalRef();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewLongArray(System.Int32)
+		void Register_UnityEngine_AndroidJNI_NewLongArray();
+		Register_UnityEngine_AndroidJNI_NewLongArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewObject(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_NewObject();
+		Register_UnityEngine_AndroidJNI_NewObject();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewObjectArray(System.Int32,System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_NewObjectArray();
+		Register_UnityEngine_AndroidJNI_NewObjectArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewSByteArray(System.Int32)
+		void Register_UnityEngine_AndroidJNI_NewSByteArray();
+		Register_UnityEngine_AndroidJNI_NewSByteArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewShortArray(System.Int32)
+		void Register_UnityEngine_AndroidJNI_NewShortArray();
+		Register_UnityEngine_AndroidJNI_NewShortArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewString(System.Char[])
+		void Register_UnityEngine_AndroidJNI_NewString();
+		Register_UnityEngine_AndroidJNI_NewString();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewStringFromStr(System.String)
+		void Register_UnityEngine_AndroidJNI_NewStringFromStr();
+		Register_UnityEngine_AndroidJNI_NewStringFromStr();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewStringUTF(System.String)
+		void Register_UnityEngine_AndroidJNI_NewStringUTF();
+		Register_UnityEngine_AndroidJNI_NewStringUTF();
+
+		//System.IntPtr UnityEngine.AndroidJNI::NewWeakGlobalRef(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_NewWeakGlobalRef();
+		Register_UnityEngine_AndroidJNI_NewWeakGlobalRef();
+
+		//System.IntPtr UnityEngine.AndroidJNI::PopLocalFrame(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_PopLocalFrame();
+		Register_UnityEngine_AndroidJNI_PopLocalFrame();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToBooleanArray(System.Boolean[])
+		void Register_UnityEngine_AndroidJNI_ToBooleanArray();
+		Register_UnityEngine_AndroidJNI_ToBooleanArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToByteArray(System.Byte[])
+		void Register_UnityEngine_AndroidJNI_ToByteArray();
+		Register_UnityEngine_AndroidJNI_ToByteArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToCharArray(System.Char[])
+		void Register_UnityEngine_AndroidJNI_ToCharArray();
+		Register_UnityEngine_AndroidJNI_ToCharArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToDoubleArray(System.Double[])
+		void Register_UnityEngine_AndroidJNI_ToDoubleArray();
+		Register_UnityEngine_AndroidJNI_ToDoubleArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToFloatArray(System.Single[])
+		void Register_UnityEngine_AndroidJNI_ToFloatArray();
+		Register_UnityEngine_AndroidJNI_ToFloatArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToIntArray(System.Int32[])
+		void Register_UnityEngine_AndroidJNI_ToIntArray();
+		Register_UnityEngine_AndroidJNI_ToIntArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToLongArray(System.Int64[])
+		void Register_UnityEngine_AndroidJNI_ToLongArray();
+		Register_UnityEngine_AndroidJNI_ToLongArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToObjectArray(System.IntPtr[],System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_ToObjectArray();
+		Register_UnityEngine_AndroidJNI_ToObjectArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToReflectedField(System.IntPtr,System.IntPtr,System.Boolean)
+		void Register_UnityEngine_AndroidJNI_ToReflectedField();
+		Register_UnityEngine_AndroidJNI_ToReflectedField();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToReflectedMethod(System.IntPtr,System.IntPtr,System.Boolean)
+		void Register_UnityEngine_AndroidJNI_ToReflectedMethod();
+		Register_UnityEngine_AndroidJNI_ToReflectedMethod();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToSByteArray(System.SByte[])
+		void Register_UnityEngine_AndroidJNI_ToSByteArray();
+		Register_UnityEngine_AndroidJNI_ToSByteArray();
+
+		//System.IntPtr UnityEngine.AndroidJNI::ToShortArray(System.Int16[])
+		void Register_UnityEngine_AndroidJNI_ToShortArray();
+		Register_UnityEngine_AndroidJNI_ToShortArray();
+
+		//System.IntPtr[] UnityEngine.AndroidJNI::FromObjectArray(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromObjectArray();
+		Register_UnityEngine_AndroidJNI_FromObjectArray();
+
+		//System.SByte UnityEngine.AndroidJNI::CallSByteMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallSByteMethod();
+		Register_UnityEngine_AndroidJNI_CallSByteMethod();
+
+		//System.SByte UnityEngine.AndroidJNI::CallStaticSByteMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStaticSByteMethod();
+		Register_UnityEngine_AndroidJNI_CallStaticSByteMethod();
+
+		//System.SByte UnityEngine.AndroidJNI::GetSByteArrayElement(System.IntPtr,System.Int32)
+		void Register_UnityEngine_AndroidJNI_GetSByteArrayElement();
+		Register_UnityEngine_AndroidJNI_GetSByteArrayElement();
+
+		//System.SByte UnityEngine.AndroidJNI::GetSByteField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetSByteField();
+		Register_UnityEngine_AndroidJNI_GetSByteField();
+
+		//System.SByte UnityEngine.AndroidJNI::GetStaticSByteField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStaticSByteField();
+		Register_UnityEngine_AndroidJNI_GetStaticSByteField();
+
+		//System.SByte[] UnityEngine.AndroidJNI::FromSByteArray(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromSByteArray();
+		Register_UnityEngine_AndroidJNI_FromSByteArray();
+
+		//System.Single UnityEngine.AndroidJNI::CallFloatMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallFloatMethod();
+		Register_UnityEngine_AndroidJNI_CallFloatMethod();
+
+		//System.Single UnityEngine.AndroidJNI::CallStaticFloatMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStaticFloatMethod();
+		Register_UnityEngine_AndroidJNI_CallStaticFloatMethod();
+
+		//System.Single UnityEngine.AndroidJNI::GetFloatArrayElement(System.IntPtr,System.Int32)
+		void Register_UnityEngine_AndroidJNI_GetFloatArrayElement();
+		Register_UnityEngine_AndroidJNI_GetFloatArrayElement();
+
+		//System.Single UnityEngine.AndroidJNI::GetFloatField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetFloatField();
+		Register_UnityEngine_AndroidJNI_GetFloatField();
+
+		//System.Single UnityEngine.AndroidJNI::GetStaticFloatField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStaticFloatField();
+		Register_UnityEngine_AndroidJNI_GetStaticFloatField();
+
+		//System.Single[] UnityEngine.AndroidJNI::FromFloatArray(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_FromFloatArray();
+		Register_UnityEngine_AndroidJNI_FromFloatArray();
+
+		//System.String UnityEngine.AndroidJNI::CallStaticStringMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStaticStringMethod();
+		Register_UnityEngine_AndroidJNI_CallStaticStringMethod();
+
+		//System.String UnityEngine.AndroidJNI::CallStringMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStringMethod();
+		Register_UnityEngine_AndroidJNI_CallStringMethod();
+
+		//System.String UnityEngine.AndroidJNI::GetStaticStringField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStaticStringField();
+		Register_UnityEngine_AndroidJNI_GetStaticStringField();
+
+		//System.String UnityEngine.AndroidJNI::GetStringChars(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStringChars();
+		Register_UnityEngine_AndroidJNI_GetStringChars();
+
+		//System.String UnityEngine.AndroidJNI::GetStringField(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStringField();
+		Register_UnityEngine_AndroidJNI_GetStringField();
+
+		//System.String UnityEngine.AndroidJNI::GetStringUTFChars(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_GetStringUTFChars();
+		Register_UnityEngine_AndroidJNI_GetStringUTFChars();
+
+		//System.Void UnityEngine.AndroidJNI::CallStaticVoidMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallStaticVoidMethod();
+		Register_UnityEngine_AndroidJNI_CallStaticVoidMethod();
+
+		//System.Void UnityEngine.AndroidJNI::CallVoidMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+		void Register_UnityEngine_AndroidJNI_CallVoidMethod();
+		Register_UnityEngine_AndroidJNI_CallVoidMethod();
+
+		//System.Void UnityEngine.AndroidJNI::DeleteGlobalRef(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_DeleteGlobalRef();
+		Register_UnityEngine_AndroidJNI_DeleteGlobalRef();
+
+		//System.Void UnityEngine.AndroidJNI::DeleteLocalRef(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_DeleteLocalRef();
+		Register_UnityEngine_AndroidJNI_DeleteLocalRef();
+
+		//System.Void UnityEngine.AndroidJNI::DeleteWeakGlobalRef(System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_DeleteWeakGlobalRef();
+		Register_UnityEngine_AndroidJNI_DeleteWeakGlobalRef();
+
+		//System.Void UnityEngine.AndroidJNI::ExceptionClear()
+		void Register_UnityEngine_AndroidJNI_ExceptionClear();
+		Register_UnityEngine_AndroidJNI_ExceptionClear();
+
+		//System.Void UnityEngine.AndroidJNI::ExceptionDescribe()
+		void Register_UnityEngine_AndroidJNI_ExceptionDescribe();
+		Register_UnityEngine_AndroidJNI_ExceptionDescribe();
+
+		//System.Void UnityEngine.AndroidJNI::FatalError(System.String)
+		void Register_UnityEngine_AndroidJNI_FatalError();
+		Register_UnityEngine_AndroidJNI_FatalError();
+
+		//System.Void UnityEngine.AndroidJNI::SetBooleanArrayElement(System.IntPtr,System.Int32,System.Boolean)
+		void Register_UnityEngine_AndroidJNI_SetBooleanArrayElement();
+		Register_UnityEngine_AndroidJNI_SetBooleanArrayElement();
+
+		//System.Void UnityEngine.AndroidJNI::SetBooleanField(System.IntPtr,System.IntPtr,System.Boolean)
+		void Register_UnityEngine_AndroidJNI_SetBooleanField();
+		Register_UnityEngine_AndroidJNI_SetBooleanField();
+
+		//System.Void UnityEngine.AndroidJNI::SetCharArrayElement(System.IntPtr,System.Int32,System.Char)
+		void Register_UnityEngine_AndroidJNI_SetCharArrayElement();
+		Register_UnityEngine_AndroidJNI_SetCharArrayElement();
+
+		//System.Void UnityEngine.AndroidJNI::SetCharField(System.IntPtr,System.IntPtr,System.Char)
+		void Register_UnityEngine_AndroidJNI_SetCharField();
+		Register_UnityEngine_AndroidJNI_SetCharField();
+
+		//System.Void UnityEngine.AndroidJNI::SetDoubleArrayElement(System.IntPtr,System.Int32,System.Double)
+		void Register_UnityEngine_AndroidJNI_SetDoubleArrayElement();
+		Register_UnityEngine_AndroidJNI_SetDoubleArrayElement();
+
+		//System.Void UnityEngine.AndroidJNI::SetDoubleField(System.IntPtr,System.IntPtr,System.Double)
+		void Register_UnityEngine_AndroidJNI_SetDoubleField();
+		Register_UnityEngine_AndroidJNI_SetDoubleField();
+
+		//System.Void UnityEngine.AndroidJNI::SetFloatArrayElement(System.IntPtr,System.Int32,System.Single)
+		void Register_UnityEngine_AndroidJNI_SetFloatArrayElement();
+		Register_UnityEngine_AndroidJNI_SetFloatArrayElement();
+
+		//System.Void UnityEngine.AndroidJNI::SetFloatField(System.IntPtr,System.IntPtr,System.Single)
+		void Register_UnityEngine_AndroidJNI_SetFloatField();
+		Register_UnityEngine_AndroidJNI_SetFloatField();
+
+		//System.Void UnityEngine.AndroidJNI::SetIntArrayElement(System.IntPtr,System.Int32,System.Int32)
+		void Register_UnityEngine_AndroidJNI_SetIntArrayElement();
+		Register_UnityEngine_AndroidJNI_SetIntArrayElement();
+
+		//System.Void UnityEngine.AndroidJNI::SetIntField(System.IntPtr,System.IntPtr,System.Int32)
+		void Register_UnityEngine_AndroidJNI_SetIntField();
+		Register_UnityEngine_AndroidJNI_SetIntField();
+
+		//System.Void UnityEngine.AndroidJNI::SetLongArrayElement(System.IntPtr,System.Int32,System.Int64)
+		void Register_UnityEngine_AndroidJNI_SetLongArrayElement();
+		Register_UnityEngine_AndroidJNI_SetLongArrayElement();
+
+		//System.Void UnityEngine.AndroidJNI::SetLongField(System.IntPtr,System.IntPtr,System.Int64)
+		void Register_UnityEngine_AndroidJNI_SetLongField();
+		Register_UnityEngine_AndroidJNI_SetLongField();
+
+		//System.Void UnityEngine.AndroidJNI::SetObjectArrayElement(System.IntPtr,System.Int32,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_SetObjectArrayElement();
+		Register_UnityEngine_AndroidJNI_SetObjectArrayElement();
+
+		//System.Void UnityEngine.AndroidJNI::SetObjectField(System.IntPtr,System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_SetObjectField();
+		Register_UnityEngine_AndroidJNI_SetObjectField();
+
+		//System.Void UnityEngine.AndroidJNI::SetSByteArrayElement(System.IntPtr,System.Int32,System.SByte)
+		void Register_UnityEngine_AndroidJNI_SetSByteArrayElement();
+		Register_UnityEngine_AndroidJNI_SetSByteArrayElement();
+
+		//System.Void UnityEngine.AndroidJNI::SetSByteField(System.IntPtr,System.IntPtr,System.SByte)
+		void Register_UnityEngine_AndroidJNI_SetSByteField();
+		Register_UnityEngine_AndroidJNI_SetSByteField();
+
+		//System.Void UnityEngine.AndroidJNI::SetShortArrayElement(System.IntPtr,System.Int32,System.Int16)
+		void Register_UnityEngine_AndroidJNI_SetShortArrayElement();
+		Register_UnityEngine_AndroidJNI_SetShortArrayElement();
+
+		//System.Void UnityEngine.AndroidJNI::SetShortField(System.IntPtr,System.IntPtr,System.Int16)
+		void Register_UnityEngine_AndroidJNI_SetShortField();
+		Register_UnityEngine_AndroidJNI_SetShortField();
+
+		//System.Void UnityEngine.AndroidJNI::SetStaticBooleanField(System.IntPtr,System.IntPtr,System.Boolean)
+		void Register_UnityEngine_AndroidJNI_SetStaticBooleanField();
+		Register_UnityEngine_AndroidJNI_SetStaticBooleanField();
+
+		//System.Void UnityEngine.AndroidJNI::SetStaticCharField(System.IntPtr,System.IntPtr,System.Char)
+		void Register_UnityEngine_AndroidJNI_SetStaticCharField();
+		Register_UnityEngine_AndroidJNI_SetStaticCharField();
+
+		//System.Void UnityEngine.AndroidJNI::SetStaticDoubleField(System.IntPtr,System.IntPtr,System.Double)
+		void Register_UnityEngine_AndroidJNI_SetStaticDoubleField();
+		Register_UnityEngine_AndroidJNI_SetStaticDoubleField();
+
+		//System.Void UnityEngine.AndroidJNI::SetStaticFloatField(System.IntPtr,System.IntPtr,System.Single)
+		void Register_UnityEngine_AndroidJNI_SetStaticFloatField();
+		Register_UnityEngine_AndroidJNI_SetStaticFloatField();
+
+		//System.Void UnityEngine.AndroidJNI::SetStaticIntField(System.IntPtr,System.IntPtr,System.Int32)
+		void Register_UnityEngine_AndroidJNI_SetStaticIntField();
+		Register_UnityEngine_AndroidJNI_SetStaticIntField();
+
+		//System.Void UnityEngine.AndroidJNI::SetStaticLongField(System.IntPtr,System.IntPtr,System.Int64)
+		void Register_UnityEngine_AndroidJNI_SetStaticLongField();
+		Register_UnityEngine_AndroidJNI_SetStaticLongField();
+
+		//System.Void UnityEngine.AndroidJNI::SetStaticObjectField(System.IntPtr,System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AndroidJNI_SetStaticObjectField();
+		Register_UnityEngine_AndroidJNI_SetStaticObjectField();
+
+		//System.Void UnityEngine.AndroidJNI::SetStaticSByteField(System.IntPtr,System.IntPtr,System.SByte)
+		void Register_UnityEngine_AndroidJNI_SetStaticSByteField();
+		Register_UnityEngine_AndroidJNI_SetStaticSByteField();
+
+		//System.Void UnityEngine.AndroidJNI::SetStaticShortField(System.IntPtr,System.IntPtr,System.Int16)
+		void Register_UnityEngine_AndroidJNI_SetStaticShortField();
+		Register_UnityEngine_AndroidJNI_SetStaticShortField();
+
+		//System.Void UnityEngine.AndroidJNI::SetStaticStringField(System.IntPtr,System.IntPtr,System.String)
+		void Register_UnityEngine_AndroidJNI_SetStaticStringField();
+		Register_UnityEngine_AndroidJNI_SetStaticStringField();
+
+		//System.Void UnityEngine.AndroidJNI::SetStringField(System.IntPtr,System.IntPtr,System.String)
+		void Register_UnityEngine_AndroidJNI_SetStringField();
+		Register_UnityEngine_AndroidJNI_SetStringField();
+
+	//End Registrations for type : UnityEngine.AndroidJNI
+
 	//Start Registrations for type : UnityEngine.Animation
 
 		//System.Boolean UnityEngine.Animation::IsPlaying(System.String)
@@ -5092,6 +5700,70 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.HumanTrait
 
+	//Start Registrations for type : UnityEngine.ImageConversion
+
+		//System.Boolean UnityEngine.ImageConversion::GetEnableLegacyPngGammaRuntimeLoadBehavior()
+		void Register_UnityEngine_ImageConversion_GetEnableLegacyPngGammaRuntimeLoadBehavior();
+		Register_UnityEngine_ImageConversion_GetEnableLegacyPngGammaRuntimeLoadBehavior();
+
+		//System.Boolean UnityEngine.ImageConversion::LoadImage(UnityEngine.Texture2D,System.Byte[],System.Boolean)
+		void Register_UnityEngine_ImageConversion_LoadImage();
+		Register_UnityEngine_ImageConversion_LoadImage();
+
+		//System.Byte[] UnityEngine.ImageConversion::EncodeArrayToEXR(System.Array,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,UnityEngine.Texture2D/EXRFlags)
+		void Register_UnityEngine_ImageConversion_EncodeArrayToEXR();
+		Register_UnityEngine_ImageConversion_EncodeArrayToEXR();
+
+		//System.Byte[] UnityEngine.ImageConversion::EncodeArrayToJPG(System.Array,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,System.Int32)
+		void Register_UnityEngine_ImageConversion_EncodeArrayToJPG();
+		Register_UnityEngine_ImageConversion_EncodeArrayToJPG();
+
+		//System.Byte[] UnityEngine.ImageConversion::EncodeArrayToPNG(System.Array,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32)
+		void Register_UnityEngine_ImageConversion_EncodeArrayToPNG();
+		Register_UnityEngine_ImageConversion_EncodeArrayToPNG();
+
+		//System.Byte[] UnityEngine.ImageConversion::EncodeArrayToTGA(System.Array,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32)
+		void Register_UnityEngine_ImageConversion_EncodeArrayToTGA();
+		Register_UnityEngine_ImageConversion_EncodeArrayToTGA();
+
+		//System.Byte[] UnityEngine.ImageConversion::EncodeToEXR(UnityEngine.Texture2D,UnityEngine.Texture2D/EXRFlags)
+		void Register_UnityEngine_ImageConversion_EncodeToEXR();
+		Register_UnityEngine_ImageConversion_EncodeToEXR();
+
+		//System.Byte[] UnityEngine.ImageConversion::EncodeToJPG(UnityEngine.Texture2D,System.Int32)
+		void Register_UnityEngine_ImageConversion_EncodeToJPG();
+		Register_UnityEngine_ImageConversion_EncodeToJPG();
+
+		//System.Byte[] UnityEngine.ImageConversion::EncodeToPNG(UnityEngine.Texture2D)
+		void Register_UnityEngine_ImageConversion_EncodeToPNG();
+		Register_UnityEngine_ImageConversion_EncodeToPNG();
+
+		//System.Byte[] UnityEngine.ImageConversion::EncodeToTGA(UnityEngine.Texture2D)
+		void Register_UnityEngine_ImageConversion_EncodeToTGA();
+		Register_UnityEngine_ImageConversion_EncodeToTGA();
+
+		//System.Void UnityEngine.ImageConversion::SetEnableLegacyPngGammaRuntimeLoadBehavior(System.Boolean)
+		void Register_UnityEngine_ImageConversion_SetEnableLegacyPngGammaRuntimeLoadBehavior();
+		Register_UnityEngine_ImageConversion_SetEnableLegacyPngGammaRuntimeLoadBehavior();
+
+		//System.Void* UnityEngine.ImageConversion::UnsafeEncodeNativeArrayToEXR(System.Void*,System.Int32&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,UnityEngine.Texture2D/EXRFlags)
+		void Register_UnityEngine_ImageConversion_UnsafeEncodeNativeArrayToEXR();
+		Register_UnityEngine_ImageConversion_UnsafeEncodeNativeArrayToEXR();
+
+		//System.Void* UnityEngine.ImageConversion::UnsafeEncodeNativeArrayToJPG(System.Void*,System.Int32&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,System.Int32)
+		void Register_UnityEngine_ImageConversion_UnsafeEncodeNativeArrayToJPG();
+		Register_UnityEngine_ImageConversion_UnsafeEncodeNativeArrayToJPG();
+
+		//System.Void* UnityEngine.ImageConversion::UnsafeEncodeNativeArrayToPNG(System.Void*,System.Int32&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32)
+		void Register_UnityEngine_ImageConversion_UnsafeEncodeNativeArrayToPNG();
+		Register_UnityEngine_ImageConversion_UnsafeEncodeNativeArrayToPNG();
+
+		//System.Void* UnityEngine.ImageConversion::UnsafeEncodeNativeArrayToTGA(System.Void*,System.Int32&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32)
+		void Register_UnityEngine_ImageConversion_UnsafeEncodeNativeArrayToTGA();
+		Register_UnityEngine_ImageConversion_UnsafeEncodeNativeArrayToTGA();
+
+	//End Registrations for type : UnityEngine.ImageConversion
+
 	//Start Registrations for type : UnityEngine.Input
 
 		//System.Boolean UnityEngine.Input::CheckDisabled()
@@ -6973,6 +7645,22 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.Networking.CertificateHandler
 
 	//Start Registrations for type : UnityEngine.Networking.DownloadHandler
+
+		//System.Boolean UnityEngine.Networking.DownloadHandler::IsDone()
+		void Register_UnityEngine_Networking_DownloadHandler_IsDone();
+		Register_UnityEngine_Networking_DownloadHandler_IsDone();
+
+		//System.Byte* UnityEngine.Networking.DownloadHandler::InternalGetByteArray(UnityEngine.Networking.DownloadHandler,System.Int32&)
+		void Register_UnityEngine_Networking_DownloadHandler_InternalGetByteArray();
+		Register_UnityEngine_Networking_DownloadHandler_InternalGetByteArray();
+
+		//System.String UnityEngine.Networking.DownloadHandler::GetContentType()
+		void Register_UnityEngine_Networking_DownloadHandler_GetContentType();
+		Register_UnityEngine_Networking_DownloadHandler_GetContentType();
+
+		//System.String UnityEngine.Networking.DownloadHandler::GetErrorMsg()
+		void Register_UnityEngine_Networking_DownloadHandler_GetErrorMsg();
+		Register_UnityEngine_Networking_DownloadHandler_GetErrorMsg();
 
 		//System.Void UnityEngine.Networking.DownloadHandler::Release()
 		void Register_UnityEngine_Networking_DownloadHandler_Release();
@@ -13212,202 +13900,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.TouchScreenKeyboard
 
-	//Start Registrations for type : UnityEngine.TrailRenderer
-
-		//System.Boolean UnityEngine.TrailRenderer::get_autodestruct()
-		void Register_UnityEngine_TrailRenderer_get_autodestruct();
-		Register_UnityEngine_TrailRenderer_get_autodestruct();
-
-		//System.Boolean UnityEngine.TrailRenderer::get_emitting()
-		void Register_UnityEngine_TrailRenderer_get_emitting();
-		Register_UnityEngine_TrailRenderer_get_emitting();
-
-		//System.Boolean UnityEngine.TrailRenderer::get_generateLightingData()
-		void Register_UnityEngine_TrailRenderer_get_generateLightingData();
-		Register_UnityEngine_TrailRenderer_get_generateLightingData();
-
-		//System.Int32 UnityEngine.TrailRenderer::GetPositions(UnityEngine.Vector3[])
-		void Register_UnityEngine_TrailRenderer_GetPositions();
-		Register_UnityEngine_TrailRenderer_GetPositions();
-
-		//System.Int32 UnityEngine.TrailRenderer::GetPositionsWithNativeContainer(System.IntPtr,System.Int32)
-		void Register_UnityEngine_TrailRenderer_GetPositionsWithNativeContainer();
-		Register_UnityEngine_TrailRenderer_GetPositionsWithNativeContainer();
-
-		//System.Int32 UnityEngine.TrailRenderer::GetVisiblePositions(UnityEngine.Vector3[])
-		void Register_UnityEngine_TrailRenderer_GetVisiblePositions();
-		Register_UnityEngine_TrailRenderer_GetVisiblePositions();
-
-		//System.Int32 UnityEngine.TrailRenderer::GetVisiblePositionsWithNativeContainer(System.IntPtr,System.Int32)
-		void Register_UnityEngine_TrailRenderer_GetVisiblePositionsWithNativeContainer();
-		Register_UnityEngine_TrailRenderer_GetVisiblePositionsWithNativeContainer();
-
-		//System.Int32 UnityEngine.TrailRenderer::get_numCapVertices()
-		void Register_UnityEngine_TrailRenderer_get_numCapVertices();
-		Register_UnityEngine_TrailRenderer_get_numCapVertices();
-
-		//System.Int32 UnityEngine.TrailRenderer::get_numCornerVertices()
-		void Register_UnityEngine_TrailRenderer_get_numCornerVertices();
-		Register_UnityEngine_TrailRenderer_get_numCornerVertices();
-
-		//System.Int32 UnityEngine.TrailRenderer::get_positionCount()
-		void Register_UnityEngine_TrailRenderer_get_positionCount();
-		Register_UnityEngine_TrailRenderer_get_positionCount();
-
-		//System.Single UnityEngine.TrailRenderer::get_endWidth()
-		void Register_UnityEngine_TrailRenderer_get_endWidth();
-		Register_UnityEngine_TrailRenderer_get_endWidth();
-
-		//System.Single UnityEngine.TrailRenderer::get_minVertexDistance()
-		void Register_UnityEngine_TrailRenderer_get_minVertexDistance();
-		Register_UnityEngine_TrailRenderer_get_minVertexDistance();
-
-		//System.Single UnityEngine.TrailRenderer::get_shadowBias()
-		void Register_UnityEngine_TrailRenderer_get_shadowBias();
-		Register_UnityEngine_TrailRenderer_get_shadowBias();
-
-		//System.Single UnityEngine.TrailRenderer::get_startWidth()
-		void Register_UnityEngine_TrailRenderer_get_startWidth();
-		Register_UnityEngine_TrailRenderer_get_startWidth();
-
-		//System.Single UnityEngine.TrailRenderer::get_time()
-		void Register_UnityEngine_TrailRenderer_get_time();
-		Register_UnityEngine_TrailRenderer_get_time();
-
-		//System.Single UnityEngine.TrailRenderer::get_widthMultiplier()
-		void Register_UnityEngine_TrailRenderer_get_widthMultiplier();
-		Register_UnityEngine_TrailRenderer_get_widthMultiplier();
-
-		//System.Void UnityEngine.TrailRenderer::AddPosition_Injected(UnityEngine.Vector3&)
-		void Register_UnityEngine_TrailRenderer_AddPosition_Injected();
-		Register_UnityEngine_TrailRenderer_AddPosition_Injected();
-
-		//System.Void UnityEngine.TrailRenderer::AddPositions(UnityEngine.Vector3[])
-		void Register_UnityEngine_TrailRenderer_AddPositions();
-		Register_UnityEngine_TrailRenderer_AddPositions();
-
-		//System.Void UnityEngine.TrailRenderer::AddPositionsWithNativeContainer(System.IntPtr,System.Int32)
-		void Register_UnityEngine_TrailRenderer_AddPositionsWithNativeContainer();
-		Register_UnityEngine_TrailRenderer_AddPositionsWithNativeContainer();
-
-		//System.Void UnityEngine.TrailRenderer::BakeMesh(UnityEngine.Mesh,UnityEngine.Camera,System.Boolean)
-		void Register_UnityEngine_TrailRenderer_BakeMesh();
-		Register_UnityEngine_TrailRenderer_BakeMesh();
-
-		//System.Void UnityEngine.TrailRenderer::Clear()
-		void Register_UnityEngine_TrailRenderer_Clear();
-		Register_UnityEngine_TrailRenderer_Clear();
-
-		//System.Void UnityEngine.TrailRenderer::GetPosition_Injected(System.Int32,UnityEngine.Vector3&)
-		void Register_UnityEngine_TrailRenderer_GetPosition_Injected();
-		Register_UnityEngine_TrailRenderer_GetPosition_Injected();
-
-		//System.Void UnityEngine.TrailRenderer::SetColorGradient(UnityEngine.Gradient)
-		void Register_UnityEngine_TrailRenderer_SetColorGradient();
-		Register_UnityEngine_TrailRenderer_SetColorGradient();
-
-		//System.Void UnityEngine.TrailRenderer::SetPosition_Injected(System.Int32,UnityEngine.Vector3&)
-		void Register_UnityEngine_TrailRenderer_SetPosition_Injected();
-		Register_UnityEngine_TrailRenderer_SetPosition_Injected();
-
-		//System.Void UnityEngine.TrailRenderer::SetPositions(UnityEngine.Vector3[])
-		void Register_UnityEngine_TrailRenderer_SetPositions();
-		Register_UnityEngine_TrailRenderer_SetPositions();
-
-		//System.Void UnityEngine.TrailRenderer::SetPositionsWithNativeContainer(System.IntPtr,System.Int32)
-		void Register_UnityEngine_TrailRenderer_SetPositionsWithNativeContainer();
-		Register_UnityEngine_TrailRenderer_SetPositionsWithNativeContainer();
-
-		//System.Void UnityEngine.TrailRenderer::SetWidthCurve(UnityEngine.AnimationCurve)
-		void Register_UnityEngine_TrailRenderer_SetWidthCurve();
-		Register_UnityEngine_TrailRenderer_SetWidthCurve();
-
-		//System.Void UnityEngine.TrailRenderer::get_endColor_Injected(UnityEngine.Color&)
-		void Register_UnityEngine_TrailRenderer_get_endColor_Injected();
-		Register_UnityEngine_TrailRenderer_get_endColor_Injected();
-
-		//System.Void UnityEngine.TrailRenderer::get_startColor_Injected(UnityEngine.Color&)
-		void Register_UnityEngine_TrailRenderer_get_startColor_Injected();
-		Register_UnityEngine_TrailRenderer_get_startColor_Injected();
-
-		//System.Void UnityEngine.TrailRenderer::set_alignment(UnityEngine.LineAlignment)
-		void Register_UnityEngine_TrailRenderer_set_alignment();
-		Register_UnityEngine_TrailRenderer_set_alignment();
-
-		//System.Void UnityEngine.TrailRenderer::set_autodestruct(System.Boolean)
-		void Register_UnityEngine_TrailRenderer_set_autodestruct();
-		Register_UnityEngine_TrailRenderer_set_autodestruct();
-
-		//System.Void UnityEngine.TrailRenderer::set_emitting(System.Boolean)
-		void Register_UnityEngine_TrailRenderer_set_emitting();
-		Register_UnityEngine_TrailRenderer_set_emitting();
-
-		//System.Void UnityEngine.TrailRenderer::set_endColor_Injected(UnityEngine.Color&)
-		void Register_UnityEngine_TrailRenderer_set_endColor_Injected();
-		Register_UnityEngine_TrailRenderer_set_endColor_Injected();
-
-		//System.Void UnityEngine.TrailRenderer::set_endWidth(System.Single)
-		void Register_UnityEngine_TrailRenderer_set_endWidth();
-		Register_UnityEngine_TrailRenderer_set_endWidth();
-
-		//System.Void UnityEngine.TrailRenderer::set_generateLightingData(System.Boolean)
-		void Register_UnityEngine_TrailRenderer_set_generateLightingData();
-		Register_UnityEngine_TrailRenderer_set_generateLightingData();
-
-		//System.Void UnityEngine.TrailRenderer::set_minVertexDistance(System.Single)
-		void Register_UnityEngine_TrailRenderer_set_minVertexDistance();
-		Register_UnityEngine_TrailRenderer_set_minVertexDistance();
-
-		//System.Void UnityEngine.TrailRenderer::set_numCapVertices(System.Int32)
-		void Register_UnityEngine_TrailRenderer_set_numCapVertices();
-		Register_UnityEngine_TrailRenderer_set_numCapVertices();
-
-		//System.Void UnityEngine.TrailRenderer::set_numCornerVertices(System.Int32)
-		void Register_UnityEngine_TrailRenderer_set_numCornerVertices();
-		Register_UnityEngine_TrailRenderer_set_numCornerVertices();
-
-		//System.Void UnityEngine.TrailRenderer::set_shadowBias(System.Single)
-		void Register_UnityEngine_TrailRenderer_set_shadowBias();
-		Register_UnityEngine_TrailRenderer_set_shadowBias();
-
-		//System.Void UnityEngine.TrailRenderer::set_startColor_Injected(UnityEngine.Color&)
-		void Register_UnityEngine_TrailRenderer_set_startColor_Injected();
-		Register_UnityEngine_TrailRenderer_set_startColor_Injected();
-
-		//System.Void UnityEngine.TrailRenderer::set_startWidth(System.Single)
-		void Register_UnityEngine_TrailRenderer_set_startWidth();
-		Register_UnityEngine_TrailRenderer_set_startWidth();
-
-		//System.Void UnityEngine.TrailRenderer::set_textureMode(UnityEngine.LineTextureMode)
-		void Register_UnityEngine_TrailRenderer_set_textureMode();
-		Register_UnityEngine_TrailRenderer_set_textureMode();
-
-		//System.Void UnityEngine.TrailRenderer::set_time(System.Single)
-		void Register_UnityEngine_TrailRenderer_set_time();
-		Register_UnityEngine_TrailRenderer_set_time();
-
-		//System.Void UnityEngine.TrailRenderer::set_widthMultiplier(System.Single)
-		void Register_UnityEngine_TrailRenderer_set_widthMultiplier();
-		Register_UnityEngine_TrailRenderer_set_widthMultiplier();
-
-		//UnityEngine.AnimationCurve UnityEngine.TrailRenderer::GetWidthCurveCopy()
-		void Register_UnityEngine_TrailRenderer_GetWidthCurveCopy();
-		Register_UnityEngine_TrailRenderer_GetWidthCurveCopy();
-
-		//UnityEngine.Gradient UnityEngine.TrailRenderer::GetColorGradientCopy()
-		void Register_UnityEngine_TrailRenderer_GetColorGradientCopy();
-		Register_UnityEngine_TrailRenderer_GetColorGradientCopy();
-
-		//UnityEngine.LineAlignment UnityEngine.TrailRenderer::get_alignment()
-		void Register_UnityEngine_TrailRenderer_get_alignment();
-		Register_UnityEngine_TrailRenderer_get_alignment();
-
-		//UnityEngine.LineTextureMode UnityEngine.TrailRenderer::get_textureMode()
-		void Register_UnityEngine_TrailRenderer_get_textureMode();
-		Register_UnityEngine_TrailRenderer_get_textureMode();
-
-	//End Registrations for type : UnityEngine.TrailRenderer
-
 	//Start Registrations for type : UnityEngine.Transform
 
 		//System.Boolean UnityEngine.Transform::IsChildOf(UnityEngine.Transform)
@@ -13835,6 +14327,62 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Vector3_Slerp_Injected();
 
 	//End Registrations for type : UnityEngine.Vector3
+
+	//Start Registrations for type : UnityEngine.Video.VideoClip
+
+		//System.Boolean UnityEngine.Video.VideoClip::get_sRGB()
+		void Register_UnityEngine_Video_VideoClip_get_sRGB();
+		Register_UnityEngine_Video_VideoClip_get_sRGB();
+
+		//System.Double UnityEngine.Video.VideoClip::get_frameRate()
+		void Register_UnityEngine_Video_VideoClip_get_frameRate();
+		Register_UnityEngine_Video_VideoClip_get_frameRate();
+
+		//System.Double UnityEngine.Video.VideoClip::get_length()
+		void Register_UnityEngine_Video_VideoClip_get_length();
+		Register_UnityEngine_Video_VideoClip_get_length();
+
+		//System.String UnityEngine.Video.VideoClip::GetAudioLanguage(System.UInt16)
+		void Register_UnityEngine_Video_VideoClip_GetAudioLanguage();
+		Register_UnityEngine_Video_VideoClip_GetAudioLanguage();
+
+		//System.String UnityEngine.Video.VideoClip::get_originalPath()
+		void Register_UnityEngine_Video_VideoClip_get_originalPath();
+		Register_UnityEngine_Video_VideoClip_get_originalPath();
+
+		//System.UInt16 UnityEngine.Video.VideoClip::GetAudioChannelCount(System.UInt16)
+		void Register_UnityEngine_Video_VideoClip_GetAudioChannelCount();
+		Register_UnityEngine_Video_VideoClip_GetAudioChannelCount();
+
+		//System.UInt16 UnityEngine.Video.VideoClip::get_audioTrackCount()
+		void Register_UnityEngine_Video_VideoClip_get_audioTrackCount();
+		Register_UnityEngine_Video_VideoClip_get_audioTrackCount();
+
+		//System.UInt32 UnityEngine.Video.VideoClip::GetAudioSampleRate(System.UInt16)
+		void Register_UnityEngine_Video_VideoClip_GetAudioSampleRate();
+		Register_UnityEngine_Video_VideoClip_GetAudioSampleRate();
+
+		//System.UInt32 UnityEngine.Video.VideoClip::get_height()
+		void Register_UnityEngine_Video_VideoClip_get_height();
+		Register_UnityEngine_Video_VideoClip_get_height();
+
+		//System.UInt32 UnityEngine.Video.VideoClip::get_pixelAspectRatioDenominator()
+		void Register_UnityEngine_Video_VideoClip_get_pixelAspectRatioDenominator();
+		Register_UnityEngine_Video_VideoClip_get_pixelAspectRatioDenominator();
+
+		//System.UInt32 UnityEngine.Video.VideoClip::get_pixelAspectRatioNumerator()
+		void Register_UnityEngine_Video_VideoClip_get_pixelAspectRatioNumerator();
+		Register_UnityEngine_Video_VideoClip_get_pixelAspectRatioNumerator();
+
+		//System.UInt32 UnityEngine.Video.VideoClip::get_width()
+		void Register_UnityEngine_Video_VideoClip_get_width();
+		Register_UnityEngine_Video_VideoClip_get_width();
+
+		//System.UInt64 UnityEngine.Video.VideoClip::get_frameCount()
+		void Register_UnityEngine_Video_VideoClip_get_frameCount();
+		Register_UnityEngine_Video_VideoClip_get_frameCount();
+
+	//End Registrations for type : UnityEngine.Video.VideoClip
 
 	//Start Registrations for type : UnityEngine.Video.VideoPlayer
 

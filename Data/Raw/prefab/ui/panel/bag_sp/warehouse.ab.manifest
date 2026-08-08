@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 338083439
+CRC: 3755548092
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7d767f48eadfce69b62a6bcc8a4f4200
+    Hash: 8dd775b7448a378905b82994a4c6c82a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 90905025e6aa646e2219ceb2ef3bf93d
@@ -135,4 +135,4 @@ Assets:
 - Assets/Res/UI/Panel/Bag_Sp/Warehouse_SP/SubviewPanel_Warehouse.prefab
 - Assets/Res/UI/Panel/Bag_Sp/Warehouse_SP/Item_Warehouse_Tab.prefab
 Dependencies:
-- D:/Game/MU/Stream/Android/prefab/ui/panel/bag_sp/subviewbag.ab
+- E:/Client_MU/MU/Stream/Android/prefab/ui/panel/bag_sp/subviewbag.ab

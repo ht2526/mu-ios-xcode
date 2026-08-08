@@ -8325,15 +8325,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED3
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Color_op_Implicit_m9B3228DAFA8DC57A75DE00CBBF13ED4F1E7B01FF_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Vector4::op_Equality(UnityEngine.Vector4,UnityEngine.Vector4)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector4_op_Equality_mCEA0E5F229F4AE8C55152F7A8F84345F24F52DC6_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_lhs, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___1_rhs, const RuntimeMethod* method) ;
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL rectpack_create(int32_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL rectpack_delete(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL rectpack_reset(intptr_t, int32_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL rectpack_clear(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL rectpack_getpacksize(intptr_t, int32_t*, int32_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL rectpack_pack(intptr_t, TextureArea_t56204E058127B000817A95D5BB0EBEEA7E77576D*, int32_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL rectpack_removeblock(intptr_t, IntRect_tD662E59E59891FA979A0FFCAEE9694D3413ED2C9*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL rectpack_setmethod(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL rectpack_getcount(intptr_t);
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -14858,9 +14876,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorUtils__cctor_mEBA54DA1CEB532AAEF0AA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CppRectPack_rectpack_create_mE6286106B68632DE35444D6BBBB574095180939E (int32_t ___0_width, int32_t ___1_height, int32_t ___2_padding, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (int32_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_gamecppDll_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "rectpack_create", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(rectpack_create)(___0_width, ___1_height, ___2_padding);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_width, ___1_height, ___2_padding);
+	#endif
 
 	return returnValue;
 }
@@ -14868,9 +14899,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CppRectPack_rectpack_create_mE628610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_delete_m92D5669F675241606DF9448F128AC61A2A3A052C (intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_gamecppDll_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "rectpack_delete", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(rectpack_delete)(___0_ptr);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_ptr);
+	#endif
 
 	return returnValue;
 }
@@ -14878,9 +14922,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_delete_m92D5669F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_reset_m4FBF79B5DA3D1C3C23404B31FE61ACFCB774645B (intptr_t ___0_ptr, int32_t ___1_width, int32_t ___2_height, int32_t ___3_padding, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_gamecppDll_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "rectpack_reset", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(rectpack_reset)(___0_ptr, ___1_width, ___2_height, ___3_padding);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_ptr, ___1_width, ___2_height, ___3_padding);
+	#endif
 
 	return returnValue;
 }
@@ -14888,9 +14945,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_reset_m4FBF79B5D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_clear_m418F8F9545C9A78CCA464F627F968C19E22C8BE6 (intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_gamecppDll_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "rectpack_clear", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(rectpack_clear)(___0_ptr);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_ptr);
+	#endif
 
 	return returnValue;
 }
@@ -14898,9 +14968,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_clear_m418F8F954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_getpacksize_mBBBBDCF56D111C4EAAD21B9D0D6758ADA51C0716 (intptr_t ___0_ptr, int32_t* ___1_width, int32_t* ___2_height, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t*, int32_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_gamecppDll_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t*) + sizeof(int32_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "rectpack_getpacksize", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(rectpack_getpacksize)(___0_ptr, ___1_width, ___2_height);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_ptr, ___1_width, ___2_height);
+	#endif
 
 	return returnValue;
 }
@@ -14908,9 +14991,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_getpacksize_mBBB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_pack_m45D606881DB0ED6C2B4A4D23EF797C43D999BEE6 (intptr_t ___0_ptr, TextureArea_t56204E058127B000817A95D5BB0EBEEA7E77576D* ___1_infos, int32_t* ___2_size, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, TextureArea_t56204E058127B000817A95D5BB0EBEEA7E77576D*, int32_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_gamecppDll_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(TextureArea_t56204E058127B000817A95D5BB0EBEEA7E77576D*) + sizeof(int32_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "rectpack_pack", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(rectpack_pack)(___0_ptr, ___1_infos, ___2_size);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_ptr, ___1_infos, ___2_size);
+	#endif
 
 	return returnValue;
 }
@@ -14918,9 +15014,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_pack_m45D606881D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_removeblock_mC20FBF1383CE7785A7A676176654310C7B8880DD (intptr_t ___0_ptr, IntRect_tD662E59E59891FA979A0FFCAEE9694D3413ED2C9* ___1_rect, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, IntRect_tD662E59E59891FA979A0FFCAEE9694D3413ED2C9*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_gamecppDll_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(IntRect_tD662E59E59891FA979A0FFCAEE9694D3413ED2C9*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "rectpack_removeblock", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(rectpack_removeblock)(___0_ptr, ___1_rect);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_ptr, ___1_rect);
+	#endif
 
 	return returnValue;
 }
@@ -14928,9 +15037,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_removeblock_mC20
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_setmethod_m76256DEFA85DA372F6584099F2FD99B408E59F3D (intptr_t ___0_ptr, int32_t ___1_method, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_gamecppDll_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "rectpack_setmethod", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(rectpack_setmethod)(___0_ptr, ___1_method);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_ptr, ___1_method);
+	#endif
 
 	return returnValue;
 }
@@ -14938,9 +15060,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_setmethod_m76256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CppRectPack_rectpack_getcount_m89620C001FDB68EC2FB0EDEDBE7DE3DB71D56D70 (intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_gamecppDll_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("gamecppDll"), "rectpack_getcount", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_gamecppDll_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(rectpack_getcount)(___0_ptr);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_ptr);
+	#endif
 
 	return returnValue;
 }

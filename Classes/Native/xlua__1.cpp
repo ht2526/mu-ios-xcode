@@ -6828,127 +6828,369 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_csharp_error_mC755CE31545ABF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_is_eq_str_m714E968229D738480B7E9FA18C50A86012A219FE (intptr_t ___0_L, int32_t ___1_index, String_t* ___2_str, int32_t ___3_str_len, const RuntimeMethod* method) ;
 // System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL luaopen_rapidjson(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL luaopen_lpeg(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL luaopen_pb(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL luaopen_luv(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL lua_tothread(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_get_lib_version();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_gc(intptr_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL lua_getupvalue(intptr_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL lua_setupvalue(intptr_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_pushthread(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_setfenv(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL luaL_newstate();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_close(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL luaopen_xlua(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL luaL_openlibs(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C uint32_t CDECL xlua_objlen(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_createtable(intptr_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_getglobal(intptr_t, char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_setglobal(intptr_t, char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL xlua_getloaders(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_settop(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_insert(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_remove(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_rawget(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_rawset(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_setmetatable(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_rawequal(intptr_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_pushvalue(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_pushcclosure(intptr_t, intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_replace(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_gettop(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_type(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_isnumber(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL luaL_ref(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL xlua_rawgeti(intptr_t, int32_t, int64_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL xlua_rawseti(intptr_t, int32_t, int64_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL pcall_prepare(intptr_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL luaL_unref(intptr_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_isstring(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_isinteger(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_pushnil(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_upvalueindex(int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_pcall(intptr_t, int32_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C double CDECL lua_tonumber(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_tointeger(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C uint32_t CDECL xlua_touint(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_toboolean(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL lua_topointer(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL lua_tolstring(intptr_t, int32_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL lua_atpanic(intptr_t, Il2CppMethodPointer);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_pushnumber(intptr_t, double);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_pushboolean(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL xlua_pushinteger(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL xlua_pushuint(intptr_t, uint32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL xlua_pushlstring(intptr_t, uint8_t*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL luaL_newmetatable(intptr_t, char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pgettable(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_psettable(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xluaL_loadbuffer(intptr_t, uint8_t*, int32_t, char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_tocsobj_safe(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_tocsobj_fast(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_checkstack(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_next(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_pushlightuserdata(intptr_t, intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL xlua_tag();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL luaL_where(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_tryget_cachedud(intptr_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL xlua_pushcsobj(intptr_t, int32_t, int32_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL gen_obj_indexer(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL gen_obj_newindexer(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL gen_cls_indexer(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL gen_cls_newindexer(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL get_error_func_ref(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL load_error_func(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL luaopen_i64lib(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_pushint64(intptr_t, int64_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL lua_pushuint64(intptr_t, uint64_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_isint64(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL lua_isuint64(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int64_t CDECL lua_toint64(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C uint64_t CDECL lua_touint64(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL xlua_push_csharp_function(intptr_t, intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_csharp_str_error(intptr_t, char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_csharp_error(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_int8_t(intptr_t, int32_t, uint8_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_int8_t(intptr_t, int32_t, uint8_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_int16_t(intptr_t, int32_t, int16_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_int16_t(intptr_t, int32_t, int16_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_int32_t(intptr_t, int32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_int32_t(intptr_t, int32_t, int32_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_int64_t(intptr_t, int32_t, int64_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_int64_t(intptr_t, int32_t, int64_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_float(intptr_t, int32_t, float);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_float(intptr_t, int32_t, float*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_double(intptr_t, int32_t, double);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_double(intptr_t, int32_t, double*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL xlua_pushstruct(intptr_t, uint32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL xlua_pushcstable(intptr_t, uint32_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL lua_touserdata(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_gettypeid(intptr_t, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_get_registry_index();
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pgettable_bypath(intptr_t, int32_t, char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_psettable_bypath(intptr_t, int32_t, char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_float2(intptr_t, int32_t, float, float);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_float2(intptr_t, int32_t, float*, float*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_float3(intptr_t, int32_t, float, float, float);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_float3(intptr_t, int32_t, float*, float*, float*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_float4(intptr_t, int32_t, float, float, float, float);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_float4(intptr_t, int32_t, float*, float*, float*, float*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_float5(intptr_t, int32_t, float, float, float, float, float);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_float5(intptr_t, int32_t, float*, float*, float*, float*, float*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_float6(intptr_t, int32_t, float, float, float, float, float, float);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_float6(intptr_t, int32_t, float*, float*, float*, float*, float*, float*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_pack_decimal(intptr_t, int32_t, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_unpack_decimal(intptr_t, int32_t, uint8_t*, uint8_t*, int32_t*, uint64_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL xlua_is_eq_str(intptr_t, int32_t, char*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL xlua_gl(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL xlua_report_table_size(intptr_t, Il2CppMethodPointer, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C void CDECL xlua_report_object_relationship(intptr_t, Il2CppMethodPointer);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL xlua_registry_pointer(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 IL2CPP_EXTERN_C intptr_t CDECL xlua_global_pointer(intptr_t);
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -30629,9 +30871,22 @@ extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_Lua_LoadLuv_mDD21D6139D49B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_luaopen_rapidjson_m9E1F22142631CEFFBC47E8AC941BF6C7BF2F4B02 (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaopen_rapidjson", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(luaopen_rapidjson)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -30657,9 +30912,22 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_luaopen_lpeg_m1AB869FD389601E06E55A9847CD9DB92CFFB2742 (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaopen_lpeg", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(luaopen_lpeg)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -30685,9 +30953,22 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_luaopen_pb_mD1A9C5863B36C0B027A155588BAC364D7CDC3056 (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaopen_pb", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(luaopen_pb)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -30713,9 +30994,22 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_luaopen_luv_mB269A49BE42764B19D1813DDF57BEB793FA18088 (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaopen_luv", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(luaopen_luv)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -30741,9 +31035,22 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_tothread_mA2537386E97DCF25E8A36E9B946A5772446545D0 (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_tothread", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(lua_tothread)(___0_L, ___1_index);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return returnValue;
 }
@@ -30751,9 +31058,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_tothread_mA2537386E97DCF25E8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_get_lib_version_mE1CFC8C3B2E7B12A3557A64FD78747469544CFCF (const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_get_lib_version", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_get_lib_version)();
+	#else
+	int32_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -30761,9 +31081,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_get_lib_version_mE1CFC8C3B2E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_gc_mF6BE5A67EC943F129B9CC65D6404A60C2A4A2A74 (intptr_t ___0_L, int32_t ___1_what, int32_t ___2_data, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_gc", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_gc)(___0_L, ___1_what, ___2_data);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_what, ___2_data);
+	#endif
 
 	return returnValue;
 }
@@ -30771,9 +31104,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_gc_mF6BE5A67EC943F129B9CC65D6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_getupvalue_m1762E29845F19BDC5FEB13B9EA50A69300DF8C1D (intptr_t ___0_L, int32_t ___1_funcindex, int32_t ___2_n, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_getupvalue", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(lua_getupvalue)(___0_L, ___1_funcindex, ___2_n);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_L, ___1_funcindex, ___2_n);
+	#endif
 
 	return returnValue;
 }
@@ -30781,9 +31127,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_getupvalue_m1762E29845F19BDC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_setupvalue_m7D8E540D8397981C1E86000F739BA247C442FA1D (intptr_t ___0_L, int32_t ___1_funcindex, int32_t ___2_n, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_setupvalue", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(lua_setupvalue)(___0_L, ___1_funcindex, ___2_n);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_L, ___1_funcindex, ___2_n);
+	#endif
 
 	return returnValue;
 }
@@ -30791,9 +31150,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_setupvalue_m7D8E540D8397981C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_pushthread_mCBBECEE573844BAFEE6EC7DD42CB2642009BE28F (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_pushthread", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_pushthread)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -30896,9 +31268,22 @@ IL_000d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_setfenv_mDF9469D8F07EC221EA1A446EADA17016FEF6FAC9 (intptr_t ___0_L, int32_t ___1_stackPos, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_setfenv", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_setfenv)(___0_L, ___1_stackPos);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_stackPos);
+	#endif
 
 	return returnValue;
 }
@@ -30906,9 +31291,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_setfenv_mDF9469D8F07EC221EA1A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_luaL_newstate_m4AB5DD1A12DB1D4DA89DD91EA5960B1F5BB61BA6 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaL_newstate", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(luaL_newstate)();
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -30916,36 +31314,88 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_luaL_newstate_m4AB5DD1A12DB1D4DA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_close_mA1DFD811F5E985A4B6726EBD0F2525BDE9F15D23 (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_close", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_close)(___0_L);
+	#else
+	il2cppPInvokeFunc(___0_L);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::luaopen_xlua(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_luaopen_xlua_m6B69B590AEA3B49B60C00155EAB51C70C6EA5B80 (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaopen_xlua", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(luaopen_xlua)(___0_L);
+	#else
+	il2cppPInvokeFunc(___0_L);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::luaL_openlibs(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_luaL_openlibs_mF32D4D8CDC8DFEF288D39F5B652483D841396173 (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaL_openlibs", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(luaL_openlibs)(___0_L);
+	#else
+	il2cppPInvokeFunc(___0_L);
+	#endif
 
 }
 // System.UInt32 XLua.LuaDLL.Lua::xlua_objlen(System.IntPtr,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Lua_xlua_objlen_m4EC9149CEF905B8BB1F86ABD7BE47CA594D116A2 (intptr_t ___0_L, int32_t ___1_stackPos, const RuntimeMethod* method) 
 {
 	typedef uint32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_objlen", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_objlen)(___0_L, ___1_stackPos);
+	#else
+	uint32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_stackPos);
+	#endif
 
 	return returnValue;
 }
@@ -30953,9 +31403,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Lua_xlua_objlen_m4EC9149CEF905B8BB1F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_createtable_mB6D24211B7AD28D8FFC5564A21327EF31AF0DA6A (intptr_t ___0_L, int32_t ___1_narr, int32_t ___2_nrec, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_createtable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_createtable)(___0_L, ___1_narr, ___2_nrec);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_narr, ___2_nrec);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_newtable(System.IntPtr)
@@ -30971,13 +31434,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_newtable_m9D6E991C646608B181A551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_getglobal_mD565FBE264B6F0CBD0AF7CF5F214C2B4B3D33040 (intptr_t ___0_L, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_getglobal", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___1_name' to native representation
 	char* ____1_name_marshaled = NULL;
 	____1_name_marshaled = il2cpp_codegen_marshal_string(___1_name);
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_getglobal)(___0_L, ____1_name_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ____1_name_marshaled);
+	#endif
 
 	// Marshaling cleanup of parameter '___1_name' native representation
 	il2cpp_codegen_marshal_free(____1_name_marshaled);
@@ -30989,13 +31465,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_getglobal_mD565FBE264B6F0CBD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_setglobal_m0F40479A20F86CBC0B6D21A41236568425435D54 (intptr_t ___0_L, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_setglobal", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___1_name' to native representation
 	char* ____1_name_marshaled = NULL;
 	____1_name_marshaled = il2cpp_codegen_marshal_string(___1_name);
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_setglobal)(___0_L, ____1_name_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ____1_name_marshaled);
+	#endif
 
 	// Marshaling cleanup of parameter '___1_name' native representation
 	il2cpp_codegen_marshal_free(____1_name_marshaled);
@@ -31007,18 +31496,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_setglobal_m0F40479A20F86CBC0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_getloaders_m58159611F04040D68239DD2BDC03C1BA99988C53 (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_getloaders", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(xlua_getloaders)(___0_L);
+	#else
+	il2cppPInvokeFunc(___0_L);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_settop(System.IntPtr,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_settop_m1D57728254331B55978BF599210C7ED04099FB4F (intptr_t ___0_L, int32_t ___1_newTop, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_settop", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_settop)(___0_L, ___1_newTop);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_newTop);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_pop(System.IntPtr,System.Int32)
@@ -31035,27 +31550,66 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_pop_mECFB723AC9BB5B0377532D6A6C5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_insert_m835E0AF192010D756927F59D9198C23AF77D913A (intptr_t ___0_L, int32_t ___1_newTop, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_insert", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_insert)(___0_L, ___1_newTop);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_newTop);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_remove(System.IntPtr,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_remove_m4D5FD0B32CDFBCB921A4764C148C12DCFB77B5E2 (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_remove", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_remove)(___0_L, ___1_index);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 }
 // System.Int32 XLua.LuaDLL.Lua::lua_rawget(System.IntPtr,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_rawget_m8AB957ECF59921D114D60C5BE7B2C622783D9F04 (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_rawget", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_rawget)(___0_L, ___1_index);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return returnValue;
 }
@@ -31063,18 +31617,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_rawget_m8AB957ECF59921D114D60
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_rawset_m0505DDA063EF42B1D8A26C8029A6D50C802A34CF (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_rawset", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_rawset)(___0_L, ___1_index);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 }
 // System.Int32 XLua.LuaDLL.Lua::lua_setmetatable(System.IntPtr,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_setmetatable_mD3733E6EC139D813816539CE1EB7239D3B52EBB1 (intptr_t ___0_L, int32_t ___1_objIndex, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_setmetatable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_setmetatable)(___0_L, ___1_objIndex);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_objIndex);
+	#endif
 
 	return returnValue;
 }
@@ -31082,9 +31662,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_setmetatable_mD3733E6EC139D81
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_rawequal_m3D7E87BEC34A03AAA59D2DA4A4B3965A5A53D4C6 (intptr_t ___0_L, int32_t ___1_index1, int32_t ___2_index2, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_rawequal", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_rawequal)(___0_L, ___1_index1, ___2_index2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index1, ___2_index2);
+	#endif
 
 	return returnValue;
 }
@@ -31092,36 +31685,88 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_rawequal_m3D7E87BEC34A03AAA59
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_pushvalue_m3218EAC3B04380423B49919310E6CEAA9BE1FD7E (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_pushvalue", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_pushvalue)(___0_L, ___1_index);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_pushcclosure(System.IntPtr,System.IntPtr,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_pushcclosure_mF5CE2964B8B006884495D77265827D6DF203EE47 (intptr_t ___0_L, intptr_t ___1_fn, int32_t ___2_n, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_pushcclosure", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_pushcclosure)(___0_L, ___1_fn, ___2_n);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_fn, ___2_n);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_replace(System.IntPtr,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_replace_mC50D6746A8223594B95490B0667CDC785D4B5AD9 (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_replace", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_replace)(___0_L, ___1_index);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 }
 // System.Int32 XLua.LuaDLL.Lua::lua_gettop(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_gettop_m393FCD831541CF491169F1300111B83D5132BF7D (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_gettop", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_gettop)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -31129,9 +31774,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_gettop_m393FCD831541CF491169F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_type_mC2568ACDD6A526353C050FE06BEA9CBFD4E29F9D (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_type", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_type)(___0_L, ___1_index);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return returnValue;
 }
@@ -31158,9 +31816,22 @@ IL_000e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_isnumber_mD108AFE0521C3F3A6276E844791C9051666641D4 (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_isnumber", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_isnumber)(___0_L, ___1_index);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -31187,9 +31858,22 @@ IL_000e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_luaL_ref_m4D2EFDA6E82C15AA467C3CF05EB16ADF1EB04083 (intptr_t ___0_L, int32_t ___1_registryIndex, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaL_ref", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(luaL_ref)(___0_L, ___1_registryIndex);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_registryIndex);
+	#endif
 
 	return returnValue;
 }
@@ -31217,18 +31901,44 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_rawgeti_mE9999496201C818A7F48A16BD41F2A8E20F982E5 (intptr_t ___0_L, int32_t ___1_tableIndex, int64_t ___2_index, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t, int64_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int64_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_rawgeti", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(xlua_rawgeti)(___0_L, ___1_tableIndex, ___2_index);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_tableIndex, ___2_index);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::xlua_rawseti(System.IntPtr,System.Int32,System.Int64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_rawseti_mF2D0948685F6D4C8D7D32EB1D60C7E74C41DE80C (intptr_t ___0_L, int32_t ___1_tableIndex, int64_t ___2_index, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t, int64_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int64_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_rawseti", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(xlua_rawseti)(___0_L, ___1_tableIndex, ___2_index);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_tableIndex, ___2_index);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_getref(System.IntPtr,System.Int32)
@@ -31247,9 +31957,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_getref_mEB982799F0DFF17BB2B05F49
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_pcall_prepare_m3E28CF28CC2EC6A96F1EC9912A16D6E410E42057 (intptr_t ___0_L, int32_t ___1_error_func_ref, int32_t ___2_func_ref, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "pcall_prepare", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(pcall_prepare)(___0_L, ___1_error_func_ref, ___2_func_ref);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_error_func_ref, ___2_func_ref);
+	#endif
 
 	return returnValue;
 }
@@ -31257,9 +31980,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_pcall_prepare_m3E28CF28CC2EC6A96F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_luaL_unref_m4CD57A80105A11635518455A2A13D0C9E0EC6A8B (intptr_t ___0_L, int32_t ___1_registryIndex, int32_t ___2_reference, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaL_unref", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(luaL_unref)(___0_L, ___1_registryIndex, ___2_reference);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_registryIndex, ___2_reference);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_unref(System.IntPtr,System.Int32)
@@ -31278,9 +32014,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_unref_m9D978E1AB7ECEEAC38AC0A99D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_isstring_m26A50DD717782347E1F5F98026EF5CF44432F56F (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_isstring", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_isstring)(___0_L, ___1_index);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -31288,9 +32037,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_isstring_m26A50DD717782347E1F5F9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_isinteger_mAAF4D49361854ADC88719AD40E281676F6F81687 (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_isinteger", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_isinteger)(___0_L, ___1_index);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -31298,9 +32060,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_isinteger_mAAF4D49361854ADC88719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_pushnil_m894C242040BEACCDD0FC3667AC70FCEABB9B4517 (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_pushnil", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_pushnil)(___0_L);
+	#else
+	il2cppPInvokeFunc(___0_L);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_pushstdcallcfunction(System.IntPtr,XLua.LuaDLL.lua_CSFunction,System.Int32)
@@ -31332,9 +32107,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_pushstdcallcfunction_m92404492F7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_upvalueindex_mE3A298356CE216B7B69639D8F758770E04A56758 (int32_t ___0_n, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_upvalueindex", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_upvalueindex)(___0_n);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_n);
+	#endif
 
 	return returnValue;
 }
@@ -31342,9 +32130,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_upvalueindex_mE3A298356CE216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_pcall_m5CC982EC3411AFC8F100238D3012EC77FE1FA296 (intptr_t ___0_L, int32_t ___1_nArgs, int32_t ___2_nResults, int32_t ___3_errfunc, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_pcall", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_pcall)(___0_L, ___1_nArgs, ___2_nResults, ___3_errfunc);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_nArgs, ___2_nResults, ___3_errfunc);
+	#endif
 
 	return returnValue;
 }
@@ -31352,9 +32153,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_pcall_m5CC982EC3411AFC8F10023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Lua_lua_tonumber_m2A9D30614115C52E4C570753FDB483073289841F (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef double (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_tonumber", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	double returnValue = reinterpret_cast<PInvokeFunc>(lua_tonumber)(___0_L, ___1_index);
+	#else
+	double returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return returnValue;
 }
@@ -31362,9 +32176,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Lua_lua_tonumber_m2A9D30614115C52E4C57
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_tointeger_m913B738C71DC8B8BC6D3FC590269EBAE5BAC77D7 (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_tointeger", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_tointeger)(___0_L, ___1_index);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return returnValue;
 }
@@ -31372,9 +32199,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_tointeger_m913B738C71DC8B8BC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Lua_xlua_touint_mFD05853BD27ADA6CBC39F993C9096FDCC753DC66 (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef uint32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_touint", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_touint)(___0_L, ___1_index);
+	#else
+	uint32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return returnValue;
 }
@@ -31382,9 +32222,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Lua_xlua_touint_mFD05853BD27ADA6CBC3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_toboolean_m4074DB9B8B124244772043030681900B57E61357 (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_toboolean", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_toboolean)(___0_L, ___1_index);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -31392,9 +32245,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_toboolean_m4074DB9B8B12424477204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_topointer_m2BC6D5256FC8E85966B41B28627546B984A9B844 (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_topointer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(lua_topointer)(___0_L, ___1_index);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return returnValue;
 }
@@ -31402,9 +32268,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_topointer_m2BC6D5256FC8E8596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_tolstring_mB5DB72F531C748615E127841926ECE2DB18FF274 (intptr_t ___0_L, int32_t ___1_index, intptr_t* ___2_strLen, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, int32_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_tolstring", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(lua_tolstring)(___0_L, ___1_index, ___2_strLen);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index, ___2_strLen);
+	#endif
 
 	return returnValue;
 }
@@ -31507,13 +32386,26 @@ IL_006d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_atpanic_m2C9CDEE49C6B5F165B6D2104C3992098E7BE4D77 (intptr_t ___0_L, lua_CSFunction_tF0CB225FA0EBF84F9BD165B2B56441E09C0BEE53* ___1_panicf, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, Il2CppMethodPointer);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_atpanic", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___1_panicf' to native representation
 	Il2CppMethodPointer ____1_panicf_marshaled = NULL;
 	____1_panicf_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_panicf));
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(lua_atpanic)(___0_L, ____1_panicf_marshaled);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_L, ____1_panicf_marshaled);
+	#endif
 
 	return returnValue;
 }
@@ -31521,36 +32413,88 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_atpanic_m2C9CDEE49C6B5F165B6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_pushnumber_mD0A15CF021C67F1B1DDD342F890B1B67492D6D5A (intptr_t ___0_L, double ___1_number, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, double);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(double);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_pushnumber", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_pushnumber)(___0_L, ___1_number);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_number);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_pushboolean(System.IntPtr,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_pushboolean_mA00EDCA235800D90DACC11D185E3132B1E8AED6D (intptr_t ___0_L, bool ___1_value, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + 4;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_pushboolean", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_pushboolean)(___0_L, static_cast<int32_t>(___1_value));
+	#else
+	il2cppPInvokeFunc(___0_L, static_cast<int32_t>(___1_value));
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::xlua_pushinteger(System.IntPtr,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_pushinteger_mAA1DD7385ECC506AEC4B1F5D1ED404726105ED90 (intptr_t ___0_L, int32_t ___1_value, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pushinteger", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(xlua_pushinteger)(___0_L, ___1_value);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_value);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::xlua_pushuint(System.IntPtr,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_pushuint_m7842CBC57207C96E71929BA2410CBBA4245C257B (intptr_t ___0_L, uint32_t ___1_value, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, uint32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(uint32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pushuint", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(xlua_pushuint)(___0_L, ___1_value);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_value);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_pushstring(System.IntPtr,System.String)
@@ -31598,6 +32542,15 @@ IL_002d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_pushlstring_mCB4F681EE4EC3FDD1A95D4A6362533D6D1F80157 (intptr_t ___0_L, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_str, int32_t ___2_size, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, uint8_t*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pushlstring", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___1_str' to native representation
 	uint8_t* ____1_str_marshaled = NULL;
@@ -31607,7 +32560,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_pushlstring_mCB4F681EE4EC3FDD1A
 	}
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(xlua_pushlstring)(___0_L, ____1_str_marshaled, ___2_size);
+	#else
+	il2cppPInvokeFunc(___0_L, ____1_str_marshaled, ___2_size);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::xlua_pushasciistring(System.IntPtr,System.String)
@@ -31822,13 +32779,26 @@ IL_0054:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_luaL_newmetatable_mAD9B0D963E7D419388B7A1151BBB256002F3BE90 (intptr_t ___0_L, String_t* ___1_meta, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaL_newmetatable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___1_meta' to native representation
 	char* ____1_meta_marshaled = NULL;
 	____1_meta_marshaled = il2cpp_codegen_marshal_string(___1_meta);
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(luaL_newmetatable)(___0_L, ____1_meta_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ____1_meta_marshaled);
+	#endif
 
 	// Marshaling cleanup of parameter '___1_meta' native representation
 	il2cpp_codegen_marshal_free(____1_meta_marshaled);
@@ -31840,9 +32810,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_luaL_newmetatable_mAD9B0D963E7D41
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_pgettable_m4E5ABCA686A35FA1E23233F5B12080C5302D6349 (intptr_t ___0_L, int32_t ___1_idx, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pgettable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pgettable)(___0_L, ___1_idx);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_idx);
+	#endif
 
 	return returnValue;
 }
@@ -31850,9 +32833,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_pgettable_m4E5ABCA686A35FA1E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_psettable_m60A5AFB8082A3D551F326700D44C367BDE926DFD (intptr_t ___0_L, int32_t ___1_idx, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_psettable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_psettable)(___0_L, ___1_idx);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_idx);
+	#endif
 
 	return returnValue;
 }
@@ -31875,13 +32871,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_luaL_getmetatable_m29201694F8B612BC1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xluaL_loadbuffer_mEC6ADC00D4EB0E542292219CC708BCE95D835D0E (intptr_t ___0_L, uint8_t* ___1_buff, int32_t ___2_size, String_t* ___3_name, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, uint8_t*, int32_t, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(uint8_t*) + sizeof(int32_t) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xluaL_loadbuffer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___3_name' to native representation
 	char* ____3_name_marshaled = NULL;
 	____3_name_marshaled = il2cpp_codegen_marshal_string(___3_name);
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xluaL_loadbuffer)(___0_L, ___1_buff, ___2_size, ____3_name_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_buff, ___2_size, ____3_name_marshaled);
+	#endif
 
 	// Marshaling cleanup of parameter '___3_name' native representation
 	il2cpp_codegen_marshal_free(____3_name_marshaled);
@@ -31978,9 +32987,22 @@ IL_001b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_tocsobj_safe_m9B1884A5D53327B05F556953A2C8CDD2C04CCEBD (intptr_t ___0_L, int32_t ___1_obj, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_tocsobj_safe", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_tocsobj_safe)(___0_L, ___1_obj);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_obj);
+	#endif
 
 	return returnValue;
 }
@@ -31988,9 +33010,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_tocsobj_safe_m9B1884A5D53327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_tocsobj_fast_m71D58712B84F80730D77BED6C2F0BF0B8972C2F5 (intptr_t ___0_L, int32_t ___1_obj, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_tocsobj_fast", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_tocsobj_fast)(___0_L, ___1_obj);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_obj);
+	#endif
 
 	return returnValue;
 }
@@ -32016,9 +33051,22 @@ IL_000c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_checkstack_m8BB8DD4B0494C4C998BB7E8C0C13064512905392 (intptr_t ___0_L, int32_t ___1_extra, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_checkstack", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_checkstack)(___0_L, ___1_extra);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_extra);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32026,9 +33074,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_checkstack_m8BB8DD4B0494C4C998BB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_next_m83D0569AA21FAD1307998CEC99A0945DB0EEFAC3 (intptr_t ___0_L, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_next", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_next)(___0_L, ___1_index);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index);
+	#endif
 
 	return returnValue;
 }
@@ -32036,18 +33097,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_lua_next_m83D0569AA21FAD1307998CE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_pushlightuserdata_mBB6F65871CA0CE42E106D154FED24D5D2924E5DC (intptr_t ___0_L, intptr_t ___1_udata, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_pushlightuserdata", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_pushlightuserdata)(___0_L, ___1_udata);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_udata);
+	#endif
 
 }
 // System.IntPtr XLua.LuaDLL.Lua::xlua_tag()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_xlua_tag_mEB9F9CAA640351AE13865AC986069F270BD1DBB7 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_tag", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_tag)();
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -32055,18 +33142,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_xlua_tag_mEB9F9CAA640351AE13865A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_luaL_where_m48E0EED6C6D8B24FE79922C856D3C897A6A529D4 (intptr_t ___0_L, int32_t ___1_level, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaL_where", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(luaL_where)(___0_L, ___1_level);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_level);
+	#endif
 
 }
 // System.Int32 XLua.LuaDLL.Lua::xlua_tryget_cachedud(System.IntPtr,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_tryget_cachedud_mCA1974AC12E284969968B045A14AD8EE8E0C549E (intptr_t ___0_L, int32_t ___1_key, int32_t ___2_cache_ref, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_tryget_cachedud", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_tryget_cachedud)(___0_L, ___1_key, ___2_cache_ref);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_key, ___2_cache_ref);
+	#endif
 
 	return returnValue;
 }
@@ -32074,18 +33187,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_tryget_cachedud_mCA1974AC12E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_pushcsobj_m373C4171F81C40BD014B337B0428536F83DD506E (intptr_t ___0_L, int32_t ___1_key, int32_t ___2_meta_ref, bool ___3_need_cache, int32_t ___4_cache_ref, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t) + 4 + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pushcsobj", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(xlua_pushcsobj)(___0_L, ___1_key, ___2_meta_ref, static_cast<int32_t>(___3_need_cache), ___4_cache_ref);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_key, ___2_meta_ref, static_cast<int32_t>(___3_need_cache), ___4_cache_ref);
+	#endif
 
 }
 // System.Int32 XLua.LuaDLL.Lua::gen_obj_indexer(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_gen_obj_indexer_mB0E9DF58A876506FFFFD463BCFFBE38DA5C7BA4F (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "gen_obj_indexer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(gen_obj_indexer)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -32093,9 +33232,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_gen_obj_indexer_mB0E9DF58A876506F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_gen_obj_newindexer_mC74EAA59E9FC17A5FA552EB1EADBBD86A81518C0 (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "gen_obj_newindexer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(gen_obj_newindexer)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -32103,9 +33255,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_gen_obj_newindexer_mC74EAA59E9FC1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_gen_cls_indexer_m6DCD1FC729B35DC6E9EB24098C37FE1D158DC76C (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "gen_cls_indexer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(gen_cls_indexer)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -32113,9 +33278,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_gen_cls_indexer_m6DCD1FC729B35DC6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_gen_cls_newindexer_m858B058DA0FED814717EF039DD41349087932A8E (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "gen_cls_newindexer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(gen_cls_newindexer)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -32123,9 +33301,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_gen_cls_newindexer_m858B058DA0FED
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_get_error_func_ref_m74B67560EB6AD3E9625C8DBC94A268EFE2EF478C (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "get_error_func_ref", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(get_error_func_ref)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -32133,9 +33324,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_get_error_func_ref_m74B67560EB6AD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_load_error_func_mD5E104BB70777326384404B1D0BA29322B92557C (intptr_t ___0_L, int32_t ___1_Ref, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "load_error_func", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(load_error_func)(___0_L, ___1_Ref);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_Ref);
+	#endif
 
 	return returnValue;
 }
@@ -32143,9 +33347,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_load_error_func_mD5E104BB70777326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_luaopen_i64lib_m0C9B8A9964FA3E65EAEFC0B01A3E502EE89E74FA (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "luaopen_i64lib", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(luaopen_i64lib)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -32153,27 +33370,66 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_luaopen_i64lib_m0C9B8A9964FA3E65E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_pushint64_m5DA9FDFF1AC80FCB5436F83AEAFFCCE390E265C0 (intptr_t ___0_L, int64_t ___1_n, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, int64_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int64_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_pushint64", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_pushint64)(___0_L, ___1_n);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_n);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::lua_pushuint64(System.IntPtr,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_lua_pushuint64_mF8ED5201825274A4F69EB794CAF15093A4CF09C7 (intptr_t ___0_L, uint64_t ___1_n, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, uint64_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(uint64_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_pushuint64", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(lua_pushuint64)(___0_L, ___1_n);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_n);
+	#endif
 
 }
 // System.Boolean XLua.LuaDLL.Lua::lua_isint64(System.IntPtr,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_isint64_m581C34B78ADE50514C4DBA2FC3BB803993D439E0 (intptr_t ___0_L, int32_t ___1_idx, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_isint64", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_isint64)(___0_L, ___1_idx);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_idx);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32181,9 +33437,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_isint64_m581C34B78ADE50514C4DBA2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_isuint64_m365DA20DAC3AD2C9E477A085E14CFB4CDFDAE0DD (intptr_t ___0_L, int32_t ___1_idx, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_isuint64", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(lua_isuint64)(___0_L, ___1_idx);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_idx);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32191,9 +33460,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_lua_isuint64_m365DA20DAC3AD2C9E477A0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Lua_lua_toint64_m89E8AE7F639935002D2665B0F9B750A9325C30BB (intptr_t ___0_L, int32_t ___1_idx, const RuntimeMethod* method) 
 {
 	typedef int64_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_toint64", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int64_t returnValue = reinterpret_cast<PInvokeFunc>(lua_toint64)(___0_L, ___1_idx);
+	#else
+	int64_t returnValue = il2cppPInvokeFunc(___0_L, ___1_idx);
+	#endif
 
 	return returnValue;
 }
@@ -32201,9 +33483,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Lua_lua_toint64_m89E8AE7F639935002D26
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Lua_lua_touint64_mFA9FD8CDFD7F88B3C72836970471A5EBC17A67F1 (intptr_t ___0_L, int32_t ___1_idx, const RuntimeMethod* method) 
 {
 	typedef uint64_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_touint64", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	uint64_t returnValue = reinterpret_cast<PInvokeFunc>(lua_touint64)(___0_L, ___1_idx);
+	#else
+	uint64_t returnValue = il2cppPInvokeFunc(___0_L, ___1_idx);
+	#endif
 
 	return returnValue;
 }
@@ -32211,22 +33506,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Lua_lua_touint64_mFA9FD8CDFD7F88B3C7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_push_csharp_function_m019B398A7817500683E08062B030724BDBBF3D52 (intptr_t ___0_L, intptr_t ___1_fn, int32_t ___2_n, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_push_csharp_function", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(xlua_push_csharp_function)(___0_L, ___1_fn, ___2_n);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_fn, ___2_n);
+	#endif
 
 }
 // System.Int32 XLua.LuaDLL.Lua::xlua_csharp_str_error(System.IntPtr,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_csharp_str_error_m1233570A501EC77B4454D6CE593B01C3612EE26F (intptr_t ___0_L, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_csharp_str_error", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___1_message' to native representation
 	char* ____1_message_marshaled = NULL;
 	____1_message_marshaled = il2cpp_codegen_marshal_string(___1_message);
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_csharp_str_error)(___0_L, ____1_message_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ____1_message_marshaled);
+	#endif
 
 	// Marshaling cleanup of parameter '___1_message' native representation
 	il2cpp_codegen_marshal_free(____1_message_marshaled);
@@ -32238,9 +33559,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_csharp_str_error_m1233570A50
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_csharp_error_mC755CE31545ABF8E4FBD2C164EECED1CEA161BEA (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_csharp_error", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_csharp_error)(___0_L);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -32248,9 +33582,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_csharp_error_mC755CE31545ABF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_int8_t_m6A2C78C2A6D12B3830D22801E7A1A179CCE51275 (intptr_t ___0_buff, int32_t ___1_offset, uint8_t ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, uint8_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(uint8_t) + 3;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_int8_t", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_int8_t)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32258,9 +33605,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_int8_t_m6A2C78C2A6D12B3830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_int8_t_m47313464C3FCDFBF2BD99D79CB922A059FE9810E (intptr_t ___0_buff, int32_t ___1_offset, uint8_t* ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, uint8_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(uint8_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_int8_t", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_int8_t)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32268,9 +33628,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_int8_t_m47313464C3FCDFBF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_int16_t_m64AEF4284D1CB56E99DBD90AE4EE380819B1C037 (intptr_t ___0_buff, int32_t ___1_offset, int16_t ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int16_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int16_t) + 2;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_int16_t", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_int16_t)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32278,9 +33651,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_int16_t_m64AEF4284D1CB56E9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_int16_t_mA7605F9E3439EB4D9BE29F7F1E7FB464FA7DFD5F (intptr_t ___0_buff, int32_t ___1_offset, int16_t* ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int16_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int16_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_int16_t", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_int16_t)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32288,9 +33674,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_int16_t_mA7605F9E3439EB4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_int32_t_mD25DEB0F0C84D8FA093606AB273EBD0287D4F1ED (intptr_t ___0_buff, int32_t ___1_offset, int32_t ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_int32_t", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_int32_t)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32298,9 +33697,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_int32_t_mD25DEB0F0C84D8FA0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_int32_t_m790BF0DD669DE68CAD9CDB743EB7BEB8DFC650E6 (intptr_t ___0_buff, int32_t ___1_offset, int32_t* ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int32_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_int32_t", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_int32_t)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32308,9 +33720,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_int32_t_m790BF0DD669DE68
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_int64_t_mD773C4A1B45E7C1F9726520F888F32371E2EE40D (intptr_t ___0_buff, int32_t ___1_offset, int64_t ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int64_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int64_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_int64_t", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_int64_t)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32318,9 +33743,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_int64_t_mD773C4A1B45E7C1F9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_int64_t_m46FCF70AC27C93D26C92939FD1FDB69AD038D9EC (intptr_t ___0_buff, int32_t ___1_offset, int64_t* ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, int64_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int64_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_int64_t", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_int64_t)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32328,9 +33766,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_int64_t_m46FCF70AC27C93D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float_m68A3A35CEC73FE1551B125ECCCBC84DEF17EDE0B (intptr_t ___0_buff, int32_t ___1_offset, float ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_float", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_float)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32338,9 +33789,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float_m68A3A35CEC73FE1551B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float_mC6976A0EF7B149EAC5FEF8D5250E0DBE454E4110 (intptr_t ___0_buff, int32_t ___1_offset, float* ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_float", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_float)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32348,9 +33812,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float_mC6976A0EF7B149EAC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_double_m1B5D1AE20D3CCAC65F7E6D8A714C9B0235556DD9 (intptr_t ___0_buff, int32_t ___1_offset, double ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, double);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(double);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_double", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_double)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32358,9 +33835,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_double_m1B5D1AE20D3CCAC65F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_double_m7F042380F973401B8DD4F4809637211BD3B3F674 (intptr_t ___0_buff, int32_t ___1_offset, double* ___2_field, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, double*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(double*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_double", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_double)(___0_buff, ___1_offset, ___2_field);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_field);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32368,9 +33858,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_double_m7F042380F973401B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_xlua_pushstruct_m6BE3E3649F08A8329437EEFF71F1E14E005CB8D7 (intptr_t ___0_L, uint32_t ___1_size, int32_t ___2_meta_ref, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, uint32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(uint32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pushstruct", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pushstruct)(___0_L, ___1_size, ___2_meta_ref);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_L, ___1_size, ___2_meta_ref);
+	#endif
 
 	return returnValue;
 }
@@ -32378,18 +33881,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_xlua_pushstruct_m6BE3E3649F08A83
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_pushcstable_m5B17AC733807D1C25E991BB54DDB3B63BF27F5E4 (intptr_t ___0_L, uint32_t ___1_field_count, int32_t ___2_meta_ref, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, uint32_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(uint32_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pushcstable", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(xlua_pushcstable)(___0_L, ___1_field_count, ___2_meta_ref);
+	#else
+	il2cppPInvokeFunc(___0_L, ___1_field_count, ___2_meta_ref);
+	#endif
 
 }
 // System.IntPtr XLua.LuaDLL.Lua::lua_touserdata(System.IntPtr,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_touserdata_mF8C2FE709A25E8AAAD34097A5A2152E44189DAD5 (intptr_t ___0_L, int32_t ___1_idx, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "lua_touserdata", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(lua_touserdata)(___0_L, ___1_idx);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_L, ___1_idx);
+	#endif
 
 	return returnValue;
 }
@@ -32397,9 +33926,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_lua_touserdata_mF8C2FE709A25E8AA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_gettypeid_mB605F0053868E89D0D144CDB6DE250D808411798 (intptr_t ___0_L, int32_t ___1_idx, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_gettypeid", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_gettypeid)(___0_L, ___1_idx);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_idx);
+	#endif
 
 	return returnValue;
 }
@@ -32407,9 +33949,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_gettypeid_mB605F0053868E89D0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_get_registry_index_m5B002EB3E556960E90F7227794CAB7B642821F8E (const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) ();
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_get_registry_index", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_get_registry_index)();
+	#else
+	int32_t returnValue = il2cppPInvokeFunc();
+	#endif
 
 	return returnValue;
 }
@@ -32417,13 +33972,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_get_registry_index_m5B002EB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_pgettable_bypath_m0CC34740C2E65B5A4E9611EF8F719E9E22E3170A (intptr_t ___0_L, int32_t ___1_idx, String_t* ___2_path, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pgettable_bypath", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___2_path' to native representation
 	char* ____2_path_marshaled = NULL;
 	____2_path_marshaled = il2cpp_codegen_marshal_string(___2_path);
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pgettable_bypath)(___0_L, ___1_idx, ____2_path_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_idx, ____2_path_marshaled);
+	#endif
 
 	// Marshaling cleanup of parameter '___2_path' native representation
 	il2cpp_codegen_marshal_free(____2_path_marshaled);
@@ -32435,13 +34003,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_pgettable_bypath_m0CC34740C2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_psettable_bypath_m8F0F5804452AB6544E948DD456E4641D93A49FB6 (intptr_t ___0_L, int32_t ___1_idx, String_t* ___2_path, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_psettable_bypath", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___2_path' to native representation
 	char* ____2_path_marshaled = NULL;
 	____2_path_marshaled = il2cpp_codegen_marshal_string(___2_path);
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_psettable_bypath)(___0_L, ___1_idx, ____2_path_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_idx, ____2_path_marshaled);
+	#endif
 
 	// Marshaling cleanup of parameter '___2_path' native representation
 	il2cpp_codegen_marshal_free(____2_path_marshaled);
@@ -32453,9 +34034,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Lua_xlua_psettable_bypath_m8F0F580445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float2_m5EE18AC7930DA3FB5C8EA2EABD40E590E9CC4A7F (intptr_t ___0_buff, int32_t ___1_offset, float ___2_f1, float ___3_f2, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float, float);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float) + sizeof(float);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_float2", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_float2)(___0_buff, ___1_offset, ___2_f1, ___3_f2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_f1, ___3_f2);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32463,9 +34057,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float2_m5EE18AC7930DA3FB5C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float2_m6E5F354900E659B43E0AADCCF101A7F155522BDE (intptr_t ___0_buff, int32_t ___1_offset, float* ___2_f1, float* ___3_f2, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float*, float*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float*) + sizeof(float*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_float2", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_float2)(___0_buff, ___1_offset, ___2_f1, ___3_f2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_f1, ___3_f2);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32473,9 +34080,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float2_m6E5F354900E659B4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float3_m18D14EA44FB436E8307B7CCB6F317FE47B95E509 (intptr_t ___0_buff, int32_t ___1_offset, float ___2_f1, float ___3_f2, float ___4_f3, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float, float, float);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float) + sizeof(float) + sizeof(float);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_float3", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_float3)(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32483,9 +34103,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float3_m18D14EA44FB436E830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float3_m3338515815A8C0D039DB43F051D172EDD8196B1B (intptr_t ___0_buff, int32_t ___1_offset, float* ___2_f1, float* ___3_f2, float* ___4_f3, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float*, float*, float*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float*) + sizeof(float*) + sizeof(float*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_float3", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_float3)(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32493,9 +34126,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float3_m3338515815A8C0D0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float4_m96BCDA855E0047096365F970C9AFF6FF3C627D9B (intptr_t ___0_buff, int32_t ___1_offset, float ___2_f1, float ___3_f2, float ___4_f3, float ___5_f4, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float, float, float, float);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float) + sizeof(float) + sizeof(float) + sizeof(float);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_float4", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_float4)(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32503,9 +34149,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float4_m96BCDA855E00470963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float4_m65F562C6E02D41C3E8041249E56C3F43C0648872 (intptr_t ___0_buff, int32_t ___1_offset, float* ___2_f1, float* ___3_f2, float* ___4_f3, float* ___5_f4, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float*, float*, float*, float*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float*) + sizeof(float*) + sizeof(float*) + sizeof(float*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_float4", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_float4)(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32513,9 +34172,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float4_m65F562C6E02D41C3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float5_m6023C7B085A7DA2B50CBD74084360E1209743EA5 (intptr_t ___0_buff, int32_t ___1_offset, float ___2_f1, float ___3_f2, float ___4_f3, float ___5_f4, float ___6_f5, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float, float, float, float, float);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float) + sizeof(float) + sizeof(float) + sizeof(float) + sizeof(float);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_float5", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_float5)(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4, ___6_f5);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4, ___6_f5);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32523,9 +34195,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float5_m6023C7B085A7DA2B50
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float5_m9AD90F31939BEA3E72FEF9083026778EB8E55D91 (intptr_t ___0_buff, int32_t ___1_offset, float* ___2_f1, float* ___3_f2, float* ___4_f3, float* ___5_f4, float* ___6_f5, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float*, float*, float*, float*, float*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float*) + sizeof(float*) + sizeof(float*) + sizeof(float*) + sizeof(float*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_float5", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_float5)(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4, ___6_f5);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4, ___6_f5);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32533,9 +34218,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float5_m9AD90F31939BEA3E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float6_m47376A9A11105A16E2B5AEA6FFC44D09EADA0EFF (intptr_t ___0_buff, int32_t ___1_offset, float ___2_f1, float ___3_f2, float ___4_f3, float ___5_f4, float ___6_f5, float ___7_f6, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float, float, float, float, float, float);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float) + sizeof(float) + sizeof(float) + sizeof(float) + sizeof(float) + sizeof(float);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_float6", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_float6)(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4, ___6_f5, ___7_f6);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4, ___6_f5, ___7_f6);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32543,9 +34241,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_float6_m47376A9A11105A16E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float6_m49B738097081B18A00048C3D97AEADC5C8A01C4B (intptr_t ___0_buff, int32_t ___1_offset, float* ___2_f1, float* ___3_f2, float* ___4_f3, float* ___5_f4, float* ___6_f5, float* ___7_f6, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float*, float*, float*, float*, float*, float*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(float*) + sizeof(float*) + sizeof(float*) + sizeof(float*) + sizeof(float*) + sizeof(float*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_float6", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_float6)(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4, ___6_f5, ___7_f6);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_f1, ___3_f2, ___4_f3, ___5_f4, ___6_f5, ___7_f6);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32553,9 +34264,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_float6_m49B738097081B18A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_decimal_m36E12A5ABF7252121EE60F2710D912D0F9B2034B (intptr_t ___0_buff, int32_t ___1_offset, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* ___2_dec, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_pack_decimal", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_pack_decimal)(___0_buff, ___1_offset, ___2_dec);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_dec);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32563,9 +34287,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_pack_decimal_m36E12A5ABF7252121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_unpack_decimal_m34E6A4B583490CA229B94CF39E43AD7A536A8500 (intptr_t ___0_buff, int32_t ___1_offset, uint8_t* ___2_scale, uint8_t* ___3_sign, int32_t* ___4_hi32, uint64_t* ___5_lo64, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, uint8_t*, uint8_t*, int32_t*, uint64_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(uint8_t*) + sizeof(uint8_t*) + sizeof(int32_t*) + sizeof(uint64_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_unpack_decimal", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_unpack_decimal)(___0_buff, ___1_offset, ___2_scale, ___3_sign, ___4_hi32, ___5_lo64);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_buff, ___1_offset, ___2_scale, ___3_sign, ___4_hi32, ___5_lo64);
+	#endif
 
 	return static_cast<bool>(returnValue);
 }
@@ -32597,13 +34334,26 @@ IL_0012:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_is_eq_str_m714E968229D738480B7E9FA18C50A86012A219FE (intptr_t ___0_L, int32_t ___1_index, String_t* ___2_str, int32_t ___3_str_len, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, char*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(char*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_is_eq_str", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___2_str' to native representation
 	char* ____2_str_marshaled = NULL;
 	____2_str_marshaled = il2cpp_codegen_marshal_string(___2_str);
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_is_eq_str)(___0_L, ___1_index, ____2_str_marshaled, ___3_str_len);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___0_L, ___1_index, ____2_str_marshaled, ___3_str_len);
+	#endif
 
 	// Marshaling cleanup of parameter '___2_str' native representation
 	il2cpp_codegen_marshal_free(____2_str_marshaled);
@@ -32615,9 +34365,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Lua_xlua_is_eq_str_m714E968229D738480B7E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_xlua_gl_m22A6E82FCA85D59DFED5A9190015EDCF2A309ACC (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_gl", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_gl)(___0_L);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -32625,35 +34388,74 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_xlua_gl_m22A6E82FCA85D59DFED5A91
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_report_table_size_mFADA987927CA1E62D74C09CA0EE09E34BA75BAB6 (intptr_t ___0_L, TableSizeReport_t425396E20059F79B17F88868891C669FA6F28AAC* ___1_cb, int32_t ___2_fast, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, Il2CppMethodPointer, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_report_table_size", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___1_cb' to native representation
 	Il2CppMethodPointer ____1_cb_marshaled = NULL;
 	____1_cb_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_cb));
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(xlua_report_table_size)(___0_L, ____1_cb_marshaled, ___2_fast);
+	#else
+	il2cppPInvokeFunc(___0_L, ____1_cb_marshaled, ___2_fast);
+	#endif
 
 }
 // System.Void XLua.LuaDLL.Lua::xlua_report_object_relationship(System.IntPtr,XLua.LuaDLL.ObjectRelationshipReport)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Lua_xlua_report_object_relationship_mED3A100F7E6C38DFFFFD85B26F9B98467520B6E4 (intptr_t ___0_L, ObjectRelationshipReport_t24F2CA14348ACF2B66D4770B4980F8A398180611* ___1_cb, const RuntimeMethod* method) 
 {
 	typedef void (CDECL *PInvokeFunc) (intptr_t, Il2CppMethodPointer);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_report_object_relationship", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Marshaling of parameter '___1_cb' to native representation
 	Il2CppMethodPointer ____1_cb_marshaled = NULL;
 	____1_cb_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_cb));
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	reinterpret_cast<PInvokeFunc>(xlua_report_object_relationship)(___0_L, ____1_cb_marshaled);
+	#else
+	il2cppPInvokeFunc(___0_L, ____1_cb_marshaled);
+	#endif
 
 }
 // System.IntPtr XLua.LuaDLL.Lua::xlua_registry_pointer(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_xlua_registry_pointer_m435D26619982C0978E1582090A43E8E8D4F6A72D (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_registry_pointer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_registry_pointer)(___0_L);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }
@@ -32661,9 +34463,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_xlua_registry_pointer_m435D26619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Lua_xlua_global_pointer_m24DCED55532272CB38C5ABEE6C55F06D615C8AB4 (intptr_t ___0_L, const RuntimeMethod* method) 
 {
 	typedef intptr_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_xlua_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("xlua"), "xlua_global_pointer", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
 
 	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_xlua_INTERNAL
 	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(xlua_global_pointer)(___0_L);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_L);
+	#endif
 
 	return returnValue;
 }

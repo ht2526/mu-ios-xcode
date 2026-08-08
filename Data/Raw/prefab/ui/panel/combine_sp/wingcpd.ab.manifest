@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3387982238
+CRC: 2798777750
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 99fc410536d494826bbef0ff8f106b9a
+    Hash: 8fdfab2a901c527d88db01357a253500
   TypeTreeHash:
     serializedVersion: 2
-    Hash: dc919212ed8feca312093027223d3700
+    Hash: eea3d695eecefb78674314e5814c8cd0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -33,8 +33,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: 51b769e94138a8044ad51fd38f23b277, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4a2d896b32fe6b94da3fc7e2b0975e17, type: 3}
 - Class: 114
@@ -126,4 +124,5 @@ Assets:
 - Assets/Res/UI/Panel/Combine_SP/WingCpd_SP/Item_WingCpd_Props.prefab
 - Assets/Res/UI/Panel/Combine_SP/WingCpd_SP/Item_WingCpd_Props_1.prefab
 - Assets/Res/UI/Panel/Combine_SP/WingCpd_SP/CompoundPanel_Wing.prefab
-Dependencies: []
+Dependencies:
+- E:/Client_MU/MU/Stream/Android/prefab/ui/panel/combine.ab

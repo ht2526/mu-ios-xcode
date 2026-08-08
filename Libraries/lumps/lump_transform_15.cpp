@@ -1,8 +1,0 @@
-﻿#include "Libraries/libil2cpp/il2cpp-config.h"
-#include "Libraries/libil2cpp/hybridclr/transform/BasicBlockSpliter.cpp"
-#include "Libraries/libil2cpp/hybridclr/transform/TemporaryMemoryArena.cpp"
-#include "Libraries/libil2cpp/hybridclr/transform/Transform.cpp"
-#include "Libraries/libil2cpp/hybridclr/transform/TransformContext.cpp"
-#include "Libraries/libil2cpp/hybridclr/transform/TransformContext_CallCommon.cpp"
-#include "Libraries/libil2cpp/hybridclr/transform/TransformContext_Instinct.cpp"
-#include "Libraries/libil2cpp/hybridclr/transform/TransformModule.cpp"

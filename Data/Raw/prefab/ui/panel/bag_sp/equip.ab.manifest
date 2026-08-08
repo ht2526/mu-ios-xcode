@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2879290028
+CRC: 3255383336
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 98358da5a282972c3775712e3104a333
+    Hash: 36217cd9ecb9bd34e7396f5d3470ff44
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9926855e713920c3afa83402b4f7487c
+    Hash: 1ce01d21e6bd0b282920905db7e2b8c0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -41,8 +41,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 44e20655eb6eab748ba4206e7ea89ed0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
 - Class: 114
@@ -132,8 +130,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 81d0b561b806f5c41a03d34621399a3c, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 64b2f2f43197428a8f6538edb4a9a5af, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: cf62890d25ff6494ab8c4dfd7e8f97bd, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: bad18b649ae94854cbb8a389ab682166, type: 3}
@@ -145,8 +141,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 36fa07bae3f1d76428ed0420c7fa4478, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 280389b63e82ca74293756c2e1cbcd6b, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: b77cfc9bf33b4df68a5414a48d8bc418, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -316,4 +310,5 @@ Assets:
 - Assets/Res/UI/Panel/Bag_Sp/Equip_SP/item_forgemaster.prefab
 - Assets/Res/UI/Panel/Bag_Sp/Equip_SP/item_oneProp.prefab
 - Assets/Res/UI/Panel/Bag_Sp/Equip_SP/Item_EquipCurrency.prefab
-Dependencies: []
+Dependencies:
+- E:/Client_MU/MU/Stream/Android/prefab/ui/panel/bag_sp/subviewbag.ab

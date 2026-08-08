@@ -860,6 +860,136 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoClip__ctor_m0D5152E4073E1D970B8A947
 		return;
 	}
 }
+// System.String UnityEngine.Video.VideoClip::get_originalPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VideoClip_get_originalPath_mD6216825039DFE12FB0849259B4FE4C5B83DCA03 (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, const RuntimeMethod* method) 
+{
+	typedef String_t* (*VideoClip_get_originalPath_mD6216825039DFE12FB0849259B4FE4C5B83DCA03_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*);
+	static VideoClip_get_originalPath_mD6216825039DFE12FB0849259B4FE4C5B83DCA03_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_get_originalPath_mD6216825039DFE12FB0849259B4FE4C5B83DCA03_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::get_originalPath()");
+	String_t* icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.UInt64 UnityEngine.Video.VideoClip::get_frameCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t VideoClip_get_frameCount_m53E5E8AFB0F9BC2F1E0D0DED42DE4FBAE755FEC8 (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, const RuntimeMethod* method) 
+{
+	typedef uint64_t (*VideoClip_get_frameCount_m53E5E8AFB0F9BC2F1E0D0DED42DE4FBAE755FEC8_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*);
+	static VideoClip_get_frameCount_m53E5E8AFB0F9BC2F1E0D0DED42DE4FBAE755FEC8_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_get_frameCount_m53E5E8AFB0F9BC2F1E0D0DED42DE4FBAE755FEC8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::get_frameCount()");
+	uint64_t icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.Double UnityEngine.Video.VideoClip::get_frameRate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoClip_get_frameRate_m62DBC3E4000A1E8E90F9B6DA3083A567B2F706E2 (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, const RuntimeMethod* method) 
+{
+	typedef double (*VideoClip_get_frameRate_m62DBC3E4000A1E8E90F9B6DA3083A567B2F706E2_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*);
+	static VideoClip_get_frameRate_m62DBC3E4000A1E8E90F9B6DA3083A567B2F706E2_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_get_frameRate_m62DBC3E4000A1E8E90F9B6DA3083A567B2F706E2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::get_frameRate()");
+	double icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.Double UnityEngine.Video.VideoClip::get_length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double VideoClip_get_length_m3A5628F24610F06D4F1E7FBC700722B77942121D (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, const RuntimeMethod* method) 
+{
+	typedef double (*VideoClip_get_length_m3A5628F24610F06D4F1E7FBC700722B77942121D_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*);
+	static VideoClip_get_length_m3A5628F24610F06D4F1E7FBC700722B77942121D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_get_length_m3A5628F24610F06D4F1E7FBC700722B77942121D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::get_length()");
+	double icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.UInt32 UnityEngine.Video.VideoClip::get_width()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoClip_get_width_mC4F4AB7B71F65B0086F2DD9BFFA6789B50A94DAD (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, const RuntimeMethod* method) 
+{
+	typedef uint32_t (*VideoClip_get_width_mC4F4AB7B71F65B0086F2DD9BFFA6789B50A94DAD_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*);
+	static VideoClip_get_width_mC4F4AB7B71F65B0086F2DD9BFFA6789B50A94DAD_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_get_width_mC4F4AB7B71F65B0086F2DD9BFFA6789B50A94DAD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::get_width()");
+	uint32_t icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.UInt32 UnityEngine.Video.VideoClip::get_height()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoClip_get_height_m425279B19CB8EB25DD480DC888DFB7B7108788B4 (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, const RuntimeMethod* method) 
+{
+	typedef uint32_t (*VideoClip_get_height_m425279B19CB8EB25DD480DC888DFB7B7108788B4_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*);
+	static VideoClip_get_height_m425279B19CB8EB25DD480DC888DFB7B7108788B4_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_get_height_m425279B19CB8EB25DD480DC888DFB7B7108788B4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::get_height()");
+	uint32_t icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.UInt32 UnityEngine.Video.VideoClip::get_pixelAspectRatioNumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoClip_get_pixelAspectRatioNumerator_m24C872B9B515CB99C74C75BEDAFE1CF6B212B328 (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, const RuntimeMethod* method) 
+{
+	typedef uint32_t (*VideoClip_get_pixelAspectRatioNumerator_m24C872B9B515CB99C74C75BEDAFE1CF6B212B328_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*);
+	static VideoClip_get_pixelAspectRatioNumerator_m24C872B9B515CB99C74C75BEDAFE1CF6B212B328_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_get_pixelAspectRatioNumerator_m24C872B9B515CB99C74C75BEDAFE1CF6B212B328_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::get_pixelAspectRatioNumerator()");
+	uint32_t icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.UInt32 UnityEngine.Video.VideoClip::get_pixelAspectRatioDenominator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoClip_get_pixelAspectRatioDenominator_m35B1E4367C1DAF7CA687EF65754A82EE834B4D37 (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, const RuntimeMethod* method) 
+{
+	typedef uint32_t (*VideoClip_get_pixelAspectRatioDenominator_m35B1E4367C1DAF7CA687EF65754A82EE834B4D37_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*);
+	static VideoClip_get_pixelAspectRatioDenominator_m35B1E4367C1DAF7CA687EF65754A82EE834B4D37_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_get_pixelAspectRatioDenominator_m35B1E4367C1DAF7CA687EF65754A82EE834B4D37_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::get_pixelAspectRatioDenominator()");
+	uint32_t icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.Boolean UnityEngine.Video.VideoClip::get_sRGB()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoClip_get_sRGB_m35B67292E328C2F5AE005F8752BA327E90B487C6 (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, const RuntimeMethod* method) 
+{
+	typedef bool (*VideoClip_get_sRGB_m35B67292E328C2F5AE005F8752BA327E90B487C6_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*);
+	static VideoClip_get_sRGB_m35B67292E328C2F5AE005F8752BA327E90B487C6_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_get_sRGB_m35B67292E328C2F5AE005F8752BA327E90B487C6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::get_sRGB()");
+	bool icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.UInt16 UnityEngine.Video.VideoClip::get_audioTrackCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t VideoClip_get_audioTrackCount_m82FDC10DC7CD36046EF0B6098DE29B375F85A39B (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, const RuntimeMethod* method) 
+{
+	typedef uint16_t (*VideoClip_get_audioTrackCount_m82FDC10DC7CD36046EF0B6098DE29B375F85A39B_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*);
+	static VideoClip_get_audioTrackCount_m82FDC10DC7CD36046EF0B6098DE29B375F85A39B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_get_audioTrackCount_m82FDC10DC7CD36046EF0B6098DE29B375F85A39B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::get_audioTrackCount()");
+	uint16_t icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.UInt16 UnityEngine.Video.VideoClip::GetAudioChannelCount(System.UInt16)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t VideoClip_GetAudioChannelCount_mE4ABD3522FCE088861E40DBF483D90BC0C85532A (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, uint16_t ___0_audioTrackIdx, const RuntimeMethod* method) 
+{
+	typedef uint16_t (*VideoClip_GetAudioChannelCount_mE4ABD3522FCE088861E40DBF483D90BC0C85532A_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*, uint16_t);
+	static VideoClip_GetAudioChannelCount_mE4ABD3522FCE088861E40DBF483D90BC0C85532A_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_GetAudioChannelCount_mE4ABD3522FCE088861E40DBF483D90BC0C85532A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::GetAudioChannelCount(System.UInt16)");
+	uint16_t icallRetVal = _il2cpp_icall_func(__this, ___0_audioTrackIdx);
+	return icallRetVal;
+}
+// System.UInt32 UnityEngine.Video.VideoClip::GetAudioSampleRate(System.UInt16)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t VideoClip_GetAudioSampleRate_m164193FDC70486F033AB74EEC9C790C8B581A796 (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, uint16_t ___0_audioTrackIdx, const RuntimeMethod* method) 
+{
+	typedef uint32_t (*VideoClip_GetAudioSampleRate_m164193FDC70486F033AB74EEC9C790C8B581A796_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*, uint16_t);
+	static VideoClip_GetAudioSampleRate_m164193FDC70486F033AB74EEC9C790C8B581A796_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_GetAudioSampleRate_m164193FDC70486F033AB74EEC9C790C8B581A796_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::GetAudioSampleRate(System.UInt16)");
+	uint32_t icallRetVal = _il2cpp_icall_func(__this, ___0_audioTrackIdx);
+	return icallRetVal;
+}
+// System.String UnityEngine.Video.VideoClip::GetAudioLanguage(System.UInt16)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VideoClip_GetAudioLanguage_m76B57EDDFD5428A5595A5AAA102800B8888D40DD (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE* __this, uint16_t ___0_audioTrackIdx, const RuntimeMethod* method) 
+{
+	typedef String_t* (*VideoClip_GetAudioLanguage_m76B57EDDFD5428A5595A5AAA102800B8888D40DD_ftn) (VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE*, uint16_t);
+	static VideoClip_GetAudioLanguage_m76B57EDDFD5428A5595A5AAA102800B8888D40DD_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoClip_GetAudioLanguage_m76B57EDDFD5428A5595A5AAA102800B8888D40DD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoClip::GetAudioLanguage(System.UInt16)");
+	String_t* icallRetVal = _il2cpp_icall_func(__this, ___0_audioTrackIdx);
+	return icallRetVal;
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

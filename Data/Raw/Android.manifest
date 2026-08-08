@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 1686495911
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: prefab/ui/panel/combine.ab
+      Dependencies: {}

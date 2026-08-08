@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 734698486
+CRC: 459859608
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b77547a24a5f2ff6b497240be6b7b2eb
+    Hash: 2ad0bb504df7db88e36a294fa6714af0
   TypeTreeHash:
     serializedVersion: 2
     Hash: 03a7aabd25d76258249cfe08c1ad3a64
@@ -192,8 +192,6 @@ SerializeReferenceClassIdentifiers:
   ClassName: pure.assetdb.AssetPtr
 - AssemblyName: pure
   ClassName: pure.database.ColorPlatter
-- AssemblyName: pure
-  ClassName: pure.ui.SpriteInfo
 Assets:
 - Assets/Res/UI/Panel/Login_Sp/Server/LoginServerPanel_CreateRole.prefab
 - Assets/Res/UI/Panel/Login_Sp/Server/Space/RoleSelectSpace3D.prefab
@@ -224,4 +222,6 @@ Assets:
 - Assets/Res/UI/Panel/Login_Sp/Server/LoginAnim_SelectRole.anim
 - Assets/Res/UI/Panel/Login_Sp/Server/Space/LoginSpace3D.prefab
 Dependencies:
-- D:/Game/MU/Stream/Android/langui/login.ab
+- E:/Client_MU/MU/Stream/Android/langui/login.ab
+- E:/Client_MU/MU/Stream/Android/uisprite/login.ab
+- E:/Client_MU/MU/Stream/Android/uisprite/login_sp/bg.ab

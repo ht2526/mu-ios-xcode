@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3587654892
+CRC: 3074719962
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ab923dd8ccc9ccdeb5367e032ec38170
+    Hash: 2dfeda37a39bed57834e118ee263512c
   TypeTreeHash:
     serializedVersion: 2
     Hash: ca5f12cd45f6092a599d3b62cef5276c
@@ -148,4 +148,4 @@ Assets:
 - Assets/Res/UI/Panel/Bag_Sp/PortableShop_SP/Item_PortableShop_Extra.prefab
 - Assets/Res/UI/Panel/Bag_Sp/PortableShop_SP/Item_Common_Currency.prefab
 Dependencies:
-- D:/Game/MU/Stream/Android/prefab/ui/panel/bag_sp/subviewbag.ab
+- E:/Client_MU/MU/Stream/Android/prefab/ui/panel/bag_sp/subviewbag.ab
