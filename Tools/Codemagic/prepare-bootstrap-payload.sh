@@ -63,7 +63,10 @@ fi
 test -s "$staging_root/asm/hotfix/hotfix.bytes"
 test -s "$staging_root/lua/packed32.bytes"
 test -s "$staging_root/lua/packed64.bytes"
-test -s "$staging_root/bin/builtin.bytes"
+# The iOS export stores Unity runtime data under bin/Data. Android's
+# bin/builtin.bytes does not exist in an exported Xcode project.
+test -s "$staging_root/bin/Data/globalgamemanagers"
+test -s "$staging_root/bin/Data/Managed/Metadata/global-metadata.dat"
 test -s "$staging_root/prelogin.ab"
 test -s "$staging_root/prefab/role_p/hero/knight/set_0.ab"
 test -s "$staging_root/prefab/role_p/hero/wizard/set_0.ab"
