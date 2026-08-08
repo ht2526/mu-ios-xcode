@@ -94,6 +94,7 @@ workflows:
             ARCHS=arm64 \
             ONLY_ACTIVE_ARCH=NO \
             ENABLE_BITCODE=NO \
+            "GCC_PREPROCESSOR_DEFINITIONS=\$(inherited) FORCE_PINVOKE_INTERNAL=1" \
             "LIBRARY_SEARCH_PATHS=$CM_BUILD_DIR/NativeGenerated \$(inherited)" \
             "FRAMEWORK_SEARCH_PATHS=$CM_BUILD_DIR/NativeGenerated \$(inherited)" \
             "OTHER_LDFLAGS=\$(inherited) -force_load $CM_BUILD_DIR/NativeGenerated/libxlua.a -force_load $CM_BUILD_DIR/NativeGenerated/libmu_xlua_extensions.a -force_load $CM_BUILD_DIR/NativeGenerated/liblegacy_native_bridge.a" \
