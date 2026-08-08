@@ -52,6 +52,10 @@
     <true />
     <key>UIRequiresPersistentWiFi</key>
     <false />
+    <key>UIFileSharingEnabled</key>
+    <true />
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true />
     <key>UIStatusBarHidden</key>
     <true />
     <key>UIStatusBarStyle</key>
