@@ -70,6 +70,11 @@ workflows:
             -showBuildSettings \
             > "$CM_BUILD_DIR/xcode-build-settings.txt"
 
+      - name: Verify HybridCLR native runtime
+        script: |
+          set -euo pipefail
+          bash "$CM_BUILD_DIR/Tools/Codemagic/verify-hybridclr-xcode.sh"
+
       - name: Prepare 77 MB bootstrap payload
         script: |
           set -euo pipefail
@@ -100,6 +105,12 @@ workflows:
             "OTHER_LDFLAGS=\$(inherited) -force_load $CM_BUILD_DIR/NativeGenerated/libxlua.a -force_load $CM_BUILD_DIR/NativeGenerated/libmu_xlua_extensions.a -force_load $CM_BUILD_DIR/NativeGenerated/liblegacy_native_bridge.a" \
             2>&1 | tee "$CM_BUILD_DIR/build/xcodebuild.log"
 
+      - name: Verify archived HybridCLR runtime
+        script: |
+          set -euo pipefail
+          bash "$CM_BUILD_DIR/Tools/Codemagic/verify-hybridclr-xcode.sh" \
+            "$CM_BUILD_DIR/build/MU.xcarchive"
+
       - name: Package unsigned IPA for Sideloadly
         script: |
           set -euo pipefail
@@ -121,6 +132,7 @@ workflows:
       - Build/iOS/ios-native-xlua-build.log
       - Build/iOS/ios-native-xlua-summary.txt
       - Build/iOS/ios-native-legacy-bridge.log
+      - Build/iOS/hybridclr-verification.txt
       - Build/bootstrap-payload-report.txt
       - NativeGenerated/legacy-native-symbols.txt
       - xcode-build-settings.txt

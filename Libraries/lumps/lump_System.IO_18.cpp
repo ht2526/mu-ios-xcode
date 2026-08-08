@@ -1,0 +1,5 @@
+#include "Libraries/libil2cpp/il2cpp-config.h"
+#include "Libraries/libil2cpp/icalls/mscorlib/System.IO/BrokeredFileSystem.cpp"
+#include "Libraries/libil2cpp/icalls/mscorlib/System.IO/DriveInfo.cpp"
+#include "Libraries/libil2cpp/icalls/mscorlib/System.IO/MonoIO.cpp"
+#include "Libraries/libil2cpp/icalls/mscorlib/System.IO/Path.cpp"

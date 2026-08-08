@@ -1,0 +1,7 @@
+#include "Libraries/libil2cpp/il2cpp-config.h"
+#include "Libraries/libil2cpp/char-conversions.cpp"
+#include "Libraries/libil2cpp/il2cpp-api.cpp"
+#include "Libraries/libil2cpp/il2cpp-benchmark-support.cpp"
+#include "Libraries/libil2cpp/il2cpp-mono-api.cpp"
+#include "Libraries/libil2cpp/il2cpp-runtime-stats.cpp"
+#include "Libraries/libil2cpp/UnityAdsStubs.cpp"
