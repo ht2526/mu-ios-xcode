@@ -1,7 +1,9 @@
 # MU iOS Xcode export
 
-Fresh Unity iOS export generated from the current MU client with Unity
-2021.3.26f1 on 2026-07-31.
+Fresh project-only iOS export generated from the current MU client with Unity
+2021.3.26f1 on 2026-08-12. `Data/Raw` contains only the minimal iOS bootstrap;
+gameplay resources update independently from `/res/ios/res` (v15 active, v16
+reserved).
 
 The `ios-unsigned-sideloadly` Codemagic workflow builds an ARM64 device archive
 without Apple signing and packages the resulting `.app` as an unsigned `.ipa`.

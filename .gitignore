@@ -1,1 +1,4 @@
 Tools/Codemagic/__pycache__/
+Build/
+NativeGenerated/
+build/

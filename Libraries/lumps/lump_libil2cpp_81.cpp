@@ -1,4 +1,4 @@
-#include "Libraries/libil2cpp/il2cpp-config.h"
+﻿#include "Libraries/libil2cpp/il2cpp-config.h"
 #include "Libraries/libil2cpp/char-conversions.cpp"
 #include "Libraries/libil2cpp/il2cpp-api.cpp"
 #include "Libraries/libil2cpp/il2cpp-benchmark-support.cpp"

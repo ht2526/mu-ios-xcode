@@ -11,6 +11,7 @@ from pathlib import Path
 
 
 IOS_WRAPPER = 'il2cpp_codegen_string_new_wrapper("iOS")'
+IOS_LITERAL = "_stringLiteralEDFB7950D8BA48969BB1CCF3BA5823E86CE096D1"
 ANDROID_LITERAL = "_stringLiteral77843243D4312B40A1163EFE55D56961E2352D09"
 
 
@@ -181,6 +182,16 @@ def require(condition: bool, message: str) -> None:
         raise RuntimeError(message)
 
 
+def find_method(native_root: Path, method_name: str) -> str:
+    for path in sorted(native_root.glob("pure__*.cpp")):
+        source = path.read_text(encoding="utf-8", errors="strict")
+        try:
+            return extract_method(source, method_name)
+        except ValueError:
+            continue
+    raise ValueError(f"Method definition not found in pure IL2CPP sources: {method_name}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--project-root", type=Path, required=True)
@@ -188,25 +199,27 @@ def main() -> int:
 
     project_root = args.project_root.resolve()
     raw_root = project_root / "Data" / "Raw"
-    pure5 = (project_root / "Classes" / "Native" / "pure__5.cpp").read_text(
-        encoding="utf-8", errors="strict"
-    )
-    pure6 = (project_root / "Classes" / "Native" / "pure__6.cpp").read_text(
-        encoding="utf-8", errors="strict"
-    )
+    data_root = project_root / "Data"
+    native_root = project_root / "Classes" / "Native"
 
-    object_name = extract_method(
-        pure5, "RemoteAssetSite_ObjectName_mE231FE3623863E3B056E85B06FCDB8267C753438"
+    object_name = find_method(
+        native_root,
+        "RemoteAssetSite_ObjectName_mE231FE3623863E3B056E85B06FCDB8267C753438",
     )
-    parse_config = extract_method(
-        pure5, "RemoteAssetSite_ParseConfigInfo_m6B6A3181B538718E06E517161CFB5240528B2887"
+    parse_config = find_method(
+        native_root,
+        "RemoteAssetSite_ParseConfigInfo_m6B6A3181B538718E06E517161CFB5240528B2887",
     )
-    native_factory = extract_method(
-        pure6, "NativeFactory_GetInterface_m4247CE2E2B7FCEE9FFE74CC466502B6DBEC4109E"
+    native_factory = find_method(
+        native_root,
+        "NativeFactory_GetInterface_m4247CE2E2B7FCEE9FFE74CC466502B6DBEC4109E",
     )
 
     for label, body in (("ObjectName", object_name), ("ParseConfigInfo", parse_config)):
-        require(IOS_WRAPPER in body, f"{label} does not select iOS")
+        require(
+            IOS_WRAPPER in body or IOS_LITERAL in body,
+            f"{label} does not select iOS",
+        )
         require(ANDROID_LITERAL not in body, f"{label} still selects Android")
         require("String_ToLower" in body, f"{label} does not normalize the route")
     require("RemoteAssetSite_set_PlatformRoot" in parse_config, "PlatformRoot is not set")
@@ -220,8 +233,10 @@ def main() -> int:
         "version.ver",
         "platform_build.info",
         "asm/hotfix/hotfix.bytes",
-        "bin/Data/globalgamemanagers",
-        "bin/Data/Managed/Metadata/global-metadata.dat",
+        "1_0_15/version.ver",
+        "1_0_15/bundle.ver",
+        "1_0_16/version.ver",
+        "1_0_16/bundle.ver",
         "lua/packed32.bytes",
         "lua/packed64.bytes",
         "prelogin.ab",
@@ -233,6 +248,20 @@ def main() -> int:
     for relative in required:
         path = raw_root / relative
         require(path.is_file() and path.stat().st_size > 0, f"Missing bootstrap file: {relative}")
+
+    for relative in (
+        "globalgamemanagers",
+        "Managed/Metadata/global-metadata.dat",
+        "ScriptingAssemblies.json",
+    ):
+        path = data_root / relative
+        require(path.is_file() and path.stat().st_size > 0, f"Missing Unity runtime file: Data/{relative}")
+
+    require(not (raw_root / "bin").exists(), "Stale nested Unity runtime exists in Data/Raw/bin")
+    require(
+        not any(raw_root.rglob("lib.bytes")) and not any(raw_root.rglob("builtin.bytes")),
+        "Protected Android runtime bytes leaked into iOS bootstrap",
+    )
 
     require(not (raw_root / "Android").exists(), "Android root bundle is present in iOS IPA")
     require(
@@ -314,6 +343,8 @@ def main() -> int:
                 f"ActiveVersion={active_version}",
                 "ReservedVersion=16",
                 f"BootstrapBytes={total_bytes}",
+                "RuntimeRoot=Data",
+                "NestedRawRuntime=False",
                 f"UnityFSBundles={len(bundles)}",
                 "UnityFSBuildTarget=9",
                 f"ShaderCatalogVersion={shader_row['version']}",

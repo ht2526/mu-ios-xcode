@@ -1,6 +1,0 @@
-#include "Libraries/libil2cpp/il2cpp-config.h"
-#include "Libraries/libil2cpp/icalls/mscorlib/Mono/Runtime.cpp"
-#include "Libraries/libil2cpp/icalls/mscorlib/Mono/RuntimeClassHandle.cpp"
-#include "Libraries/libil2cpp/icalls/mscorlib/Mono/RuntimeGPtrArrayHandle.cpp"
-#include "Libraries/libil2cpp/icalls/mscorlib/Mono/RuntimeMarshal.cpp"
-#include "Libraries/libil2cpp/icalls/mscorlib/Mono/SafeStringMarshal.cpp"

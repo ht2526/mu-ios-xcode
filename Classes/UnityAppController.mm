@@ -115,23 +115,16 @@ NSInteger _forceInterfaceOrientationMask = 0;
 {
     NSAssert(_unityAppReady == NO, @"[UnityAppController startUnity:] called after Unity has been initialized");
 
-    fprintf(stderr, "[MUBoot] UnityInitApplicationGraphics begin\n");
     UnityInitApplicationGraphics();
-    fprintf(stderr, "[MUBoot] UnityInitApplicationGraphics done\n");
 
     // we make sure that first level gets correct display list and orientation
     [[DisplayManager Instance] updateDisplayListCacheInUnity];
 
-    fprintf(stderr, "[MUBoot] UnityLoadApplication begin\n");
     UnityLoadApplication();
-    fprintf(stderr, "[MUBoot] UnityLoadApplication done\n");
     Profiler_InitProfiler();
 
-    fprintf(stderr, "[MUBoot] showGameUI begin\n");
     [self showGameUI];
-    fprintf(stderr, "[MUBoot] showGameUI done\n");
     [self createDisplayLink];
-    fprintf(stderr, "[MUBoot] display-link-created\n");
 
     UnitySetPlayerFocus(1);
 

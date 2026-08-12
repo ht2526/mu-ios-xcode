@@ -1,4 +1,4 @@
-#include "Libraries/libil2cpp/il2cpp-config.h"
+﻿#include "Libraries/libil2cpp/il2cpp-config.h"
 #include "Libraries/libil2cpp/hybridclr/CommonDef.cpp"
 #include "Libraries/libil2cpp/hybridclr/Config.cpp"
 #include "Libraries/libil2cpp/hybridclr/Il2CppCompatibleDef.cpp"

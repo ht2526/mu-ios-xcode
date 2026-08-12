@@ -120,6 +120,34 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "MTE_script.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MTE.LayerUVMoveHolder",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "MTE_script.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MTE.LayerUVScalesHolder",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "MTE_script.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MTE.TextureArrayMaterial",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "MTE_script.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MTE.TextureArrayRenderer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "NamedObject",
             "fullManagedTypeName": "",
@@ -156,6 +184,13 @@
             "nativeClass": "RuntimeInitializeOnLoadManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "sceneBuildAnimController",
+            "moduleName": "",
             "usedInScenes": []
         },
         {

@@ -1,2 +1,2 @@
-# APK cache seed disabled.
-# Leave this manifest empty so Android builds download update data from ResourceURL.
+# iOS bootstrap only.
+# Gameplay resources are downloaded from /res/ios/res.

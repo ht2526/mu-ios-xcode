@@ -7869,2260 +7869,2240 @@ extern void NativeHandler_FormResponse_OnReply_mF7C32B31B4587A231CA8784B64849F9D
 extern void NativeHandler_FormResponse_Remove_m94BBE24BC78FAE34E83E882966BBE70FC869C29A (void);
 // 0x00001065 System.Void pure.native.NativeHandler_FormResponse::.ctor()
 extern void NativeHandler_FormResponse__ctor_m763BC65D51327FDC68C02DDD0B84181C754BB309 (void);
-// 0x00001066 UnityEngine.AndroidJavaClass pure.native.NativeImpl_Android::get_mainThreadBridge()
-extern void NativeImpl_Android_get_mainThreadBridge_mC466E6D176DED1773F9D62322DF45037B9716CAA (void);
-// 0x00001067 System.String pure.native.NativeImpl_Android::get_bridgeName()
-extern void NativeImpl_Android_get_bridgeName_mF96B2C10A33901626F44E1E366928A22B6FBE83E (void);
-// 0x00001068 System.Void pure.native.NativeImpl_Android::pure.native.INativeInterface.CallMethod(pure.utils.json.JsonNode)
-extern void NativeImpl_Android_pure_native_INativeInterface_CallMethod_mBF9626266F87166656E4BD0FC24A6A8AF3BD2F4C (void);
-// 0x00001069 System.Void pure.native.NativeImpl_Android::pure.native.INativeInterface.Log(System.String,UnityEngine.Object,UnityEngine.LogType)
-extern void NativeImpl_Android_pure_native_INativeInterface_Log_m466BD7E8B9280B476B1E2D702A4579BD59890D92 (void);
-// 0x0000106A System.Object pure.native.NativeImpl_Android::pure.native.INativeInterface.InvokeMethod(pure.utils.json.JsonNode)
-extern void NativeImpl_Android_pure_native_INativeInterface_InvokeMethod_mE25FAC61AC8F182E56327953277218F6265ADE5D (void);
-// 0x0000106B System.Int32 pure.native.NativeImpl_Android::pure.native.INativeInterface.GetNetStatus()
-extern void NativeImpl_Android_pure_native_INativeInterface_GetNetStatus_mD1FBEB898DE39042DDCD646218AF6DD93B70493A (void);
-// 0x0000106C System.Boolean pure.native.NativeImpl_Android::pure.native.INativeInterface.IsValidate()
-extern void NativeImpl_Android_pure_native_INativeInterface_IsValidate_m23B9B300F4E49FE161C76DF8F058C6E48108D1B7 (void);
-// 0x0000106D System.Void pure.native.NativeImpl_Android::.ctor()
-extern void NativeImpl_Android__ctor_mA704D46DDF7757492BD580732D4F050869D21108 (void);
-// 0x0000106E System.Void pure.native.NativeImpl_Android/AndroidThread::.ctor(System.Boolean)
-extern void AndroidThread__ctor_mCB0562BF3117E1EAA9F0E90C8A0886B06EC1147E (void);
-// 0x0000106F System.Void pure.native.NativeImpl_Android/AndroidThread::Dispose()
-extern void AndroidThread_Dispose_mE1CF193C4F0A5C0EC3CC8747B3F9576DA5E574D0 (void);
-// 0x00001070 System.Void pure.native.NativeImpl_Editor::pure.native.INativeInterface.CallMethod(pure.utils.json.JsonNode)
+// 0x00001066 System.Void pure.native.NativeImpl_Editor::pure.native.INativeInterface.CallMethod(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_pure_native_INativeInterface_CallMethod_m384F56A2DAF96F80B254CA1BB5A01F61056C9DE3 (void);
-// 0x00001071 System.Collections.IEnumerator pure.native.NativeImpl_Editor::test_multi_form(pure.utils.json.JsonNode)
+// 0x00001067 System.Collections.IEnumerator pure.native.NativeImpl_Editor::test_multi_form(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_test_multi_form_mBEF1D33471F4AF34398463DD14FEF92E2265617F (void);
-// 0x00001072 System.Void pure.native.NativeImpl_Editor::pure.native.INativeInterface.Log(System.String,UnityEngine.Object,UnityEngine.LogType)
+// 0x00001068 System.Void pure.native.NativeImpl_Editor::pure.native.INativeInterface.Log(System.String,UnityEngine.Object,UnityEngine.LogType)
 extern void NativeImpl_Editor_pure_native_INativeInterface_Log_mAAE5F63E9C43149789B81694FA46C14A3CD75C5D (void);
-// 0x00001073 System.Object pure.native.NativeImpl_Editor::pure.native.INativeInterface.InvokeMethod(pure.utils.json.JsonNode)
+// 0x00001069 System.Object pure.native.NativeImpl_Editor::pure.native.INativeInterface.InvokeMethod(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_pure_native_INativeInterface_InvokeMethod_m58CF9539A310BFED397AFAFFA3A0B9328286830D (void);
-// 0x00001074 System.Int32 pure.native.NativeImpl_Editor::pure.native.INativeInterface.GetNetStatus()
+// 0x0000106A System.Int32 pure.native.NativeImpl_Editor::pure.native.INativeInterface.GetNetStatus()
 extern void NativeImpl_Editor_pure_native_INativeInterface_GetNetStatus_mCA770A7C67BC7AE794DEB660EC6D9060301611C3 (void);
-// 0x00001075 System.Void pure.native.NativeImpl_Editor::print_native_method(pure.utils.json.JsonNode)
+// 0x0000106B System.Void pure.native.NativeImpl_Editor::print_native_method(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_print_native_method_m1C3899FAF817475473CA428314563A4F1F4F4434 (void);
-// 0x00001076 System.Void pure.native.NativeImpl_Editor::simulate_start(pure.utils.json.JsonNode)
+// 0x0000106C System.Void pure.native.NativeImpl_Editor::simulate_start(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_simulate_start_m0652C4898DA190B3309B036EFDE5F3F7D0F2F49D (void);
-// 0x00001077 System.Void pure.native.NativeImpl_Editor::simulate_logout(pure.utils.json.JsonNode)
+// 0x0000106D System.Void pure.native.NativeImpl_Editor::simulate_logout(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_simulate_logout_mC459493A7B57785A30C0E06C5A2E50843CD12C8F (void);
-// 0x00001078 System.Void pure.native.NativeImpl_Editor::simulate_login(pure.utils.json.JsonNode)
+// 0x0000106E System.Void pure.native.NativeImpl_Editor::simulate_login(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_simulate_login_m82E8BCF2519F10A26617771897260166F0D60AF2 (void);
-// 0x00001079 System.Void pure.native.NativeImpl_Editor::simulate_charge(pure.utils.json.JsonNode)
+// 0x0000106F System.Void pure.native.NativeImpl_Editor::simulate_charge(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_simulate_charge_m01B55E91072615C5043848F5BA79ABCB899128E8 (void);
-// 0x0000107A System.Void pure.native.NativeImpl_Editor::simulate_dialog(pure.utils.json.JsonNode)
+// 0x00001070 System.Void pure.native.NativeImpl_Editor::simulate_dialog(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_simulate_dialog_m073225E89D6F6FCBCD72044643EEC81590F5B00C (void);
-// 0x0000107B System.Void pure.native.NativeImpl_Editor::simulate_permission(pure.utils.json.JsonNode)
+// 0x00001071 System.Void pure.native.NativeImpl_Editor::simulate_permission(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_simulate_permission_m6CE28AD254E39ED80D5E7F7DCDF1B9FC424C65A5 (void);
-// 0x0000107C System.Void pure.native.NativeImpl_Editor::simulate_callback(pure.utils.json.JsonNode)
+// 0x00001072 System.Void pure.native.NativeImpl_Editor::simulate_callback(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_simulate_callback_m047A337C8C306F68B0E1C2B55311D7D1E703351D (void);
-// 0x0000107D System.Void pure.native.NativeImpl_Editor::simulate_login_types(pure.utils.json.JsonNode)
+// 0x00001073 System.Void pure.native.NativeImpl_Editor::simulate_login_types(pure.utils.json.JsonNode)
 extern void NativeImpl_Editor_simulate_login_types_m22419D252C2E293503E591F72B28DA949DEA135A (void);
-// 0x0000107E System.Boolean pure.native.NativeImpl_Editor::pure.native.INativeInterface.IsValidate()
+// 0x00001074 System.Boolean pure.native.NativeImpl_Editor::pure.native.INativeInterface.IsValidate()
 extern void NativeImpl_Editor_pure_native_INativeInterface_IsValidate_m1B18ADAAA655F12BCD35EC8E9947356D861822E9 (void);
-// 0x0000107F System.Void pure.native.NativeImpl_Editor::.ctor()
+// 0x00001075 System.Void pure.native.NativeImpl_Editor::.ctor()
 extern void NativeImpl_Editor__ctor_m0A338F2F117645F99B3326CB65E9D4F4456EE093 (void);
-// 0x00001080 System.Void pure.native.NativeImpl_Editor/<test_multi_form>d__1::.ctor(System.Int32)
+// 0x00001076 System.Void pure.native.NativeImpl_Editor/<test_multi_form>d__1::.ctor(System.Int32)
 extern void U3Ctest_multi_formU3Ed__1__ctor_m750FCF7FEDA392205933814D8B19A8EAD137CFAB (void);
-// 0x00001081 System.Void pure.native.NativeImpl_Editor/<test_multi_form>d__1::System.IDisposable.Dispose()
+// 0x00001077 System.Void pure.native.NativeImpl_Editor/<test_multi_form>d__1::System.IDisposable.Dispose()
 extern void U3Ctest_multi_formU3Ed__1_System_IDisposable_Dispose_m215D44DDC7A7989AC167AF72ED0264888A3250C3 (void);
-// 0x00001082 System.Boolean pure.native.NativeImpl_Editor/<test_multi_form>d__1::MoveNext()
+// 0x00001078 System.Boolean pure.native.NativeImpl_Editor/<test_multi_form>d__1::MoveNext()
 extern void U3Ctest_multi_formU3Ed__1_MoveNext_m79979D55202867B7ED451CFA98B5E647EB594D16 (void);
-// 0x00001083 System.Object pure.native.NativeImpl_Editor/<test_multi_form>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001079 System.Object pure.native.NativeImpl_Editor/<test_multi_form>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3Ctest_multi_formU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAB49C65BDB12FECF5D965D9D8AD1E5F99AD23F07 (void);
-// 0x00001084 System.Void pure.native.NativeImpl_Editor/<test_multi_form>d__1::System.Collections.IEnumerator.Reset()
+// 0x0000107A System.Void pure.native.NativeImpl_Editor/<test_multi_form>d__1::System.Collections.IEnumerator.Reset()
 extern void U3Ctest_multi_formU3Ed__1_System_Collections_IEnumerator_Reset_m31A4977B0FD5001168B6A2D16676F197C06BA5CA (void);
-// 0x00001085 System.Object pure.native.NativeImpl_Editor/<test_multi_form>d__1::System.Collections.IEnumerator.get_Current()
+// 0x0000107B System.Object pure.native.NativeImpl_Editor/<test_multi_form>d__1::System.Collections.IEnumerator.get_Current()
 extern void U3Ctest_multi_formU3Ed__1_System_Collections_IEnumerator_get_Current_mB5C1F40C4570921CB4CFB76CA9D2A7C30801A44C (void);
-// 0x00001086 System.Void pure.native.NativeManager::Start()
+// 0x0000107C System.Void pure.native.NativeManager::Start()
 extern void NativeManager_Start_m976A8BF1C4D70A06F50ED805037E9A21A71F77FF (void);
-// 0x00001087 System.Void pure.native.NativeManager::CloseNetwork()
+// 0x0000107D System.Void pure.native.NativeManager::CloseNetwork()
 extern void NativeManager_CloseNetwork_m6576389EF40E0060EF535EFE7BEE50A5A51DDB86 (void);
-// 0x00001088 System.Void pure.native.NativeManager::OpenNetwork()
+// 0x0000107E System.Void pure.native.NativeManager::OpenNetwork()
 extern void NativeManager_OpenNetwork_m2040AE39CD422611E2854699EDE97E8F6075CF8F (void);
-// 0x00001089 System.Int32 pure.native.NativeManager::GetNetStatus()
+// 0x0000107F System.Int32 pure.native.NativeManager::GetNetStatus()
 extern void NativeManager_GetNetStatus_m090BEB246CD328ACA7783C46266E73524482A004 (void);
-// 0x0000108A System.Boolean pure.native.NativeManager::get_network()
+// 0x00001080 System.Boolean pure.native.NativeManager::get_network()
 extern void NativeManager_get_network_m586E1AD55897FD3F97E9EA91B4DDB22DF82F3D7C (void);
-// 0x0000108B System.Boolean pure.native.NativeManager::get_wifi()
+// 0x00001081 System.Boolean pure.native.NativeManager::get_wifi()
 extern void NativeManager_get_wifi_mD6B4AA2239F5C09424191350025893F7AAAC3205 (void);
-// 0x0000108C System.String pure.native.NativeManager::get_channel()
+// 0x00001082 System.String pure.native.NativeManager::get_channel()
 extern void NativeManager_get_channel_m3ADEB2A21E748E023F0911294975F41607CE3FA7 (void);
-// 0x0000108D System.String pure.native.NativeManager::get_buildType()
+// 0x00001083 System.String pure.native.NativeManager::get_buildType()
 extern void NativeManager_get_buildType_m596874B08D8F535B8B31B98836234434AF67BD35 (void);
-// 0x0000108E System.Int32 pure.native.NativeManager::get_appVersion()
+// 0x00001084 System.Int32 pure.native.NativeManager::get_appVersion()
 extern void NativeManager_get_appVersion_m5A5F4C655FFDD0CD3464560D90B9CF69A91221DF (void);
-// 0x0000108F System.String pure.native.NativeManager::get_appInstallDir()
+// 0x00001085 System.String pure.native.NativeManager::get_appInstallDir()
 extern void NativeManager_get_appInstallDir_m9C9E078F6D21A6D3628207B5930FE1C481156322 (void);
-// 0x00001090 pure.native.AppDownloadPolicy pure.native.NativeManager::get_downLoadPolicy()
+// 0x00001086 pure.native.AppDownloadPolicy pure.native.NativeManager::get_downLoadPolicy()
 extern void NativeManager_get_downLoadPolicy_m9B5C41E2FE9A02678EC3E24E0D2AF728AE549017 (void);
-// 0x00001091 System.Void pure.native.NativeManager::Log(System.String,UnityEngine.Object,UnityEngine.LogType)
+// 0x00001087 System.Void pure.native.NativeManager::Log(System.String,UnityEngine.Object,UnityEngine.LogType)
 extern void NativeManager_Log_m3C8547BA3FF51B4CDD7FCDDC4BA880C9E484189F (void);
-// 0x00001092 System.Void pure.native.NativeManager::Send(pure.native.NativeForm)
+// 0x00001088 System.Void pure.native.NativeManager::Send(pure.native.NativeForm)
 extern void NativeManager_Send_m3805D00A9EAA0BADFAF81E4359868F33F4FE255B (void);
-// 0x00001093 System.Void pure.native.NativeManager::Send(XLua.LuaTable)
+// 0x00001089 System.Void pure.native.NativeManager::Send(XLua.LuaTable)
 extern void NativeManager_Send_m993D178C52334C836E3D2258BC1AE2BC0F6E7B20 (void);
-// 0x00001094 System.Void pure.native.NativeManager::Send(XLua.LuaTable,XLua.LuaFunction)
+// 0x0000108A System.Void pure.native.NativeManager::Send(XLua.LuaTable,XLua.LuaFunction)
 extern void NativeManager_Send_m1F243499B4F8A5CD7A320F946E35CC9B622D4287 (void);
-// 0x00001095 System.Void pure.native.NativeManager::DeleteForm(XLua.LuaTable)
+// 0x0000108B System.Void pure.native.NativeManager::DeleteForm(XLua.LuaTable)
 extern void NativeManager_DeleteForm_mFDC3388D4F4C03CFCEA5F4B4F9C57F0C85452CE8 (void);
-// 0x00001096 System.Void pure.native.NativeManager::OnReply(pure.utils.json.JsonNode)
+// 0x0000108C System.Void pure.native.NativeManager::OnReply(pure.utils.json.JsonNode)
 extern void NativeManager_OnReply_m1EF2566335880DB297C3AA99C0F7984D89D7A4A1 (void);
-// 0x00001097 System.Void pure.native.NativeManager::SetAppProperty(System.String,pure.utils.json.JsonNode)
+// 0x0000108D System.Void pure.native.NativeManager::SetAppProperty(System.String,pure.utils.json.JsonNode)
 extern void NativeManager_SetAppProperty_m9A0CE109DAF047A08D913C7A37FF646D9A050292 (void);
-// 0x00001098 System.Void pure.native.NativeManager::AddHandler(System.String,XLua.LuaFunction)
+// 0x0000108E System.Void pure.native.NativeManager::AddHandler(System.String,XLua.LuaFunction)
 extern void NativeManager_AddHandler_mEAB33EEFABD346AD18AF797E329222F4F626932B (void);
-// 0x00001099 System.Void pure.native.NativeManager::AddHandler(System.String,System.Action`1<pure.utils.json.JsonNode>)
+// 0x0000108F System.Void pure.native.NativeManager::AddHandler(System.String,System.Action`1<pure.utils.json.JsonNode>)
 extern void NativeManager_AddHandler_mB2BA1F44CC432268C92F0B114173B5E18D5FA404 (void);
-// 0x0000109A System.Void pure.native.NativeManager::ClearHandler()
+// 0x00001090 System.Void pure.native.NativeManager::ClearHandler()
 extern void NativeManager_ClearHandler_mDE94AECF0FF246946F586FD28AE05ACB290FAC9A (void);
-// 0x0000109B System.Void pure.native.NativeManager::Reboot()
+// 0x00001091 System.Void pure.native.NativeManager::Reboot()
 extern void NativeManager_Reboot_mCC2260CEDC98764B8BC3A2863DF521D72DF37B11 (void);
-// 0x0000109C System.Void pure.native.NativeManager::CallOrSimulate(pure.utils.json.JsonNode)
+// 0x00001092 System.Void pure.native.NativeManager::CallOrSimulate(pure.utils.json.JsonNode)
 extern void NativeManager_CallOrSimulate_m53B8465802EF715A40E5FA561229F8BAC081CFD0 (void);
-// 0x0000109D System.Void pure.native.NativeManager::Call(pure.utils.json.JsonNode)
+// 0x00001093 System.Void pure.native.NativeManager::Call(pure.utils.json.JsonNode)
 extern void NativeManager_Call_m1D3A9A344D9122BA7895D82ED82FC9558FC4F34A (void);
-// 0x0000109E System.Void pure.native.NativeManager::Alert(System.String)
+// 0x00001094 System.Void pure.native.NativeManager::Alert(System.String)
 extern void NativeManager_Alert_m7204D24C5C8B14EB71FD2147A2485B17A8171502 (void);
-// 0x0000109F System.Void pure.native.NativeManager::Alert(System.String,System.String)
+// 0x00001095 System.Void pure.native.NativeManager::Alert(System.String,System.String)
 extern void NativeManager_Alert_m81A11C03C6F28227BBB2EE4C8EC9C3921A1ED555 (void);
-// 0x000010A0 System.Void pure.native.NativeManager::Toast(System.String)
+// 0x00001096 System.Void pure.native.NativeManager::Toast(System.String)
 extern void NativeManager_Toast_m75B3AD439F4CF3457B277171236A84E2E66219C3 (void);
-// 0x000010A1 System.Void pure.native.NativeManager::.cctor()
+// 0x00001097 System.Void pure.native.NativeManager::.cctor()
 extern void NativeManager__cctor_mEA72D4A659FEA3B8C6308F880BBCB5CC6633E462 (void);
-// 0x000010A2 System.Boolean pure.lang.ILangElement::get_multiLang()
-// 0x000010A3 System.Void pure.lang.ILangElement::set_multiLang(System.Boolean)
-// 0x000010A4 System.String pure.lang.ILangElement::get_langContent()
-// 0x000010A5 System.String pure.lang.ILangElement::get_langKey()
-// 0x000010A6 System.Void pure.lang.ILangElement::set_langKey(System.String)
-// 0x000010A7 System.Void pure.lang.ILangElement::Restore(System.String)
-// 0x000010A8 System.String pure.lang.XLang::get_currentLang()
+// 0x00001098 System.Boolean pure.lang.ILangElement::get_multiLang()
+// 0x00001099 System.Void pure.lang.ILangElement::set_multiLang(System.Boolean)
+// 0x0000109A System.String pure.lang.ILangElement::get_langContent()
+// 0x0000109B System.String pure.lang.ILangElement::get_langKey()
+// 0x0000109C System.Void pure.lang.ILangElement::set_langKey(System.String)
+// 0x0000109D System.Void pure.lang.ILangElement::Restore(System.String)
+// 0x0000109E System.String pure.lang.XLang::get_currentLang()
 extern void XLang_get_currentLang_m5341C14C208B45D5B82D55C0795D37B9324D5646 (void);
-// 0x000010A9 System.Void pure.lang.XLang::set_currentLang(System.String)
+// 0x0000109F System.Void pure.lang.XLang::set_currentLang(System.String)
 extern void XLang_set_currentLang_mCD3BD618CC6A51EC449DED2EE3FC385767C82928 (void);
-// 0x000010AA System.String pure.lang.XLang::get_root()
+// 0x000010A0 System.String pure.lang.XLang::get_root()
 extern void XLang_get_root_mA7DD24F4EA927799CA631B4133797DBBF984B79E (void);
-// 0x000010AB System.Void pure.lang.XLang::Init()
+// 0x000010A1 System.Void pure.lang.XLang::Init()
 extern void XLang_Init_mAC33F30332EED0AB46F04389864B69CB0879AD4F (void);
-// 0x000010AC System.Void pure.lang.XLang::Parse(System.String,System.Byte[])
+// 0x000010A2 System.Void pure.lang.XLang::Parse(System.String,System.Byte[])
 extern void XLang_Parse_m3CA28C05B9841E7404C2B2DA87F071FCDD9E758E (void);
-// 0x000010AD System.Void pure.lang.XLang::RestoreUI(UnityEngine.Transform)
+// 0x000010A3 System.Void pure.lang.XLang::RestoreUI(UnityEngine.Transform)
 extern void XLang_RestoreUI_m24A81EF16092C69668FBDFABD2D719C828DB8EF9 (void);
-// 0x000010AE System.String pure.lang.XLang::GetUIFile(System.String)
+// 0x000010A4 System.String pure.lang.XLang::GetUIFile(System.String)
 extern void XLang_GetUIFile_m90E666F1214BC3AA85538EF4DF6A760B3DF13C8E (void);
-// 0x000010AF System.String pure.lang.XLang::GetSenstivieFile(System.String)
+// 0x000010A5 System.String pure.lang.XLang::GetSenstivieFile(System.String)
 extern void XLang_GetSenstivieFile_mB7B09F844B74EB73B83BE4AA5DCF3143FE62F222 (void);
-// 0x000010B0 System.Boolean pure.lang.XLang::TryFind(System.String,System.String&)
+// 0x000010A6 System.Boolean pure.lang.XLang::TryFind(System.String,System.String&)
 extern void XLang_TryFind_m9A1588C3861DEABD5EB45B864A1B1AA2086F9687 (void);
-// 0x000010B1 System.String pure.lang.XLang::GetLangSetting()
+// 0x000010A7 System.String pure.lang.XLang::GetLangSetting()
 extern void XLang_GetLangSetting_mC0E4A25138246BB03B693B1AE44494A2B2B70677 (void);
-// 0x000010B2 System.Boolean pure.lang.XLang::FindSprite(System.String,System.String&)
+// 0x000010A8 System.Boolean pure.lang.XLang::FindSprite(System.String,System.String&)
 extern void XLang_FindSprite_m6B7DA9375202131812DC5510A79E542688623CD9 (void);
-// 0x000010B3 System.Boolean pure.lang.XLang::FindAudio(System.String,System.String&)
+// 0x000010A9 System.Boolean pure.lang.XLang::FindAudio(System.String,System.String&)
 extern void XLang_FindAudio_m793E432A80870C445BCA7914674A2E1CDD6C7A77 (void);
-// 0x000010B4 System.Boolean pure.lang.XLang::FindOversize(System.String,System.String&)
+// 0x000010AA System.Boolean pure.lang.XLang::FindOversize(System.String,System.String&)
 extern void XLang_FindOversize_m9EFDA24240699210A9B2B72F133DD405E2119F17 (void);
-// 0x000010B5 System.Boolean pure.lang.XLang::find_asset(System.String,System.String&)
-// 0x000010B6 System.Boolean pure.lang.XLang::find_assetdb(System.String,System.String&)
-// 0x000010B7 System.Void pure.lang.XLang::ensure_enviorment()
+// 0x000010AB System.Boolean pure.lang.XLang::find_asset(System.String,System.String&)
+// 0x000010AC System.Boolean pure.lang.XLang::find_assetdb(System.String,System.String&)
+// 0x000010AD System.Void pure.lang.XLang::ensure_enviorment()
 extern void XLang_ensure_enviorment_m1486C863D137DD714BF0E2DDC8BE009950414710 (void);
-// 0x000010B8 System.Void pure.lang.XLang::SetLua(System.String)
+// 0x000010AE System.Void pure.lang.XLang::SetLua(System.String)
 extern void XLang_SetLua_m5131754452C13143E99E780E9E5456C56ABED08B (void);
-// 0x000010B9 System.String pure.lang.XLang::GetWord(System.Int32)
+// 0x000010AF System.String pure.lang.XLang::GetWord(System.Int32)
 extern void XLang_GetWord_m0B1049552E9D62C8B4646D3CF6BCB478723BF0C5 (void);
-// 0x000010BA System.String pure.lang.XLang::GetString(System.String)
+// 0x000010B0 System.String pure.lang.XLang::GetString(System.String)
 extern void XLang_GetString_m34D96875BB7C96D7BF4745A9E8A69581DB53DDFF (void);
-// 0x000010BB System.Void pure.lang.XLang::CallLang(XLua.LuaEnv)
+// 0x000010B1 System.Void pure.lang.XLang::CallLang(XLua.LuaEnv)
 extern void XLang_CallLang_m7B0ACA0880541B3F2B1B17A32421E96640F9BDBE (void);
-// 0x000010BC System.Void pure.lang.XLang::.cctor()
+// 0x000010B2 System.Void pure.lang.XLang::.cctor()
 extern void XLang__cctor_mAAB0845E3AB9E7A6F71EC08E780D19339AAB03FB (void);
-// 0x000010BD System.Void pure.lang.XLang/CacheType::.ctor()
+// 0x000010B3 System.Void pure.lang.XLang/CacheType::.ctor()
 extern void CacheType__ctor_m0FC1B33EC65290684E7F260398F80F00E59B9184 (void);
-// 0x000010BE System.Void pure.lang.XLang/<>c::.cctor()
+// 0x000010B4 System.Void pure.lang.XLang/<>c::.cctor()
 extern void U3CU3Ec__cctor_m67E2A3D430DEC297BC7C7AC0956704437354E01A (void);
-// 0x000010BF System.Void pure.lang.XLang/<>c::.ctor()
+// 0x000010B5 System.Void pure.lang.XLang/<>c::.ctor()
 extern void U3CU3Ec__ctor_m816A0A0A0253244F91433692759FA43BB20B2D8F (void);
-// 0x000010C0 System.Void pure.lang.XLang/<>c::<Init>b__12_0()
+// 0x000010B6 System.Void pure.lang.XLang/<>c::<Init>b__12_0()
 extern void U3CU3Ec_U3CInitU3Eb__12_0_m1076D4546B07F1CF3BBEFB4BCF817CCC47CD995D (void);
-// 0x000010C1 System.Boolean pure.database.IntRange::Equals(System.Object)
+// 0x000010B7 System.Boolean pure.database.IntRange::Equals(System.Object)
 extern void IntRange_Equals_mD51C6FB11E90091D75AA8053768E28A6B7630A54 (void);
-// 0x000010C2 System.Int32 pure.database.IntRange::GetHashCode()
+// 0x000010B8 System.Int32 pure.database.IntRange::GetHashCode()
 extern void IntRange_GetHashCode_mF0F907FDB12E19FC92C58A0315DF70A3A276BFD6 (void);
-// 0x000010C3 System.Int32 pure.database.IntRange::width()
+// 0x000010B9 System.Int32 pure.database.IntRange::width()
 extern void IntRange_width_m58A19398F02A50238D45B3078B1C4C3DE319119F (void);
-// 0x000010C4 System.Int32 pure.database.IntRange::height()
+// 0x000010BA System.Int32 pure.database.IntRange::height()
 extern void IntRange_height_mFF48CCA0A3A08E6BE98E4FEBB320E5656C735863 (void);
-// 0x000010C5 System.Boolean pure.database.IntRange::InRange(System.Int32,System.Int32)
+// 0x000010BB System.Boolean pure.database.IntRange::InRange(System.Int32,System.Int32)
 extern void IntRange_InRange_m6990B09B7E0F45A57E50104452D11C3DCF3B356A (void);
-// 0x000010C6 pure.database.IntRange pure.database.IntRange::Expend(System.Int32)
+// 0x000010BC pure.database.IntRange pure.database.IntRange::Expend(System.Int32)
 extern void IntRange_Expend_m8F9BB900D30F2BACD1295D81D24A8C47FE9E31E9 (void);
-// 0x000010C7 pure.database.IntRange pure.database.IntRange::Limite(System.Int32,System.Int32)
+// 0x000010BD pure.database.IntRange pure.database.IntRange::Limite(System.Int32,System.Int32)
 extern void IntRange_Limite_mCD9731FE2205FFBFE9F26F148945D49B61E9ACEA (void);
-// 0x000010C8 System.Boolean pure.database.IntRange::op_Equality(pure.database.IntRange,pure.database.IntRange)
+// 0x000010BE System.Boolean pure.database.IntRange::op_Equality(pure.database.IntRange,pure.database.IntRange)
 extern void IntRange_op_Equality_m6FDD0CDC2A0A2C54AD69F01E9995CDA672A03018 (void);
-// 0x000010C9 System.Boolean pure.database.IntRange::op_Inequality(pure.database.IntRange,pure.database.IntRange)
+// 0x000010BF System.Boolean pure.database.IntRange::op_Inequality(pure.database.IntRange,pure.database.IntRange)
 extern void IntRange_op_Inequality_m4285FBC0D32D1EA5EDB08B1D0C19D98A7CF46AF5 (void);
-// 0x000010CA System.String pure.database.IntRange::ToString()
+// 0x000010C0 System.String pure.database.IntRange::ToString()
 extern void IntRange_ToString_m36BC5CBABB53835A20CD91BB1AEF51EEF6237B62 (void);
-// 0x000010CB pure.database.IntRange pure.database.IntRange::Calculator(UnityEngine.Rect,UnityEngine.Vector3,System.Single,System.Single)
+// 0x000010C1 pure.database.IntRange pure.database.IntRange::Calculator(UnityEngine.Rect,UnityEngine.Vector3,System.Single,System.Single)
 extern void IntRange_Calculator_m4CE0B604D76F39EF30A1AC4BC5AA23C995B835A3 (void);
-// 0x000010CC System.Int32 pure.database.IntRange::Size()
+// 0x000010C2 System.Int32 pure.database.IntRange::Size()
 extern void IntRange_Size_m2DD071A0F310DCB7FE5CB1B8AA8277BAF5173F4E (void);
-// 0x000010CD System.Void pure.database.ColorPlatter::Init(pure.ui.IValueField`1<UnityEngine.Color>)
+// 0x000010C3 System.Void pure.database.ColorPlatter::Init(pure.ui.IValueField`1<UnityEngine.Color>)
 extern void ColorPlatter_Init_m3456B68EC7AEAFE34699A86CDADC0D4CCD568138 (void);
-// 0x000010CE System.Void pure.database.ColorPlatter::.ctor()
+// 0x000010C4 System.Void pure.database.ColorPlatter::.ctor()
 extern void ColorPlatter__ctor_m62455C1A5323153FDA2FA8D55AAC68CDD126C073 (void);
-// 0x000010CF System.Void pure.database.ConfigureData_Dll::Init()
+// 0x000010C5 System.Void pure.database.ConfigureData_Dll::Init()
 extern void ConfigureData_Dll_Init_m6E2BD07A36894B3A3143C82B68672A4888E28F07 (void);
-// 0x000010D0 System.Void pure.database.ConfigureData_Dll::.ctor()
+// 0x000010C6 System.Void pure.database.ConfigureData_Dll::.ctor()
 extern void ConfigureData_Dll__ctor_m560E75445C9358DEC715E62E0C35E8D04CB8DCFB (void);
-// 0x000010D1 System.Void pure.database.CurrencyTheme::Init(pure.database.CurrencyTheme[])
+// 0x000010C7 System.Void pure.database.CurrencyTheme::Init(pure.database.CurrencyTheme[])
 extern void CurrencyTheme_Init_mD3F4968571E35B756BFD3C9BB88ABDC6C966DEFC (void);
-// 0x000010D2 System.Boolean pure.database.CurrencyTheme::TryGet(System.Int32,pure.database.CurrencyTheme&)
+// 0x000010C8 System.Boolean pure.database.CurrencyTheme::TryGet(System.Int32,pure.database.CurrencyTheme&)
 extern void CurrencyTheme_TryGet_mBA51F1DAAD68612641F734AE20A5DE607B8967B9 (void);
-// 0x000010D3 System.Void pure.database.CurrencyTheme::.ctor()
+// 0x000010C9 System.Void pure.database.CurrencyTheme::.ctor()
 extern void CurrencyTheme__ctor_mC794D8166C5E01FDD58FAD8D3ADD68A29BBE1C17 (void);
-// 0x000010D4 System.Void pure.database.CurrencyTheme::.cctor()
+// 0x000010CA System.Void pure.database.CurrencyTheme::.cctor()
 extern void CurrencyTheme__cctor_mE672239E64B3E90EFCB10F9EF2B63BE633728C15 (void);
-// 0x000010D5 System.Void pure.database.PropertyData::Init(System.Collections.Generic.IList`1<pure.database.PropertyData>)
+// 0x000010CB System.Void pure.database.PropertyData::Init(System.Collections.Generic.IList`1<pure.database.PropertyData>)
 extern void PropertyData_Init_mE1D06A9958713E3CDFCAD99C1F06A51BFE3BBB96 (void);
-// 0x000010D6 pure.database.PropertyData pure.database.PropertyData::Find(System.String)
+// 0x000010CC pure.database.PropertyData pure.database.PropertyData::Find(System.String)
 extern void PropertyData_Find_mCB2A951890CD9EEF4CF3185A698E66806F6D0985 (void);
-// 0x000010D7 pure.database.PropertyData pure.database.PropertyData::Find(System.Int32)
+// 0x000010CD pure.database.PropertyData pure.database.PropertyData::Find(System.Int32)
 extern void PropertyData_Find_mBB0305D056E159976FFE1BD2F4D298D743820ADF (void);
-// 0x000010D8 System.Int32 pure.database.PropertyData::Key2Id(System.String)
+// 0x000010CE System.Int32 pure.database.PropertyData::Key2Id(System.String)
 extern void PropertyData_Key2Id_mD51992072D1C24632315249E78904F8DC1B2E9E9 (void);
-// 0x000010D9 System.String pure.database.PropertyData::Id2Key(System.Int32)
+// 0x000010CF System.String pure.database.PropertyData::Id2Key(System.Int32)
 extern void PropertyData_Id2Key_m51CA356D4E96DE69080DB09BEEDF3CB2DDC8DC38 (void);
-// 0x000010DA System.Boolean pure.database.PropertyData::Is(System.Int32,System.String)
+// 0x000010D0 System.Boolean pure.database.PropertyData::Is(System.Int32,System.String)
 extern void PropertyData_Is_mB381E64E3F0514C0916A41834BC190B3746534ED (void);
-// 0x000010DB System.Boolean pure.database.PropertyData::IsRuntime(System.Int32)
+// 0x000010D1 System.Boolean pure.database.PropertyData::IsRuntime(System.Int32)
 extern void PropertyData_IsRuntime_m6C757B45ECCDD582DB7D15BE9E455F8C4A29C9F5 (void);
-// 0x000010DC System.Boolean pure.database.PropertyData::IsRuntime(System.String)
+// 0x000010D2 System.Boolean pure.database.PropertyData::IsRuntime(System.String)
 extern void PropertyData_IsRuntime_m1DB94D2D52E4ACB5FEE1FEC0E2D4EFCC77BAE9AC (void);
-// 0x000010DD System.Int32 pure.database.PropertyData::GetMaxProperty(System.Int32)
+// 0x000010D3 System.Int32 pure.database.PropertyData::GetMaxProperty(System.Int32)
 extern void PropertyData_GetMaxProperty_mC3B301726A2EFD77964DD944374D8A5679DC49B0 (void);
-// 0x000010DE System.Void pure.database.PropertyData::.ctor()
+// 0x000010D4 System.Void pure.database.PropertyData::.ctor()
 extern void PropertyData__ctor_m6AC9E2A0E0483C60D258121606C0264D84D8C625 (void);
-// 0x000010DF System.Void pure.database.PropertyData::.cctor()
+// 0x000010D5 System.Void pure.database.PropertyData::.cctor()
 extern void PropertyData__cctor_m88D0DDC942BD515E85DC0BBAEAC29555A2E97290 (void);
-// 0x000010E0 System.Byte[] pure.database.ProtoVerion_Dll::ReadNoneVersionFile()
+// 0x000010D6 System.Byte[] pure.database.ProtoVerion_Dll::ReadNoneVersionFile()
 extern void ProtoVerion_Dll_ReadNoneVersionFile_m12E0E6D58D9A53760FC15DC66D5B44AF09570750 (void);
-// 0x000010E1 System.Byte[] pure.database.ProtoVerion_Dll::ReadVersionFile(System.Int32)
+// 0x000010D7 System.Byte[] pure.database.ProtoVerion_Dll::ReadVersionFile(System.Int32)
 extern void ProtoVerion_Dll_ReadVersionFile_mCAEC310CECCF7696C70EA427A27E29DAAC5F89D5 (void);
-// 0x000010E2 System.Byte[] pure.database.ProtoVerion_Dll::read_assetdb(System.String)
+// 0x000010D8 System.Byte[] pure.database.ProtoVerion_Dll::read_assetdb(System.String)
 extern void ProtoVerion_Dll_read_assetdb_m566154353936C98B64050D8B200D665326AB6D57 (void);
-// 0x000010E3 System.Void pure.database.ProtoVerion_Dll::Init()
+// 0x000010D9 System.Void pure.database.ProtoVerion_Dll::Init()
 extern void ProtoVerion_Dll_Init_mC6504E9CD576DE093719E60BC79E764569C970B7 (void);
-// 0x000010E4 System.Void pure.database.ProtoVerion_Dll::Clear()
+// 0x000010DA System.Void pure.database.ProtoVerion_Dll::Clear()
 extern void ProtoVerion_Dll_Clear_mB89F6C27305AC5968A172626E622F52EB11222E1 (void);
-// 0x000010E5 System.Void pure.database.ProtoVerion_Dll::.ctor()
+// 0x000010DB System.Void pure.database.ProtoVerion_Dll::.ctor()
 extern void ProtoVerion_Dll__ctor_m62B504D17401AD4C4CD462B2B871326BE262D798 (void);
-// 0x000010E6 System.Void pure.database.ProtoVerion_Dll/History::.ctor()
+// 0x000010DC System.Void pure.database.ProtoVerion_Dll/History::.ctor()
 extern void History__ctor_m2D6FFF073D0FE0915BC9629228F551578A997BA3 (void);
-// 0x000010E7 System.Void pure.database.ProtoVerion_Dll/Proto::.ctor()
+// 0x000010DD System.Void pure.database.ProtoVerion_Dll/Proto::.ctor()
 extern void Proto__ctor_m3B305A40EF98A3976987C7527A47311960D1D7D1 (void);
-// 0x000010E8 System.Void pure.database.DataManager::ensure_manager()
+// 0x000010DE System.Void pure.database.DataManager::ensure_manager()
 extern void DataManager_ensure_manager_mA857B341CF72C3E501EEF867DBFB8890B3ECB2DA (void);
-// 0x000010E9 System.Boolean pure.database.DataManager::ContainsSheet(System.String)
+// 0x000010DF System.Boolean pure.database.DataManager::ContainsSheet(System.String)
 extern void DataManager_ContainsSheet_m6601922762E06E8D356AA785C002D2A7128B1E07 (void);
-// 0x000010EA TR pure.database.DataManager::ReadTypeData(System.String,T1,System.String)
-// 0x000010EB System.Object pure.database.DataManager::SelectOne(System.String,T)
-// 0x000010EC System.Boolean pure.database.DataManager::ContainsByTypeId(System.String,T)
-// 0x000010ED System.Void pure.database.LocalData::read_file()
+// 0x000010E0 TR pure.database.DataManager::ReadTypeData(System.String,T1,System.String)
+// 0x000010E1 System.Object pure.database.DataManager::SelectOne(System.String,T)
+// 0x000010E2 System.Boolean pure.database.DataManager::ContainsByTypeId(System.String,T)
+// 0x000010E3 System.Void pure.database.LocalData::read_file()
 extern void LocalData_read_file_m970A8259ABEC791FC7071CF6206F0FE3CBFA40CD (void);
-// 0x000010EE System.Void pure.database.LocalData::write(System.String,System.String)
+// 0x000010E4 System.Void pure.database.LocalData::write(System.String,System.String)
 extern void LocalData_write_m0DF6E09D009EB8628D8A1B0A090C890EA0ADE4E7 (void);
-// 0x000010EF System.Void pure.database.LocalData::write()
+// 0x000010E5 System.Void pure.database.LocalData::write()
 extern void LocalData_write_m78894367D15C2ED8CB8DD65B53D43C1592DFBDF7 (void);
-// 0x000010F0 System.Collections.IEnumerator pure.database.LocalData::write_file()
+// 0x000010E6 System.Collections.IEnumerator pure.database.LocalData::write_file()
 extern void LocalData_write_file_m1CCCF335EC2D593DB63444BE559C17889350E825 (void);
-// 0x000010F1 System.Void pure.database.LocalData::DeleteKey(System.String)
+// 0x000010E7 System.Void pure.database.LocalData::DeleteKey(System.String)
 extern void LocalData_DeleteKey_m7E555CB00F2053C3117E7645C1B284C8CE532613 (void);
-// 0x000010F2 System.Void pure.database.LocalData::DeleteAll()
+// 0x000010E8 System.Void pure.database.LocalData::DeleteAll()
 extern void LocalData_DeleteAll_mB4BB6D1329818E885DBC6AE9F1FEA6D4882B1F8F (void);
-// 0x000010F3 System.Void pure.database.LocalData::WriteString(System.String,System.String)
+// 0x000010E9 System.Void pure.database.LocalData::WriteString(System.String,System.String)
 extern void LocalData_WriteString_m47E2E65CFEDC7B14C69C4B951210079141520715 (void);
-// 0x000010F4 System.Void pure.database.LocalData::WriteLua(System.String,XLua.LuaTable)
+// 0x000010EA System.Void pure.database.LocalData::WriteLua(System.String,XLua.LuaTable)
 extern void LocalData_WriteLua_m9F5EA3318F6FDD3D8E8C6BF63DDCB0822D75F32A (void);
-// 0x000010F5 System.Void pure.database.LocalData::WriteBool(System.String,System.Boolean)
+// 0x000010EB System.Void pure.database.LocalData::WriteBool(System.String,System.Boolean)
 extern void LocalData_WriteBool_m7357850D1B64B7CF55126CE2B47353E4E65648A3 (void);
-// 0x000010F6 System.Void pure.database.LocalData::WriteFloat(System.String,System.Single)
+// 0x000010EC System.Void pure.database.LocalData::WriteFloat(System.String,System.Single)
 extern void LocalData_WriteFloat_m210B2C2813D61B469E755E62DB4030C8799F8C3D (void);
-// 0x000010F7 System.Void pure.database.LocalData::WriteInt(System.String,System.Int32)
+// 0x000010ED System.Void pure.database.LocalData::WriteInt(System.String,System.Int32)
 extern void LocalData_WriteInt_m569E90CE11DB9FC494E8211FAF63E1B4ACFF38A5 (void);
-// 0x000010F8 System.Void pure.database.LocalData::WriteLong(System.String,System.Int64)
+// 0x000010EE System.Void pure.database.LocalData::WriteLong(System.String,System.Int64)
 extern void LocalData_WriteLong_m881DD8108B8B268E6C3382B4C639E57DE3360F53 (void);
-// 0x000010F9 System.Void pure.database.LocalData::WriteDouble(System.String,System.Double)
+// 0x000010EF System.Void pure.database.LocalData::WriteDouble(System.String,System.Double)
 extern void LocalData_WriteDouble_m3E23DFBE661445695E883C07FDE8A8F0B537C773 (void);
-// 0x000010FA System.String pure.database.LocalData::ReadString(System.String)
+// 0x000010F0 System.String pure.database.LocalData::ReadString(System.String)
 extern void LocalData_ReadString_m465CBB22638B6FCD445BB748500E7CF222EF2903 (void);
-// 0x000010FB System.String pure.database.LocalData::ReadString(System.String,System.String)
+// 0x000010F1 System.String pure.database.LocalData::ReadString(System.String,System.String)
 extern void LocalData_ReadString_m6A19150A16C51042C03742B729727C3AF1D8E7F2 (void);
-// 0x000010FC System.Int32 pure.database.LocalData::ReadInt(System.String)
+// 0x000010F2 System.Int32 pure.database.LocalData::ReadInt(System.String)
 extern void LocalData_ReadInt_m32070970B973ADB3E1AB3A68A8574658AB02BC55 (void);
-// 0x000010FD System.Int32 pure.database.LocalData::ReadInt(System.String,System.Int32)
+// 0x000010F3 System.Int32 pure.database.LocalData::ReadInt(System.String,System.Int32)
 extern void LocalData_ReadInt_m46B7832DE604D2590695516C872C2DD82A10CFB6 (void);
-// 0x000010FE System.Single pure.database.LocalData::ReadFloat(System.String)
+// 0x000010F4 System.Single pure.database.LocalData::ReadFloat(System.String)
 extern void LocalData_ReadFloat_mAA68BCC16833DA02EDAB98394E7CC236384EEC4D (void);
-// 0x000010FF System.Single pure.database.LocalData::ReadFloat(System.String,System.Single)
+// 0x000010F5 System.Single pure.database.LocalData::ReadFloat(System.String,System.Single)
 extern void LocalData_ReadFloat_mF26CFCFA324A51C2B6329D4B3487D9F8E8B8B42C (void);
-// 0x00001100 System.Double pure.database.LocalData::ReadDouble(System.String)
+// 0x000010F6 System.Double pure.database.LocalData::ReadDouble(System.String)
 extern void LocalData_ReadDouble_mF9CCB7F367ECB7DFF284C5B2DB9A260525B27BC2 (void);
-// 0x00001101 System.Double pure.database.LocalData::ReadDouble(System.String,System.Double)
+// 0x000010F7 System.Double pure.database.LocalData::ReadDouble(System.String,System.Double)
 extern void LocalData_ReadDouble_m323782E16AA28292DFE7B30C14D139FAF55957C5 (void);
-// 0x00001102 System.Int64 pure.database.LocalData::ReadLong(System.String)
+// 0x000010F8 System.Int64 pure.database.LocalData::ReadLong(System.String)
 extern void LocalData_ReadLong_m96B3D74B6D746A562F15550E0129094B531135C8 (void);
-// 0x00001103 System.Int64 pure.database.LocalData::ReadLong(System.String,System.Int64)
+// 0x000010F9 System.Int64 pure.database.LocalData::ReadLong(System.String,System.Int64)
 extern void LocalData_ReadLong_m938D8AE67B9D4937D64CFA88FD747AFD7FF6DB02 (void);
-// 0x00001104 System.Boolean pure.database.LocalData::ReadBool(System.String)
+// 0x000010FA System.Boolean pure.database.LocalData::ReadBool(System.String)
 extern void LocalData_ReadBool_m68A1597CF1CC9055BD200FF53522715A236B3B99 (void);
-// 0x00001105 System.Boolean pure.database.LocalData::ReadBool(System.String,System.Boolean)
+// 0x000010FB System.Boolean pure.database.LocalData::ReadBool(System.String,System.Boolean)
 extern void LocalData_ReadBool_m661479FBD3A565C59FA76FD2718654DFBD76B500 (void);
-// 0x00001106 XLua.LuaTable pure.database.LocalData::ReadLua(System.String)
+// 0x000010FC XLua.LuaTable pure.database.LocalData::ReadLua(System.String)
 extern void LocalData_ReadLua_mAC98D6B2C8A13478F6899DBB1BEAFAF201E8D037 (void);
-// 0x00001107 System.Void pure.database.LocalData::WriteBuffer(System.String,System.Byte[])
+// 0x000010FD System.Void pure.database.LocalData::WriteBuffer(System.String,System.Byte[])
 extern void LocalData_WriteBuffer_mE15581967FC67AE76E5BAAB9DF3713D195A00D3E (void);
-// 0x00001108 System.Byte[] pure.database.LocalData::ReadBuffer(System.String)
+// 0x000010FE System.Byte[] pure.database.LocalData::ReadBuffer(System.String)
 extern void LocalData_ReadBuffer_m40A03E15E5CCBFF80CF32CF90E00939012E96EC7 (void);
-// 0x00001109 System.Void pure.database.LocalData::.cctor()
+// 0x000010FF System.Void pure.database.LocalData::.cctor()
 extern void LocalData__cctor_m1421AFCDC3C3499CEFE2BB53007D709F7C794D2D (void);
-// 0x0000110A System.Void pure.database.LocalData/<write_file>d__6::.ctor(System.Int32)
+// 0x00001100 System.Void pure.database.LocalData/<write_file>d__6::.ctor(System.Int32)
 extern void U3Cwrite_fileU3Ed__6__ctor_m7CD77634D9A33EFA99DA2F569BE8EDBA7B5898FF (void);
-// 0x0000110B System.Void pure.database.LocalData/<write_file>d__6::System.IDisposable.Dispose()
+// 0x00001101 System.Void pure.database.LocalData/<write_file>d__6::System.IDisposable.Dispose()
 extern void U3Cwrite_fileU3Ed__6_System_IDisposable_Dispose_mCECB7F55828787BF75479CBF18C10ACC7DC32AB2 (void);
-// 0x0000110C System.Boolean pure.database.LocalData/<write_file>d__6::MoveNext()
+// 0x00001102 System.Boolean pure.database.LocalData/<write_file>d__6::MoveNext()
 extern void U3Cwrite_fileU3Ed__6_MoveNext_m5199B4D7DF02E9D064CE490EA414B5F8AF988A7F (void);
-// 0x0000110D System.Object pure.database.LocalData/<write_file>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001103 System.Object pure.database.LocalData/<write_file>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3Cwrite_fileU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7AD2068B21966841FE1518E1FDBF971D6B1117EB (void);
-// 0x0000110E System.Void pure.database.LocalData/<write_file>d__6::System.Collections.IEnumerator.Reset()
+// 0x00001104 System.Void pure.database.LocalData/<write_file>d__6::System.Collections.IEnumerator.Reset()
 extern void U3Cwrite_fileU3Ed__6_System_Collections_IEnumerator_Reset_m517120EF39110EF5A0F2DEB8109DA4B1ED68AD65 (void);
-// 0x0000110F System.Object pure.database.LocalData/<write_file>d__6::System.Collections.IEnumerator.get_Current()
+// 0x00001105 System.Object pure.database.LocalData/<write_file>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3Cwrite_fileU3Ed__6_System_Collections_IEnumerator_get_Current_mAB1FBD0B02019FF272C2E3D8D5C0CBC578547E52 (void);
-// 0x00001110 System.Int32 pure.database.Array2D`1::get_Length()
-// 0x00001111 System.Int32 pure.database.Array2D`1::get_col()
-// 0x00001112 System.Int32 pure.database.Array2D`1::get_row()
-// 0x00001113 System.Void pure.database.Array2D`1::.ctor(System.Int32,System.Int32)
-// 0x00001114 System.Void pure.database.Array2D`1::.ctor()
-// 0x00001115 System.Void pure.database.Array2D`1::SetSize(UnityEngine.Vector2)
-// 0x00001116 System.Void pure.database.Array2D`1::SetSize(System.Int32,System.Int32)
-// 0x00001117 System.Void pure.database.Array2D`1::Set(System.Int32,System.Int32,T[])
-// 0x00001118 System.Void pure.database.Array2D`1::Set(System.Int32,T)
-// 0x00001119 System.Void pure.database.Array2D`1::Set(System.Int32,System.Int32,T)
-// 0x0000111A T pure.database.Array2D`1::Get(System.Int32,System.Int32)
-// 0x0000111B System.Boolean pure.database.Array2D`1::TryGet(System.Int32,System.Int32,T&)
-// 0x0000111C T pure.database.Array2D`1::get_Item(System.Int32)
-// 0x0000111D System.Void pure.database.Array2D`1::Clear()
-// 0x0000111E System.Collections.Generic.IEnumerator`1<T> pure.database.Array2D`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x0000111F System.Collections.IEnumerator pure.database.Array2D`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00001120 System.Void pure.database.Array2D`1/Enumerator::.ctor(pure.database.Array2D`1<T>)
-// 0x00001121 System.Void pure.database.Array2D`1/Enumerator::Dispose()
-// 0x00001122 System.Boolean pure.database.Array2D`1/Enumerator::MoveNext()
-// 0x00001123 System.Boolean pure.database.Array2D`1/Enumerator::MoveNextRare()
-// 0x00001124 T pure.database.Array2D`1/Enumerator::get_Current()
-// 0x00001125 System.Object pure.database.Array2D`1/Enumerator::System.Collections.IEnumerator.get_Current()
-// 0x00001126 System.Void pure.database.Array2D`1/Enumerator::System.Collections.IEnumerator.Reset()
-// 0x00001127 System.Int32 pure.database.ArrayObjectComparer`1::Compare(T,T)
-// 0x00001128 System.Int32 pure.database.ArrayObjectComparer`1::CompareUnit(T,T)
-// 0x00001129 System.Void pure.database.ArrayObjectComparer`1::.ctor()
-// 0x0000112A System.Single pure.database.IRandomElement::GetWeight()
-// 0x0000112B System.Void pure.database.ArrayRandom_ListMode::Random(System.Collections.Generic.IList`1<T>,System.Collections.Generic.ICollection`1<T>,System.Int32)
-// 0x0000112C T pure.database.ArrayRandom_ListMode::pick(System.Collections.Generic.IList`1<T>)
-// 0x0000112D System.Void pure.database.ArrayRandom_ListMode::.cctor()
+// 0x00001106 System.Int32 pure.database.Array2D`1::get_Length()
+// 0x00001107 System.Int32 pure.database.Array2D`1::get_col()
+// 0x00001108 System.Int32 pure.database.Array2D`1::get_row()
+// 0x00001109 System.Void pure.database.Array2D`1::.ctor(System.Int32,System.Int32)
+// 0x0000110A System.Void pure.database.Array2D`1::.ctor()
+// 0x0000110B System.Void pure.database.Array2D`1::SetSize(UnityEngine.Vector2)
+// 0x0000110C System.Void pure.database.Array2D`1::SetSize(System.Int32,System.Int32)
+// 0x0000110D System.Void pure.database.Array2D`1::Set(System.Int32,System.Int32,T[])
+// 0x0000110E System.Void pure.database.Array2D`1::Set(System.Int32,T)
+// 0x0000110F System.Void pure.database.Array2D`1::Set(System.Int32,System.Int32,T)
+// 0x00001110 T pure.database.Array2D`1::Get(System.Int32,System.Int32)
+// 0x00001111 System.Boolean pure.database.Array2D`1::TryGet(System.Int32,System.Int32,T&)
+// 0x00001112 T pure.database.Array2D`1::get_Item(System.Int32)
+// 0x00001113 System.Void pure.database.Array2D`1::Clear()
+// 0x00001114 System.Collections.Generic.IEnumerator`1<T> pure.database.Array2D`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x00001115 System.Collections.IEnumerator pure.database.Array2D`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00001116 System.Void pure.database.Array2D`1/Enumerator::.ctor(pure.database.Array2D`1<T>)
+// 0x00001117 System.Void pure.database.Array2D`1/Enumerator::Dispose()
+// 0x00001118 System.Boolean pure.database.Array2D`1/Enumerator::MoveNext()
+// 0x00001119 System.Boolean pure.database.Array2D`1/Enumerator::MoveNextRare()
+// 0x0000111A T pure.database.Array2D`1/Enumerator::get_Current()
+// 0x0000111B System.Object pure.database.Array2D`1/Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x0000111C System.Void pure.database.Array2D`1/Enumerator::System.Collections.IEnumerator.Reset()
+// 0x0000111D System.Int32 pure.database.ArrayObjectComparer`1::Compare(T,T)
+// 0x0000111E System.Int32 pure.database.ArrayObjectComparer`1::CompareUnit(T,T)
+// 0x0000111F System.Void pure.database.ArrayObjectComparer`1::.ctor()
+// 0x00001120 System.Single pure.database.IRandomElement::GetWeight()
+// 0x00001121 System.Void pure.database.ArrayRandom_ListMode::Random(System.Collections.Generic.IList`1<T>,System.Collections.Generic.ICollection`1<T>,System.Int32)
+// 0x00001122 T pure.database.ArrayRandom_ListMode::pick(System.Collections.Generic.IList`1<T>)
+// 0x00001123 System.Void pure.database.ArrayRandom_ListMode::.cctor()
 extern void ArrayRandom_ListMode__cctor_m1514FA5F16C9E7C89FDC8B4F0C4ECB5F7D5F0493 (void);
-// 0x0000112E System.Void pure.database.ArrayUtils::Shuffle(System.Collections.Generic.IList`1<T>)
-// 0x0000112F System.Void pure.database.ArrayUtils::Shuffle(System.Collections.Generic.IList`1<T>,System.Random)
-// 0x00001130 System.Void pure.database.ArrayUtils::Reverse(System.Collections.Generic.IList`1<T>)
-// 0x00001131 T[] pure.database.ArrayUtils::Move(T[],T[],System.Int32)
-// 0x00001132 T[] pure.database.ArrayUtils::Resize(T[],System.Int32)
-// 0x00001133 T[] pure.database.ArrayUtils::Resize(T[],System.Int32,System.Int32)
-// 0x00001134 System.Int32 pure.database.ArrayUtils::Increment(System.Int32,System.Int32,System.Int32)
+// 0x00001124 System.Void pure.database.ArrayUtils::Shuffle(System.Collections.Generic.IList`1<T>)
+// 0x00001125 System.Void pure.database.ArrayUtils::Shuffle(System.Collections.Generic.IList`1<T>,System.Random)
+// 0x00001126 System.Void pure.database.ArrayUtils::Reverse(System.Collections.Generic.IList`1<T>)
+// 0x00001127 T[] pure.database.ArrayUtils::Move(T[],T[],System.Int32)
+// 0x00001128 T[] pure.database.ArrayUtils::Resize(T[],System.Int32)
+// 0x00001129 T[] pure.database.ArrayUtils::Resize(T[],System.Int32,System.Int32)
+// 0x0000112A System.Int32 pure.database.ArrayUtils::Increment(System.Int32,System.Int32,System.Int32)
 extern void ArrayUtils_Increment_mA769207F15595755EB6AB6CCFABCAA46193DD3E8 (void);
-// 0x00001135 System.Int32 pure.database.ArrayUtils::RemoveOn(System.Collections.Generic.List`1<T>,TCheck)
-// 0x00001136 System.Collections.Generic.List`1<T> pure.database.ArrayUtils::clone(System.Collections.Generic.List`1<T>)
-// 0x00001137 System.Void pure.database.ArrayUtils::descartes(System.Collections.Generic.List`1<System.Collections.Generic.List`1<T>>,System.Collections.Generic.List`1<System.Collections.Generic.List`1<T>>,System.Int32,System.Collections.Generic.List`1<T>)
-// 0x00001138 System.Collections.Generic.List`1<System.Collections.Generic.List`1<T>> pure.database.ArrayUtils::Descartes(System.Collections.Generic.List`1<System.Collections.Generic.List`1<T>>)
-// 0x00001139 T[] pure.database.ArrayUtils::Join(T[],T[])
-// 0x0000113A T2[] pure.database.ArrayUtils::Transfer(System.Collections.Generic.IList`1<T1>)
-// 0x0000113B T2[] pure.database.ArrayUtils::Transfer(System.Collections.Generic.ICollection`1<T1>)
-// 0x0000113C System.Boolean pure.database.ArrayUtils/ICheck`1::Check(T)
-// 0x0000113D System.Int32 pure.database.RepeatQueue`1::get_Count()
-// 0x0000113E System.Void pure.database.RepeatQueue`1::.ctor(System.Int32)
-// 0x0000113F System.Void pure.database.RepeatQueue`1::Enqueue(T)
-// 0x00001140 T pure.database.RepeatQueue`1::Dequeue()
-// 0x00001141 T pure.database.RepeatQueue`1::Peek()
-// 0x00001142 System.Void pure.database.RepeatQueue`1::Clear()
-// 0x00001143 System.Void pure.database.RepeatQueue`1::Remove(System.Predicate`1<T1>)
-// 0x00001144 System.Void pure.database.RepeatQueue`1::Remove(T)
-// 0x00001145 System.Void pure.database.RepeatQueue`1::remove_item(System.Int32)
-// 0x00001146 System.Int32 pure.database.RepeatQueue`1::GetItemIndex(T)
-// 0x00001147 System.Boolean pure.database.RepeatQueue`1::Contains(T)
-// 0x00001148 System.Collections.Generic.IEnumerator`1<T> pure.database.RepeatQueue`1::GetEnumerator()
-// 0x00001149 System.Collections.IEnumerator pure.database.RepeatQueue`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x0000114A System.Void pure.database.RepeatQueue`1/Enumerator::.ctor(pure.database.RepeatQueue`1<T>)
-// 0x0000114B System.Void pure.database.RepeatQueue`1/Enumerator::Dispose()
-// 0x0000114C System.Boolean pure.database.RepeatQueue`1/Enumerator::MoveNext()
-// 0x0000114D System.Boolean pure.database.RepeatQueue`1/Enumerator::MoveNextRare()
-// 0x0000114E T pure.database.RepeatQueue`1/Enumerator::get_Current()
-// 0x0000114F System.Object pure.database.RepeatQueue`1/Enumerator::System.Collections.IEnumerator.get_Current()
-// 0x00001150 System.Void pure.database.RepeatQueue`1/Enumerator::System.Collections.IEnumerator.Reset()
-// 0x00001151 System.Boolean pure.database.SimpleList`1::get_IsReadOnly()
-// 0x00001152 System.Int32 pure.database.SimpleList`1::get_Count()
-// 0x00001153 System.Void pure.database.SimpleList`1::.ctor()
-// 0x00001154 System.Void pure.database.SimpleList`1::.ctor(System.Int32)
-// 0x00001155 System.Void pure.database.SimpleList`1::ensure_capacity(System.Int32)
-// 0x00001156 System.Void pure.database.SimpleList`1::Add(T)
-// 0x00001157 System.Void pure.database.SimpleList`1::Clear()
-// 0x00001158 System.Boolean pure.database.SimpleList`1::Contains(T)
-// 0x00001159 System.Void pure.database.SimpleList`1::CopyTo(T[])
-// 0x0000115A System.Void pure.database.SimpleList`1::CopyTo(T[],System.Int32)
-// 0x0000115B System.Void pure.database.SimpleList`1::CopyTo(pure.database.SimpleList`1<T>)
-// 0x0000115C System.Void pure.database.SimpleList`1::AddRange(pure.database.SimpleList`1<T>)
-// 0x0000115D System.Void pure.database.SimpleList`1::insert_range(pure.database.SimpleList`1<T>,System.Int32)
-// 0x0000115E System.Boolean pure.database.SimpleList`1::Remove(T)
-// 0x0000115F System.Int32 pure.database.SimpleList`1::IndexOf(T)
-// 0x00001160 T[] pure.database.SimpleList`1::GetRawBuffer()
-// 0x00001161 System.Void pure.database.SimpleList`1::Insert(System.Int32,T)
-// 0x00001162 System.Void pure.database.SimpleList`1::RemoveAt(System.Int32)
-// 0x00001163 T pure.database.SimpleList`1::get_Item(System.Int32)
-// 0x00001164 System.Void pure.database.SimpleList`1::set_Item(System.Int32,T)
-// 0x00001165 System.Collections.Generic.IEnumerator`1<T> pure.database.SimpleList`1::GetEnumerator()
-// 0x00001166 System.Collections.IEnumerator pure.database.SimpleList`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00001167 T pure.database.SimpleList`1/Enumerator::get_Current()
-// 0x00001168 System.Void pure.database.SimpleList`1/Enumerator::.ctor(pure.database.SimpleList`1<T>)
-// 0x00001169 System.Boolean pure.database.SimpleList`1/Enumerator::MoveNext()
-// 0x0000116A System.Void pure.database.SimpleList`1/Enumerator::Reset()
-// 0x0000116B System.Object pure.database.SimpleList`1/Enumerator::System.Collections.IEnumerator.get_Current()
-// 0x0000116C System.Void pure.database.SimpleList`1/Enumerator::Dispose()
-// 0x0000116D System.Collections.Generic.IEnumerator`1<T> pure.database.UnorderedSet`1::GetEnumerator()
-// 0x0000116E System.Collections.IEnumerator pure.database.UnorderedSet`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x0000116F System.Void pure.database.UnorderedSet`1::Add(T)
-// 0x00001170 System.Void pure.database.UnorderedSet`1::Clear()
-// 0x00001171 System.Boolean pure.database.UnorderedSet`1::Contains(T)
-// 0x00001172 System.Void pure.database.UnorderedSet`1::CopyTo(T[],System.Int32)
-// 0x00001173 System.Boolean pure.database.UnorderedSet`1::Remove(T)
-// 0x00001174 System.Int32 pure.database.UnorderedSet`1::get_Count()
-// 0x00001175 System.Boolean pure.database.UnorderedSet`1::get_IsReadOnly()
-// 0x00001176 System.Void pure.database.UnorderedSet`1::.ctor()
-// 0x00001177 System.Int32 pure.database.UnsafeRepeatList`1::get_Count()
-// 0x00001178 System.Void pure.database.UnsafeRepeatList`1::set_Count(System.Int32)
-// 0x00001179 System.Int32 pure.database.UnsafeRepeatList`1::get_Capacity()
-// 0x0000117A System.Void pure.database.UnsafeRepeatList`1::set_Capacity(System.Int32)
-// 0x0000117B System.Void pure.database.UnsafeRepeatList`1::.ctor(System.Int32)
-// 0x0000117C T* pure.database.UnsafeRepeatList`1::get_Item(System.Int32)
-// 0x0000117D System.Void pure.database.UnsafeRepeatList`1::set_Item(System.Int32,T*)
-// 0x0000117E System.Void pure.database.UnsafeRepeatList`1::.ctor(T[])
-// 0x0000117F T[] pure.database.UnsafeRepeatList`1::FixBlock()
-// 0x00001180 T* pure.database.UnsafeRepeatList`1::Add(T)
-// 0x00001181 T* pure.database.UnsafeRepeatList`1::Add()
-// 0x00001182 T* pure.database.UnsafeRepeatList`1::Shift()
-// 0x00001183 System.Void pure.database.UnsafeRepeatList`1::Clear()
-// 0x00001184 System.Void pure.database.UnsafeRepeatList`1::Clear(System.Boolean)
-// 0x00001185 System.Collections.Generic.IEnumerator`1<T> pure.database.UnsafeRepeatList`1::GetEnumerator()
-// 0x00001186 System.Collections.IEnumerator pure.database.UnsafeRepeatList`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00001187 T pure.database.UnsafeRepeatList`1/Enumerator::get_Current()
-// 0x00001188 System.Void pure.database.UnsafeRepeatList`1/Enumerator::set_Current(T)
-// 0x00001189 System.Void pure.database.UnsafeRepeatList`1/Enumerator::.ctor(pure.database.UnsafeRepeatList`1<T>)
-// 0x0000118A System.Boolean pure.database.UnsafeRepeatList`1/Enumerator::MoveNext()
-// 0x0000118B System.Void pure.database.UnsafeRepeatList`1/Enumerator::Reset()
-// 0x0000118C System.Object pure.database.UnsafeRepeatList`1/Enumerator::System.Collections.IEnumerator.get_Current()
-// 0x0000118D System.Void pure.database.UnsafeRepeatList`1/Enumerator::Dispose()
-// 0x0000118E System.Int32 pure.database.ValuePool`1::get_Count()
-// 0x0000118F T pure.database.ValuePool`1::get_Item(System.Int32)
-// 0x00001190 System.Int32 pure.database.ValuePool`1::Add(T)
-// 0x00001191 System.Void pure.database.ValuePool`1::do_dispose()
-// 0x00001192 System.Void pure.database.ValuePool`1::Finalize()
-// 0x00001193 System.Void pure.database.ValuePool`1::Dispose()
-// 0x00001194 System.Void pure.database.ValuePool`1::.ctor()
-// 0x00001195 System.Void pure.database.ZeroBuffer`1::.cctor()
-// 0x00001196 System.Collections.Generic.IEnumerator`1<T> pure.database.ZeroCollection`1::GetEnumerator()
-// 0x00001197 System.Collections.IEnumerator pure.database.ZeroCollection`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00001198 System.Void pure.database.ZeroCollection`1::Add(T)
-// 0x00001199 System.Void pure.database.ZeroCollection`1::Clear()
-// 0x0000119A System.Boolean pure.database.ZeroCollection`1::Contains(T)
-// 0x0000119B System.Void pure.database.ZeroCollection`1::CopyTo(T[],System.Int32)
-// 0x0000119C System.Boolean pure.database.ZeroCollection`1::Remove(T)
-// 0x0000119D System.Int32 pure.database.ZeroCollection`1::get_Count()
-// 0x0000119E System.Boolean pure.database.ZeroCollection`1::get_IsReadOnly()
-// 0x0000119F System.Void pure.database.ZeroCollection`1::.ctor()
-// 0x000011A0 System.Void pure.database.ZeroCollection`1::.cctor()
-// 0x000011A1 T pure.database.tree.GenericTreeArray`1::get_parent()
-// 0x000011A2 T pure.database.tree.GenericTreeArray`1::get_root()
-// 0x000011A3 T pure.database.tree.GenericTreeArray`1::AddChild(T)
-// 0x000011A4 T pure.database.tree.GenericTreeArray`1::GetChildAt(System.Int32)
-// 0x000011A5 System.Void pure.database.tree.GenericTreeArray`1::Foreach(System.Action`1<T>,System.Boolean)
-// 0x000011A6 System.Void pure.database.tree.GenericTreeArray`1::Foreach(System.Action`2<T,Tp>,Tp,System.Boolean)
-// 0x000011A7 System.Void pure.database.tree.GenericTreeArray`1::.ctor()
-// 0x000011A8 System.Void pure.database.tree.RuntimeTreeArray`1::.ctor()
-// 0x000011A9 System.Boolean pure.database.tree.TreeArray::get_IsLeaf()
+// 0x0000112B System.Int32 pure.database.ArrayUtils::RemoveOn(System.Collections.Generic.List`1<T>,TCheck)
+// 0x0000112C System.Collections.Generic.List`1<T> pure.database.ArrayUtils::clone(System.Collections.Generic.List`1<T>)
+// 0x0000112D System.Void pure.database.ArrayUtils::descartes(System.Collections.Generic.List`1<System.Collections.Generic.List`1<T>>,System.Collections.Generic.List`1<System.Collections.Generic.List`1<T>>,System.Int32,System.Collections.Generic.List`1<T>)
+// 0x0000112E System.Collections.Generic.List`1<System.Collections.Generic.List`1<T>> pure.database.ArrayUtils::Descartes(System.Collections.Generic.List`1<System.Collections.Generic.List`1<T>>)
+// 0x0000112F T[] pure.database.ArrayUtils::Join(T[],T[])
+// 0x00001130 T2[] pure.database.ArrayUtils::Transfer(System.Collections.Generic.IList`1<T1>)
+// 0x00001131 T2[] pure.database.ArrayUtils::Transfer(System.Collections.Generic.ICollection`1<T1>)
+// 0x00001132 System.Boolean pure.database.ArrayUtils/ICheck`1::Check(T)
+// 0x00001133 System.Int32 pure.database.RepeatQueue`1::get_Count()
+// 0x00001134 System.Void pure.database.RepeatQueue`1::.ctor(System.Int32)
+// 0x00001135 System.Void pure.database.RepeatQueue`1::Enqueue(T)
+// 0x00001136 T pure.database.RepeatQueue`1::Dequeue()
+// 0x00001137 T pure.database.RepeatQueue`1::Peek()
+// 0x00001138 System.Void pure.database.RepeatQueue`1::Clear()
+// 0x00001139 System.Void pure.database.RepeatQueue`1::Remove(System.Predicate`1<T1>)
+// 0x0000113A System.Void pure.database.RepeatQueue`1::Remove(T)
+// 0x0000113B System.Void pure.database.RepeatQueue`1::remove_item(System.Int32)
+// 0x0000113C System.Int32 pure.database.RepeatQueue`1::GetItemIndex(T)
+// 0x0000113D System.Boolean pure.database.RepeatQueue`1::Contains(T)
+// 0x0000113E System.Collections.Generic.IEnumerator`1<T> pure.database.RepeatQueue`1::GetEnumerator()
+// 0x0000113F System.Collections.IEnumerator pure.database.RepeatQueue`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00001140 System.Void pure.database.RepeatQueue`1/Enumerator::.ctor(pure.database.RepeatQueue`1<T>)
+// 0x00001141 System.Void pure.database.RepeatQueue`1/Enumerator::Dispose()
+// 0x00001142 System.Boolean pure.database.RepeatQueue`1/Enumerator::MoveNext()
+// 0x00001143 System.Boolean pure.database.RepeatQueue`1/Enumerator::MoveNextRare()
+// 0x00001144 T pure.database.RepeatQueue`1/Enumerator::get_Current()
+// 0x00001145 System.Object pure.database.RepeatQueue`1/Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x00001146 System.Void pure.database.RepeatQueue`1/Enumerator::System.Collections.IEnumerator.Reset()
+// 0x00001147 System.Boolean pure.database.SimpleList`1::get_IsReadOnly()
+// 0x00001148 System.Int32 pure.database.SimpleList`1::get_Count()
+// 0x00001149 System.Void pure.database.SimpleList`1::.ctor()
+// 0x0000114A System.Void pure.database.SimpleList`1::.ctor(System.Int32)
+// 0x0000114B System.Void pure.database.SimpleList`1::ensure_capacity(System.Int32)
+// 0x0000114C System.Void pure.database.SimpleList`1::Add(T)
+// 0x0000114D System.Void pure.database.SimpleList`1::Clear()
+// 0x0000114E System.Boolean pure.database.SimpleList`1::Contains(T)
+// 0x0000114F System.Void pure.database.SimpleList`1::CopyTo(T[])
+// 0x00001150 System.Void pure.database.SimpleList`1::CopyTo(T[],System.Int32)
+// 0x00001151 System.Void pure.database.SimpleList`1::CopyTo(pure.database.SimpleList`1<T>)
+// 0x00001152 System.Void pure.database.SimpleList`1::AddRange(pure.database.SimpleList`1<T>)
+// 0x00001153 System.Void pure.database.SimpleList`1::insert_range(pure.database.SimpleList`1<T>,System.Int32)
+// 0x00001154 System.Boolean pure.database.SimpleList`1::Remove(T)
+// 0x00001155 System.Int32 pure.database.SimpleList`1::IndexOf(T)
+// 0x00001156 T[] pure.database.SimpleList`1::GetRawBuffer()
+// 0x00001157 System.Void pure.database.SimpleList`1::Insert(System.Int32,T)
+// 0x00001158 System.Void pure.database.SimpleList`1::RemoveAt(System.Int32)
+// 0x00001159 T pure.database.SimpleList`1::get_Item(System.Int32)
+// 0x0000115A System.Void pure.database.SimpleList`1::set_Item(System.Int32,T)
+// 0x0000115B System.Collections.Generic.IEnumerator`1<T> pure.database.SimpleList`1::GetEnumerator()
+// 0x0000115C System.Collections.IEnumerator pure.database.SimpleList`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000115D T pure.database.SimpleList`1/Enumerator::get_Current()
+// 0x0000115E System.Void pure.database.SimpleList`1/Enumerator::.ctor(pure.database.SimpleList`1<T>)
+// 0x0000115F System.Boolean pure.database.SimpleList`1/Enumerator::MoveNext()
+// 0x00001160 System.Void pure.database.SimpleList`1/Enumerator::Reset()
+// 0x00001161 System.Object pure.database.SimpleList`1/Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x00001162 System.Void pure.database.SimpleList`1/Enumerator::Dispose()
+// 0x00001163 System.Collections.Generic.IEnumerator`1<T> pure.database.UnorderedSet`1::GetEnumerator()
+// 0x00001164 System.Collections.IEnumerator pure.database.UnorderedSet`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00001165 System.Void pure.database.UnorderedSet`1::Add(T)
+// 0x00001166 System.Void pure.database.UnorderedSet`1::Clear()
+// 0x00001167 System.Boolean pure.database.UnorderedSet`1::Contains(T)
+// 0x00001168 System.Void pure.database.UnorderedSet`1::CopyTo(T[],System.Int32)
+// 0x00001169 System.Boolean pure.database.UnorderedSet`1::Remove(T)
+// 0x0000116A System.Int32 pure.database.UnorderedSet`1::get_Count()
+// 0x0000116B System.Boolean pure.database.UnorderedSet`1::get_IsReadOnly()
+// 0x0000116C System.Void pure.database.UnorderedSet`1::.ctor()
+// 0x0000116D System.Int32 pure.database.UnsafeRepeatList`1::get_Count()
+// 0x0000116E System.Void pure.database.UnsafeRepeatList`1::set_Count(System.Int32)
+// 0x0000116F System.Int32 pure.database.UnsafeRepeatList`1::get_Capacity()
+// 0x00001170 System.Void pure.database.UnsafeRepeatList`1::set_Capacity(System.Int32)
+// 0x00001171 System.Void pure.database.UnsafeRepeatList`1::.ctor(System.Int32)
+// 0x00001172 T* pure.database.UnsafeRepeatList`1::get_Item(System.Int32)
+// 0x00001173 System.Void pure.database.UnsafeRepeatList`1::set_Item(System.Int32,T*)
+// 0x00001174 System.Void pure.database.UnsafeRepeatList`1::.ctor(T[])
+// 0x00001175 T[] pure.database.UnsafeRepeatList`1::FixBlock()
+// 0x00001176 T* pure.database.UnsafeRepeatList`1::Add(T)
+// 0x00001177 T* pure.database.UnsafeRepeatList`1::Add()
+// 0x00001178 T* pure.database.UnsafeRepeatList`1::Shift()
+// 0x00001179 System.Void pure.database.UnsafeRepeatList`1::Clear()
+// 0x0000117A System.Void pure.database.UnsafeRepeatList`1::Clear(System.Boolean)
+// 0x0000117B System.Collections.Generic.IEnumerator`1<T> pure.database.UnsafeRepeatList`1::GetEnumerator()
+// 0x0000117C System.Collections.IEnumerator pure.database.UnsafeRepeatList`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000117D T pure.database.UnsafeRepeatList`1/Enumerator::get_Current()
+// 0x0000117E System.Void pure.database.UnsafeRepeatList`1/Enumerator::set_Current(T)
+// 0x0000117F System.Void pure.database.UnsafeRepeatList`1/Enumerator::.ctor(pure.database.UnsafeRepeatList`1<T>)
+// 0x00001180 System.Boolean pure.database.UnsafeRepeatList`1/Enumerator::MoveNext()
+// 0x00001181 System.Void pure.database.UnsafeRepeatList`1/Enumerator::Reset()
+// 0x00001182 System.Object pure.database.UnsafeRepeatList`1/Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x00001183 System.Void pure.database.UnsafeRepeatList`1/Enumerator::Dispose()
+// 0x00001184 System.Int32 pure.database.ValuePool`1::get_Count()
+// 0x00001185 T pure.database.ValuePool`1::get_Item(System.Int32)
+// 0x00001186 System.Int32 pure.database.ValuePool`1::Add(T)
+// 0x00001187 System.Void pure.database.ValuePool`1::do_dispose()
+// 0x00001188 System.Void pure.database.ValuePool`1::Finalize()
+// 0x00001189 System.Void pure.database.ValuePool`1::Dispose()
+// 0x0000118A System.Void pure.database.ValuePool`1::.ctor()
+// 0x0000118B System.Void pure.database.ZeroBuffer`1::.cctor()
+// 0x0000118C System.Collections.Generic.IEnumerator`1<T> pure.database.ZeroCollection`1::GetEnumerator()
+// 0x0000118D System.Collections.IEnumerator pure.database.ZeroCollection`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000118E System.Void pure.database.ZeroCollection`1::Add(T)
+// 0x0000118F System.Void pure.database.ZeroCollection`1::Clear()
+// 0x00001190 System.Boolean pure.database.ZeroCollection`1::Contains(T)
+// 0x00001191 System.Void pure.database.ZeroCollection`1::CopyTo(T[],System.Int32)
+// 0x00001192 System.Boolean pure.database.ZeroCollection`1::Remove(T)
+// 0x00001193 System.Int32 pure.database.ZeroCollection`1::get_Count()
+// 0x00001194 System.Boolean pure.database.ZeroCollection`1::get_IsReadOnly()
+// 0x00001195 System.Void pure.database.ZeroCollection`1::.ctor()
+// 0x00001196 System.Void pure.database.ZeroCollection`1::.cctor()
+// 0x00001197 T pure.database.tree.GenericTreeArray`1::get_parent()
+// 0x00001198 T pure.database.tree.GenericTreeArray`1::get_root()
+// 0x00001199 T pure.database.tree.GenericTreeArray`1::AddChild(T)
+// 0x0000119A T pure.database.tree.GenericTreeArray`1::GetChildAt(System.Int32)
+// 0x0000119B System.Void pure.database.tree.GenericTreeArray`1::Foreach(System.Action`1<T>,System.Boolean)
+// 0x0000119C System.Void pure.database.tree.GenericTreeArray`1::Foreach(System.Action`2<T,Tp>,Tp,System.Boolean)
+// 0x0000119D System.Void pure.database.tree.GenericTreeArray`1::.ctor()
+// 0x0000119E System.Void pure.database.tree.RuntimeTreeArray`1::.ctor()
+// 0x0000119F System.Boolean pure.database.tree.TreeArray::get_IsLeaf()
 extern void TreeArray_get_IsLeaf_mD222F59A9E9EB528A15ED9BB8EAB508FC2E587A4 (void);
-// 0x000011AA System.Int32 pure.database.tree.TreeArray::get_numChildren()
+// 0x000011A0 System.Int32 pure.database.tree.TreeArray::get_numChildren()
 extern void TreeArray_get_numChildren_m9CC504A4612D793D4F66FC15F2EBBCBEC70B2174 (void);
-// 0x000011AB System.Void pure.database.tree.TreeArray::SetChildren(System.Collections.Generic.IList`1<pure.database.tree.TreeCore>)
+// 0x000011A1 System.Void pure.database.tree.TreeArray::SetChildren(System.Collections.Generic.IList`1<pure.database.tree.TreeCore>)
 extern void TreeArray_SetChildren_m5ACB4040906393ABC9EE42025313B8B52B0FAE34 (void);
-// 0x000011AC pure.database.tree.TreeCore pure.database.tree.TreeArray::AddChild(pure.database.tree.TreeCore)
+// 0x000011A2 pure.database.tree.TreeCore pure.database.tree.TreeArray::AddChild(pure.database.tree.TreeCore)
 extern void TreeArray_AddChild_m2D51E29050EC7675238063CD2E858972E93A154D (void);
-// 0x000011AD pure.database.tree.TreeCore pure.database.tree.TreeArray::GetChildAt(System.Int32)
+// 0x000011A3 pure.database.tree.TreeCore pure.database.tree.TreeArray::GetChildAt(System.Int32)
 extern void TreeArray_GetChildAt_mAEE705A93185A702CECEA3E2D59AE5028683CE27 (void);
-// 0x000011AE System.Void pure.database.tree.TreeArray::.ctor()
+// 0x000011A4 System.Void pure.database.tree.TreeArray::.ctor()
 extern void TreeArray__ctor_m12E1375D9F0D3EEFCAADC4EC00BB4D19EFDC4162 (void);
-// 0x000011AF pure.database.tree.TreeCore pure.database.tree.TreeCore::get_parent()
+// 0x000011A5 pure.database.tree.TreeCore pure.database.tree.TreeCore::get_parent()
 extern void TreeCore_get_parent_m05CD155E6BBE39A02915146E9B2018B158F08C79 (void);
-// 0x000011B0 System.Void pure.database.tree.TreeCore::set_parent(pure.database.tree.TreeCore)
+// 0x000011A6 System.Void pure.database.tree.TreeCore::set_parent(pure.database.tree.TreeCore)
 extern void TreeCore_set_parent_mEE1ED56339A1B5EE932044DE805C176C89083209 (void);
-// 0x000011B1 pure.database.tree.TreeCore pure.database.tree.TreeCore::get_root()
+// 0x000011A7 pure.database.tree.TreeCore pure.database.tree.TreeCore::get_root()
 extern void TreeCore_get_root_mD0C14E6ED4AD03379A16D76FC85C4865809D41FE (void);
-// 0x000011B2 System.Int32 pure.database.tree.TreeCore::get_numChildren()
-// 0x000011B3 System.Boolean pure.database.tree.TreeCore::get_IsLeaf()
-// 0x000011B4 System.Void pure.database.tree.TreeCore::SetChildren(System.Collections.Generic.IList`1<pure.database.tree.TreeCore>)
-// 0x000011B5 pure.database.tree.TreeCore pure.database.tree.TreeCore::AddChild(pure.database.tree.TreeCore)
-// 0x000011B6 pure.database.tree.TreeCore pure.database.tree.TreeCore::GetChildAt(System.Int32)
-// 0x000011B7 System.Void pure.database.tree.TreeCore::Finalize()
+// 0x000011A8 System.Int32 pure.database.tree.TreeCore::get_numChildren()
+// 0x000011A9 System.Boolean pure.database.tree.TreeCore::get_IsLeaf()
+// 0x000011AA System.Void pure.database.tree.TreeCore::SetChildren(System.Collections.Generic.IList`1<pure.database.tree.TreeCore>)
+// 0x000011AB pure.database.tree.TreeCore pure.database.tree.TreeCore::AddChild(pure.database.tree.TreeCore)
+// 0x000011AC pure.database.tree.TreeCore pure.database.tree.TreeCore::GetChildAt(System.Int32)
+// 0x000011AD System.Void pure.database.tree.TreeCore::Finalize()
 extern void TreeCore_Finalize_m18A162C977ED052E9B8B94208CBF34B679AA366A (void);
-// 0x000011B8 System.Void pure.database.tree.TreeCore::Dispose()
+// 0x000011AE System.Void pure.database.tree.TreeCore::Dispose()
 extern void TreeCore_Dispose_m2D1985D529CF8DDF39987702FF5ACDFB10524E44 (void);
-// 0x000011B9 System.Void pure.database.tree.TreeCore::Release()
+// 0x000011AF System.Void pure.database.tree.TreeCore::Release()
 extern void TreeCore_Release_m5749B6663B7A6933E2B236189F5AE23528C4500A (void);
-// 0x000011BA System.Void pure.database.tree.TreeCore::DoDispose()
+// 0x000011B0 System.Void pure.database.tree.TreeCore::DoDispose()
 extern void TreeCore_DoDispose_m4B23850E6B154F538D118812F9FC8E5FE8D65DCA (void);
-// 0x000011BB System.Void pure.database.tree.TreeCore::.ctor()
+// 0x000011B1 System.Void pure.database.tree.TreeCore::.ctor()
 extern void TreeCore__ctor_mF12B012575528254B1FED799CECA43DC9BD93100 (void);
-// 0x000011BC System.Void pure.database.tree.TreeIgnore::.ctor()
+// 0x000011B2 System.Void pure.database.tree.TreeIgnore::.ctor()
 extern void TreeIgnore__ctor_mF7ADB553D1ACDFD24B5F75AA8C7B8D0228681EEC (void);
-// 0x000011BD T pure.database.tree.Bin2Tree::Read(System.Byte[],System.String)
-// 0x000011BE pure.database.tree.TreeCore pure.database.tree.Bin2Tree::Read(System.Byte[],System.String)
+// 0x000011B3 T pure.database.tree.Bin2Tree::Read(System.Byte[],System.String)
+// 0x000011B4 pure.database.tree.TreeCore pure.database.tree.Bin2Tree::Read(System.Byte[],System.String)
 extern void Bin2Tree_Read_m65228E8D9B363D2579704DC2B9ADF4E51D88C8AE (void);
-// 0x000011BF pure.database.tree.TreeCore pure.database.tree.Bin2Tree::read_expired(System.Byte[],System.String)
+// 0x000011B5 pure.database.tree.TreeCore pure.database.tree.Bin2Tree::read_expired(System.Byte[],System.String)
 extern void Bin2Tree_read_expired_mB79910DA6ADEF1E3DABC4CA7E19B4182446CBD97 (void);
-// 0x000011C0 pure.database.tree.TreeCore pure.database.tree.Bin2Tree::ReadChild(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,System.Int32&,System.String)
+// 0x000011B6 pure.database.tree.TreeCore pure.database.tree.Bin2Tree::ReadChild(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,System.Int32&,System.String)
 extern void Bin2Tree_ReadChild_mF1836B7B49B383570A4C2601E40FA030FE5DC208 (void);
-// 0x000011C1 pure.database.tree.TreeCore pure.database.tree.Bin2Tree::read_child(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,System.Int32&,System.String)
+// 0x000011B7 pure.database.tree.TreeCore pure.database.tree.Bin2Tree::read_child(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,System.Int32&,System.String)
 extern void Bin2Tree_read_child_m6C3488A0F0D67736AA045E55D7626FAF267369DA (void);
-// 0x000011C2 pure.database.tree.TreeCore pure.database.tree.Bin2TreeV1::Read(pure.cpp.CppBuffer,System.String)
+// 0x000011B8 pure.database.tree.TreeCore pure.database.tree.Bin2TreeV1::Read(pure.cpp.CppBuffer,System.String)
 extern void Bin2TreeV1_Read_mB5A0E9B0E5A6F9452D2F7BD1FC82091CF0C9554B (void);
-// 0x000011C3 pure.database.tree.TreeCore pure.database.tree.Bin2TreeV1::Read(System.Byte[],System.String)
+// 0x000011B9 pure.database.tree.TreeCore pure.database.tree.Bin2TreeV1::Read(System.Byte[],System.String)
 extern void Bin2TreeV1_Read_mA3EC45381E8C0D407FC12D6213A1446BEC4E2BF0 (void);
-// 0x000011C4 pure.database.tree.TreeCore pure.database.tree.Bin2TreeV1::read_package(pure.refactor.serialize.IByteReader,System.String)
+// 0x000011BA pure.database.tree.TreeCore pure.database.tree.Bin2TreeV1::read_package(pure.refactor.serialize.IByteReader,System.String)
 extern void Bin2TreeV1_read_package_m49B2CC674AC5BC040A2923CE51D9B1F33CD03B86 (void);
-// 0x000011C5 pure.database.tree.TreeCore pure.database.tree.Bin2TreeV1::read_child(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,System.Int32&,System.String)
+// 0x000011BB pure.database.tree.TreeCore pure.database.tree.Bin2TreeV1::read_child(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,System.Int32&,System.String)
 extern void Bin2TreeV1_read_child_mF3B5150511BF1FAAADBEB6D41C2AFF3C53A33DF2 (void);
-// 0x000011C6 System.Void pure.database.tree.TreeFactory::Reset()
+// 0x000011BC System.Void pure.database.tree.TreeFactory::Reset()
 extern void TreeFactory_Reset_m779CFBEA86BD5AB8867376181EA7DFEB9F145340 (void);
-// 0x000011C7 System.Void pure.database.tree.TreeFactory::Register(System.Int32,pure.database.tree.TreeFactory/NewInstance,pure.database.tree.TreeFactory/ReadCall)
+// 0x000011BD System.Void pure.database.tree.TreeFactory::Register(System.Int32,pure.database.tree.TreeFactory/NewInstance,pure.database.tree.TreeFactory/ReadCall)
 extern void TreeFactory_Register_m38E8456DABF6C499A165F2738190701AC6D42D9C (void);
-// 0x000011C8 pure.database.tree.TreeCore pure.database.tree.TreeFactory::CreateInstance(System.Int32)
+// 0x000011BE pure.database.tree.TreeCore pure.database.tree.TreeFactory::CreateInstance(System.Int32)
 extern void TreeFactory_CreateInstance_mC1CD18AD92DA690E51CA2CB94CBB30E58D268452 (void);
-// 0x000011C9 pure.database.tree.TreeCore pure.database.tree.TreeFactory::CreateInstance(System.Int32,pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>)
+// 0x000011BF pure.database.tree.TreeCore pure.database.tree.TreeFactory::CreateInstance(System.Int32,pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>)
 extern void TreeFactory_CreateInstance_m9D854FC2C528120274BE69AC7F0DA10D46068C70 (void);
-// 0x000011CA System.Boolean pure.database.tree.TreeFactory::get_isInited()
+// 0x000011C0 System.Boolean pure.database.tree.TreeFactory::get_isInited()
 extern void TreeFactory_get_isInited_mBB2970CFC5624214D59ED07E9D0E84D73F74B93D (void);
-// 0x000011CB System.Void pure.database.tree.TreeFactory::StartWatch(pure.behavior.IBTRunner)
+// 0x000011C1 System.Void pure.database.tree.TreeFactory::StartWatch(pure.behavior.IBTRunner)
 extern void TreeFactory_StartWatch_mD220E42038CBD32AD9DB7FCDA125A92BE42CF8BB (void);
-// 0x000011CC System.Void pure.database.tree.TreeFactory::StopWatch(pure.behavior.IBTRunner)
+// 0x000011C2 System.Void pure.database.tree.TreeFactory::StopWatch(pure.behavior.IBTRunner)
 extern void TreeFactory_StopWatch_mEFBB7B0DCA063A38523A736C863373C0E3178727 (void);
-// 0x000011CD System.String pure.database.tree.TreeFactory::GetName(System.Int32)
+// 0x000011C3 System.String pure.database.tree.TreeFactory::GetName(System.Int32)
 extern void TreeFactory_GetName_m6CA65D95057E53C392F2111602AB31A5160F4BC9 (void);
-// 0x000011CE System.Void pure.database.tree.TreeFactory::.cctor()
+// 0x000011C4 System.Void pure.database.tree.TreeFactory::.cctor()
 extern void TreeFactory__cctor_mD798D6DBF2BB29302ADA14C1E28DBF63A5881880 (void);
-// 0x000011CF System.Void pure.database.tree.TreeFactory/ReadCall::.ctor(System.Object,System.IntPtr)
+// 0x000011C5 System.Void pure.database.tree.TreeFactory/ReadCall::.ctor(System.Object,System.IntPtr)
 extern void ReadCall__ctor_mF8065F691097C2EAA47872B15E0F49A6405BF616 (void);
-// 0x000011D0 System.Void pure.database.tree.TreeFactory/ReadCall::Invoke(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,pure.database.tree.TreeCore)
+// 0x000011C6 System.Void pure.database.tree.TreeFactory/ReadCall::Invoke(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,pure.database.tree.TreeCore)
 extern void ReadCall_Invoke_m40DAAE7E591FC9629C3C59E92FCDAE006370317E (void);
-// 0x000011D1 System.IAsyncResult pure.database.tree.TreeFactory/ReadCall::BeginInvoke(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,pure.database.tree.TreeCore,System.AsyncCallback,System.Object)
+// 0x000011C7 System.IAsyncResult pure.database.tree.TreeFactory/ReadCall::BeginInvoke(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,pure.database.tree.TreeCore,System.AsyncCallback,System.Object)
 extern void ReadCall_BeginInvoke_m66C6EFF3372BEF9B7DBBF7B0F25EC94DEDE2D284 (void);
-// 0x000011D2 System.Void pure.database.tree.TreeFactory/ReadCall::EndInvoke(System.IAsyncResult)
+// 0x000011C8 System.Void pure.database.tree.TreeFactory/ReadCall::EndInvoke(System.IAsyncResult)
 extern void ReadCall_EndInvoke_mEF266DDD6BF3C0A39A3F42BFB92F2D8DE0320D5C (void);
-// 0x000011D3 System.Void pure.database.tree.TreeFactory/NewInstance::.ctor(System.Object,System.IntPtr)
+// 0x000011C9 System.Void pure.database.tree.TreeFactory/NewInstance::.ctor(System.Object,System.IntPtr)
 extern void NewInstance__ctor_m233A3C359FA1DF74A195C3D1DFD5F1C27D75DA5F (void);
-// 0x000011D4 pure.database.tree.TreeCore pure.database.tree.TreeFactory/NewInstance::Invoke()
+// 0x000011CA pure.database.tree.TreeCore pure.database.tree.TreeFactory/NewInstance::Invoke()
 extern void NewInstance_Invoke_m01B56D7F7DE622A4CAB403FEBF5427F9AC4A72BF (void);
-// 0x000011D5 System.IAsyncResult pure.database.tree.TreeFactory/NewInstance::BeginInvoke(System.AsyncCallback,System.Object)
+// 0x000011CB System.IAsyncResult pure.database.tree.TreeFactory/NewInstance::BeginInvoke(System.AsyncCallback,System.Object)
 extern void NewInstance_BeginInvoke_m613EDDCA2B8C6B0AABEC901F7688F97BD0AF03DC (void);
-// 0x000011D6 pure.database.tree.TreeCore pure.database.tree.TreeFactory/NewInstance::EndInvoke(System.IAsyncResult)
+// 0x000011CC pure.database.tree.TreeCore pure.database.tree.TreeFactory/NewInstance::EndInvoke(System.IAsyncResult)
 extern void NewInstance_EndInvoke_m5FFF382B43BF40EF54CC767B861D2BDEDA2CD38E (void);
-// 0x000011D7 pure.database.tree.TreePackage pure.database.tree.TreePackage::Parse(System.Byte[])
-// 0x000011D8 System.Boolean pure.database.tree.TreePackage::TryGet(System.String,pure.database.tree.TreeCore&)
-// 0x000011D9 System.Collections.Generic.IEnumerable`1<pure.database.tree.TreeCore> pure.database.tree.TreePackage::GetTrees()
-// 0x000011DA System.Boolean pure.database.tree.TreePackage::Contains(System.String)
-// 0x000011DB System.Void pure.database.tree.TreePackage::SetPackBuffer(System.Byte[])
-// 0x000011DC System.Void pure.database.tree.TreePackage::.ctor()
+// 0x000011CD pure.database.tree.TreePackage pure.database.tree.TreePackage::Parse(System.Byte[])
+// 0x000011CE System.Boolean pure.database.tree.TreePackage::TryGet(System.String,pure.database.tree.TreeCore&)
+// 0x000011CF System.Collections.Generic.IEnumerable`1<pure.database.tree.TreeCore> pure.database.tree.TreePackage::GetTrees()
+// 0x000011D0 System.Boolean pure.database.tree.TreePackage::Contains(System.String)
+// 0x000011D1 System.Void pure.database.tree.TreePackage::SetPackBuffer(System.Byte[])
+// 0x000011D2 System.Void pure.database.tree.TreePackage::.ctor()
 extern void TreePackage__ctor_m430411927BCEABB95F7AB8EE6653BE17BF9D8BA7 (void);
-// 0x000011DD System.Void pure.database.tree.TreePackageExpired::.ctor(pure.assetdb.Asset_Tree)
+// 0x000011D3 System.Void pure.database.tree.TreePackageExpired::.ctor(pure.assetdb.Asset_Tree)
 extern void TreePackageExpired__ctor_m1BCDC80EC3F7FBADFB668A307E6DCED3796C92D7 (void);
-// 0x000011DE pure.database.tree.TreePackage pure.database.tree.TreePackageExpired::Parse(System.Byte[])
+// 0x000011D4 pure.database.tree.TreePackage pure.database.tree.TreePackageExpired::Parse(System.Byte[])
 extern void TreePackageExpired_Parse_mB47A33180870836A1B42DDFE4BE387A225BC21C3 (void);
-// 0x000011DF System.Boolean pure.database.tree.TreePackageExpired::TryGet(System.String,pure.database.tree.TreeCore&)
+// 0x000011D5 System.Boolean pure.database.tree.TreePackageExpired::TryGet(System.String,pure.database.tree.TreeCore&)
 extern void TreePackageExpired_TryGet_mABA96203897FEDA49B5968D8F6FA803E6EDB72A7 (void);
-// 0x000011E0 System.Collections.Generic.IEnumerable`1<pure.database.tree.TreeCore> pure.database.tree.TreePackageExpired::GetTrees()
+// 0x000011D6 System.Collections.Generic.IEnumerable`1<pure.database.tree.TreeCore> pure.database.tree.TreePackageExpired::GetTrees()
 extern void TreePackageExpired_GetTrees_m41D792C0905C5636707D57737F40280CB0E4B09B (void);
-// 0x000011E1 System.Boolean pure.database.tree.TreePackageExpired::Contains(System.String)
+// 0x000011D7 System.Boolean pure.database.tree.TreePackageExpired::Contains(System.String)
 extern void TreePackageExpired_Contains_m2C0131C56076CA0C23C4D51793BDCEC7195EEB24 (void);
-// 0x000011E2 System.Void pure.database.tree.TreePackageExpired::SetPackBuffer(System.Byte[])
+// 0x000011D8 System.Void pure.database.tree.TreePackageExpired::SetPackBuffer(System.Byte[])
 extern void TreePackageExpired_SetPackBuffer_mEADA2E2CA61B0FC196C9BB33EE8AC4028CF61088 (void);
-// 0x000011E3 System.Void pure.database.tree.TreePackageExpired::decode_package(System.Byte[],System.Collections.Generic.Dictionary`2<System.String,pure.database.tree.TreeCore>&)
+// 0x000011D9 System.Void pure.database.tree.TreePackageExpired::decode_package(System.Byte[],System.Collections.Generic.Dictionary`2<System.String,pure.database.tree.TreeCore>&)
 extern void TreePackageExpired_decode_package_m383FDFAF17563581A7AB563CA32039E7105271B1 (void);
-// 0x000011E4 System.Void pure.database.tree.TreePackageExpired::parse_canvas(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,System.Collections.Generic.IDictionary`2<System.String,pure.database.tree.TreeCore>)
+// 0x000011DA System.Void pure.database.tree.TreePackageExpired::parse_canvas(pure.refactor.serialize.IByteReader,System.Collections.Generic.IList`1<System.String>,System.Collections.Generic.IDictionary`2<System.String,pure.database.tree.TreeCore>)
 extern void TreePackageExpired_parse_canvas_m5FB5C31EEEB11E37FDFE7FEB593EDD7663B79A47 (void);
-// 0x000011E5 System.Void pure.database.tree.TreePackageV1::.ctor(pure.assetdb.Asset_Tree)
+// 0x000011DB System.Void pure.database.tree.TreePackageV1::.ctor(pure.assetdb.Asset_Tree)
 extern void TreePackageV1__ctor_m922E853D4E9A81555043C511AF87F64B6B44F551 (void);
-// 0x000011E6 System.Void pure.database.tree.TreePackageV1::SetPackBuffer(System.Byte[])
+// 0x000011DC System.Void pure.database.tree.TreePackageV1::SetPackBuffer(System.Byte[])
 extern void TreePackageV1_SetPackBuffer_mA078F598324B31F6C540782E5C2B2B307E83EE76 (void);
-// 0x000011E7 pure.database.tree.TreePackage pure.database.tree.TreePackageV1::Parse(System.Byte[])
+// 0x000011DD pure.database.tree.TreePackage pure.database.tree.TreePackageV1::Parse(System.Byte[])
 extern void TreePackageV1_Parse_m4046DD1522D8BD228D88A597BEC6CCA8F8203E69 (void);
-// 0x000011E8 System.String pure.database.tree.TreePackageV1::persistant_packed_path()
+// 0x000011DE System.String pure.database.tree.TreePackageV1::persistant_packed_path()
 extern void TreePackageV1_persistant_packed_path_m248BC1B87CD26D84CD8E914B1C1FD93FCE9A61F6 (void);
-// 0x000011E9 System.String pure.database.tree.TreePackageV1::stream_packed_path()
+// 0x000011DF System.String pure.database.tree.TreePackageV1::stream_packed_path()
 extern void TreePackageV1_stream_packed_path_mF30D709B2D8E39EB350824C8292F9AE650204184 (void);
-// 0x000011EA System.Boolean pure.database.tree.TreePackageV1::TryGet(System.String,pure.database.tree.TreeCore&)
+// 0x000011E0 System.Boolean pure.database.tree.TreePackageV1::TryGet(System.String,pure.database.tree.TreeCore&)
 extern void TreePackageV1_TryGet_m35592CD2F96785B04FCF4DFD373AA3131E000B15 (void);
-// 0x000011EB System.Boolean pure.database.tree.TreePackageV1::read_tree(pure.assetdb.FilePage&,System.String,pure.database.tree.TreeCore&)
+// 0x000011E1 System.Boolean pure.database.tree.TreePackageV1::read_tree(pure.assetdb.FilePage&,System.String,pure.database.tree.TreeCore&)
 extern void TreePackageV1_read_tree_mF62A5B17B0C45BC26D3D9B976AF5A00B4AC8B756 (void);
-// 0x000011EC System.Boolean pure.database.tree.TreePackageV1::read_assetdb(pure.assetdb.FilePage&,System.String,pure.database.tree.TreeCore&)
+// 0x000011E2 System.Boolean pure.database.tree.TreePackageV1::read_assetdb(pure.assetdb.FilePage&,System.String,pure.database.tree.TreeCore&)
 extern void TreePackageV1_read_assetdb_m900CBEDC386BF42B12B40130B78526B85016F2F8 (void);
-// 0x000011ED System.Collections.Generic.IEnumerable`1<pure.database.tree.TreeCore> pure.database.tree.TreePackageV1::GetTrees()
+// 0x000011E3 System.Collections.Generic.IEnumerable`1<pure.database.tree.TreeCore> pure.database.tree.TreePackageV1::GetTrees()
 extern void TreePackageV1_GetTrees_mBBC76944AED9BBF51E406A3C739AC4D05650AE31 (void);
-// 0x000011EE System.Boolean pure.database.tree.TreePackageV1::Contains(System.String)
+// 0x000011E4 System.Boolean pure.database.tree.TreePackageV1::Contains(System.String)
 extern void TreePackageV1_Contains_m4CA0F0C786D4C07024C37AFCDD004AFD9D2F2746 (void);
-// 0x000011EF pure.database.kv.HashMap`2<TK,TV> pure.database.kv.HashMap`2::Get()
-// 0x000011F0 System.Void pure.database.kv.HashMap`2::Back(pure.database.kv.HashMap`2<TK,TV>)
-// 0x000011F1 System.Int32 pure.database.kv.HashMap`2::get_Capacity()
-// 0x000011F2 System.Void pure.database.kv.HashMap`2::set_Capacity(System.Int32)
-// 0x000011F3 System.Int32 pure.database.kv.HashMap`2::get_Count()
-// 0x000011F4 System.Void pure.database.kv.HashMap`2::.ctor()
-// 0x000011F5 System.Void pure.database.kv.HashMap`2::.ctor(System.Int32)
-// 0x000011F6 System.Void pure.database.kv.HashMap`2::.ctor(System.Collections.Generic.IEqualityComparer`1<TK>)
-// 0x000011F7 System.Void pure.database.kv.HashMap`2::.ctor(System.Int32,System.Collections.Generic.IEqualityComparer`1<TK>)
-// 0x000011F8 System.Int32 pure.database.kv.HashMap`2::hash_0(System.Int32,System.Int32)
-// 0x000011F9 System.Int32 pure.database.kv.HashMap`2::hash_1(System.Int32,System.Int32)
-// 0x000011FA System.Int32 pure.database.kv.HashMap`2::add(TK,TV,System.Collections.Generic.IList`1<pure.database.kv.HashMap`2/Entry<TK,TV>>,System.Collections.Generic.IList`1<TV>,System.Collections.Generic.IList`1<System.Int32>,System.Int32,System.Int32&,System.Collections.Generic.IEqualityComparer`1<TK>)
-// 0x000011FB System.Void pure.database.kv.HashMap`2::ensure_capacity(System.Int32)
-// 0x000011FC System.Int32 pure.database.kv.HashMap`2::find_location(TK)
-// 0x000011FD System.Int32 pure.database.kv.HashMap`2::Add(TK,TV)
-// 0x000011FE System.Boolean pure.database.kv.HashMap`2::Contains(TK)
-// 0x000011FF System.Boolean pure.database.kv.HashMap`2::TryGet(TK,TV&)
-// 0x00001200 System.Int32 pure.database.kv.HashMap`2::Remove(TK)
-// 0x00001201 System.Void pure.database.kv.HashMap`2::RemoveAll(System.Predicate`1<TV>)
-// 0x00001202 TV pure.database.kv.HashMap`2::get_Item(TK)
-// 0x00001203 System.Void pure.database.kv.HashMap`2::set_Item(TK,TV)
-// 0x00001204 System.Void pure.database.kv.HashMap`2::Get(System.Int32,TK&,TV&)
-// 0x00001205 System.Void pure.database.kv.HashMap`2::Copy(pure.database.kv.HashMap`2<TK,TV>)
-// 0x00001206 System.Void pure.database.kv.HashMap`2::Clear()
-// 0x00001207 System.Void pure.database.kv.HashMap`2::.cctor()
-// 0x00001208 System.Void pure.database.kv.UnionValue::.ctor()
+// 0x000011E5 pure.database.kv.HashMap`2<TK,TV> pure.database.kv.HashMap`2::Get()
+// 0x000011E6 System.Void pure.database.kv.HashMap`2::Back(pure.database.kv.HashMap`2<TK,TV>)
+// 0x000011E7 System.Int32 pure.database.kv.HashMap`2::get_Capacity()
+// 0x000011E8 System.Void pure.database.kv.HashMap`2::set_Capacity(System.Int32)
+// 0x000011E9 System.Int32 pure.database.kv.HashMap`2::get_Count()
+// 0x000011EA System.Void pure.database.kv.HashMap`2::.ctor()
+// 0x000011EB System.Void pure.database.kv.HashMap`2::.ctor(System.Int32)
+// 0x000011EC System.Void pure.database.kv.HashMap`2::.ctor(System.Collections.Generic.IEqualityComparer`1<TK>)
+// 0x000011ED System.Void pure.database.kv.HashMap`2::.ctor(System.Int32,System.Collections.Generic.IEqualityComparer`1<TK>)
+// 0x000011EE System.Int32 pure.database.kv.HashMap`2::hash_0(System.Int32,System.Int32)
+// 0x000011EF System.Int32 pure.database.kv.HashMap`2::hash_1(System.Int32,System.Int32)
+// 0x000011F0 System.Int32 pure.database.kv.HashMap`2::add(TK,TV,System.Collections.Generic.IList`1<pure.database.kv.HashMap`2/Entry<TK,TV>>,System.Collections.Generic.IList`1<TV>,System.Collections.Generic.IList`1<System.Int32>,System.Int32,System.Int32&,System.Collections.Generic.IEqualityComparer`1<TK>)
+// 0x000011F1 System.Void pure.database.kv.HashMap`2::ensure_capacity(System.Int32)
+// 0x000011F2 System.Int32 pure.database.kv.HashMap`2::find_location(TK)
+// 0x000011F3 System.Int32 pure.database.kv.HashMap`2::Add(TK,TV)
+// 0x000011F4 System.Boolean pure.database.kv.HashMap`2::Contains(TK)
+// 0x000011F5 System.Boolean pure.database.kv.HashMap`2::TryGet(TK,TV&)
+// 0x000011F6 System.Int32 pure.database.kv.HashMap`2::Remove(TK)
+// 0x000011F7 System.Void pure.database.kv.HashMap`2::RemoveAll(System.Predicate`1<TV>)
+// 0x000011F8 TV pure.database.kv.HashMap`2::get_Item(TK)
+// 0x000011F9 System.Void pure.database.kv.HashMap`2::set_Item(TK,TV)
+// 0x000011FA System.Void pure.database.kv.HashMap`2::Get(System.Int32,TK&,TV&)
+// 0x000011FB System.Void pure.database.kv.HashMap`2::Copy(pure.database.kv.HashMap`2<TK,TV>)
+// 0x000011FC System.Void pure.database.kv.HashMap`2::Clear()
+// 0x000011FD System.Void pure.database.kv.HashMap`2::.cctor()
+// 0x000011FE System.Void pure.database.kv.UnionValue::.ctor()
 extern void UnionValue__ctor_m55B7C3495E418FE21396444526A2691352CE018F (void);
-// 0x00001209 System.Void pure.cpp.CppBufferGuard::Finalize()
+// 0x000011FF System.Void pure.cpp.CppBufferGuard::Finalize()
 extern void CppBufferGuard_Finalize_m968111DF0972FCDD41A0AA402613E2E3927377E2 (void);
-// 0x0000120A System.Void pure.cpp.CppBufferGuard::dispose()
+// 0x00001200 System.Void pure.cpp.CppBufferGuard::dispose()
 extern void CppBufferGuard_dispose_m56AF40AA14FE07EEB7BC792625B49668738F34CD (void);
-// 0x0000120B System.Void pure.cpp.CppBufferGuard::Dispose()
+// 0x00001201 System.Void pure.cpp.CppBufferGuard::Dispose()
 extern void CppBufferGuard_Dispose_m0A749CEB392E73F92EA043CD514F0DBB0ABDC9A3 (void);
-// 0x0000120C System.Void pure.cpp.CppBufferGuard::.ctor()
+// 0x00001202 System.Void pure.cpp.CppBufferGuard::.ctor()
 extern void CppBufferGuard__ctor_mED5A6A082DF2617145488725729B866E26C4E3CB (void);
-// 0x0000120D System.Int32 pure.cpp.CppFileTools::cpp_read_asset(System.String,System.String,System.Int32,pure.cpp.CppBuffer&)
+// 0x00001203 System.Int32 pure.cpp.CppFileTools::cpp_read_asset(System.String,System.String,System.Int32,pure.cpp.CppBuffer&)
 extern void CppFileTools_cpp_read_asset_m740FD395EC81DD7A445C8051241D2F97BE698390 (void);
-// 0x0000120E System.Int32 pure.cpp.CppFileTools::cpp_read_asset_block(System.String,System.String,pure.cpp.CppFileTools/PageInfo,pure.cpp.CppBuffer&)
+// 0x00001204 System.Int32 pure.cpp.CppFileTools::cpp_read_asset_block(System.String,System.String,pure.cpp.CppFileTools/PageInfo,pure.cpp.CppBuffer&)
 extern void CppFileTools_cpp_read_asset_block_m2212B2CA521EE6AE2465F881530F471280B5E0B7 (void);
-// 0x0000120F System.Int32 pure.cpp.CppFileTools::cpp_read_file(System.String,System.Int32,pure.cpp.CppBuffer&)
+// 0x00001205 System.Int32 pure.cpp.CppFileTools::cpp_read_file(System.String,System.Int32,pure.cpp.CppBuffer&)
 extern void CppFileTools_cpp_read_file_mDCAFD08B5141A83B04B0194DBF2282D028263153 (void);
-// 0x00001210 System.Int32 pure.cpp.CppFileTools::cpp_read_file_block(System.String,pure.cpp.CppFileTools/PageInfo,pure.cpp.CppBuffer&)
+// 0x00001206 System.Int32 pure.cpp.CppFileTools::cpp_read_file_block(System.String,pure.cpp.CppFileTools/PageInfo,pure.cpp.CppBuffer&)
 extern void CppFileTools_cpp_read_file_block_mA26966AED33C70EF5758A5BE66DC79538639AFCB (void);
-// 0x00001211 System.Boolean pure.cpp.CppFileTools::ReadAsset(System.String,System.String,System.Byte[]&)
+// 0x00001207 System.Boolean pure.cpp.CppFileTools::ReadAsset(System.String,System.String,System.Byte[]&)
 extern void CppFileTools_ReadAsset_mE55CCF2FF48B7E63106FE16B6B78E37BEB6C823C (void);
-// 0x00001212 System.Boolean pure.cpp.CppFileTools::ReadAsset(System.String,System.String,pure.cpp.CppFileReadMode,System.Byte[]&)
+// 0x00001208 System.Boolean pure.cpp.CppFileTools::ReadAsset(System.String,System.String,pure.cpp.CppFileReadMode,System.Byte[]&)
 extern void CppFileTools_ReadAsset_mBBA885A1F9E3D47350382C905C7E93EEB9876CED (void);
-// 0x00001213 System.Int32 pure.cpp.CppFileTools::ReadAsset(System.String,System.String,pure.cpp.CppFileReadMode,pure.cpp.CppBuffer&)
+// 0x00001209 System.Int32 pure.cpp.CppFileTools::ReadAsset(System.String,System.String,pure.cpp.CppFileReadMode,pure.cpp.CppBuffer&)
 extern void CppFileTools_ReadAsset_m2016C59BB059BBD2FD90A60D3AD9703BB4EB7999 (void);
-// 0x00001214 System.Void pure.cpp.CppFileTools::ReadAssetBlock(System.String,System.String,pure.cpp.CppFileTools/PageInfo,pure.cpp.CppBuffer&)
+// 0x0000120A System.Void pure.cpp.CppFileTools::ReadAssetBlock(System.String,System.String,pure.cpp.CppFileTools/PageInfo,pure.cpp.CppBuffer&)
 extern void CppFileTools_ReadAssetBlock_mD9F26404BD1EA484CA6390B9B9F2B1DD4B611607 (void);
-// 0x00001215 System.Boolean pure.cpp.CppFileTools::ReadFile(System.String,pure.cpp.CppFileReadMode,System.Byte[]&)
+// 0x0000120B System.Boolean pure.cpp.CppFileTools::ReadFile(System.String,pure.cpp.CppFileReadMode,System.Byte[]&)
 extern void CppFileTools_ReadFile_m16141E471EE841828A7DE82E32B420752939C764 (void);
-// 0x00001216 System.Boolean pure.cpp.CppFileTools::read_file(System.String,pure.cpp.CppFileReadMode,System.Byte[]&)
+// 0x0000120C System.Boolean pure.cpp.CppFileTools::read_file(System.String,pure.cpp.CppFileReadMode,System.Byte[]&)
 extern void CppFileTools_read_file_m3F80E57DC9398E95863EF7BBD8DBD64560875089 (void);
-// 0x00001217 System.Int32 pure.cpp.CppFileTools::ReadFile(System.String,pure.cpp.CppFileReadMode,pure.cpp.CppBuffer&)
+// 0x0000120D System.Int32 pure.cpp.CppFileTools::ReadFile(System.String,pure.cpp.CppFileReadMode,pure.cpp.CppBuffer&)
 extern void CppFileTools_ReadFile_mF4EF5C7ED5C98D1B520036ACF0FB9A677E7BF808 (void);
-// 0x00001218 System.Int32 pure.cpp.CppFileTools::ReadFileBlock(System.String,pure.cpp.CppFileTools/PageInfo,pure.cpp.CppBuffer&)
+// 0x0000120E System.Int32 pure.cpp.CppFileTools::ReadFileBlock(System.String,pure.cpp.CppFileTools/PageInfo,pure.cpp.CppBuffer&)
 extern void CppFileTools_ReadFileBlock_m95AC1C62B6813F562A3DC445CF0063F58BB10B26 (void);
-// 0x00001219 System.Boolean pure.cpp.CppFileTools::CopyStreamToPersistent(System.String,System.String,System.String)
+// 0x0000120F System.Boolean pure.cpp.CppFileTools::CopyStreamToPersistent(System.String,System.String,System.String)
 extern void CppFileTools_CopyStreamToPersistent_m0A19664EB388A247D752C31BEE6959D0BFD88323 (void);
-// 0x0000121A System.Int32 pure.cpp.CppFileTools::cpp_copy_stream_persistent(System.String,System.String,System.String)
+// 0x00001210 System.Int32 pure.cpp.CppFileTools::cpp_copy_stream_persistent(System.String,System.String,System.String)
 extern void CppFileTools_cpp_copy_stream_persistent_mC2C7C34FEECD44B1623E19F2139382023DD21F13 (void);
-// 0x0000121B System.String pure.cpp.CppFileTools/PageInfo::ToString()
+// 0x00001211 System.String pure.cpp.CppFileTools/PageInfo::ToString()
 extern void PageInfo_ToString_m46BB75915FE7B27EBE5B2127E399EF7CE37B238B (void);
-// 0x0000121C System.IntPtr pure.cpp.CppSensitive::sensitive_read_file(System.String,System.Boolean)
+// 0x00001212 System.IntPtr pure.cpp.CppSensitive::sensitive_read_file(System.String,System.Boolean)
 extern void CppSensitive_sensitive_read_file_m60A0E34C34574BC26E53BBE179CD00898D7CC371 (void);
-// 0x0000121D System.IntPtr pure.cpp.CppSensitive::sensitive_read_asset(System.String,System.String,System.Boolean)
+// 0x00001213 System.IntPtr pure.cpp.CppSensitive::sensitive_read_asset(System.String,System.String,System.Boolean)
 extern void CppSensitive_sensitive_read_asset_m77BFAF6B3771831DBDE3DEC6327682932A0E6836 (void);
-// 0x0000121E System.IntPtr pure.cpp.CppSensitive::sensitive_read_mem(pure.cpp.CppBuffer,System.Boolean)
+// 0x00001214 System.IntPtr pure.cpp.CppSensitive::sensitive_read_mem(pure.cpp.CppBuffer,System.Boolean)
 extern void CppSensitive_sensitive_read_mem_mD055C8C83A4079C8E63618E1220AFA1C63DF8810 (void);
-// 0x0000121F System.Void pure.cpp.CppSensitive::sensitive_exclude(System.IntPtr,System.Byte&,System.Int32)
+// 0x00001215 System.Void pure.cpp.CppSensitive::sensitive_exclude(System.IntPtr,System.Byte&,System.Int32)
 extern void CppSensitive_sensitive_exclude_mD90A1BAF232C13168CC1BCBC1210A528F0BB1634 (void);
-// 0x00001220 System.Boolean pure.cpp.CppSensitive::sensitive_find(System.IntPtr,System.Byte&,System.Int32)
+// 0x00001216 System.Boolean pure.cpp.CppSensitive::sensitive_find(System.IntPtr,System.Byte&,System.Int32)
 extern void CppSensitive_sensitive_find_m0AA4B9973D004896D07C2074A28E5B770D06C0BC (void);
-// 0x00001221 System.Void pure.cpp.CppSensitive::sensitive_censor(System.IntPtr,System.Byte&,System.Int32&)
+// 0x00001217 System.Void pure.cpp.CppSensitive::sensitive_censor(System.IntPtr,System.Byte&,System.Int32&)
 extern void CppSensitive_sensitive_censor_m6D86C404B4280885E53A32CF182B655D80A8D8D2 (void);
-// 0x00001222 System.Void pure.cpp.CppSensitive::sensitive_setmode(System.IntPtr,System.Int32)
+// 0x00001218 System.Void pure.cpp.CppSensitive::sensitive_setmode(System.IntPtr,System.Int32)
 extern void CppSensitive_sensitive_setmode_m0A4FC8BB55B56667C32FD1BCB99EC9A9CDDED558 (void);
-// 0x00001223 System.Void pure.cpp.CppSensitive::sensitive_dispose(System.IntPtr)
+// 0x00001219 System.Void pure.cpp.CppSensitive::sensitive_dispose(System.IntPtr)
 extern void CppSensitive_sensitive_dispose_mC190141C4B1373ADDA7901E1E07E6F91FC45927D (void);
-// 0x00001224 System.Boolean pure.cpp.CppSensitive::Find(System.String)
+// 0x0000121A System.Boolean pure.cpp.CppSensitive::Find(System.String)
 extern void CppSensitive_Find_m6B2BEAF4E19452B5949CF9DB68F76ABCF1BA8FC1 (void);
-// 0x00001225 System.String pure.cpp.CppSensitive::Censor(System.String)
+// 0x0000121B System.String pure.cpp.CppSensitive::Censor(System.String)
 extern void CppSensitive_Censor_m99D97E9DE20C00F27F59E1F73E3B942D2C66CDD7 (void);
-// 0x00001226 System.Void pure.cpp.CppSensitive::Exclude(System.String)
+// 0x0000121C System.Void pure.cpp.CppSensitive::Exclude(System.String)
 extern void CppSensitive_Exclude_mF01A802D7CB97B5A0E56B02DEBF6D989A986C804 (void);
-// 0x00001227 System.Void pure.cpp.CppSensitive::SetMode(System.Int32)
+// 0x0000121D System.Void pure.cpp.CppSensitive::SetMode(System.Int32)
 extern void CppSensitive_SetMode_m9881ECBB08A962B4F17E8826A8C86D498F9AF364 (void);
-// 0x00001228 System.Void pure.cpp.CppSensitive::read_asset_lang(System.String,System.Boolean)
+// 0x0000121E System.Void pure.cpp.CppSensitive::read_asset_lang(System.String,System.Boolean)
 extern void CppSensitive_read_asset_lang_mCDD785A977A2BB2805575FC96DB218830CD3400E (void);
-// 0x00001229 System.Void pure.cpp.CppSensitive::Load(System.String,System.Boolean)
+// 0x0000121F System.Void pure.cpp.CppSensitive::Load(System.String,System.Boolean)
 extern void CppSensitive_Load_m88A60DAB8047FFF2E91F0ED38DBD06F8F2FCB8CB (void);
-// 0x0000122A System.Void pure.cpp.CppSensitive::Load(System.Byte[],System.Boolean)
+// 0x00001220 System.Void pure.cpp.CppSensitive::Load(System.Byte[],System.Boolean)
 extern void CppSensitive_Load_m4E05ECB20A8DD054C749E19696323B1A4B252C8B (void);
-// 0x0000122B System.Void pure.cpp.CppSensitive::Reset()
+// 0x00001221 System.Void pure.cpp.CppSensitive::Reset()
 extern void CppSensitive_Reset_m5BFB7A531A6C9BF82D3307C01752AF2E989EFBD6 (void);
-// 0x0000122C System.Void pure.cpp.CppSensitive::do_dispose()
+// 0x00001222 System.Void pure.cpp.CppSensitive::do_dispose()
 extern void CppSensitive_do_dispose_m6BA34E14D8191C36ACF0DD401C3A858FE60B5DDE (void);
-// 0x0000122D System.Void pure.cpp.CppSensitive::Finalize()
+// 0x00001223 System.Void pure.cpp.CppSensitive::Finalize()
 extern void CppSensitive_Finalize_m9EF2773A4A8DE00816975C173A58871FC34890C7 (void);
-// 0x0000122E System.Void pure.cpp.CppSensitive::Dispose()
+// 0x00001224 System.Void pure.cpp.CppSensitive::Dispose()
 extern void CppSensitive_Dispose_m66C178AF15D5A0342808AAC6FA9FBDBB7A629388 (void);
-// 0x0000122F System.Void pure.cpp.CppSensitive::.ctor()
+// 0x00001225 System.Void pure.cpp.CppSensitive::.ctor()
 extern void CppSensitive__ctor_m435D65FF4FB86732CF67C30E0DE71CD4015C7455 (void);
-// 0x00001230 System.Int32 pure.cpp.CppZipper::cpp_zip(System.Byte*,System.Int32,System.Int32,pure.cpp.CppBuffer&)
+// 0x00001226 System.Int32 pure.cpp.CppZipper::cpp_zip(System.Byte*,System.Int32,System.Int32,pure.cpp.CppBuffer&)
 extern void CppZipper_cpp_zip_m61054CBE6586F8B244D2B54863C4952B71C8F18C (void);
-// 0x00001231 System.Int32 pure.cpp.CppZipper::cpp_unzip(System.Byte*,System.Int32,pure.cpp.CppBuffer&)
+// 0x00001227 System.Int32 pure.cpp.CppZipper::cpp_unzip(System.Byte*,System.Int32,pure.cpp.CppBuffer&)
 extern void CppZipper_cpp_unzip_m17DAC362EFA279E0D8133135494929FCFA249227 (void);
-// 0x00001232 System.Byte[] pure.cpp.CppZipper::Zip(System.Byte[],System.Int32)
+// 0x00001228 System.Byte[] pure.cpp.CppZipper::Zip(System.Byte[],System.Int32)
 extern void CppZipper_Zip_mB1DE68068808DD1DC8961E017B394B114901BD20 (void);
-// 0x00001233 System.Byte[] pure.cpp.CppZipper::Unzip(System.Byte[])
+// 0x00001229 System.Byte[] pure.cpp.CppZipper::Unzip(System.Byte[])
 extern void CppZipper_Unzip_m03CC59A68B81147DEEBDC0820046972FA4BF29AA (void);
-// 0x00001234 System.Void pure.cpp.GameCppDll::print_string(System.String,System.Int32)
+// 0x0000122A System.Void pure.cpp.GameCppDll::print_string(System.String,System.Int32)
 extern void GameCppDll_print_string_mB6AD3D833B8772D4E4923EF3F91C4E373F7A958D (void);
-// 0x00001235 System.Int32 pure.cpp.GameCppDll::cpp_set_logger(pure.physic.CppLogCallback,System.Int32)
+// 0x0000122B System.Int32 pure.cpp.GameCppDll::cpp_set_logger(pure.physic.CppLogCallback,System.Int32)
 extern void GameCppDll_cpp_set_logger_m6DAD93B1E9F30761571A8341BCE6D8D15614D0BF (void);
-// 0x00001236 System.Int32 pure.cpp.GameCppDll::cpp_set_package_name(System.String)
+// 0x0000122C System.Int32 pure.cpp.GameCppDll::cpp_set_package_name(System.String)
 extern void GameCppDll_cpp_set_package_name_m9026F96D115F7605A18B4F7D15FCA723A667D07B (void);
-// 0x00001237 System.Void pure.cpp.GameCppDll::cpp_send_message_to_native(System.String,System.Boolean)
+// 0x0000122D System.Void pure.cpp.GameCppDll::cpp_send_message_to_native(System.String,System.Boolean)
 extern void GameCppDll_cpp_send_message_to_native_m206CE573E803759E729DC5CC7842D2E90BAB4812 (void);
-// 0x00001238 System.Int64 pure.cpp.GameCppDll::cpp_get_cpu_tick()
+// 0x0000122E System.Int64 pure.cpp.GameCppDll::cpp_get_cpu_tick()
 extern void GameCppDll_cpp_get_cpu_tick_m337CEB5D3802D2BA425D54157A6BC120BA4C9E57 (void);
-// 0x00001239 System.Void pure.cpp.GameCppDll::cpp_free_memory(System.IntPtr)
+// 0x0000122F System.Void pure.cpp.GameCppDll::cpp_free_memory(System.IntPtr)
 extern void GameCppDll_cpp_free_memory_mA7D8FDC56D44D79BF8D7FDA34182EC8D197FD9D9 (void);
-// 0x0000123A System.Void pure.cpp.GameCppDll::FreeMemory(System.IntPtr)
+// 0x00001230 System.Void pure.cpp.GameCppDll::FreeMemory(System.IntPtr)
 extern void GameCppDll_FreeMemory_mEE22929BA8049625CCBEEDB3E5B2F6B106722A56 (void);
-// 0x0000123B System.Void pure.cpp.GameCppDll::Start()
+// 0x00001231 System.Void pure.cpp.GameCppDll::Start()
 extern void GameCppDll_Start_mEFF0CB608F49B381E29DC178E33FFBFCCB46F75B (void);
-// 0x0000123C System.Void pure.cpp.GameCppDll::SetPackageName(System.String)
+// 0x00001232 System.Void pure.cpp.GameCppDll::SetPackageName(System.String)
 extern void GameCppDll_SetPackageName_m80667275925EC5E0EBCC49B4954F3DA2C7455878 (void);
-// 0x0000123D System.Void pure.cpp.GameCppDll::SendMessageToNative(System.String,System.Boolean)
+// 0x00001233 System.Void pure.cpp.GameCppDll::SendMessageToNative(System.String,System.Boolean)
 extern void GameCppDll_SendMessageToNative_m89F56D4CF6EC228A70B3E990F378FE5979E0CE0A (void);
-// 0x0000123E System.Void pure.cpp.GameCppDll::SendMessageObjToNative(pure.utils.json.JsonObject,System.Boolean)
+// 0x00001234 System.Void pure.cpp.GameCppDll::SendMessageObjToNative(pure.utils.json.JsonObject,System.Boolean)
 extern void GameCppDll_SendMessageObjToNative_m78B5718B371031D465585BBB9F5F0BA65F2563ED (void);
-// 0x0000123F System.Int64 pure.cpp.GameCppDll::GetCpuTick()
+// 0x00001235 System.Int64 pure.cpp.GameCppDll::GetCpuTick()
 extern void GameCppDll_GetCpuTick_m31703F61B38F5535B845D5BBDB1B9ECF413104EF (void);
-// 0x00001240 System.Void pure.behavior.BehaviorActionOverride`4::OnStart(T1,T2)
-// 0x00001241 System.Void pure.behavior.BehaviorActionOverride`4::OnStart(T3,T4)
-// 0x00001242 pure.behavior.BehaviorStatus pure.behavior.BehaviorActionOverride`4::OnUpdate(T1,T2)
-// 0x00001243 pure.behavior.BehaviorStatus pure.behavior.BehaviorActionOverride`4::OnUpdate(T3,T4)
-// 0x00001244 System.Void pure.behavior.BehaviorActionOverride`4::OnPause(T1,T2)
-// 0x00001245 System.Void pure.behavior.BehaviorActionOverride`4::OnPause(T3,T4)
-// 0x00001246 System.Void pure.behavior.BehaviorActionOverride`4::OnResume(T1,T2)
-// 0x00001247 System.Void pure.behavior.BehaviorActionOverride`4::OnResume(T3,T4)
-// 0x00001248 System.Void pure.behavior.BehaviorActionOverride`4::OnStop(T1,T2)
-// 0x00001249 System.Void pure.behavior.BehaviorActionOverride`4::OnStop(T3,T4)
-// 0x0000124A System.Void pure.behavior.BehaviorActionOverride`4::.ctor()
-// 0x0000124B pure.behavior.BehaviorComposition`2/CompositeContext<T1,T2> pure.behavior.BehaviorComposition`2::get_context(T1)
-// 0x0000124C System.Void pure.behavior.BehaviorComposition`2::on_start(T1,T2)
-// 0x0000124D System.Void pure.behavior.BehaviorComposition`2::OnStart(T1,T2)
-// 0x0000124E pure.behavior.BehaviorStatus pure.behavior.BehaviorComposition`2::OnUpdate(T1,T2)
-// 0x0000124F pure.behavior.BehaviorStatus pure.behavior.BehaviorComposition`2::on_update(T1,T2)
-// 0x00001250 pure.behavior.BehaviorStatus pure.behavior.BehaviorComposition`2::adjust_status(pure.behavior.BehaviorStatus)
-// 0x00001251 System.Void pure.behavior.BehaviorComposition`2::.ctor()
-// 0x00001252 System.Void pure.behavior.BehaviorComposition`2/DefaultComponentContext::.ctor()
-// 0x00001253 System.Void pure.behavior.BehaviorComposition`2/IndexComponentContext::Clean()
-// 0x00001254 System.Void pure.behavior.BehaviorComposition`2/IndexComponentContext::.ctor()
-// 0x00001255 System.Void pure.behavior.BehaviorComposition`2/CompositeContext::Clean()
-// 0x00001256 System.Void pure.behavior.BehaviorComposition`2/CompositeContext::.ctor()
-// 0x00001257 System.Void pure.behavior.BehaviorDeco_NeverStop`2::OnStart(T1,T2)
-// 0x00001258 pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_NeverStop`2::OnUpdate(T1,T2)
-// 0x00001259 System.Void pure.behavior.BehaviorDeco_NeverStop`2::.ctor()
-// 0x0000125A System.Void pure.behavior.BehaviorDeco_Random`2::OnStart(T1,T2)
-// 0x0000125B System.Single pure.behavior.BehaviorDeco_Random`2::GetRandom(T1)
-// 0x0000125C pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_Random`2::OnUpdate(T1,T2)
-// 0x0000125D System.Void pure.behavior.BehaviorDeco_Random`2::.ctor()
-// 0x0000125E System.Void pure.behavior.BehaviorDeco_Repeat`2::OnStart(T1,T2)
-// 0x0000125F System.Random pure.behavior.BehaviorDeco_Repeat`2::GetRandom(T1)
-// 0x00001260 System.Void pure.behavior.BehaviorDeco_Repeat`2::OnPause(T1,T2)
-// 0x00001261 System.Void pure.behavior.BehaviorDeco_Repeat`2::OnResume(T1,T2)
-// 0x00001262 pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_Repeat`2::OnUpdate(T1,T2)
-// 0x00001263 System.Void pure.behavior.BehaviorDeco_Repeat`2::.ctor()
-// 0x00001264 System.Void pure.behavior.BehaviorDeco_Repeat`2/Context::.ctor()
-// 0x00001265 System.Void pure.behavior.BehaviorDeco_UntilFailure`2::OnStart(T1,T2)
-// 0x00001266 pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_UntilFailure`2::OnUpdate(T1,T2)
-// 0x00001267 System.Void pure.behavior.BehaviorDeco_UntilFailure`2::.ctor()
-// 0x00001268 System.Void pure.behavior.BehaviorDeco_UntilSucess`2::OnStart(T1,T2)
-// 0x00001269 pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_UntilSucess`2::OnUpdate(T1,T2)
-// 0x0000126A System.Void pure.behavior.BehaviorDeco_UntilSucess`2::.ctor()
-// 0x0000126B System.Void pure.behavior.BehaviorDeco_Wait`2::OnStart(T1,T2)
-// 0x0000126C System.Single pure.behavior.BehaviorDeco_Wait`2::GetRandom(T1)
-// 0x0000126D pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_Wait`2::OnUpdate(T1,T2)
-// 0x0000126E System.Void pure.behavior.BehaviorDeco_Wait`2::SetStatus(T1,pure.database.tree.CompStatus)
-// 0x0000126F System.Void pure.behavior.BehaviorDeco_Wait`2::.ctor()
-// 0x00001270 System.Void pure.behavior.BehaviorDeco_Wait`2/Context::Clean()
-// 0x00001271 System.Void pure.behavior.BehaviorDeco_Wait`2/Context::.ctor()
-// 0x00001272 System.Double pure.behavior.IBehaviorInput::get_now()
-// 0x00001273 pure.utils.timeScale.TimeScale pure.behavior.IBehaviorInput::GetTimeScale()
-// 0x00001274 pure.behavior.BtWorkData pure.behavior.IBehaviorInput::get_workData()
-// 0x00001275 pure.behavior.ProcessMode pure.behavior.IBehaviorInput::get_mode()
-// 0x00001276 pure.behavior.BehaviorStatus pure.behavior.BehaviorStatusExtension::Get(pure.database.tree.CompStatus)
+// 0x00001236 System.Void pure.behavior.BehaviorActionOverride`4::OnStart(T1,T2)
+// 0x00001237 System.Void pure.behavior.BehaviorActionOverride`4::OnStart(T3,T4)
+// 0x00001238 pure.behavior.BehaviorStatus pure.behavior.BehaviorActionOverride`4::OnUpdate(T1,T2)
+// 0x00001239 pure.behavior.BehaviorStatus pure.behavior.BehaviorActionOverride`4::OnUpdate(T3,T4)
+// 0x0000123A System.Void pure.behavior.BehaviorActionOverride`4::OnPause(T1,T2)
+// 0x0000123B System.Void pure.behavior.BehaviorActionOverride`4::OnPause(T3,T4)
+// 0x0000123C System.Void pure.behavior.BehaviorActionOverride`4::OnResume(T1,T2)
+// 0x0000123D System.Void pure.behavior.BehaviorActionOverride`4::OnResume(T3,T4)
+// 0x0000123E System.Void pure.behavior.BehaviorActionOverride`4::OnStop(T1,T2)
+// 0x0000123F System.Void pure.behavior.BehaviorActionOverride`4::OnStop(T3,T4)
+// 0x00001240 System.Void pure.behavior.BehaviorActionOverride`4::.ctor()
+// 0x00001241 pure.behavior.BehaviorComposition`2/CompositeContext<T1,T2> pure.behavior.BehaviorComposition`2::get_context(T1)
+// 0x00001242 System.Void pure.behavior.BehaviorComposition`2::on_start(T1,T2)
+// 0x00001243 System.Void pure.behavior.BehaviorComposition`2::OnStart(T1,T2)
+// 0x00001244 pure.behavior.BehaviorStatus pure.behavior.BehaviorComposition`2::OnUpdate(T1,T2)
+// 0x00001245 pure.behavior.BehaviorStatus pure.behavior.BehaviorComposition`2::on_update(T1,T2)
+// 0x00001246 pure.behavior.BehaviorStatus pure.behavior.BehaviorComposition`2::adjust_status(pure.behavior.BehaviorStatus)
+// 0x00001247 System.Void pure.behavior.BehaviorComposition`2::.ctor()
+// 0x00001248 System.Void pure.behavior.BehaviorComposition`2/DefaultComponentContext::.ctor()
+// 0x00001249 System.Void pure.behavior.BehaviorComposition`2/IndexComponentContext::Clean()
+// 0x0000124A System.Void pure.behavior.BehaviorComposition`2/IndexComponentContext::.ctor()
+// 0x0000124B System.Void pure.behavior.BehaviorComposition`2/CompositeContext::Clean()
+// 0x0000124C System.Void pure.behavior.BehaviorComposition`2/CompositeContext::.ctor()
+// 0x0000124D System.Void pure.behavior.BehaviorDeco_NeverStop`2::OnStart(T1,T2)
+// 0x0000124E pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_NeverStop`2::OnUpdate(T1,T2)
+// 0x0000124F System.Void pure.behavior.BehaviorDeco_NeverStop`2::.ctor()
+// 0x00001250 System.Void pure.behavior.BehaviorDeco_Random`2::OnStart(T1,T2)
+// 0x00001251 System.Single pure.behavior.BehaviorDeco_Random`2::GetRandom(T1)
+// 0x00001252 pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_Random`2::OnUpdate(T1,T2)
+// 0x00001253 System.Void pure.behavior.BehaviorDeco_Random`2::.ctor()
+// 0x00001254 System.Void pure.behavior.BehaviorDeco_Repeat`2::OnStart(T1,T2)
+// 0x00001255 System.Random pure.behavior.BehaviorDeco_Repeat`2::GetRandom(T1)
+// 0x00001256 System.Void pure.behavior.BehaviorDeco_Repeat`2::OnPause(T1,T2)
+// 0x00001257 System.Void pure.behavior.BehaviorDeco_Repeat`2::OnResume(T1,T2)
+// 0x00001258 pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_Repeat`2::OnUpdate(T1,T2)
+// 0x00001259 System.Void pure.behavior.BehaviorDeco_Repeat`2::.ctor()
+// 0x0000125A System.Void pure.behavior.BehaviorDeco_Repeat`2/Context::.ctor()
+// 0x0000125B System.Void pure.behavior.BehaviorDeco_UntilFailure`2::OnStart(T1,T2)
+// 0x0000125C pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_UntilFailure`2::OnUpdate(T1,T2)
+// 0x0000125D System.Void pure.behavior.BehaviorDeco_UntilFailure`2::.ctor()
+// 0x0000125E System.Void pure.behavior.BehaviorDeco_UntilSucess`2::OnStart(T1,T2)
+// 0x0000125F pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_UntilSucess`2::OnUpdate(T1,T2)
+// 0x00001260 System.Void pure.behavior.BehaviorDeco_UntilSucess`2::.ctor()
+// 0x00001261 System.Void pure.behavior.BehaviorDeco_Wait`2::OnStart(T1,T2)
+// 0x00001262 System.Single pure.behavior.BehaviorDeco_Wait`2::GetRandom(T1)
+// 0x00001263 pure.behavior.BehaviorStatus pure.behavior.BehaviorDeco_Wait`2::OnUpdate(T1,T2)
+// 0x00001264 System.Void pure.behavior.BehaviorDeco_Wait`2::SetStatus(T1,pure.database.tree.CompStatus)
+// 0x00001265 System.Void pure.behavior.BehaviorDeco_Wait`2::.ctor()
+// 0x00001266 System.Void pure.behavior.BehaviorDeco_Wait`2/Context::Clean()
+// 0x00001267 System.Void pure.behavior.BehaviorDeco_Wait`2/Context::.ctor()
+// 0x00001268 System.Double pure.behavior.IBehaviorInput::get_now()
+// 0x00001269 pure.utils.timeScale.TimeScale pure.behavior.IBehaviorInput::GetTimeScale()
+// 0x0000126A pure.behavior.BtWorkData pure.behavior.IBehaviorInput::get_workData()
+// 0x0000126B pure.behavior.ProcessMode pure.behavior.IBehaviorInput::get_mode()
+// 0x0000126C pure.behavior.BehaviorStatus pure.behavior.BehaviorStatusExtension::Get(pure.database.tree.CompStatus)
 extern void BehaviorStatusExtension_Get_m8F20048782E32BC38A836CEA39D14803AAD6598E (void);
-// 0x00001277 System.Void pure.behavior.BehaviorTree`2::OnStart(T1,T2)
-// 0x00001278 pure.behavior.BehaviorStatus pure.behavior.BehaviorTree`2::Update(T1,T2)
-// 0x00001279 pure.behavior.BehaviorStatus pure.behavior.BehaviorTree`2::OnUpdate(T1,T2)
-// 0x0000127A System.Void pure.behavior.BehaviorTree`2::Pause(T1,T2)
-// 0x0000127B System.Void pure.behavior.BehaviorTree`2::OnPause(T1,T2)
-// 0x0000127C System.Void pure.behavior.BehaviorTree`2::Resume(T1,T2)
-// 0x0000127D System.Void pure.behavior.BehaviorTree`2::OnResume(T1,T2)
-// 0x0000127E System.Void pure.behavior.BehaviorTree`2::Reset(T1,T2)
-// 0x0000127F System.Void pure.behavior.BehaviorTree`2::Stop(T1,T2)
-// 0x00001280 System.Void pure.behavior.BehaviorTree`2::OnStop(T1,T2)
-// 0x00001281 pure.database.tree.CompStatus pure.behavior.BehaviorTree`2::GetStatus(T1)
-// 0x00001282 TC pure.behavior.BehaviorTree`2::GetContext(T1)
-// 0x00001283 System.Void pure.behavior.BehaviorTree`2::.ctor()
-// 0x00001284 System.Void pure.behavior.BehaviorTreeGroup`2::OnPause(T1,T2)
-// 0x00001285 System.Void pure.behavior.BehaviorTreeGroup`2::OnResume(T1,T2)
-// 0x00001286 System.Void pure.behavior.BehaviorTreeGroup`2::.ctor()
-// 0x00001287 pure.behavior.BehaviorComposition`2/CompositeContext<T1,T2> pure.behavior.BehaviorTree_Parallel`2::get_context(T1)
-// 0x00001288 System.Void pure.behavior.BehaviorTree_Parallel`2::on_start(T1,T2)
-// 0x00001289 pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_Parallel`2::on_update(T1,T2)
-// 0x0000128A System.Void pure.behavior.BehaviorTree_Parallel`2::.ctor()
-// 0x0000128B pure.behavior.BehaviorComposition`2/CompositeContext<T1,T2> pure.behavior.BehaviorTree_ParallelSelector`2::get_context(T1)
-// 0x0000128C System.Void pure.behavior.BehaviorTree_ParallelSelector`2::on_start(T1,T2)
-// 0x0000128D pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_ParallelSelector`2::on_update(T1,T2)
-// 0x0000128E System.Void pure.behavior.BehaviorTree_ParallelSelector`2::.ctor()
-// 0x0000128F pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_Root`2::UpdateAsRoot(pure.behavior.BehaviorTree`2<T1,T2>,T1,T2)
-// 0x00001290 System.Void pure.behavior.BehaviorTree_Root`2::ensure_count_all()
-// 0x00001291 pure.behavior.BtWorkData pure.behavior.BehaviorTree_Root`2::GetWorkData()
-// 0x00001292 System.Void pure.behavior.BehaviorTree_Root`2::BackWorkData(pure.behavior.BtWorkData)
-// 0x00001293 System.Void pure.behavior.BehaviorTree_Root`2::OnStart(T1,T2)
-// 0x00001294 pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_Root`2::OnUpdate(T1,T2)
-// 0x00001295 System.Void pure.behavior.BehaviorTree_Root`2::.ctor()
-// 0x00001296 System.Void pure.behavior.BehaviorTree_Root`2::<ensure_count_all>b__3_0(pure.behavior.BehaviorTree`2<T1,T2>)
-// 0x00001297 System.Void pure.behavior.BehaviorTree_Sequence`2::on_start(T1,T2)
-// 0x00001298 pure.behavior.BehaviorComposition`2/CompositeContext<T1,T2> pure.behavior.BehaviorTree_Sequence`2::get_context(T1)
-// 0x00001299 pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_Sequence`2::on_update(T1,T2)
-// 0x0000129A System.Void pure.behavior.BehaviorTree_Sequence`2::.ctor()
-// 0x0000129B System.Void pure.behavior.BehaviorTree_SequenceSelector`2::on_start(T1,T2)
-// 0x0000129C pure.behavior.BehaviorComposition`2/CompositeContext<T1,T2> pure.behavior.BehaviorTree_SequenceSelector`2::get_context(T1)
-// 0x0000129D pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_SequenceSelector`2::on_update(T1,T2)
-// 0x0000129E System.Void pure.behavior.BehaviorTree_SequenceSelector`2::.ctor()
-// 0x0000129F System.Int32 pure.behavior.BtWorkData::get_Count()
+// 0x0000126D System.Void pure.behavior.BehaviorTree`2::OnStart(T1,T2)
+// 0x0000126E pure.behavior.BehaviorStatus pure.behavior.BehaviorTree`2::Update(T1,T2)
+// 0x0000126F pure.behavior.BehaviorStatus pure.behavior.BehaviorTree`2::OnUpdate(T1,T2)
+// 0x00001270 System.Void pure.behavior.BehaviorTree`2::Pause(T1,T2)
+// 0x00001271 System.Void pure.behavior.BehaviorTree`2::OnPause(T1,T2)
+// 0x00001272 System.Void pure.behavior.BehaviorTree`2::Resume(T1,T2)
+// 0x00001273 System.Void pure.behavior.BehaviorTree`2::OnResume(T1,T2)
+// 0x00001274 System.Void pure.behavior.BehaviorTree`2::Reset(T1,T2)
+// 0x00001275 System.Void pure.behavior.BehaviorTree`2::Stop(T1,T2)
+// 0x00001276 System.Void pure.behavior.BehaviorTree`2::OnStop(T1,T2)
+// 0x00001277 pure.database.tree.CompStatus pure.behavior.BehaviorTree`2::GetStatus(T1)
+// 0x00001278 TC pure.behavior.BehaviorTree`2::GetContext(T1)
+// 0x00001279 System.Void pure.behavior.BehaviorTree`2::.ctor()
+// 0x0000127A System.Void pure.behavior.BehaviorTreeGroup`2::OnPause(T1,T2)
+// 0x0000127B System.Void pure.behavior.BehaviorTreeGroup`2::OnResume(T1,T2)
+// 0x0000127C System.Void pure.behavior.BehaviorTreeGroup`2::.ctor()
+// 0x0000127D pure.behavior.BehaviorComposition`2/CompositeContext<T1,T2> pure.behavior.BehaviorTree_Parallel`2::get_context(T1)
+// 0x0000127E System.Void pure.behavior.BehaviorTree_Parallel`2::on_start(T1,T2)
+// 0x0000127F pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_Parallel`2::on_update(T1,T2)
+// 0x00001280 System.Void pure.behavior.BehaviorTree_Parallel`2::.ctor()
+// 0x00001281 pure.behavior.BehaviorComposition`2/CompositeContext<T1,T2> pure.behavior.BehaviorTree_ParallelSelector`2::get_context(T1)
+// 0x00001282 System.Void pure.behavior.BehaviorTree_ParallelSelector`2::on_start(T1,T2)
+// 0x00001283 pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_ParallelSelector`2::on_update(T1,T2)
+// 0x00001284 System.Void pure.behavior.BehaviorTree_ParallelSelector`2::.ctor()
+// 0x00001285 pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_Root`2::UpdateAsRoot(pure.behavior.BehaviorTree`2<T1,T2>,T1,T2)
+// 0x00001286 System.Void pure.behavior.BehaviorTree_Root`2::ensure_count_all()
+// 0x00001287 pure.behavior.BtWorkData pure.behavior.BehaviorTree_Root`2::GetWorkData()
+// 0x00001288 System.Void pure.behavior.BehaviorTree_Root`2::BackWorkData(pure.behavior.BtWorkData)
+// 0x00001289 System.Void pure.behavior.BehaviorTree_Root`2::OnStart(T1,T2)
+// 0x0000128A pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_Root`2::OnUpdate(T1,T2)
+// 0x0000128B System.Void pure.behavior.BehaviorTree_Root`2::.ctor()
+// 0x0000128C System.Void pure.behavior.BehaviorTree_Root`2::<ensure_count_all>b__3_0(pure.behavior.BehaviorTree`2<T1,T2>)
+// 0x0000128D System.Void pure.behavior.BehaviorTree_Sequence`2::on_start(T1,T2)
+// 0x0000128E pure.behavior.BehaviorComposition`2/CompositeContext<T1,T2> pure.behavior.BehaviorTree_Sequence`2::get_context(T1)
+// 0x0000128F pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_Sequence`2::on_update(T1,T2)
+// 0x00001290 System.Void pure.behavior.BehaviorTree_Sequence`2::.ctor()
+// 0x00001291 System.Void pure.behavior.BehaviorTree_SequenceSelector`2::on_start(T1,T2)
+// 0x00001292 pure.behavior.BehaviorComposition`2/CompositeContext<T1,T2> pure.behavior.BehaviorTree_SequenceSelector`2::get_context(T1)
+// 0x00001293 pure.behavior.BehaviorStatus pure.behavior.BehaviorTree_SequenceSelector`2::on_update(T1,T2)
+// 0x00001294 System.Void pure.behavior.BehaviorTree_SequenceSelector`2::.ctor()
+// 0x00001295 System.Int32 pure.behavior.BtWorkData::get_Count()
 extern void BtWorkData_get_Count_mE2F3807EF12BCAD6DEE64B2F431A5C5AB08354D2 (void);
-// 0x000012A0 System.Void pure.behavior.BtWorkData::.ctor(System.Int32)
+// 0x00001296 System.Void pure.behavior.BtWorkData::.ctor(System.Int32)
 extern void BtWorkData__ctor_mDF1AF86AA3981CC4C8269492E0FDA5579DE09F04 (void);
-// 0x000012A1 T pure.behavior.BtWorkData::GetContext(System.Int32)
-// 0x000012A2 pure.database.tree.CompStatus pure.behavior.BtWorkData::GetStatus(System.Int32)
+// 0x00001297 T pure.behavior.BtWorkData::GetContext(System.Int32)
+// 0x00001298 pure.database.tree.CompStatus pure.behavior.BtWorkData::GetStatus(System.Int32)
 extern void BtWorkData_GetStatus_mEA41861848A7B6B668535AE4F536D56792BFCDFC (void);
-// 0x000012A3 System.Void pure.behavior.BtWorkData::Reset(System.Int32)
+// 0x00001299 System.Void pure.behavior.BtWorkData::Reset(System.Int32)
 extern void BtWorkData_Reset_mDE6641885336B5EECA6AC1DD0C1A317C9155714B (void);
-// 0x000012A4 System.Void pure.behavior.BtWorkData::Stop(System.Int32)
+// 0x0000129A System.Void pure.behavior.BtWorkData::Stop(System.Int32)
 extern void BtWorkData_Stop_m1079987A5BF668BCB5CD8B6A80D7A77FB31D2D24 (void);
-// 0x000012A5 System.Void pure.behavior.BtWorkData::assert_code(System.Int32)
+// 0x0000129B System.Void pure.behavior.BtWorkData::assert_code(System.Int32)
 extern void BtWorkData_assert_code_m1E20FAFAEB79E29270846CAC2D0A9237AC73911C (void);
-// 0x000012A6 System.Void pure.behavior.BtWorkData::Reset()
+// 0x0000129C System.Void pure.behavior.BtWorkData::Reset()
 extern void BtWorkData_Reset_m71ECF1FEF7F296A9EBB22302929B0F885EE2D401 (void);
-// 0x000012A7 System.Void pure.behavior.DefaultContext::.ctor()
+// 0x0000129D System.Void pure.behavior.DefaultContext::.ctor()
 extern void DefaultContext__ctor_m189E1D0CBFB63FE0C4528FAD2119F31391AC3FFC (void);
-// 0x000012A8 pure.database.tree.CompStatus pure.behavior.BTContext::get_status()
+// 0x0000129E pure.database.tree.CompStatus pure.behavior.BTContext::get_status()
 extern void BTContext_get_status_mB8A76E5B19AD76DD012FE2C59CAAA0DAD6495512 (void);
-// 0x000012A9 System.Void pure.behavior.BTContext::set_status(pure.database.tree.CompStatus)
+// 0x0000129F System.Void pure.behavior.BTContext::set_status(pure.database.tree.CompStatus)
 extern void BTContext_set_status_mF35602F51F2575DFB75C3ABEC3298AEC82E0C460 (void);
-// 0x000012AA System.Void pure.behavior.BTContext::Clean()
+// 0x000012A0 System.Void pure.behavior.BTContext::Clean()
 extern void BTContext_Clean_mB8EF278AEDFFF15086829789EC93800EEE8F1E63 (void);
-// 0x000012AB System.Void pure.behavior.BTContext::clean_up()
+// 0x000012A1 System.Void pure.behavior.BTContext::clean_up()
 extern void BTContext_clean_up_m75BADFF778FF76032AF8C65041334097E4FAF7D6 (void);
-// 0x000012AC System.Void pure.behavior.BTContext::pure.behavior.IBTContext.Reset()
+// 0x000012A2 System.Void pure.behavior.BTContext::pure.behavior.IBTContext.Reset()
 extern void BTContext_pure_behavior_IBTContext_Reset_m6711813FFAC0E0205404495AF4E8275D4707D6FC (void);
-// 0x000012AD System.Void pure.behavior.BTContext::pure.behavior.IBTContext.Stop()
+// 0x000012A3 System.Void pure.behavior.BTContext::pure.behavior.IBTContext.Stop()
 extern void BTContext_pure_behavior_IBTContext_Stop_mA3116BC63A2141B564B19ADE1DE9C1388331A97C (void);
-// 0x000012AE System.Void pure.behavior.BTContext::.ctor()
+// 0x000012A4 System.Void pure.behavior.BTContext::.ctor()
 extern void BTContext__ctor_m7272927860357E4212F80B97DEA1DBB9F57962C4 (void);
-// 0x000012AF pure.database.tree.CompStatus pure.behavior.IBTContext::get_status()
-// 0x000012B0 System.Void pure.behavior.IBTContext::set_status(pure.database.tree.CompStatus)
-// 0x000012B1 System.Void pure.behavior.IBTContext::Reset()
-// 0x000012B2 System.Void pure.behavior.IBTContext::Stop()
-// 0x000012B3 System.Int32 pure.behavior.IBTRunner::get_runnerId()
-// 0x000012B4 System.Int32 pure.behavior.IBTRunner::get_sourceId()
-// 0x000012B5 System.String pure.behavior.IBTRunner::get_sourceKey()
-// 0x000012B6 System.Void pure.behavior.IDistributor::FindRunning(pure.behavior.IBehaviorInput,System.Collections.Generic.Dictionary`2<System.Int32,pure.database.tree.TreeCore>)
-// 0x000012B7 pure.assetdb.AssetDB pure.assetdb.AssetDB::get_instance()
+// 0x000012A5 pure.database.tree.CompStatus pure.behavior.IBTContext::get_status()
+// 0x000012A6 System.Void pure.behavior.IBTContext::set_status(pure.database.tree.CompStatus)
+// 0x000012A7 System.Void pure.behavior.IBTContext::Reset()
+// 0x000012A8 System.Void pure.behavior.IBTContext::Stop()
+// 0x000012A9 System.Int32 pure.behavior.IBTRunner::get_runnerId()
+// 0x000012AA System.Int32 pure.behavior.IBTRunner::get_sourceId()
+// 0x000012AB System.String pure.behavior.IBTRunner::get_sourceKey()
+// 0x000012AC System.Void pure.behavior.IDistributor::FindRunning(pure.behavior.IBehaviorInput,System.Collections.Generic.Dictionary`2<System.Int32,pure.database.tree.TreeCore>)
+// 0x000012AD pure.assetdb.AssetDB pure.assetdb.AssetDB::get_instance()
 extern void AssetDB_get_instance_mF357522D77551C409B19AD81557DDCB9B904305C (void);
-// 0x000012B8 System.Void pure.assetdb.AssetDB::set_instance(pure.assetdb.AssetDB)
+// 0x000012AE System.Void pure.assetdb.AssetDB::set_instance(pure.assetdb.AssetDB)
 extern void AssetDB_set_instance_mD6582B453921E6E27DEE8475EAC28497EC305CF2 (void);
-// 0x000012B9 pure.utils.events.SimpleEvent pure.assetdb.AssetDB::get_onAssetManagerUpdate()
+// 0x000012AF pure.utils.events.SimpleEvent pure.assetdb.AssetDB::get_onAssetManagerUpdate()
 extern void AssetDB_get_onAssetManagerUpdate_m9BB9032965E3323D0D12305B4E3E05285C32C91F (void);
-// 0x000012BA System.Void pure.assetdb.AssetDB::SetInstance(pure.assetdb.AssetDB)
+// 0x000012B0 System.Void pure.assetdb.AssetDB::SetInstance(pure.assetdb.AssetDB)
 extern void AssetDB_SetInstance_mAA0D173BEBD8A32AAA80BBB80A5F4724B070B833 (void);
-// 0x000012BB System.Void pure.assetdb.AssetDB::FreeMemory(pure.assetdb.AssetLife)
+// 0x000012B1 System.Void pure.assetdb.AssetDB::FreeMemory(pure.assetdb.AssetLife)
 extern void AssetDB_FreeMemory_m9CAC0DB2FD960215C68486BE191DE7792C17E5B0 (void);
-// 0x000012BC System.Void pure.assetdb.AssetDB::UnloadUnusedAssets()
+// 0x000012B2 System.Void pure.assetdb.AssetDB::UnloadUnusedAssets()
 extern void AssetDB_UnloadUnusedAssets_m178B11F34BBD01A1E7091BCE0F44E3626F2EC392 (void);
-// 0x000012BD System.Void pure.assetdb.AssetDB::SaveIfDirty()
+// 0x000012B3 System.Void pure.assetdb.AssetDB::SaveIfDirty()
 extern void AssetDB_SaveIfDirty_m32F527A5D00BE390D5471600CBD9A0C6EE2A1766 (void);
-// 0x000012BE System.Void pure.assetdb.AssetDB::DestoryAssets()
+// 0x000012B4 System.Void pure.assetdb.AssetDB::DestoryAssets()
 extern void AssetDB_DestoryAssets_m8E23D12BC2D5AC0E9DE4C2877A9737299F45A219 (void);
-// 0x000012BF pure.utils.fileTools.StoragePath pure.assetdb.AssetDB::get_storage()
+// 0x000012B5 pure.utils.fileTools.StoragePath pure.assetdb.AssetDB::get_storage()
 extern void AssetDB_get_storage_mA0BE791B95EB93E7CB2FEB54728DBACAB5F26695 (void);
-// 0x000012C0 System.Void pure.assetdb.AssetDB::set_storage(pure.utils.fileTools.StoragePath)
+// 0x000012B6 System.Void pure.assetdb.AssetDB::set_storage(pure.utils.fileTools.StoragePath)
 extern void AssetDB_set_storage_m2271D46FECA419AF6395E0CE1B3A89E1B153137A (void);
-// 0x000012C1 pure.assetdb.VersionData pure.assetdb.AssetDB::get_version()
+// 0x000012B7 pure.assetdb.VersionData pure.assetdb.AssetDB::get_version()
 extern void AssetDB_get_version_m56C58EBD4278D7869D6DB90AA8154172ECE45E49 (void);
-// 0x000012C2 System.Void pure.assetdb.AssetDB::set_version(pure.assetdb.VersionData)
+// 0x000012B8 System.Void pure.assetdb.AssetDB::set_version(pure.assetdb.VersionData)
 extern void AssetDB_set_version_mA3BA3E22F758C5F29FFA4F051A7A305031FF92C2 (void);
-// 0x000012C3 pure.assetdb.AssetDB pure.assetdb.AssetDB::SetVersion(pure.assetdb.VersionData)
+// 0x000012B9 pure.assetdb.AssetDB pure.assetdb.AssetDB::SetVersion(pure.assetdb.VersionData)
 extern void AssetDB_SetVersion_mF5EF8AED1245C0960930A311FDA185CBD0D96ED0 (void);
-// 0x000012C4 pure.assetdb.AssetDB pure.assetdb.AssetDB::SetStorage(pure.utils.fileTools.StoragePath)
+// 0x000012BA pure.assetdb.AssetDB pure.assetdb.AssetDB::SetStorage(pure.utils.fileTools.StoragePath)
 extern void AssetDB_SetStorage_mFAA15922F2F445978C55C8B3549EB4B016814306 (void);
-// 0x000012C5 pure.assetdb.AssetDB pure.assetdb.AssetDB::MakeCurrent()
+// 0x000012BB pure.assetdb.AssetDB pure.assetdb.AssetDB::MakeCurrent()
 extern void AssetDB_MakeCurrent_m4A9F40E3C70A05409884D9BC93A54BCE8DD16590 (void);
-// 0x000012C6 System.Void pure.assetdb.AssetDB::.ctor()
+// 0x000012BC System.Void pure.assetdb.AssetDB::.ctor()
 extern void AssetDB__ctor_m3E9720F007193C77F1444CD38F4D2FAC8D63A373 (void);
-// 0x000012C7 pure.assetdb.AssetSheet pure.assetdb.AssetDB::Sheet(pure.assetdb.AssetType)
+// 0x000012BD pure.assetdb.AssetSheet pure.assetdb.AssetDB::Sheet(pure.assetdb.AssetType)
 extern void AssetDB_Sheet_m1BFB77EF13901F838CC9922C4E9C33FBCBB58CDC (void);
-// 0x000012C8 System.Void pure.assetdb.AssetDB::Add(pure.assetdb.AssetType,pure.assetdb.Asset)
+// 0x000012BE System.Void pure.assetdb.AssetDB::Add(pure.assetdb.AssetType,pure.assetdb.Asset)
 extern void AssetDB_Add_m0319C26433B03E075CF2CB0B7658F0BE12DDC818 (void);
-// 0x000012C9 pure.assetdb.Asset pure.assetdb.AssetDB::SelectOne(pure.assetdb.AssetType,System.String)
+// 0x000012BF pure.assetdb.Asset pure.assetdb.AssetDB::SelectOne(pure.assetdb.AssetType,System.String)
 extern void AssetDB_SelectOne_mD795424B5F0123E1D1F75C60104F23CBC2DF70C3 (void);
-// 0x000012CA T pure.assetdb.AssetDB::SelectOne(pure.assetdb.AssetType,System.String)
-// 0x000012CB System.Collections.Generic.IEnumerator`1<pure.assetdb.AssetSheet> pure.assetdb.AssetDB::GetEnumerator()
+// 0x000012C0 T pure.assetdb.AssetDB::SelectOne(pure.assetdb.AssetType,System.String)
+// 0x000012C1 System.Collections.Generic.IEnumerator`1<pure.assetdb.AssetSheet> pure.assetdb.AssetDB::GetEnumerator()
 extern void AssetDB_GetEnumerator_mA2C0657D4EAB6CF0F59E6264F9FCD20C4543F94D (void);
-// 0x000012CC System.Collections.IEnumerator pure.assetdb.AssetDB::System.Collections.IEnumerable.GetEnumerator()
+// 0x000012C2 System.Collections.IEnumerator pure.assetdb.AssetDB::System.Collections.IEnumerable.GetEnumerator()
 extern void AssetDB_System_Collections_IEnumerable_GetEnumerator_m386A544635CF6BF56D6D93E1F6746F2280B32C83 (void);
-// 0x000012CD pure.assetdb.AssetDB pure.assetdb.AssetDB::Write(System.String)
+// 0x000012C3 pure.assetdb.AssetDB pure.assetdb.AssetDB::Write(System.String)
 extern void AssetDB_Write_m96263891C13CF91A5D43428F6034A35E034C2709 (void);
-// 0x000012CE pure.assetdb.AssetDB pure.assetdb.AssetDB::Write()
+// 0x000012C4 pure.assetdb.AssetDB pure.assetdb.AssetDB::Write()
 extern void AssetDB_Write_mEE866C7AB33640E001685E6E18DAD17F275659BB (void);
-// 0x000012CF System.Void pure.assetdb.AssetDB::.cctor()
+// 0x000012C5 System.Void pure.assetdb.AssetDB::.cctor()
 extern void AssetDB__cctor_mAACCD307FFBF056D5CEF49B7CC3FB937CACC14BD (void);
-// 0x000012D0 System.Void pure.assetdb.AssetFactory::.cctor()
+// 0x000012C6 System.Void pure.assetdb.AssetFactory::.cctor()
 extern void AssetFactory__cctor_m76C92C01FB3F09DAA898A3CF4399637D850DDD10 (void);
-// 0x000012D1 System.Void pure.assetdb.AssetFactory::register(pure.assetdb.AssetType)
-// 0x000012D2 pure.assetdb.Asset pure.assetdb.AssetFactory::Create(pure.assetdb.AssetType)
+// 0x000012C7 System.Void pure.assetdb.AssetFactory::register(pure.assetdb.AssetType)
+// 0x000012C8 pure.assetdb.Asset pure.assetdb.AssetFactory::Create(pure.assetdb.AssetType)
 extern void AssetFactory_Create_mAB2EE95F63F9DDCE52F046879A5A9D870083F2E5 (void);
-// 0x000012D3 System.Collections.Generic.IEnumerable`1<pure.assetdb.AssetType> pure.assetdb.AssetFactory::GetTypes()
+// 0x000012C9 System.Collections.Generic.IEnumerable`1<pure.assetdb.AssetType> pure.assetdb.AssetFactory::GetTypes()
 extern void AssetFactory_GetTypes_m9EE988780437E37EA00742B2A2975A8B1396685F (void);
-// 0x000012D4 System.Void pure.assetdb.AssetFactory/CreateCallback::.ctor(System.Object,System.IntPtr)
+// 0x000012CA System.Void pure.assetdb.AssetFactory/CreateCallback::.ctor(System.Object,System.IntPtr)
 extern void CreateCallback__ctor_m94B6BCABC8BA6E892B97F47E52FFDEA43BA5D2B8 (void);
-// 0x000012D5 pure.assetdb.Asset pure.assetdb.AssetFactory/CreateCallback::Invoke()
+// 0x000012CB pure.assetdb.Asset pure.assetdb.AssetFactory/CreateCallback::Invoke()
 extern void CreateCallback_Invoke_mCE8E6D1062C60253B214817B6A4178578126A5E6 (void);
-// 0x000012D6 System.Void pure.assetdb.AssetFactory/<>c__5`1::.cctor()
-// 0x000012D7 System.Void pure.assetdb.AssetFactory/<>c__5`1::.ctor()
-// 0x000012D8 pure.assetdb.Asset pure.assetdb.AssetFactory/<>c__5`1::<register>b__5_0()
-// 0x000012D9 pure.assetdb.AssetType pure.assetdb.AssetSheet::get_type()
+// 0x000012CC System.Void pure.assetdb.AssetFactory/<>c__5`1::.cctor()
+// 0x000012CD System.Void pure.assetdb.AssetFactory/<>c__5`1::.ctor()
+// 0x000012CE pure.assetdb.Asset pure.assetdb.AssetFactory/<>c__5`1::<register>b__5_0()
+// 0x000012CF pure.assetdb.AssetType pure.assetdb.AssetSheet::get_type()
 extern void AssetSheet_get_type_m77AD22D6F0A571AC1FDFC7B4D0D24F9954FAC208 (void);
-// 0x000012DA System.Int32 pure.assetdb.AssetSheet::get_size()
+// 0x000012D0 System.Int32 pure.assetdb.AssetSheet::get_size()
 extern void AssetSheet_get_size_m066DC5A3C5F36B2CEBD7EE925F2CD89DB76587E8 (void);
-// 0x000012DB System.Void pure.assetdb.AssetSheet::.ctor(pure.assetdb.AssetType,pure.assetdb.AssetDB)
+// 0x000012D1 System.Void pure.assetdb.AssetSheet::.ctor(pure.assetdb.AssetType,pure.assetdb.AssetDB)
 extern void AssetSheet__ctor_m1747833762DDF88C1ABAB43C8EE7656ECD1D7FF8 (void);
-// 0x000012DC System.Void pure.assetdb.AssetSheet::Add(pure.assetdb.Asset)
+// 0x000012D2 System.Void pure.assetdb.AssetSheet::Add(pure.assetdb.Asset)
 extern void AssetSheet_Add_m348BEC90A742CADCF71C3342C2D7BB17E058D71A (void);
-// 0x000012DD pure.assetdb.Asset pure.assetdb.AssetSheet::SelectOne(System.String)
+// 0x000012D3 pure.assetdb.Asset pure.assetdb.AssetSheet::SelectOne(System.String)
 extern void AssetSheet_SelectOne_m10F09910BF36577E7C243D424043729E1719AD7C (void);
-// 0x000012DE T pure.assetdb.AssetSheet::SelectOne(System.String)
-// 0x000012DF pure.assetdb.Asset pure.assetdb.AssetSheet::SelectOne(pure.utils.mathTools.HashCode)
+// 0x000012D4 T pure.assetdb.AssetSheet::SelectOne(System.String)
+// 0x000012D5 pure.assetdb.Asset pure.assetdb.AssetSheet::SelectOne(pure.utils.mathTools.HashCode)
 extern void AssetSheet_SelectOne_mAB9E79CAC7E39BB740C66008C5A7A11471D843B2 (void);
-// 0x000012E0 T pure.assetdb.AssetSheet::SelectOne(pure.utils.mathTools.HashCode)
-// 0x000012E1 T pure.assetdb.AssetSheet::SelectOne(System.Predicate`1<T>)
-// 0x000012E2 System.Void pure.assetdb.AssetSheet::ReleaseAsset(pure.assetdb.AssetLife)
+// 0x000012D6 T pure.assetdb.AssetSheet::SelectOne(pure.utils.mathTools.HashCode)
+// 0x000012D7 T pure.assetdb.AssetSheet::SelectOne(System.Predicate`1<T>)
+// 0x000012D8 System.Void pure.assetdb.AssetSheet::ReleaseAsset(pure.assetdb.AssetLife)
 extern void AssetSheet_ReleaseAsset_m0F10352164CE464C7576A303CD7386C096100855 (void);
-// 0x000012E3 System.Void pure.assetdb.AssetSheet::UnloadUnusedAssets()
+// 0x000012D9 System.Void pure.assetdb.AssetSheet::UnloadUnusedAssets()
 extern void AssetSheet_UnloadUnusedAssets_m6A81CFBC52FE3FEBA5D427783BDBFC92D8233E9D (void);
-// 0x000012E4 T[] pure.assetdb.AssetSheet::ToArray()
-// 0x000012E5 System.Void pure.assetdb.AssetSheet::ToList(System.Collections.Generic.List`1<T>)
-// 0x000012E6 System.Void pure.assetdb.AssetSheet::ToArray(System.Collections.Generic.ICollection`1<T>)
-// 0x000012E7 System.Void pure.assetdb.AssetSheet::ForEach(System.Action`1<T>)
-// 0x000012E8 System.Boolean pure.assetdb.AssetSheet::Contains(System.String)
+// 0x000012DA T[] pure.assetdb.AssetSheet::ToArray()
+// 0x000012DB System.Void pure.assetdb.AssetSheet::ToList(System.Collections.Generic.List`1<T>)
+// 0x000012DC System.Void pure.assetdb.AssetSheet::ToArray(System.Collections.Generic.ICollection`1<T>)
+// 0x000012DD System.Void pure.assetdb.AssetSheet::ForEach(System.Action`1<T>)
+// 0x000012DE System.Boolean pure.assetdb.AssetSheet::Contains(System.String)
 extern void AssetSheet_Contains_mA202AB591C9860C61DF8AC7BB36AEE0752F012ED (void);
-// 0x000012E9 System.Void pure.assetdb.AssetSheet::Remove(System.String)
+// 0x000012DF System.Void pure.assetdb.AssetSheet::Remove(System.String)
 extern void AssetSheet_Remove_mDA5D8ADCF40AFE5470F873D723A752F87891C5CA (void);
-// 0x000012EA System.Void pure.assetdb.AssetSheet::Reserve(System.Int32)
+// 0x000012E0 System.Void pure.assetdb.AssetSheet::Reserve(System.Int32)
 extern void AssetSheet_Reserve_m9EDAE1C4C7C6B74FC4335DE0EDF4C1EFC6F389DA (void);
-// 0x000012EB System.Collections.Generic.IEnumerator`1<pure.assetdb.Asset> pure.assetdb.AssetSheet::GetEnumerator()
+// 0x000012E1 System.Collections.Generic.IEnumerator`1<pure.assetdb.Asset> pure.assetdb.AssetSheet::GetEnumerator()
 extern void AssetSheet_GetEnumerator_m65B0B7FAEFFE2CD2E547B38446AFB0F2FDF15EE3 (void);
-// 0x000012EC System.Collections.IEnumerator pure.assetdb.AssetSheet::System.Collections.IEnumerable.GetEnumerator()
+// 0x000012E2 System.Collections.IEnumerator pure.assetdb.AssetSheet::System.Collections.IEnumerable.GetEnumerator()
 extern void AssetSheet_System_Collections_IEnumerable_GetEnumerator_m3DF136A654E4A59E1BDB4EEE0BBC82932B4D8D4A (void);
-// 0x000012ED System.Void pure.assetdb.AssetSheet::DestoryAssets()
+// 0x000012E3 System.Void pure.assetdb.AssetSheet::DestoryAssets()
 extern void AssetSheet_DestoryAssets_m7FC8AC0CBAA0BB5C247CE3E2BAEAEE8C28F41683 (void);
-// 0x000012EE System.Void pure.assetdb.AssetSheet/AssetMapReserveCallback::.ctor(System.Object,System.IntPtr)
+// 0x000012E4 System.Void pure.assetdb.AssetSheet/AssetMapReserveCallback::.ctor(System.Object,System.IntPtr)
 extern void AssetMapReserveCallback__ctor_m4EACAF4A1F1107841CCF8BD9FAA7A5D49E90A191 (void);
-// 0x000012EF System.Void pure.assetdb.AssetSheet/AssetMapReserveCallback::Invoke(System.Collections.Generic.Dictionary`2<System.String,pure.assetdb.Asset>,System.Collections.Generic.Dictionary`2<pure.utils.mathTools.HashCode,pure.assetdb.Asset>,System.Int32)
+// 0x000012E5 System.Void pure.assetdb.AssetSheet/AssetMapReserveCallback::Invoke(System.Collections.Generic.Dictionary`2<System.String,pure.assetdb.Asset>,System.Collections.Generic.Dictionary`2<pure.utils.mathTools.HashCode,pure.assetdb.Asset>,System.Int32)
 extern void AssetMapReserveCallback_Invoke_m2115FF317A277AB24AC8E01220A768B7632CEDEA (void);
-// 0x000012F0 System.Boolean pure.assetdb.AssetTypeComparer::Equals(pure.assetdb.AssetType,pure.assetdb.AssetType)
+// 0x000012E6 System.Boolean pure.assetdb.AssetTypeComparer::Equals(pure.assetdb.AssetType,pure.assetdb.AssetType)
 extern void AssetTypeComparer_Equals_m87F20FDDDDC0CAC2F04CB76A92B38FF7940912CF (void);
-// 0x000012F1 System.Int32 pure.assetdb.AssetTypeComparer::GetHashCode(pure.assetdb.AssetType)
+// 0x000012E7 System.Int32 pure.assetdb.AssetTypeComparer::GetHashCode(pure.assetdb.AssetType)
 extern void AssetTypeComparer_GetHashCode_m529A1739821747F4164C5AF25207D7CAE759536D (void);
-// 0x000012F2 System.Void pure.assetdb.AssetTypeComparer::.ctor()
+// 0x000012E8 System.Void pure.assetdb.AssetTypeComparer::.ctor()
 extern void AssetTypeComparer__ctor_mAB4B3ED8693AE7F010783170A892D5553F7965E7 (void);
-// 0x000012F3 pure.assetdb.AssetType pure.assetdb.AssetTypeUtils::GetType()
-// 0x000012F4 System.Void pure.assetdb.AssetTypeUtils::.cctor()
+// 0x000012E9 pure.assetdb.AssetType pure.assetdb.AssetTypeUtils::GetType()
+// 0x000012EA System.Void pure.assetdb.AssetTypeUtils::.cctor()
 extern void AssetTypeUtils__cctor_m3A1DA3C6B4646CCB8E33AC6C4FE43E9814D75DA2 (void);
-// 0x000012F5 System.Void pure.assetdb.BindRunner::Add(pure.assetdb.BindMethod,System.Action)
+// 0x000012EB System.Void pure.assetdb.BindRunner::Add(pure.assetdb.BindMethod,System.Action)
 extern void BindRunner_Add_m6B1E728C4FB74D8BFD4F417EE820C8390F636B46 (void);
-// 0x000012F6 System.Boolean pure.assetdb.BindRunner::get_isDone()
+// 0x000012EC System.Boolean pure.assetdb.BindRunner::get_isDone()
 extern void BindRunner_get_isDone_m2E46EB0A3601B3FBBA56CBEAA126A9F8F3FFB1D9 (void);
-// 0x000012F7 System.Void pure.assetdb.BindRunner::set_isDone(System.Boolean)
+// 0x000012ED System.Void pure.assetdb.BindRunner::set_isDone(System.Boolean)
 extern void BindRunner_set_isDone_m771967F3E7710A62FDBCF654D6AAB8E817A1E64E (void);
-// 0x000012F8 System.Void pure.assetdb.BindRunner::.ctor(pure.assetdb.BindMethod)
+// 0x000012EE System.Void pure.assetdb.BindRunner::.ctor(pure.assetdb.BindMethod)
 extern void BindRunner__ctor_m64BB54513A394723A0D9C00EF377D38FE1E6CE81 (void);
-// 0x000012F9 System.Void pure.assetdb.BindRunner::purge()
+// 0x000012EF System.Void pure.assetdb.BindRunner::purge()
 extern void BindRunner_purge_mEA7C5B7F5265917E4B573FD1527EB584F240569D (void);
-// 0x000012FA System.Void pure.assetdb.BindRunner::Bind()
+// 0x000012F0 System.Void pure.assetdb.BindRunner::Bind()
 extern void BindRunner_Bind_m8F77DC8DD966A5582D0FF746C691F73B716C59B3 (void);
-// 0x000012FB System.Collections.IEnumerator pure.assetdb.BindRunner::BindAsync()
+// 0x000012F1 System.Collections.IEnumerator pure.assetdb.BindRunner::BindAsync()
 extern void BindRunner_BindAsync_mCF6FA154BD4A33A13F909F5C1E3B892BDF643A51 (void);
-// 0x000012FC System.Void pure.assetdb.BindRunner::.cctor()
+// 0x000012F2 System.Void pure.assetdb.BindRunner::.cctor()
 extern void BindRunner__cctor_mA7F4A55565BBB71A528960D4E64E52B0AA82C8B3 (void);
-// 0x000012FD System.Boolean pure.assetdb.BindRunner/Binder::get_isDone()
+// 0x000012F3 System.Boolean pure.assetdb.BindRunner/Binder::get_isDone()
 extern void Binder_get_isDone_mEDA09C72A64A9B21E4526513A662EB25852A3747 (void);
-// 0x000012FE System.Void pure.assetdb.BindRunner/Binder::set_isDone(System.Boolean)
+// 0x000012F4 System.Void pure.assetdb.BindRunner/Binder::set_isDone(System.Boolean)
 extern void Binder_set_isDone_m1A035D9AF3D1988504CD6CE4B307598B8FD6D7E9 (void);
-// 0x000012FF pure.assetdb.BindMethod pure.assetdb.BindRunner/Binder::get_method()
+// 0x000012F5 pure.assetdb.BindMethod pure.assetdb.BindRunner/Binder::get_method()
 extern void Binder_get_method_mC222A8A1C1864BD9D87940866CE9091EEBA58342 (void);
-// 0x00001300 System.Void pure.assetdb.BindRunner/Binder::.ctor(pure.assetdb.BindMethod,System.Action)
+// 0x000012F6 System.Void pure.assetdb.BindRunner/Binder::.ctor(pure.assetdb.BindMethod,System.Action)
 extern void Binder__ctor_mAD3A5804542319E9281D2B57613E695EFE5704E4 (void);
-// 0x00001301 System.Void pure.assetdb.BindRunner/Binder::Run()
+// 0x000012F7 System.Void pure.assetdb.BindRunner/Binder::Run()
 extern void Binder_Run_m3515B1CD614EC4F5CBEF4B5C5BC7920ED80CD05C (void);
-// 0x00001302 System.Void pure.assetdb.BindRunner/<BindAsync>d__15::.ctor(System.Int32)
+// 0x000012F8 System.Void pure.assetdb.BindRunner/<BindAsync>d__15::.ctor(System.Int32)
 extern void U3CBindAsyncU3Ed__15__ctor_m6948157308830A7CFE60CC1B189EE56E20D215B1 (void);
-// 0x00001303 System.Void pure.assetdb.BindRunner/<BindAsync>d__15::System.IDisposable.Dispose()
+// 0x000012F9 System.Void pure.assetdb.BindRunner/<BindAsync>d__15::System.IDisposable.Dispose()
 extern void U3CBindAsyncU3Ed__15_System_IDisposable_Dispose_mA9B4809E6B7E98A497DB9E3B1274494D20E1F605 (void);
-// 0x00001304 System.Boolean pure.assetdb.BindRunner/<BindAsync>d__15::MoveNext()
+// 0x000012FA System.Boolean pure.assetdb.BindRunner/<BindAsync>d__15::MoveNext()
 extern void U3CBindAsyncU3Ed__15_MoveNext_m8C3B44C37FE99E057D5AB2B0AAFAEFA9EF8F53A3 (void);
-// 0x00001305 System.Object pure.assetdb.BindRunner/<BindAsync>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000012FB System.Object pure.assetdb.BindRunner/<BindAsync>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CBindAsyncU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDB95B13E78028156B3FBC47193A1BCC61D6B52CD (void);
-// 0x00001306 System.Void pure.assetdb.BindRunner/<BindAsync>d__15::System.Collections.IEnumerator.Reset()
+// 0x000012FC System.Void pure.assetdb.BindRunner/<BindAsync>d__15::System.Collections.IEnumerator.Reset()
 extern void U3CBindAsyncU3Ed__15_System_Collections_IEnumerator_Reset_m9156CF14F55C1423B7285459AEAF024374BFE689 (void);
-// 0x00001307 System.Object pure.assetdb.BindRunner/<BindAsync>d__15::System.Collections.IEnumerator.get_Current()
+// 0x000012FD System.Object pure.assetdb.BindRunner/<BindAsync>d__15::System.Collections.IEnumerator.get_Current()
 extern void U3CBindAsyncU3Ed__15_System_Collections_IEnumerator_get_Current_m1F6F660265E399DA0D555A8B5331FEDACECD605C (void);
-// 0x00001308 System.Int32 pure.assetdb.ScriptVersion::Version(System.Type)
+// 0x000012FE System.Int32 pure.assetdb.ScriptVersion::Version(System.Type)
 extern void ScriptVersion_Version_m616A963BAEB49F9DFFE2FC466A2F0EBD9F4FD2B3 (void);
-// 0x00001309 System.String pure.assetdb.VersionData::ToString()
+// 0x000012FF System.String pure.assetdb.VersionData::ToString()
 extern void VersionData_ToString_m8A1A17C49085ED96BCBE8FE51BAEBAF4E53DEED8 (void);
-// 0x0000130A System.String pure.assetdb.VersionData::get_sdkName()
+// 0x00001300 System.String pure.assetdb.VersionData::get_sdkName()
 extern void VersionData_get_sdkName_m00D10457748D9F0FEFC9141B3939421E8B37A424 (void);
-// 0x0000130B System.Int64 pure.assetdb.VersionData::get_version()
+// 0x00001301 System.Int64 pure.assetdb.VersionData::get_version()
 extern void VersionData_get_version_m53A7F3472E4B1AD50628B81185C420624B71C375 (void);
-// 0x0000130C System.Void pure.assetdb.VersionData::set_version(System.Int64)
+// 0x00001302 System.Void pure.assetdb.VersionData::set_version(System.Int64)
 extern void VersionData_set_version_m6D0245EE57F75BA22CD380265E6B0D7B2FF47D38 (void);
-// 0x0000130D System.Int64 pure.assetdb.VersionData::get_sdkVer()
+// 0x00001303 System.Int64 pure.assetdb.VersionData::get_sdkVer()
 extern void VersionData_get_sdkVer_m0D91D556A58DE438D8F44FFC63CAD5B1C03A01B5 (void);
-// 0x0000130E System.Void pure.assetdb.VersionData::set_sdkVer(System.Int64)
+// 0x00001304 System.Void pure.assetdb.VersionData::set_sdkVer(System.Int64)
 extern void VersionData_set_sdkVer_m31269FE2D3F05C086A6EAB3BDB598B78E5D85EB4 (void);
-// 0x0000130F System.Int32 pure.assetdb.VersionData::get_minimumSdk()
+// 0x00001305 System.Int32 pure.assetdb.VersionData::get_minimumSdk()
 extern void VersionData_get_minimumSdk_m7D33CA7957F524EACC86A2AFC708A7B3EE9A2F56 (void);
-// 0x00001310 System.Boolean pure.assetdb.VersionData::Equals(pure.assetdb.VersionData)
+// 0x00001306 System.Boolean pure.assetdb.VersionData::Equals(pure.assetdb.VersionData)
 extern void VersionData_Equals_m78DF571A4F86C7A783DB6D28A3FC8F787BCD17A6 (void);
-// 0x00001311 System.Boolean pure.assetdb.VersionData::Equals(System.Object)
+// 0x00001307 System.Boolean pure.assetdb.VersionData::Equals(System.Object)
 extern void VersionData_Equals_m50C958F2844236D41FC96B538F7EE57A40DA6679 (void);
-// 0x00001312 System.Int32 pure.assetdb.VersionData::GetHashCode()
+// 0x00001308 System.Int32 pure.assetdb.VersionData::GetHashCode()
 extern void VersionData_GetHashCode_m6572FC0E582A0B62764287F02E5152B58F5AE482 (void);
-// 0x00001313 System.Boolean pure.assetdb.VersionData::op_Equality(pure.assetdb.VersionData,pure.assetdb.VersionData)
+// 0x00001309 System.Boolean pure.assetdb.VersionData::op_Equality(pure.assetdb.VersionData,pure.assetdb.VersionData)
 extern void VersionData_op_Equality_m625B54AFD407AA6F8C2CCACC3E237DD7E3D364CB (void);
-// 0x00001314 System.Boolean pure.assetdb.VersionData::op_Inequality(pure.assetdb.VersionData,pure.assetdb.VersionData)
+// 0x0000130A System.Boolean pure.assetdb.VersionData::op_Inequality(pure.assetdb.VersionData,pure.assetdb.VersionData)
 extern void VersionData_op_Inequality_m93CC899F39AA61C1E62358B3A2565D7ADA49DBEC (void);
-// 0x00001315 System.Boolean pure.assetdb.VersionData::op_GreaterThan(pure.assetdb.VersionData,pure.assetdb.VersionData)
+// 0x0000130B System.Boolean pure.assetdb.VersionData::op_GreaterThan(pure.assetdb.VersionData,pure.assetdb.VersionData)
 extern void VersionData_op_GreaterThan_m419987ABED6C2D6F6E9786EB0342C967AF42EE8B (void);
-// 0x00001316 System.Boolean pure.assetdb.VersionData::op_LessThan(pure.assetdb.VersionData,pure.assetdb.VersionData)
+// 0x0000130C System.Boolean pure.assetdb.VersionData::op_LessThan(pure.assetdb.VersionData,pure.assetdb.VersionData)
 extern void VersionData_op_LessThan_m15F342A0D0827B57EA38DF3FA388D6BCF86B90BD (void);
-// 0x00001317 System.Boolean pure.assetdb.VersionData::op_GreaterThanOrEqual(pure.assetdb.VersionData,pure.assetdb.VersionData)
+// 0x0000130D System.Boolean pure.assetdb.VersionData::op_GreaterThanOrEqual(pure.assetdb.VersionData,pure.assetdb.VersionData)
 extern void VersionData_op_GreaterThanOrEqual_m87C64CF02426BD5206611F9244FA7F723691AD89 (void);
-// 0x00001318 System.Boolean pure.assetdb.VersionData::op_LessThanOrEqual(pure.assetdb.VersionData,pure.assetdb.VersionData)
+// 0x0000130E System.Boolean pure.assetdb.VersionData::op_LessThanOrEqual(pure.assetdb.VersionData,pure.assetdb.VersionData)
 extern void VersionData_op_LessThanOrEqual_mD94EC738F69E05AC82359A4C3E0B5B767517EC2B (void);
-// 0x00001319 System.Void pure.assetdb.VersionData::Read(System.Byte[])
+// 0x0000130F System.Void pure.assetdb.VersionData::Read(System.Byte[])
 extern void VersionData_Read_m64CBCE1B9215D3939B6725BC089B833C11C6BBC3 (void);
-// 0x0000131A System.Byte[] pure.assetdb.VersionData::ToBuffer()
+// 0x00001310 System.Byte[] pure.assetdb.VersionData::ToBuffer()
 extern void VersionData_ToBuffer_m52C9C1970368F65B0F3B1B7247E2FD43BB307F54 (void);
-// 0x0000131B System.Int16 pure.assetdb.VersionData::get_major()
+// 0x00001311 System.Int16 pure.assetdb.VersionData::get_major()
 extern void VersionData_get_major_mE3F1B0BE085C87983CC3C8CF3A48E3EA88D8FD9B (void);
-// 0x0000131C System.Int16 pure.assetdb.VersionData::get_minor()
+// 0x00001312 System.Int16 pure.assetdb.VersionData::get_minor()
 extern void VersionData_get_minor_m0CED1C4833CDC953228CEBB7BEC35CFE2DDB5BC6 (void);
-// 0x0000131D System.Int32 pure.assetdb.VersionData::get_point()
+// 0x00001313 System.Int32 pure.assetdb.VersionData::get_point()
 extern void VersionData_get_point_m50D43AA927E4D8DE592DB372D30983ED66F0637A (void);
-// 0x0000131E System.Int16 pure.assetdb.VersionData::get_sdkMajor()
+// 0x00001314 System.Int16 pure.assetdb.VersionData::get_sdkMajor()
 extern void VersionData_get_sdkMajor_m7F899C19C41745BCBE1132CF0F3FF722117CC699 (void);
-// 0x0000131F System.Int16 pure.assetdb.VersionData::get_sdkMinor()
+// 0x00001315 System.Int16 pure.assetdb.VersionData::get_sdkMinor()
 extern void VersionData_get_sdkMinor_m1D926E24DE4012BC78BBBE36EDB7CCB6B9432D09 (void);
-// 0x00001320 System.Int32 pure.assetdb.VersionData::get_sdkPoint()
+// 0x00001316 System.Int32 pure.assetdb.VersionData::get_sdkPoint()
 extern void VersionData_get_sdkPoint_mF4719906FA16F4A3C2638F7762568BC550C39EDA (void);
-// 0x00001321 System.String pure.assetdb.VersionData::get_directory()
+// 0x00001317 System.String pure.assetdb.VersionData::get_directory()
 extern void VersionData_get_directory_m57B4FDE8C353A626FDAC8A2DAD40B86A1BC3E0EE (void);
-// 0x00001322 pure.assetdb.VersionData pure.assetdb.VersionData::Parse(System.Int64)
+// 0x00001318 pure.assetdb.VersionData pure.assetdb.VersionData::Parse(System.Int64)
 extern void VersionData_Parse_m6E2EE9949A06723ADEA68BB606FD2068DF1FA3B2 (void);
-// 0x00001323 System.Void pure.assetdb.VersionData::Write(System.String)
+// 0x00001319 System.Void pure.assetdb.VersionData::Write(System.String)
 extern void VersionData_Write_m19BC467610D4D059D305E1CA8AC3B9F284CAC7F0 (void);
-// 0x00001324 System.Void pure.assetdb.VersionData::Write()
+// 0x0000131A System.Void pure.assetdb.VersionData::Write()
 extern void VersionData_Write_mDD838FAA6E3C3C242A44B8B5DCE064712828E760 (void);
-// 0x00001325 System.Boolean pure.assetdb.VersionData::ReadStream()
+// 0x0000131B System.Boolean pure.assetdb.VersionData::ReadStream()
 extern void VersionData_ReadStream_mA99F30820A25ACDA60FD890063F51F4CCABF8ACA (void);
-// 0x00001326 System.Boolean pure.assetdb.VersionData::Read(System.String)
+// 0x0000131C System.Boolean pure.assetdb.VersionData::Read(System.String)
 extern void VersionData_Read_mFD861751EB17455C4EDE11CBFCA4339590CF7D50 (void);
-// 0x00001327 System.Boolean pure.assetdb.VersionData::ReadCurrent()
+// 0x0000131D System.Boolean pure.assetdb.VersionData::ReadCurrent()
 extern void VersionData_ReadCurrent_m101F03F5A3F6ACDADA10B6995F6482EF297FBC11 (void);
-// 0x00001328 System.Void pure.assetdb.VesionCache::.ctor()
+// 0x0000131E System.Void pure.assetdb.VesionCache::.ctor()
 extern void VesionCache__ctor_m9D2AF40C805D3F53B9EA697B4BF94FFD5EBDEA67 (void);
-// 0x00001329 pure.assetdb.VersionData pure.assetdb.VersionGroup::GetVersion(System.Int32)
+// 0x0000131F pure.assetdb.VersionData pure.assetdb.VersionGroup::GetVersion(System.Int32)
 extern void VersionGroup_GetVersion_mA3070C51A18F0D86E19591593EAE5069550170DD (void);
-// 0x0000132A System.Int32 pure.assetdb.VersionGroup::GetHighElement()
+// 0x00001320 System.Int32 pure.assetdb.VersionGroup::GetHighElement()
 extern void VersionGroup_GetHighElement_mAED896AE0829B4A4BC6B8060C4E8E9B71887DF38 (void);
-// 0x0000132B System.Int32 pure.assetdb.VersionGroup::GetDirtyElement()
+// 0x00001321 System.Int32 pure.assetdb.VersionGroup::GetDirtyElement()
 extern void VersionGroup_GetDirtyElement_m55C386932012D19D4DD9AB3D2585C1DF4088BDC9 (void);
-// 0x0000132C System.Void pure.assetdb.VersionGroup::.cctor()
+// 0x00001322 System.Void pure.assetdb.VersionGroup::.cctor()
 extern void VersionGroup__cctor_mB3FE5D2EDC8EB1245633807534397C5E430F8A20 (void);
-// 0x0000132D pure.assetdb.Asset_Bundle pure.assetdb.AddressAsset::GetBundleData()
+// 0x00001323 pure.assetdb.Asset_Bundle pure.assetdb.AddressAsset::GetBundleData()
 extern void AddressAsset_GetBundleData_m6489E627BA41FC956B664A67412DF5A075280054 (void);
-// 0x0000132E UnityEngine.AssetBundle pure.assetdb.AddressAsset::GetNativeBundle()
+// 0x00001324 UnityEngine.AssetBundle pure.assetdb.AddressAsset::GetNativeBundle()
 extern void AddressAsset_GetNativeBundle_m93E2E2B41739C6F36A62BA3E2106FEC9347465AF (void);
-// 0x0000132F System.Void pure.assetdb.AddressAsset::FindRelativeBundleData(System.Collections.Generic.ICollection`1<pure.assetdb.Asset_Bundle>)
+// 0x00001325 System.Void pure.assetdb.AddressAsset::FindRelativeBundleData(System.Collections.Generic.ICollection`1<pure.assetdb.Asset_Bundle>)
 extern void AddressAsset_FindRelativeBundleData_mED1455904F7EC5EB95F5D476DD8D7F35661FAFED (void);
-// 0x00001330 System.Void pure.assetdb.AddressAsset::ReadBytes(pure.assetdb.AssetReadContext)
+// 0x00001326 System.Void pure.assetdb.AddressAsset::ReadBytes(pure.assetdb.AssetReadContext)
 extern void AddressAsset_ReadBytes_mCE81B7531A33220211D92AB4FDE00092AF89CDCB (void);
-// 0x00001331 System.Void pure.assetdb.AddressAsset::WriteBytes(pure.assetdb.AssetWriteContext)
+// 0x00001327 System.Void pure.assetdb.AddressAsset::WriteBytes(pure.assetdb.AssetWriteContext)
 extern void AddressAsset_WriteBytes_mF4FC38C2B7F4446376D86AEF09B86D1D3974EA38 (void);
-// 0x00001332 System.Boolean pure.assetdb.AddressAsset::GetGuid(pure.utils.mathTools.HashCode&)
+// 0x00001328 System.Boolean pure.assetdb.AddressAsset::GetGuid(pure.utils.mathTools.HashCode&)
 extern void AddressAsset_GetGuid_m39E565DCB98F463D01DF51F91B30ADF19064A87A (void);
-// 0x00001333 System.Void pure.assetdb.AddressAsset::.ctor()
+// 0x00001329 System.Void pure.assetdb.AddressAsset::.ctor()
 extern void AddressAsset__ctor_m4CC43A7E9B91D780290A8733CAFD14E45FA1CCD2 (void);
-// 0x00001334 System.Void pure.assetdb.Asset::AddLoading(pure.assetdb.Asset)
+// 0x0000132A System.Void pure.assetdb.Asset::AddLoading(pure.assetdb.Asset)
 extern void Asset_AddLoading_mCCB43DD85E38D452128E82EADD6446BC4D9D687D (void);
-// 0x00001335 System.Void pure.assetdb.Asset::RemoveLoading(pure.assetdb.Asset)
+// 0x0000132B System.Void pure.assetdb.Asset::RemoveLoading(pure.assetdb.Asset)
 extern void Asset_RemoveLoading_mDD9018D3EAA545658658DA8BD06BD9C7A801284A (void);
-// 0x00001336 System.Void pure.assetdb.Asset::ClearLoading()
+// 0x0000132C System.Void pure.assetdb.Asset::ClearLoading()
 extern void Asset_ClearLoading_mBA14E9DF54A3158E922FE268B75AC2D70938DFE9 (void);
-// 0x00001337 System.Void pure.assetdb.Asset::Destory()
-// 0x00001338 System.Int32 pure.assetdb.Asset::get_loadingCount()
+// 0x0000132D System.Void pure.assetdb.Asset::Destory()
+// 0x0000132E System.Int32 pure.assetdb.Asset::get_loadingCount()
 extern void Asset_get_loadingCount_m9D5B87E4D7AB3DFD564420753CC546D31506E223 (void);
-// 0x00001339 System.String pure.assetdb.Asset::GetLoadingObject()
+// 0x0000132F System.String pure.assetdb.Asset::GetLoadingObject()
 extern void Asset_GetLoadingObject_m7E89167EB9EC810FD4CD46F54EA52254BBFCFD5A (void);
-// 0x0000133A System.String pure.assetdb.Asset::get_id()
+// 0x00001330 System.String pure.assetdb.Asset::get_id()
 extern void Asset_get_id_mAD6CD82D9D4A9614A67BEC5639224102A7685AF6 (void);
-// 0x0000133B pure.assetdb.AssetType pure.assetdb.Asset::get_type()
-// 0x0000133C System.Boolean pure.assetdb.Asset::get_available()
-// 0x0000133D System.String pure.assetdb.Asset::GetRootDirectory(pure.assetdb.AssetStorge)
+// 0x00001331 pure.assetdb.AssetType pure.assetdb.Asset::get_type()
+// 0x00001332 System.Boolean pure.assetdb.Asset::get_available()
+// 0x00001333 System.String pure.assetdb.Asset::GetRootDirectory(pure.assetdb.AssetStorge)
 extern void Asset_GetRootDirectory_m95C5FA62FDF316113FC0C16F02C8B21D64DB5423 (void);
-// 0x0000133E System.String pure.assetdb.Asset::get_name()
+// 0x00001334 System.String pure.assetdb.Asset::get_name()
 extern void Asset_get_name_m8CB9B8D207204C7C2CA441D0563594E0222A68C1 (void);
-// 0x0000133F System.Boolean pure.assetdb.Asset::GetGuid(pure.utils.mathTools.HashCode&)
+// 0x00001335 System.Boolean pure.assetdb.Asset::GetGuid(pure.utils.mathTools.HashCode&)
 extern void Asset_GetGuid_m639C13913A77012E13F4821A6665034D3E1C6CCF (void);
-// 0x00001340 System.Void pure.assetdb.Asset::ReadBytes(pure.assetdb.AssetReadContext)
-// 0x00001341 System.Void pure.assetdb.Asset::WriteBytes(pure.assetdb.AssetWriteContext)
-// 0x00001342 System.Void pure.assetdb.Asset::.ctor()
+// 0x00001336 System.Void pure.assetdb.Asset::ReadBytes(pure.assetdb.AssetReadContext)
+// 0x00001337 System.Void pure.assetdb.Asset::WriteBytes(pure.assetdb.AssetWriteContext)
+// 0x00001338 System.Void pure.assetdb.Asset::.ctor()
 extern void Asset__ctor_m524D7793332E6870F40E3BCBA9840D04A68B1966 (void);
-// 0x00001343 System.Void pure.assetdb.Asset::.cctor()
+// 0x00001339 System.Void pure.assetdb.Asset::.cctor()
 extern void Asset__cctor_mD9395FC8FC885B2355A70F7E5A12785D58EEC611 (void);
-// 0x00001344 System.Void pure.assetdb.Asset/loading_lock::.ctor(pure.assetdb.Asset)
+// 0x0000133A System.Void pure.assetdb.Asset/loading_lock::.ctor(pure.assetdb.Asset)
 extern void loading_lock__ctor_mC75B833F73D3EFABBB25D4DB1086A69483A0D377 (void);
-// 0x00001345 System.Void pure.assetdb.Asset/loading_lock::Dispose()
+// 0x0000133B System.Void pure.assetdb.Asset/loading_lock::Dispose()
 extern void loading_lock_Dispose_m47951F63AB9D63850052F61F9028750B2633E981 (void);
-// 0x00001346 System.Int32 pure.assetdb.BundleCollection::get_Count()
+// 0x0000133C System.Int32 pure.assetdb.BundleCollection::get_Count()
 extern void BundleCollection_get_Count_m8689914F6121AAFC6A61A4E270156D32E634F33C (void);
-// 0x00001347 System.Boolean pure.assetdb.BundleCollection::get_IsReadOnly()
+// 0x0000133D System.Boolean pure.assetdb.BundleCollection::get_IsReadOnly()
 extern void BundleCollection_get_IsReadOnly_m2AE47BE4D1C21413395058FF3A2DCA06590560B8 (void);
-// 0x00001348 System.Void pure.assetdb.BundleCollection::Lock()
+// 0x0000133E System.Void pure.assetdb.BundleCollection::Lock()
 extern void BundleCollection_Lock_mA470F7BD1F0FFF5A8386AB50D852DD7861FA9401 (void);
-// 0x00001349 System.Void pure.assetdb.BundleCollection::Unlock()
+// 0x0000133F System.Void pure.assetdb.BundleCollection::Unlock()
 extern void BundleCollection_Unlock_mAFC66A6FEBABE97DA907F0310963652D728B291B (void);
-// 0x0000134A pure.utils.task.ICoTask pure.assetdb.BundleCollection::Load()
+// 0x00001340 pure.utils.task.ICoTask pure.assetdb.BundleCollection::Load()
 extern void BundleCollection_Load_mC1DDC98541411CD2714E6039DD9B1B16FC209803 (void);
-// 0x0000134B pure.utils.task.ICoTask pure.assetdb.BundleCollection::Read()
+// 0x00001341 pure.utils.task.ICoTask pure.assetdb.BundleCollection::Read()
 extern void BundleCollection_Read_m8F05EFF76C1DC14067A6B90D238EBD30CF340C4F (void);
-// 0x0000134C System.Collections.Generic.IEnumerator`1<pure.assetdb.Asset_Bundle> pure.assetdb.BundleCollection::GetEnumerator()
+// 0x00001342 System.Collections.Generic.IEnumerator`1<pure.assetdb.Asset_Bundle> pure.assetdb.BundleCollection::GetEnumerator()
 extern void BundleCollection_GetEnumerator_mCE2AF2CFD9DBA7CCC4C9AECCB3DA65BB798A6F70 (void);
-// 0x0000134D System.Collections.IEnumerator pure.assetdb.BundleCollection::System.Collections.IEnumerable.GetEnumerator()
+// 0x00001343 System.Collections.IEnumerator pure.assetdb.BundleCollection::System.Collections.IEnumerable.GetEnumerator()
 extern void BundleCollection_System_Collections_IEnumerable_GetEnumerator_mD1AA6296D66BD0FCC78BD8BA938B86E7FF799E3E (void);
-// 0x0000134E System.Void pure.assetdb.BundleCollection::System.Collections.Generic.ICollection<pure.assetdb.Asset_Bundle>.Add(pure.assetdb.Asset_Bundle)
+// 0x00001344 System.Void pure.assetdb.BundleCollection::System.Collections.Generic.ICollection<pure.assetdb.Asset_Bundle>.Add(pure.assetdb.Asset_Bundle)
 extern void BundleCollection_System_Collections_Generic_ICollectionU3Cpure_assetdb_Asset_BundleU3E_Add_m3AD68BEE8D637CE058A18578200AAB24EB41A089 (void);
-// 0x0000134F System.Boolean pure.assetdb.BundleCollection::System.Collections.Generic.ICollection<pure.assetdb.Asset_Bundle>.Remove(pure.assetdb.Asset_Bundle)
+// 0x00001345 System.Boolean pure.assetdb.BundleCollection::System.Collections.Generic.ICollection<pure.assetdb.Asset_Bundle>.Remove(pure.assetdb.Asset_Bundle)
 extern void BundleCollection_System_Collections_Generic_ICollectionU3Cpure_assetdb_Asset_BundleU3E_Remove_m7D9F282F2A1FC2BA71DBBEC58CB26C7E92E71053 (void);
-// 0x00001350 System.Void pure.assetdb.BundleCollection::System.Collections.Generic.ICollection<pure.assetdb.Asset_Bundle>.Clear()
+// 0x00001346 System.Void pure.assetdb.BundleCollection::System.Collections.Generic.ICollection<pure.assetdb.Asset_Bundle>.Clear()
 extern void BundleCollection_System_Collections_Generic_ICollectionU3Cpure_assetdb_Asset_BundleU3E_Clear_m4F20BED17C418018668FA1D6E16CBA371DE14A53 (void);
-// 0x00001351 System.Boolean pure.assetdb.BundleCollection::System.Collections.Generic.ICollection<pure.assetdb.Asset_Bundle>.Contains(pure.assetdb.Asset_Bundle)
+// 0x00001347 System.Boolean pure.assetdb.BundleCollection::System.Collections.Generic.ICollection<pure.assetdb.Asset_Bundle>.Contains(pure.assetdb.Asset_Bundle)
 extern void BundleCollection_System_Collections_Generic_ICollectionU3Cpure_assetdb_Asset_BundleU3E_Contains_mBFE8295BF8A282E1EAEA0AC83DB0D247BAF257F2 (void);
-// 0x00001352 System.Void pure.assetdb.BundleCollection::System.Collections.Generic.ICollection<pure.assetdb.Asset_Bundle>.CopyTo(pure.assetdb.Asset_Bundle[],System.Int32)
+// 0x00001348 System.Void pure.assetdb.BundleCollection::System.Collections.Generic.ICollection<pure.assetdb.Asset_Bundle>.CopyTo(pure.assetdb.Asset_Bundle[],System.Int32)
 extern void BundleCollection_System_Collections_Generic_ICollectionU3Cpure_assetdb_Asset_BundleU3E_CopyTo_m7A0E5F6BDEE71473D6CEC121B6774E4F9C181032 (void);
-// 0x00001353 System.Void pure.assetdb.BundleCollection::.ctor()
+// 0x00001349 System.Void pure.assetdb.BundleCollection::.ctor()
 extern void BundleCollection__ctor_m2BA84E6916762896C392D969DFFDDBB6A0CEF8D1 (void);
-// 0x00001354 System.Boolean pure.assetdb.BundleCollectionLoader::get_isDone()
+// 0x0000134A System.Boolean pure.assetdb.BundleCollectionLoader::get_isDone()
 extern void BundleCollectionLoader_get_isDone_mC0DD9A6E08689C89A5FAF45A0AA2D508FF76330F (void);
-// 0x00001355 System.Void pure.assetdb.BundleCollectionLoader::set_isDone(System.Boolean)
+// 0x0000134B System.Void pure.assetdb.BundleCollectionLoader::set_isDone(System.Boolean)
 extern void BundleCollectionLoader_set_isDone_mEA207993FCDD5AE0967A777F154F90B2DAC77ACB (void);
-// 0x00001356 System.Single pure.assetdb.BundleCollectionLoader::get_progress()
+// 0x0000134C System.Single pure.assetdb.BundleCollectionLoader::get_progress()
 extern void BundleCollectionLoader_get_progress_m45B5C9AF84319C6CBA72F51AF270EBB2122CA88D (void);
-// 0x00001357 System.Void pure.assetdb.BundleCollectionLoader::set_progress(System.Single)
+// 0x0000134D System.Void pure.assetdb.BundleCollectionLoader::set_progress(System.Single)
 extern void BundleCollectionLoader_set_progress_m00B23B1AEDC589631DDCB0F9FEC88B0B16D00D08 (void);
-// 0x00001358 System.Boolean pure.assetdb.BundleCollectionLoader::get_error()
+// 0x0000134E System.Boolean pure.assetdb.BundleCollectionLoader::get_error()
 extern void BundleCollectionLoader_get_error_mFB9F6246E057E8537C9051A071ABD0DFD1E1CD34 (void);
-// 0x00001359 System.Void pure.assetdb.BundleCollectionLoader::set_error(System.Boolean)
+// 0x0000134F System.Void pure.assetdb.BundleCollectionLoader::set_error(System.Boolean)
 extern void BundleCollectionLoader_set_error_m919DCBC3DB5605943FCC484E0EFB0BDDB2A88DFF (void);
-// 0x0000135A System.String pure.assetdb.BundleCollectionLoader::get_errmsg()
+// 0x00001350 System.String pure.assetdb.BundleCollectionLoader::get_errmsg()
 extern void BundleCollectionLoader_get_errmsg_mEBA4A8E72C405A1BE1329B706A70AD99B2A5CDA7 (void);
-// 0x0000135B System.Void pure.assetdb.BundleCollectionLoader::.ctor(System.Collections.Generic.ICollection`1<pure.assetdb.Asset_Bundle>)
+// 0x00001351 System.Void pure.assetdb.BundleCollectionLoader::.ctor(System.Collections.Generic.ICollection`1<pure.assetdb.Asset_Bundle>)
 extern void BundleCollectionLoader__ctor_m66B05A8C6B8D4DEC121839017C9F5F17DC2C663D (void);
-// 0x0000135C pure.assetdb.BundleCollectionLoader pure.assetdb.BundleCollectionLoader::Load()
+// 0x00001352 pure.assetdb.BundleCollectionLoader pure.assetdb.BundleCollectionLoader::Load()
 extern void BundleCollectionLoader_Load_m8A5EB568068566E7E0070915BF25E55BC815ACA2 (void);
-// 0x0000135D pure.assetdb.BundleCollectionLoader pure.assetdb.BundleCollectionLoader::Read()
+// 0x00001353 pure.assetdb.BundleCollectionLoader pure.assetdb.BundleCollectionLoader::Read()
 extern void BundleCollectionLoader_Read_m858CF0DA6952B0AC796BECD9E737A1DDF7096740 (void);
-// 0x0000135E System.Void pure.assetdb.BundleCollectionLoader::on_loaded(pure.assetdb.Asset_Bundle,pure.net.LoadResult)
+// 0x00001354 System.Void pure.assetdb.BundleCollectionLoader::on_loaded(pure.assetdb.Asset_Bundle,pure.net.LoadResult)
 extern void BundleCollectionLoader_on_loaded_m60DC86E70BCAAAECDABB94099C2038B5DC591CD8 (void);
-// 0x0000135F System.Int64 pure.assetdb.DataAsset::get_version()
+// 0x00001355 System.Int64 pure.assetdb.DataAsset::get_version()
 extern void DataAsset_get_version_m9B37239DAF28AE7310333DD1BFFBD07DC1D3B3B2 (void);
-// 0x00001360 System.Void pure.assetdb.DataAsset::set_version(System.Int64)
+// 0x00001356 System.Void pure.assetdb.DataAsset::set_version(System.Int64)
 extern void DataAsset_set_version_m9DFAB232931F0D33748953FF844CDBCEC8BFEB28 (void);
-// 0x00001361 System.Int64 pure.assetdb.DataAsset::get_fileSize()
+// 0x00001357 System.Int64 pure.assetdb.DataAsset::get_fileSize()
 extern void DataAsset_get_fileSize_mE66F7D616C5DBE33053D874545CC9A0F4266634F (void);
-// 0x00001362 System.Void pure.assetdb.DataAsset::set_fileSize(System.Int64)
+// 0x00001358 System.Void pure.assetdb.DataAsset::set_fileSize(System.Int64)
 extern void DataAsset_set_fileSize_m622A32403ADF4E7080EB7F517FA27C93A75DB232 (void);
-// 0x00001363 pure.assetdb.AssetStorge pure.assetdb.DataAsset::get_storge()
+// 0x00001359 pure.assetdb.AssetStorge pure.assetdb.DataAsset::get_storge()
 extern void DataAsset_get_storge_m3D8D7E6439AEE72C30F6CFAB3FB6537BDC175F6F (void);
-// 0x00001364 System.Void pure.assetdb.DataAsset::set_storge(pure.assetdb.AssetStorge)
+// 0x0000135A System.Void pure.assetdb.DataAsset::set_storge(pure.assetdb.AssetStorge)
 extern void DataAsset_set_storge_mC6A49C75436134D51AC7E214BD5711298B35F9CB (void);
-// 0x00001365 pure.utils.mathTools.HashCode pure.assetdb.DataAsset::get_hashCode()
+// 0x0000135B pure.utils.mathTools.HashCode pure.assetdb.DataAsset::get_hashCode()
 extern void DataAsset_get_hashCode_m74A7D203B71D2092A02366A50DBC1BD9D64D566A (void);
-// 0x00001366 System.Void pure.assetdb.DataAsset::set_hashCode(pure.utils.mathTools.HashCode)
+// 0x0000135C System.Void pure.assetdb.DataAsset::set_hashCode(pure.utils.mathTools.HashCode)
 extern void DataAsset_set_hashCode_m6BE91C1067D0E915EDF06636403256881A4B4B1C (void);
-// 0x00001367 System.String pure.assetdb.DataAsset::get_filePath()
+// 0x0000135D System.String pure.assetdb.DataAsset::get_filePath()
 extern void DataAsset_get_filePath_m747123FE060EDE1DFF03BF0096630FAC6F712038 (void);
-// 0x00001368 System.Boolean pure.assetdb.DataAsset::get_isDone()
+// 0x0000135E System.Boolean pure.assetdb.DataAsset::get_isDone()
 extern void DataAsset_get_isDone_m0C2703A3752461458A0137C54D71ED6E155827D1 (void);
-// 0x00001369 System.Void pure.assetdb.DataAsset::set_isDone(System.Boolean)
+// 0x0000135F System.Void pure.assetdb.DataAsset::set_isDone(System.Boolean)
 extern void DataAsset_set_isDone_mCABC9954D0C08381A3BD983CFBDAF7723C2B6C1A (void);
-// 0x0000136A System.Boolean pure.assetdb.DataAsset::get_error()
+// 0x00001360 System.Boolean pure.assetdb.DataAsset::get_error()
 extern void DataAsset_get_error_mF700190668BA0960366B769E03E0F27A34E92FD9 (void);
-// 0x0000136B System.Void pure.assetdb.DataAsset::set_error(System.Boolean)
+// 0x00001361 System.Void pure.assetdb.DataAsset::set_error(System.Boolean)
 extern void DataAsset_set_error_m8F30D1F703AEF42E8FDF233F45C207D674E83732 (void);
-// 0x0000136C System.Boolean pure.assetdb.DataAsset::get_available()
+// 0x00001362 System.Boolean pure.assetdb.DataAsset::get_available()
 extern void DataAsset_get_available_m7BE9BC9F6976CDFE11EA62B18B238AD5A832AA6B (void);
-// 0x0000136D pure.cpp.CppFileReadMode pure.assetdb.DataAsset::get_readMode()
+// 0x00001363 pure.cpp.CppFileReadMode pure.assetdb.DataAsset::get_readMode()
 extern void DataAsset_get_readMode_m4F534E5D27A254C650FD5C3507DFF75F41473BF6 (void);
-// 0x0000136E System.Void pure.assetdb.DataAsset::ParseBytes(System.Byte[])
-// 0x0000136F System.String pure.assetdb.DataAsset::Location()
+// 0x00001364 System.Void pure.assetdb.DataAsset::ParseBytes(System.Byte[])
+// 0x00001365 System.String pure.assetdb.DataAsset::Location()
 extern void DataAsset_Location_m4EC9B8537173FCE6BA02FB378A5ACC3E58D566A4 (void);
-// 0x00001370 System.Collections.IEnumerator pure.assetdb.DataAsset::Load()
-// 0x00001371 System.Void pure.assetdb.DataAsset::Read()
+// 0x00001366 System.Collections.IEnumerator pure.assetdb.DataAsset::Load()
+// 0x00001367 System.Void pure.assetdb.DataAsset::Read()
 extern void DataAsset_Read_m3C41C3674083A88CDBD9643EB1899120C8ED0420 (void);
-// 0x00001372 System.Void pure.assetdb.DataAsset::read_asset()
+// 0x00001368 System.Void pure.assetdb.DataAsset::read_asset()
 extern void DataAsset_read_asset_m409C9C865B2A114703FA802787373E0564E2C262 (void);
-// 0x00001373 System.Boolean pure.assetdb.DataAsset::read_out(System.String,System.Byte[]&)
+// 0x00001369 System.Boolean pure.assetdb.DataAsset::read_out(System.String,System.Byte[]&)
 extern void DataAsset_read_out_m1BE73C971F050D285F5C1ADA57CBAFB6A05863DE (void);
-// 0x00001374 System.Void pure.assetdb.DataAsset::ReadExtra(pure.assetdb.AssetReadContext)
+// 0x0000136A System.Void pure.assetdb.DataAsset::ReadExtra(pure.assetdb.AssetReadContext)
 extern void DataAsset_ReadExtra_m03DFAA805B24859ABD89DD3EB09C97F3CEDEAB6A (void);
-// 0x00001375 System.Void pure.assetdb.DataAsset::OnRead()
+// 0x0000136B System.Void pure.assetdb.DataAsset::OnRead()
 extern void DataAsset_OnRead_m9996AF28E41E2653824D27119054CF7EB0462870 (void);
-// 0x00001376 System.Void pure.assetdb.DataAsset::ReadBytes(pure.assetdb.AssetReadContext)
+// 0x0000136C System.Void pure.assetdb.DataAsset::ReadBytes(pure.assetdb.AssetReadContext)
 extern void DataAsset_ReadBytes_m1AA3C548A96834305C00FF00FB50F74A21407766 (void);
-// 0x00001377 System.Void pure.assetdb.DataAsset::WriteBytes(pure.assetdb.AssetWriteContext)
+// 0x0000136D System.Void pure.assetdb.DataAsset::WriteBytes(pure.assetdb.AssetWriteContext)
 extern void DataAsset_WriteBytes_mA10C12300CA7F571215F9AA6F1734D85C13D328E (void);
-// 0x00001378 System.Void pure.assetdb.DataAsset::Destory()
+// 0x0000136E System.Void pure.assetdb.DataAsset::Destory()
 extern void DataAsset_Destory_mBC641AE5AD89CAA251B14DBEF3539B1BE65F2E7E (void);
-// 0x00001379 System.Void pure.assetdb.DataAsset::OnDestroy()
-// 0x0000137A System.Void pure.assetdb.DataAsset::WriteExtra(pure.refactor.serialize.ByteWriter,pure.database.ValuePool`1<System.String>)
+// 0x0000136F System.Void pure.assetdb.DataAsset::OnDestroy()
+// 0x00001370 System.Void pure.assetdb.DataAsset::WriteExtra(pure.refactor.serialize.ByteWriter,pure.database.ValuePool`1<System.String>)
 extern void DataAsset_WriteExtra_mB25FC7A5440876170AAA61F41C0ED06775D9E424 (void);
-// 0x0000137B System.Void pure.assetdb.DataAsset::.ctor()
+// 0x00001371 System.Void pure.assetdb.DataAsset::.ctor()
 extern void DataAsset__ctor_m06963820B7F5C92F0398622A110FD864056A970A (void);
-// 0x0000137C System.Boolean pure.assetdb.UnityAsset`1::get_available()
-// 0x0000137D System.Boolean pure.assetdb.UnityAsset`1::get_shouldKeepAlive()
-// 0x0000137E pure.assetdb.AssetLife pure.assetdb.UnityAsset`1::get_lifeMode()
-// 0x0000137F System.Void pure.assetdb.UnityAsset`1::set_lifeMode(pure.assetdb.AssetLife)
-// 0x00001380 System.Void pure.assetdb.UnityAsset`1::SetLifeMode(pure.assetdb.AssetLife)
-// 0x00001381 T pure.assetdb.UnityAsset`1::get_nativeAsset()
-// 0x00001382 System.Void pure.assetdb.UnityAsset`1::set_nativeAsset(T)
-// 0x00001383 pure.assetdb.IAssetTask`1<T> pure.assetdb.UnityAsset`1::Load(pure.assetdb.AssetLife)
-// 0x00001384 pure.assetdb.IAssetTask`1<T> pure.assetdb.UnityAsset`1::Read(pure.assetdb.AssetLife)
-// 0x00001385 System.Void pure.assetdb.UnityAsset`1::Use()
-// 0x00001386 System.Void pure.assetdb.UnityAsset`1::Release()
-// 0x00001387 System.Void pure.assetdb.UnityAsset`1::release_opt()
-// 0x00001388 System.Void pure.assetdb.UnityAsset`1::ReleaseAsset(pure.assetdb.AssetLife)
-// 0x00001389 System.Void pure.assetdb.UnityAsset`1::UnloadIfNotUsed()
-// 0x0000138A System.Void pure.assetdb.UnityAsset`1::Destory()
-// 0x0000138B System.Void pure.assetdb.UnityAsset`1::DestroyImmediate()
-// 0x0000138C System.String pure.assetdb.UnityAsset`1::ToString()
-// 0x0000138D System.Void pure.assetdb.UnityAsset`1::.ctor()
-// 0x0000138E T pure.assetdb.UnityAsset`1/async_operation::pure.assetdb.IAssetTask<T>.get_asset()
-// 0x0000138F System.Boolean pure.assetdb.UnityAsset`1/async_operation::get_isDone()
-// 0x00001390 System.Void pure.assetdb.UnityAsset`1/async_operation::set_isDone(System.Boolean)
-// 0x00001391 System.Boolean pure.assetdb.UnityAsset`1/async_operation::get_error()
-// 0x00001392 System.Void pure.assetdb.UnityAsset`1/async_operation::set_error(System.Boolean)
-// 0x00001393 System.Single pure.assetdb.UnityAsset`1/async_operation::get_progress()
-// 0x00001394 System.Void pure.assetdb.UnityAsset`1/async_operation::set_progress(System.Single)
-// 0x00001395 System.String pure.assetdb.UnityAsset`1/async_operation::get_errmsg()
-// 0x00001396 System.Void pure.assetdb.UnityAsset`1/async_operation::set_errmsg(System.String)
-// 0x00001397 System.Void pure.assetdb.UnityAsset`1/async_operation::.ctor(pure.assetdb.UnityAsset`1<T>)
-// 0x00001398 System.Void pure.assetdb.UnityAsset`1/async_operation::report_error()
-// 0x00001399 System.Void pure.assetdb.UnityAsset`1/async_operation::prepare_load()
-// 0x0000139A System.Collections.IEnumerator pure.assetdb.UnityAsset`1/async_operation::load_process()
-// 0x0000139B System.Collections.IEnumerator pure.assetdb.UnityAsset`1/async_operation::read_process()
-// 0x0000139C pure.utils.task.CoroutineTask pure.assetdb.UnityAsset`1/async_operation::read_task()
-// 0x0000139D pure.assetdb.UnityAsset`1/async_operation<T> pure.assetdb.UnityAsset`1/async_operation::Read()
-// 0x0000139E pure.assetdb.UnityAsset`1/async_operation<T> pure.assetdb.UnityAsset`1/async_operation::Load()
-// 0x0000139F System.Void pure.assetdb.UnityAsset`1/async_operation::stop_coroutine()
-// 0x000013A0 System.Void pure.assetdb.UnityAsset`1/async_operation::Dispose()
-// 0x000013A1 System.Void pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::.ctor(System.Int32)
-// 0x000013A2 System.Void pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::System.IDisposable.Dispose()
-// 0x000013A3 System.Boolean pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::MoveNext()
-// 0x000013A4 System.Void pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::<>m__Finally1()
-// 0x000013A5 System.Object pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-// 0x000013A6 System.Void pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::System.Collections.IEnumerator.Reset()
-// 0x000013A7 System.Object pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::System.Collections.IEnumerator.get_Current()
-// 0x000013A8 System.Void pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::.ctor(System.Int32)
-// 0x000013A9 System.Void pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::System.IDisposable.Dispose()
-// 0x000013AA System.Boolean pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::MoveNext()
-// 0x000013AB System.Void pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::<>m__Finally1()
-// 0x000013AC System.Object pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-// 0x000013AD System.Void pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::System.Collections.IEnumerator.Reset()
-// 0x000013AE System.Object pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::System.Collections.IEnumerator.get_Current()
-// 0x000013AF pure.assetdb.AssetType pure.assetdb.Asset_Animation::get_type()
+// 0x00001372 System.Boolean pure.assetdb.UnityAsset`1::get_available()
+// 0x00001373 System.Boolean pure.assetdb.UnityAsset`1::get_shouldKeepAlive()
+// 0x00001374 pure.assetdb.AssetLife pure.assetdb.UnityAsset`1::get_lifeMode()
+// 0x00001375 System.Void pure.assetdb.UnityAsset`1::set_lifeMode(pure.assetdb.AssetLife)
+// 0x00001376 System.Void pure.assetdb.UnityAsset`1::SetLifeMode(pure.assetdb.AssetLife)
+// 0x00001377 T pure.assetdb.UnityAsset`1::get_nativeAsset()
+// 0x00001378 System.Void pure.assetdb.UnityAsset`1::set_nativeAsset(T)
+// 0x00001379 pure.assetdb.IAssetTask`1<T> pure.assetdb.UnityAsset`1::Load(pure.assetdb.AssetLife)
+// 0x0000137A pure.assetdb.IAssetTask`1<T> pure.assetdb.UnityAsset`1::Read(pure.assetdb.AssetLife)
+// 0x0000137B System.Void pure.assetdb.UnityAsset`1::Use()
+// 0x0000137C System.Void pure.assetdb.UnityAsset`1::Release()
+// 0x0000137D System.Void pure.assetdb.UnityAsset`1::release_opt()
+// 0x0000137E System.Void pure.assetdb.UnityAsset`1::ReleaseAsset(pure.assetdb.AssetLife)
+// 0x0000137F System.Void pure.assetdb.UnityAsset`1::UnloadIfNotUsed()
+// 0x00001380 System.Void pure.assetdb.UnityAsset`1::Destory()
+// 0x00001381 System.Void pure.assetdb.UnityAsset`1::DestroyImmediate()
+// 0x00001382 System.String pure.assetdb.UnityAsset`1::ToString()
+// 0x00001383 System.Void pure.assetdb.UnityAsset`1::.ctor()
+// 0x00001384 T pure.assetdb.UnityAsset`1/async_operation::pure.assetdb.IAssetTask<T>.get_asset()
+// 0x00001385 System.Boolean pure.assetdb.UnityAsset`1/async_operation::get_isDone()
+// 0x00001386 System.Void pure.assetdb.UnityAsset`1/async_operation::set_isDone(System.Boolean)
+// 0x00001387 System.Boolean pure.assetdb.UnityAsset`1/async_operation::get_error()
+// 0x00001388 System.Void pure.assetdb.UnityAsset`1/async_operation::set_error(System.Boolean)
+// 0x00001389 System.Single pure.assetdb.UnityAsset`1/async_operation::get_progress()
+// 0x0000138A System.Void pure.assetdb.UnityAsset`1/async_operation::set_progress(System.Single)
+// 0x0000138B System.String pure.assetdb.UnityAsset`1/async_operation::get_errmsg()
+// 0x0000138C System.Void pure.assetdb.UnityAsset`1/async_operation::set_errmsg(System.String)
+// 0x0000138D System.Void pure.assetdb.UnityAsset`1/async_operation::.ctor(pure.assetdb.UnityAsset`1<T>)
+// 0x0000138E System.Void pure.assetdb.UnityAsset`1/async_operation::report_error()
+// 0x0000138F System.Void pure.assetdb.UnityAsset`1/async_operation::prepare_load()
+// 0x00001390 System.Collections.IEnumerator pure.assetdb.UnityAsset`1/async_operation::load_process()
+// 0x00001391 System.Collections.IEnumerator pure.assetdb.UnityAsset`1/async_operation::read_process()
+// 0x00001392 pure.utils.task.CoroutineTask pure.assetdb.UnityAsset`1/async_operation::read_task()
+// 0x00001393 pure.assetdb.UnityAsset`1/async_operation<T> pure.assetdb.UnityAsset`1/async_operation::Read()
+// 0x00001394 pure.assetdb.UnityAsset`1/async_operation<T> pure.assetdb.UnityAsset`1/async_operation::Load()
+// 0x00001395 System.Void pure.assetdb.UnityAsset`1/async_operation::stop_coroutine()
+// 0x00001396 System.Void pure.assetdb.UnityAsset`1/async_operation::Dispose()
+// 0x00001397 System.Void pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::.ctor(System.Int32)
+// 0x00001398 System.Void pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::System.IDisposable.Dispose()
+// 0x00001399 System.Boolean pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::MoveNext()
+// 0x0000139A System.Void pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::<>m__Finally1()
+// 0x0000139B System.Object pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000139C System.Void pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::System.Collections.IEnumerator.Reset()
+// 0x0000139D System.Object pure.assetdb.UnityAsset`1/async_operation/<load_process>d__24::System.Collections.IEnumerator.get_Current()
+// 0x0000139E System.Void pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::.ctor(System.Int32)
+// 0x0000139F System.Void pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::System.IDisposable.Dispose()
+// 0x000013A0 System.Boolean pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::MoveNext()
+// 0x000013A1 System.Void pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::<>m__Finally1()
+// 0x000013A2 System.Object pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000013A3 System.Void pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::System.Collections.IEnumerator.Reset()
+// 0x000013A4 System.Object pure.assetdb.UnityAsset`1/async_operation/<read_process>d__25::System.Collections.IEnumerator.get_Current()
+// 0x000013A5 pure.assetdb.AssetType pure.assetdb.Asset_Animation::get_type()
 extern void Asset_Animation_get_type_m287A79BE3B86F12004152A97C1F65565EBEA0CE4 (void);
-// 0x000013B0 System.Void pure.assetdb.Asset_Animation::.ctor()
+// 0x000013A6 System.Void pure.assetdb.Asset_Animation::.ctor()
 extern void Asset_Animation__ctor_m72A25FC544D881A28BBC534F0BF80814A283DB99 (void);
-// 0x000013B1 pure.assetdb.AssetType pure.assetdb.Asset_Animator::get_type()
+// 0x000013A7 pure.assetdb.AssetType pure.assetdb.Asset_Animator::get_type()
 extern void Asset_Animator_get_type_mE71605ECBE55BA899EA3ED363450C7D1B2945900 (void);
-// 0x000013B2 System.Void pure.assetdb.Asset_Animator::.ctor()
+// 0x000013A8 System.Void pure.assetdb.Asset_Animator::.ctor()
 extern void Asset_Animator__ctor_m6019A2F3EB9645F8AE277403B6FD657A6197B607 (void);
-// 0x000013B3 pure.assetdb.AssetType pure.assetdb.Asset_Audio::get_type()
+// 0x000013A9 pure.assetdb.AssetType pure.assetdb.Asset_Audio::get_type()
 extern void Asset_Audio_get_type_m868279B9CDFA4F4C9CF78A0093BDB50BD684648C (void);
-// 0x000013B4 System.Void pure.assetdb.Asset_Audio::.ctor()
+// 0x000013AA System.Void pure.assetdb.Asset_Audio::.ctor()
 extern void Asset_Audio__ctor_m862DDBA0A326AAD6796E5DCA4B9A812EBF504D56 (void);
-// 0x000013B5 pure.assetdb.AssetType pure.assetdb.Asset_Buffer::get_type()
+// 0x000013AB pure.assetdb.AssetType pure.assetdb.Asset_Buffer::get_type()
 extern void Asset_Buffer_get_type_m75FFA319358D3B08E56B1264EA706794A19F5BEC (void);
-// 0x000013B6 System.Byte[] pure.assetdb.Asset_Buffer::get_buffer()
+// 0x000013AC System.Byte[] pure.assetdb.Asset_Buffer::get_buffer()
 extern void Asset_Buffer_get_buffer_m6A623CE6E35B29A85FCEBF88D91234F093DECF04 (void);
-// 0x000013B7 System.Void pure.assetdb.Asset_Buffer::set_buffer(System.Byte[])
+// 0x000013AD System.Void pure.assetdb.Asset_Buffer::set_buffer(System.Byte[])
 extern void Asset_Buffer_set_buffer_m016446ABE9E970CBC548432E2F7D600FE63E14F3 (void);
-// 0x000013B8 System.Void pure.assetdb.Asset_Buffer::ParseBytes(System.Byte[])
+// 0x000013AE System.Void pure.assetdb.Asset_Buffer::ParseBytes(System.Byte[])
 extern void Asset_Buffer_ParseBytes_mE4015C8CEBA23C52C0B11664F29AFB94C3860EDB (void);
-// 0x000013B9 System.Collections.IEnumerator pure.assetdb.Asset_Buffer::Load()
+// 0x000013AF System.Collections.IEnumerator pure.assetdb.Asset_Buffer::Load()
 extern void Asset_Buffer_Load_m2F92639A1B9C2C1D6157A8B3D1F99D07AEE0716D (void);
-// 0x000013BA System.Void pure.assetdb.Asset_Buffer::ReadExtra(pure.assetdb.AssetReadContext)
+// 0x000013B0 System.Void pure.assetdb.Asset_Buffer::ReadExtra(pure.assetdb.AssetReadContext)
 extern void Asset_Buffer_ReadExtra_mD80C3E5C19791B73CACEE7ADE92EA9628D8FF0EE (void);
-// 0x000013BB System.Void pure.assetdb.Asset_Buffer::WriteExtra(pure.refactor.serialize.ByteWriter,pure.database.ValuePool`1<System.String>)
+// 0x000013B1 System.Void pure.assetdb.Asset_Buffer::WriteExtra(pure.refactor.serialize.ByteWriter,pure.database.ValuePool`1<System.String>)
 extern void Asset_Buffer_WriteExtra_m1615810582A972DBFC3CC8C58E06CBE1707169D1 (void);
-// 0x000013BC System.Void pure.assetdb.Asset_Buffer::OnDestroy()
+// 0x000013B2 System.Void pure.assetdb.Asset_Buffer::OnDestroy()
 extern void Asset_Buffer_OnDestroy_mDF3D784ADF4E499AC7118666F30FB9CF1E2B7054 (void);
-// 0x000013BD System.Void pure.assetdb.Asset_Buffer::.ctor()
+// 0x000013B3 System.Void pure.assetdb.Asset_Buffer::.ctor()
 extern void Asset_Buffer__ctor_m256514867F295C0FCD59F6A14B7436C0280845D6 (void);
-// 0x000013BE System.Void pure.assetdb.Asset_Buffer/<Load>d__9::.ctor(System.Int32)
+// 0x000013B4 System.Void pure.assetdb.Asset_Buffer/<Load>d__9::.ctor(System.Int32)
 extern void U3CLoadU3Ed__9__ctor_m1151E65EA0855F92675F522FF2CD13AF28CEAD55 (void);
-// 0x000013BF System.Void pure.assetdb.Asset_Buffer/<Load>d__9::System.IDisposable.Dispose()
+// 0x000013B5 System.Void pure.assetdb.Asset_Buffer/<Load>d__9::System.IDisposable.Dispose()
 extern void U3CLoadU3Ed__9_System_IDisposable_Dispose_m1DA745189CF54F5D9D3CBDB487399327B2B87D76 (void);
-// 0x000013C0 System.Boolean pure.assetdb.Asset_Buffer/<Load>d__9::MoveNext()
+// 0x000013B6 System.Boolean pure.assetdb.Asset_Buffer/<Load>d__9::MoveNext()
 extern void U3CLoadU3Ed__9_MoveNext_m9FE7AFBA06B4BD9F53F94583FF9FC5E5524AB881 (void);
-// 0x000013C1 System.Object pure.assetdb.Asset_Buffer/<Load>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000013B7 System.Object pure.assetdb.Asset_Buffer/<Load>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDC1639141B88CCA4C0E878243176663B9E3539FD (void);
-// 0x000013C2 System.Void pure.assetdb.Asset_Buffer/<Load>d__9::System.Collections.IEnumerator.Reset()
+// 0x000013B8 System.Void pure.assetdb.Asset_Buffer/<Load>d__9::System.Collections.IEnumerator.Reset()
 extern void U3CLoadU3Ed__9_System_Collections_IEnumerator_Reset_m5DE6415CCBB63715BE9445650F42B2B0F6FBC2A7 (void);
-// 0x000013C3 System.Object pure.assetdb.Asset_Buffer/<Load>d__9::System.Collections.IEnumerator.get_Current()
+// 0x000013B9 System.Object pure.assetdb.Asset_Buffer/<Load>d__9::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadU3Ed__9_System_Collections_IEnumerator_get_Current_m3A841A91A77E3B05C3F15F623289DE1E0E258534 (void);
-// 0x000013C4 System.String pure.assetdb.Asset_Bundle::get_filePath()
+// 0x000013BA System.String pure.assetdb.Asset_Bundle::get_filePath()
 extern void Asset_Bundle_get_filePath_m8998255E2A7B1EA50474856D52C5059EA43A05BF (void);
-// 0x000013C5 pure.assetdb.AssetType pure.assetdb.Asset_Bundle::get_type()
+// 0x000013BB pure.assetdb.AssetType pure.assetdb.Asset_Bundle::get_type()
 extern void Asset_Bundle_get_type_m42BBDFCEE8B414935DEB02C159637B7C6E77C2EA (void);
-// 0x000013C6 System.Boolean pure.assetdb.Asset_Bundle::get_available()
+// 0x000013BC System.Boolean pure.assetdb.Asset_Bundle::get_available()
 extern void Asset_Bundle_get_available_mF3D20872AACE8AEAFDCC480BA2FB8BE8C740E92C (void);
-// 0x000013C7 System.Boolean pure.assetdb.Asset_Bundle::get_keepForever()
+// 0x000013BD System.Boolean pure.assetdb.Asset_Bundle::get_keepForever()
 extern void Asset_Bundle_get_keepForever_m1444EFC14FB3467997085CC1D78D1D102E5F2099 (void);
-// 0x000013C8 System.Void pure.assetdb.Asset_Bundle::set_keepForever(System.Boolean)
+// 0x000013BE System.Void pure.assetdb.Asset_Bundle::set_keepForever(System.Boolean)
 extern void Asset_Bundle_set_keepForever_m660850671862B08ACAC54DA270DBC090C87013EC (void);
-// 0x000013C9 UnityEngine.AssetBundle pure.assetdb.Asset_Bundle::get_nativeBundle()
+// 0x000013BF UnityEngine.AssetBundle pure.assetdb.Asset_Bundle::get_nativeBundle()
 extern void Asset_Bundle_get_nativeBundle_m6BC43B7A831B583A94EAB033DAA28E72174272FD (void);
-// 0x000013CA System.Void pure.assetdb.Asset_Bundle::set_nativeBundle(UnityEngine.AssetBundle)
+// 0x000013C0 System.Void pure.assetdb.Asset_Bundle::set_nativeBundle(UnityEngine.AssetBundle)
 extern void Asset_Bundle_set_nativeBundle_m58FFA2172DA6186D0EC322332FA8206C4CD776C1 (void);
-// 0x000013CB System.String pure.assetdb.Asset_Bundle::get_fileURL()
+// 0x000013C1 System.String pure.assetdb.Asset_Bundle::get_fileURL()
 extern void Asset_Bundle_get_fileURL_mFAEAA52F9B9CC9E44E26628C3376DAFFC022F7D9 (void);
-// 0x000013CC System.Void pure.assetdb.Asset_Bundle::Use()
+// 0x000013C2 System.Void pure.assetdb.Asset_Bundle::Use()
 extern void Asset_Bundle_Use_m0A7B3039311822E449B10662B5315D551534E1C9 (void);
-// 0x000013CD System.Void pure.assetdb.Asset_Bundle::Release()
+// 0x000013C3 System.Void pure.assetdb.Asset_Bundle::Release()
 extern void Asset_Bundle_Release_m0CF221B04A1F99EEB0352751FD072D1D31C168B8 (void);
-// 0x000013CE System.Void pure.assetdb.Asset_Bundle::Destory()
+// 0x000013C4 System.Void pure.assetdb.Asset_Bundle::Destory()
 extern void Asset_Bundle_Destory_mEF9E2DEA42523128A820DD32C6EB9B5D65C3A8B8 (void);
-// 0x000013CF System.Void pure.assetdb.Asset_Bundle::unload_asset()
+// 0x000013C5 System.Void pure.assetdb.Asset_Bundle::unload_asset()
 extern void Asset_Bundle_unload_asset_m9BF8B72BBEFADA3362C5545B820E262602F3434C (void);
-// 0x000013D0 System.Void pure.assetdb.Asset_Bundle::ensure_depends()
+// 0x000013C6 System.Void pure.assetdb.Asset_Bundle::ensure_depends()
 extern void Asset_Bundle_ensure_depends_m34085F7FABCA74ADF520D10C9752C32C952A8815 (void);
-// 0x000013D1 System.Void pure.assetdb.Asset_Bundle::FindRelatedBundleData(System.Collections.Generic.ICollection`1<pure.assetdb.Asset_Bundle>)
+// 0x000013C7 System.Void pure.assetdb.Asset_Bundle::FindRelatedBundleData(System.Collections.Generic.ICollection`1<pure.assetdb.Asset_Bundle>)
 extern void Asset_Bundle_FindRelatedBundleData_m9E93DA78895C2561A1F0492E31D1EE7BFBE9A13B (void);
-// 0x000013D2 System.Void pure.assetdb.Asset_Bundle::AddListener(System.Action`2<pure.assetdb.Asset_Bundle,pure.net.LoadResult>)
+// 0x000013C8 System.Void pure.assetdb.Asset_Bundle::AddListener(System.Action`2<pure.assetdb.Asset_Bundle,pure.net.LoadResult>)
 extern void Asset_Bundle_AddListener_m6635E32BF63DB39A1A3F2A4DA407CA2DC3933659 (void);
-// 0x000013D3 System.Void pure.assetdb.Asset_Bundle::RemoveListener(System.Action`2<pure.assetdb.Asset_Bundle,pure.net.LoadResult>)
+// 0x000013C9 System.Void pure.assetdb.Asset_Bundle::RemoveListener(System.Action`2<pure.assetdb.Asset_Bundle,pure.net.LoadResult>)
 extern void Asset_Bundle_RemoveListener_m5567DB66E3AA634B49461B01B6B090DCD0EACB2B (void);
-// 0x000013D4 System.Void pure.assetdb.Asset_Bundle::Load()
+// 0x000013CA System.Void pure.assetdb.Asset_Bundle::Load()
 extern void Asset_Bundle_Load_m1CE34A88C797647D817958558ED6FEDF90412198 (void);
-// 0x000013D5 System.Boolean pure.assetdb.Asset_Bundle::get_loading()
+// 0x000013CB System.Boolean pure.assetdb.Asset_Bundle::get_loading()
 extern void Asset_Bundle_get_loading_m8150118F2DF601919981C81A5FDAA4413A7D2C0C (void);
-// 0x000013D6 System.Void pure.assetdb.Asset_Bundle::Load(System.Boolean)
+// 0x000013CC System.Void pure.assetdb.Asset_Bundle::Load(System.Boolean)
 extern void Asset_Bundle_Load_mA492DDB4D1FCD44B8387423D79C7A00CA5951BE0 (void);
-// 0x000013D7 System.Void pure.assetdb.Asset_Bundle::on_bundle_loaded(pure.net.Req_AssetBundle)
+// 0x000013CD System.Void pure.assetdb.Asset_Bundle::on_bundle_loaded(pure.net.Req_AssetBundle)
 extern void Asset_Bundle_on_bundle_loaded_m95D2E573C7446319902FA5DF5938AEA0DF7E67FF (void);
-// 0x000013D8 System.Boolean pure.assetdb.Asset_Bundle::FileCorrupted()
+// 0x000013CE System.Boolean pure.assetdb.Asset_Bundle::FileCorrupted()
 extern void Asset_Bundle_FileCorrupted_m834B65A1C74FD5D999FD7100E2FB6A66308293FA (void);
-// 0x000013D9 System.Void pure.assetdb.Asset_Bundle::Read()
+// 0x000013CF System.Void pure.assetdb.Asset_Bundle::Read()
 extern void Asset_Bundle_Read_mFADA972D9E1D46C56EC894087C34C01A9522C12C (void);
-// 0x000013DA System.Int64 pure.assetdb.Asset_Bundle::get_version()
+// 0x000013D0 System.Int64 pure.assetdb.Asset_Bundle::get_version()
 extern void Asset_Bundle_get_version_m33A0F5605FA42F0969730DC378A035D9E255F099 (void);
-// 0x000013DB System.Void pure.assetdb.Asset_Bundle::set_version(System.Int64)
+// 0x000013D1 System.Void pure.assetdb.Asset_Bundle::set_version(System.Int64)
 extern void Asset_Bundle_set_version_mB43C33EE4F040FE45F54B7C0AF7C1BB52C261BF2 (void);
-// 0x000013DC System.Int64 pure.assetdb.Asset_Bundle::get_fileSize()
+// 0x000013D2 System.Int64 pure.assetdb.Asset_Bundle::get_fileSize()
 extern void Asset_Bundle_get_fileSize_mC9FE7B05BF983918A1282DBAB807D3FEFCD6E5CB (void);
-// 0x000013DD System.Void pure.assetdb.Asset_Bundle::set_fileSize(System.Int64)
+// 0x000013D3 System.Void pure.assetdb.Asset_Bundle::set_fileSize(System.Int64)
 extern void Asset_Bundle_set_fileSize_mEA482EA9D54D74BD7A45DDCE15925D90C5004EBD (void);
-// 0x000013DE pure.assetdb.AssetStorge pure.assetdb.Asset_Bundle::get_storge()
+// 0x000013D4 pure.assetdb.AssetStorge pure.assetdb.Asset_Bundle::get_storge()
 extern void Asset_Bundle_get_storge_mC860AD33400F467D48C62BD5979A206B91FC343D (void);
-// 0x000013DF System.Void pure.assetdb.Asset_Bundle::set_storge(pure.assetdb.AssetStorge)
+// 0x000013D5 System.Void pure.assetdb.Asset_Bundle::set_storge(pure.assetdb.AssetStorge)
 extern void Asset_Bundle_set_storge_mEC39E700F86C24FDB9AB49B780D228F37A81B754 (void);
-// 0x000013E0 pure.utils.mathTools.HashCode pure.assetdb.Asset_Bundle::get_hashCode()
+// 0x000013D6 pure.utils.mathTools.HashCode pure.assetdb.Asset_Bundle::get_hashCode()
 extern void Asset_Bundle_get_hashCode_mA2A882B66E6C51AA6A0A34B758E3D9BA7406F310 (void);
-// 0x000013E1 System.Void pure.assetdb.Asset_Bundle::set_hashCode(pure.utils.mathTools.HashCode)
+// 0x000013D7 System.Void pure.assetdb.Asset_Bundle::set_hashCode(pure.utils.mathTools.HashCode)
 extern void Asset_Bundle_set_hashCode_m8CE7E241F61A22D176730E1ACCB94AB3A75DFD2D (void);
-// 0x000013E2 System.Int64 pure.assetdb.Asset_Bundle::get_installVersion()
+// 0x000013D8 System.Int64 pure.assetdb.Asset_Bundle::get_installVersion()
 extern void Asset_Bundle_get_installVersion_m5F61378810AF65B5E531806B9886291052EA089E (void);
-// 0x000013E3 System.Void pure.assetdb.Asset_Bundle::set_installVersion(System.Int64)
+// 0x000013D9 System.Void pure.assetdb.Asset_Bundle::set_installVersion(System.Int64)
 extern void Asset_Bundle_set_installVersion_mC2F8B9408213AAA472B7F3DF42A432D9B3AEE05E (void);
-// 0x000013E4 System.Void pure.assetdb.Asset_Bundle::ReadBytes(pure.assetdb.AssetReadContext)
+// 0x000013DA System.Void pure.assetdb.Asset_Bundle::ReadBytes(pure.assetdb.AssetReadContext)
 extern void Asset_Bundle_ReadBytes_mA490BAF0677113BC526AEB3DDE2D2D3DE7283BC2 (void);
-// 0x000013E5 System.Void pure.assetdb.Asset_Bundle::WriteBytes(pure.assetdb.AssetWriteContext)
+// 0x000013DB System.Void pure.assetdb.Asset_Bundle::WriteBytes(pure.assetdb.AssetWriteContext)
 extern void Asset_Bundle_WriteBytes_m0ACB906E3C349DF61A9CA9C46B065D03CA02C29E (void);
-// 0x000013E6 System.Void pure.assetdb.Asset_Bundle::.ctor()
+// 0x000013DC System.Void pure.assetdb.Asset_Bundle::.ctor()
 extern void Asset_Bundle__ctor_mC38166CF48A5D4AF0956DB8909023FAAEBC27064 (void);
-// 0x000013E7 System.Void pure.assetdb.Asset_Bundle/LoadEvent::.ctor()
+// 0x000013DD System.Void pure.assetdb.Asset_Bundle/LoadEvent::.ctor()
 extern void LoadEvent__ctor_m1A01714CD6180453E3EBF232E90298B9BF9B0969 (void);
-// 0x000013E8 pure.assetdb.AssetType pure.assetdb.Asset_Diagram::get_type()
+// 0x000013DE pure.assetdb.AssetType pure.assetdb.Asset_Diagram::get_type()
 extern void Asset_Diagram_get_type_mD26B05A9B721099A95C675D6729A519C8F123984 (void);
-// 0x000013E9 System.Void pure.assetdb.Asset_Diagram::ParseBytes(System.Byte[])
+// 0x000013DF System.Void pure.assetdb.Asset_Diagram::ParseBytes(System.Byte[])
 extern void Asset_Diagram_ParseBytes_mECB6ED7A26A44CF90E07B2B673B5568EB99F76B7 (void);
-// 0x000013EA System.Collections.IEnumerator pure.assetdb.Asset_Diagram::Load()
+// 0x000013E0 System.Collections.IEnumerator pure.assetdb.Asset_Diagram::Load()
 extern void Asset_Diagram_Load_mDD64E62ED1896E8AAF819DB8480BF72DF55C4422 (void);
-// 0x000013EB System.Void pure.assetdb.Asset_Diagram::OnDestroy()
+// 0x000013E1 System.Void pure.assetdb.Asset_Diagram::OnDestroy()
 extern void Asset_Diagram_OnDestroy_m68142BAB2F8BE5EA2C410E80D8D3C400848E1FF9 (void);
-// 0x000013EC System.Void pure.assetdb.Asset_Diagram::.ctor()
+// 0x000013E2 System.Void pure.assetdb.Asset_Diagram::.ctor()
 extern void Asset_Diagram__ctor_m02F679D51FF00C306BBE440F799D4993992F8FC0 (void);
-// 0x000013ED pure.assetdb.AssetType pure.assetdb.Asset_Font::get_type()
+// 0x000013E3 pure.assetdb.AssetType pure.assetdb.Asset_Font::get_type()
 extern void Asset_Font_get_type_m759E7220E8A77D068F37E4C49F30CA8EBE11A193 (void);
-// 0x000013EE System.Void pure.assetdb.Asset_Font::.ctor()
+// 0x000013E4 System.Void pure.assetdb.Asset_Font::.ctor()
 extern void Asset_Font__ctor_m3954966B646530D36AD7AC87B310D3C295946600 (void);
-// 0x000013EF pure.assetdb.AssetType pure.assetdb.Asset_Hotfix::get_type()
+// 0x000013E5 pure.assetdb.AssetType pure.assetdb.Asset_Hotfix::get_type()
 extern void Asset_Hotfix_get_type_m1E75667483BA52222DFD3D0573CD168332483179 (void);
-// 0x000013F0 System.Void pure.assetdb.Asset_Hotfix::ParseBytes(System.Byte[])
+// 0x000013E6 System.Void pure.assetdb.Asset_Hotfix::ParseBytes(System.Byte[])
 extern void Asset_Hotfix_ParseBytes_m6D27C05C50F131E4A73784450F142B64854A251F (void);
-// 0x000013F1 System.Collections.IEnumerator pure.assetdb.Asset_Hotfix::Load()
+// 0x000013E7 System.Collections.IEnumerator pure.assetdb.Asset_Hotfix::Load()
 extern void Asset_Hotfix_Load_m0EC2843F6CB3FB614348FE8C2B9899FB7DAE56DA (void);
-// 0x000013F2 System.Void pure.assetdb.Asset_Hotfix::OnDestroy()
+// 0x000013E8 System.Void pure.assetdb.Asset_Hotfix::OnDestroy()
 extern void Asset_Hotfix_OnDestroy_m0CE84CF5778F3CD9CD991D07F18DDE307B7D43B1 (void);
-// 0x000013F3 System.Void pure.assetdb.Asset_Hotfix::.ctor()
+// 0x000013E9 System.Void pure.assetdb.Asset_Hotfix::.ctor()
 extern void Asset_Hotfix__ctor_mCDA433EA76ECB6D6E853637D257AAB6A27FA988D (void);
-// 0x000013F4 System.Boolean pure.assetdb.Asset_Icon::get_available()
+// 0x000013EA System.Boolean pure.assetdb.Asset_Icon::get_available()
 extern void Asset_Icon_get_available_m0D2DE0AA88E108E216382DE04B641C08481DE344 (void);
-// 0x000013F5 System.String pure.assetdb.Asset_Icon::get_id()
+// 0x000013EB System.String pure.assetdb.Asset_Icon::get_id()
 extern void Asset_Icon_get_id_m23F293D626BCECAAFB3644D8B8ECF832F26AE537 (void);
-// 0x000013F6 pure.assetdb.AssetType pure.assetdb.Asset_Icon::get_type()
+// 0x000013EC pure.assetdb.AssetType pure.assetdb.Asset_Icon::get_type()
 extern void Asset_Icon_get_type_mB057C9DAAB4917A07659ECFB7B8855342480A3A4 (void);
-// 0x000013F7 pure.assetdb.Asset pure.assetdb.Asset_Icon::get_asset()
+// 0x000013ED pure.assetdb.Asset pure.assetdb.Asset_Icon::get_asset()
 extern void Asset_Icon_get_asset_mCEDE5513E35B506FFC4992E61224A9C1DB72AFBC (void);
-// 0x000013F8 System.Void pure.assetdb.Asset_Icon::Destory()
+// 0x000013EE System.Void pure.assetdb.Asset_Icon::Destory()
 extern void Asset_Icon_Destory_mDD1FAD4AE4C18B3385A9C443680A0F8CC3688B57 (void);
-// 0x000013F9 System.Void pure.assetdb.Asset_Icon::ReadBytes(pure.assetdb.AssetReadContext)
+// 0x000013EF System.Void pure.assetdb.Asset_Icon::ReadBytes(pure.assetdb.AssetReadContext)
 extern void Asset_Icon_ReadBytes_m6A851299D1C026F42227BBF528B0BE3DA0207199 (void);
-// 0x000013FA System.Void pure.assetdb.Asset_Icon::WriteBytes(pure.assetdb.AssetWriteContext)
+// 0x000013F0 System.Void pure.assetdb.Asset_Icon::WriteBytes(pure.assetdb.AssetWriteContext)
 extern void Asset_Icon_WriteBytes_mA442ECE3A2CCE20000BA0E63F4E97584B680ECB3 (void);
-// 0x000013FB System.Void pure.assetdb.Asset_Icon::.ctor()
+// 0x000013F1 System.Void pure.assetdb.Asset_Icon::.ctor()
 extern void Asset_Icon__ctor_m830D04C0B0CA1D63AF12E7FEAB268C42B8E31494 (void);
-// 0x000013FC System.String pure.assetdb.Asset_Lang::FileToID(System.String)
+// 0x000013F2 System.String pure.assetdb.Asset_Lang::FileToID(System.String)
 extern void Asset_Lang_FileToID_mC2402E00973C0EB3F5B5769867F1E861DA987A46 (void);
-// 0x000013FD System.String pure.assetdb.Asset_Lang::get_lang()
+// 0x000013F3 System.String pure.assetdb.Asset_Lang::get_lang()
 extern void Asset_Lang_get_lang_m60DCD950481A5481CD3C9DEA09066A1859EF3CBB (void);
-// 0x000013FE System.Void pure.assetdb.Asset_Lang::set_lang(System.String)
+// 0x000013F4 System.Void pure.assetdb.Asset_Lang::set_lang(System.String)
 extern void Asset_Lang_set_lang_m941DC1BD0698C293A0702F29DD9DD52D9FB4B7DB (void);
-// 0x000013FF System.Void pure.assetdb.Asset_Lang::ParseBytes(System.Byte[])
+// 0x000013F5 System.Void pure.assetdb.Asset_Lang::ParseBytes(System.Byte[])
 extern void Asset_Lang_ParseBytes_mA623A73BD61D62772B6386C7DEEFC27B86C3DD47 (void);
-// 0x00001400 System.Collections.IEnumerator pure.assetdb.Asset_Lang::Load()
+// 0x000013F6 System.Collections.IEnumerator pure.assetdb.Asset_Lang::Load()
 extern void Asset_Lang_Load_mA2C3CFA6F9474D52916614B2382039F424F9DAD0 (void);
-// 0x00001401 System.Void pure.assetdb.Asset_Lang::OnDestroy()
+// 0x000013F7 System.Void pure.assetdb.Asset_Lang::OnDestroy()
 extern void Asset_Lang_OnDestroy_m29C77D118C09183A65B0AF84393688D86C70B8D6 (void);
-// 0x00001402 pure.assetdb.AssetType pure.assetdb.Asset_Lang::get_type()
+// 0x000013F8 pure.assetdb.AssetType pure.assetdb.Asset_Lang::get_type()
 extern void Asset_Lang_get_type_m37DF9C5CFEE34648E6C0CB410F25C71920FCF12E (void);
-// 0x00001403 System.Void pure.assetdb.Asset_Lang::.ctor()
+// 0x000013F9 System.Void pure.assetdb.Asset_Lang::.ctor()
 extern void Asset_Lang__ctor_m7197B512F171EF8DCCEEB1C865B9E2E47DA33EAE (void);
-// 0x00001404 System.Void pure.assetdb.Asset_Lang/<Load>d__7::.ctor(System.Int32)
+// 0x000013FA System.Void pure.assetdb.Asset_Lang/<Load>d__7::.ctor(System.Int32)
 extern void U3CLoadU3Ed__7__ctor_m0CD17CB8DD03583E12C4E207A548DC19EC817A77 (void);
-// 0x00001405 System.Void pure.assetdb.Asset_Lang/<Load>d__7::System.IDisposable.Dispose()
+// 0x000013FB System.Void pure.assetdb.Asset_Lang/<Load>d__7::System.IDisposable.Dispose()
 extern void U3CLoadU3Ed__7_System_IDisposable_Dispose_m8676E36C08D43DBA625755253915976AA4D74B8B (void);
-// 0x00001406 System.Boolean pure.assetdb.Asset_Lang/<Load>d__7::MoveNext()
+// 0x000013FC System.Boolean pure.assetdb.Asset_Lang/<Load>d__7::MoveNext()
 extern void U3CLoadU3Ed__7_MoveNext_m50B96DA376D0639E3959C8DFD092D64261156177 (void);
-// 0x00001407 System.Object pure.assetdb.Asset_Lang/<Load>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000013FD System.Object pure.assetdb.Asset_Lang/<Load>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE5084F1E17DE5FD50D837962F28A20D2F9FDABC5 (void);
-// 0x00001408 System.Void pure.assetdb.Asset_Lang/<Load>d__7::System.Collections.IEnumerator.Reset()
+// 0x000013FE System.Void pure.assetdb.Asset_Lang/<Load>d__7::System.Collections.IEnumerator.Reset()
 extern void U3CLoadU3Ed__7_System_Collections_IEnumerator_Reset_m95748A75DB6715407DA1047E9212E7C464E041B9 (void);
-// 0x00001409 System.Object pure.assetdb.Asset_Lang/<Load>d__7::System.Collections.IEnumerator.get_Current()
+// 0x000013FF System.Object pure.assetdb.Asset_Lang/<Load>d__7::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadU3Ed__7_System_Collections_IEnumerator_get_Current_m8BDB382F1940844D47FFABC64CE57ACE26861142 (void);
-// 0x0000140A pure.assetdb.AssetType pure.assetdb.Asset_Lua::get_type()
+// 0x00001400 pure.assetdb.AssetType pure.assetdb.Asset_Lua::get_type()
 extern void Asset_Lua_get_type_mE47531F589E154853539623A0064ABE1A52BB5F3 (void);
-// 0x0000140B System.String pure.assetdb.Asset_Lua::get_metaFile()
+// 0x00001401 System.String pure.assetdb.Asset_Lua::get_metaFile()
 extern void Asset_Lua_get_metaFile_m378B41BBB6BFC041A0BF62F0DE3C084E81730A7F (void);
-// 0x0000140C System.Void pure.assetdb.Asset_Lua::ParseBytes(System.Byte[])
+// 0x00001402 System.Void pure.assetdb.Asset_Lua::ParseBytes(System.Byte[])
 extern void Asset_Lua_ParseBytes_m10F7B497815EABA8277ED9687E7AB7572B939685 (void);
-// 0x0000140D System.Collections.IEnumerator pure.assetdb.Asset_Lua::Load()
+// 0x00001403 System.Collections.IEnumerator pure.assetdb.Asset_Lua::Load()
 extern void Asset_Lua_Load_m379FDD5DCC9A08B1B953486D3CA6DC87B5FA4175 (void);
-// 0x0000140E System.Int32 pure.assetdb.Asset_Lua::LoadLua(System.IntPtr,System.String)
+// 0x00001404 System.Int32 pure.assetdb.Asset_Lua::LoadLua(System.IntPtr,System.String)
 extern void Asset_Lua_LoadLua_mB8EEC87D01D14044A204D1ECE39FDCDD0FDD4B09 (void);
-// 0x0000140F System.Void pure.assetdb.Asset_Lua::OnDestroy()
+// 0x00001405 System.Void pure.assetdb.Asset_Lua::OnDestroy()
 extern void Asset_Lua_OnDestroy_m3EF29491267FA374DBAC6BD4F31CDC81E73F2CF8 (void);
-// 0x00001410 System.Int32 pure.assetdb.Asset_Lua::read_lua(System.IntPtr,System.String,pure.assetdb.FilePage)
+// 0x00001406 System.Int32 pure.assetdb.Asset_Lua::read_lua(System.IntPtr,System.String,pure.assetdb.FilePage)
 extern void Asset_Lua_read_lua_m0861C6B631886D873D22024EA2E268D3132FF6AC (void);
-// 0x00001411 System.Void pure.assetdb.Asset_Lua::.ctor()
+// 0x00001407 System.Void pure.assetdb.Asset_Lua::.ctor()
 extern void Asset_Lua__ctor_m4D8E1712DCD542EE0A1160E63D2FEEE7F1D5A4E8 (void);
-// 0x00001412 System.Void pure.assetdb.Asset_Lua/<Load>d__10::.ctor(System.Int32)
+// 0x00001408 System.Void pure.assetdb.Asset_Lua/<Load>d__10::.ctor(System.Int32)
 extern void U3CLoadU3Ed__10__ctor_m777DAAD8736F71A8F032D41339FFE8D50F36500C (void);
-// 0x00001413 System.Void pure.assetdb.Asset_Lua/<Load>d__10::System.IDisposable.Dispose()
+// 0x00001409 System.Void pure.assetdb.Asset_Lua/<Load>d__10::System.IDisposable.Dispose()
 extern void U3CLoadU3Ed__10_System_IDisposable_Dispose_m17457FF26408A72BD7930115934DDE0021A3397B (void);
-// 0x00001414 System.Boolean pure.assetdb.Asset_Lua/<Load>d__10::MoveNext()
+// 0x0000140A System.Boolean pure.assetdb.Asset_Lua/<Load>d__10::MoveNext()
 extern void U3CLoadU3Ed__10_MoveNext_m8D9C603AF6E2A8E3BBFA25F3F4E0A83C33041CBB (void);
-// 0x00001415 System.Object pure.assetdb.Asset_Lua/<Load>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000140B System.Object pure.assetdb.Asset_Lua/<Load>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBB51E596E0B11495CC884F5B73667F4CD55519A3 (void);
-// 0x00001416 System.Void pure.assetdb.Asset_Lua/<Load>d__10::System.Collections.IEnumerator.Reset()
+// 0x0000140C System.Void pure.assetdb.Asset_Lua/<Load>d__10::System.Collections.IEnumerator.Reset()
 extern void U3CLoadU3Ed__10_System_Collections_IEnumerator_Reset_mCA131F44A17A9702E1FA4AC42DEE1F020BF64029 (void);
-// 0x00001417 System.Object pure.assetdb.Asset_Lua/<Load>d__10::System.Collections.IEnumerator.get_Current()
+// 0x0000140D System.Object pure.assetdb.Asset_Lua/<Load>d__10::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadU3Ed__10_System_Collections_IEnumerator_get_Current_m55076587C8BEABF91733BC39C445D28C211E2955 (void);
-// 0x00001418 System.Void pure.assetdb.Asset_Machine::ParseBytes(System.Byte[])
+// 0x0000140E System.Void pure.assetdb.Asset_Machine::ParseBytes(System.Byte[])
 extern void Asset_Machine_ParseBytes_m30B4D5FDA46CB370A8CB82B668E63F93C909D2BD (void);
-// 0x00001419 System.Collections.IEnumerator pure.assetdb.Asset_Machine::Load()
+// 0x0000140F System.Collections.IEnumerator pure.assetdb.Asset_Machine::Load()
 extern void Asset_Machine_Load_mDE87A2088540FCA2A3F24DE5CD5EC87BBA5F243E (void);
-// 0x0000141A System.Void pure.assetdb.Asset_Machine::OnDestroy()
+// 0x00001410 System.Void pure.assetdb.Asset_Machine::OnDestroy()
 extern void Asset_Machine_OnDestroy_mE94303B29892949CD8EDC7843C6A38F630D3EE03 (void);
-// 0x0000141B System.Void pure.assetdb.Asset_Machine::parse_machines(System.Byte[])
+// 0x00001411 System.Void pure.assetdb.Asset_Machine::parse_machines(System.Byte[])
 extern void Asset_Machine_parse_machines_mC9AC4EF71EAD3E7B59329BE4F8BDF82F78211019 (void);
-// 0x0000141C pure.assetdb.AssetType pure.assetdb.Asset_Machine::get_type()
+// 0x00001412 pure.assetdb.AssetType pure.assetdb.Asset_Machine::get_type()
 extern void Asset_Machine_get_type_mFA1AE0E6BC79FBD41F83E48D0C2D321FADE50557 (void);
-// 0x0000141D pure.stateMachine.machine.CpxController pure.assetdb.Asset_Machine::GetData(System.String)
+// 0x00001413 pure.stateMachine.machine.CpxController pure.assetdb.Asset_Machine::GetData(System.String)
 extern void Asset_Machine_GetData_mE093B3FC5536D8388BF3BCBBEF68F48C867C4C15 (void);
-// 0x0000141E System.Boolean pure.assetdb.Asset_Machine::Contains(System.String)
+// 0x00001414 System.Boolean pure.assetdb.Asset_Machine::Contains(System.String)
 extern void Asset_Machine_Contains_mAB632AF93ECD9690C8EA86CA1A61B44932959FE1 (void);
-// 0x0000141F System.Void pure.assetdb.Asset_Machine::.ctor()
+// 0x00001415 System.Void pure.assetdb.Asset_Machine::.ctor()
 extern void Asset_Machine__ctor_mABBC68D45F585E3B15306CB99AFF7EF26797EFCF (void);
-// 0x00001420 System.Void pure.assetdb.Asset_Machine/<Load>d__3::.ctor(System.Int32)
+// 0x00001416 System.Void pure.assetdb.Asset_Machine/<Load>d__3::.ctor(System.Int32)
 extern void U3CLoadU3Ed__3__ctor_m32E1C394C0035A79CC932F2D952165F20F9798F9 (void);
-// 0x00001421 System.Void pure.assetdb.Asset_Machine/<Load>d__3::System.IDisposable.Dispose()
+// 0x00001417 System.Void pure.assetdb.Asset_Machine/<Load>d__3::System.IDisposable.Dispose()
 extern void U3CLoadU3Ed__3_System_IDisposable_Dispose_m9083085CF22A4459AED1080DE25274E6F702D002 (void);
-// 0x00001422 System.Boolean pure.assetdb.Asset_Machine/<Load>d__3::MoveNext()
+// 0x00001418 System.Boolean pure.assetdb.Asset_Machine/<Load>d__3::MoveNext()
 extern void U3CLoadU3Ed__3_MoveNext_m035F9122611BC0FF4794C330F0E9E81D5090BE1B (void);
-// 0x00001423 System.Object pure.assetdb.Asset_Machine/<Load>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001419 System.Object pure.assetdb.Asset_Machine/<Load>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3928CA5BC3EF177856711D03997942C3D5CD2437 (void);
-// 0x00001424 System.Void pure.assetdb.Asset_Machine/<Load>d__3::System.Collections.IEnumerator.Reset()
+// 0x0000141A System.Void pure.assetdb.Asset_Machine/<Load>d__3::System.Collections.IEnumerator.Reset()
 extern void U3CLoadU3Ed__3_System_Collections_IEnumerator_Reset_mC30490D2EED0D65207F3EE86B2F198022AFF9F4E (void);
-// 0x00001425 System.Object pure.assetdb.Asset_Machine/<Load>d__3::System.Collections.IEnumerator.get_Current()
+// 0x0000141B System.Object pure.assetdb.Asset_Machine/<Load>d__3::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadU3Ed__3_System_Collections_IEnumerator_get_Current_m92FA12389FB16379DCF911A8C0312FC88EA52A2B (void);
-// 0x00001426 pure.assetdb.AssetType pure.assetdb.Asset_Material::get_type()
+// 0x0000141C pure.assetdb.AssetType pure.assetdb.Asset_Material::get_type()
 extern void Asset_Material_get_type_mF2628FC2DD68B861A20EA674ED94CBE8CBFF3ABD (void);
-// 0x00001427 System.Void pure.assetdb.Asset_Material::.ctor()
+// 0x0000141D System.Void pure.assetdb.Asset_Material::.ctor()
 extern void Asset_Material__ctor_m934FABDCF8BCDD81E4D58BD43ED1F9A5B74BEF09 (void);
-// 0x00001428 pure.assetdb.AssetType pure.assetdb.Asset_Model::get_type()
+// 0x0000141E pure.assetdb.AssetType pure.assetdb.Asset_Model::get_type()
 extern void Asset_Model_get_type_mCD68F469186DF9A5C4EACB954C71EBBE8125470A (void);
-// 0x00001429 System.Void pure.assetdb.Asset_Model::.ctor()
+// 0x0000141F System.Void pure.assetdb.Asset_Model::.ctor()
 extern void Asset_Model__ctor_m023AF1B1ED025C681B5C06E802C149FC35AF0810 (void);
-// 0x0000142A pure.assetdb.AssetType pure.assetdb.Asset_Prefab::get_type()
+// 0x00001420 pure.assetdb.AssetType pure.assetdb.Asset_Prefab::get_type()
 extern void Asset_Prefab_get_type_mBF08E6D9E02898D0BA2A9639281B9696A1BA069C (void);
-// 0x0000142B System.Boolean pure.assetdb.Asset_Prefab::get_shouldKeepAlive()
+// 0x00001421 System.Boolean pure.assetdb.Asset_Prefab::get_shouldKeepAlive()
 extern void Asset_Prefab_get_shouldKeepAlive_m0494FD0944724F20D0D81B5FFFEBFBEE969BE45E (void);
-// 0x0000142C System.Void pure.assetdb.Asset_Prefab::.ctor()
+// 0x00001422 System.Void pure.assetdb.Asset_Prefab::.ctor()
 extern void Asset_Prefab__ctor_m1B692A10240ADB19B63F772E8FD49561F40643CB (void);
-// 0x0000142D pure.assetdb.AssetType pure.assetdb.Asset_RawVideo::get_type()
+// 0x00001423 pure.assetdb.AssetType pure.assetdb.Asset_RawVideo::get_type()
 extern void Asset_RawVideo_get_type_m9D5868DE8E8889788206A1962483B23AE7E94259 (void);
-// 0x0000142E System.Void pure.assetdb.Asset_RawVideo::.ctor()
+// 0x00001424 System.Void pure.assetdb.Asset_RawVideo::.ctor()
 extern void Asset_RawVideo__ctor_m0D1A28909ABFDECEF71BBEC0EDDB5E1F5140FD06 (void);
-// 0x0000142F pure.assetdb.AssetType pure.assetdb.Asset_Scene::get_type()
+// 0x00001425 pure.assetdb.AssetType pure.assetdb.Asset_Scene::get_type()
 extern void Asset_Scene_get_type_m9B9543D22EF4978D8B9243B967D7102A9E97B0D8 (void);
-// 0x00001430 System.Boolean pure.assetdb.Asset_Scene::get_available()
+// 0x00001426 System.Boolean pure.assetdb.Asset_Scene::get_available()
 extern void Asset_Scene_get_available_mC7392DDC76443F23186A8CAEA5702DEA10E54AF5 (void);
-// 0x00001431 System.Void pure.assetdb.Asset_Scene::Destory()
+// 0x00001427 System.Void pure.assetdb.Asset_Scene::Destory()
 extern void Asset_Scene_Destory_m818759F3A9F58F5BD263D582F2A324D35BEC6EE3 (void);
-// 0x00001432 pure.assetdb.Asset_Bundle pure.assetdb.Asset_Scene::GetBundle()
+// 0x00001428 pure.assetdb.Asset_Bundle pure.assetdb.Asset_Scene::GetBundle()
 extern void Asset_Scene_GetBundle_m0B92AD62498E3CCF393D0BBD7CCB3FB0ACB64E35 (void);
-// 0x00001433 System.Void pure.assetdb.Asset_Scene::.ctor()
+// 0x00001429 System.Void pure.assetdb.Asset_Scene::.ctor()
 extern void Asset_Scene__ctor_mA12E271C05D4F9A6A0397AC6215CF2534520A1E8 (void);
-// 0x00001434 pure.assetdb.AssetType pure.assetdb.Asset_Shader::get_type()
+// 0x0000142A pure.assetdb.AssetType pure.assetdb.Asset_Shader::get_type()
 extern void Asset_Shader_get_type_m5B38D0CACE8E15EFBD37FF4A98CC01D6A2F8EA38 (void);
-// 0x00001435 System.Boolean pure.assetdb.Asset_Shader::get_available()
+// 0x0000142B System.Boolean pure.assetdb.Asset_Shader::get_available()
 extern void Asset_Shader_get_available_mCA7C647133D6CF7350DC28EBEF6D7725EBDCD440 (void);
-// 0x00001436 System.Void pure.assetdb.Asset_Shader::.ctor()
+// 0x0000142C System.Void pure.assetdb.Asset_Shader::.ctor()
 extern void Asset_Shader__ctor_m6D875CE1B96C449DCA2DB1755784CAA4BED0DB60 (void);
-// 0x00001437 pure.assetdb.AssetType pure.assetdb.Asset_Sprite::get_type()
+// 0x0000142D pure.assetdb.AssetType pure.assetdb.Asset_Sprite::get_type()
 extern void Asset_Sprite_get_type_mBA41564BD8855312ED7CE657AAA6A6A8E2801907 (void);
-// 0x00001438 System.Void pure.assetdb.Asset_Sprite::.ctor()
+// 0x0000142E System.Void pure.assetdb.Asset_Sprite::.ctor()
 extern void Asset_Sprite__ctor_mDB8DDE512D7147531BE63E167C548F5A134C7DF3 (void);
-// 0x00001439 pure.assetdb.AssetType pure.assetdb.Asset_SpriteAltas::get_type()
+// 0x0000142F pure.assetdb.AssetType pure.assetdb.Asset_SpriteAltas::get_type()
 extern void Asset_SpriteAltas_get_type_mFFA6C8F3AF4895489B67B8D4E9F54C648831A844 (void);
-// 0x0000143A System.Void pure.assetdb.Asset_SpriteAltas::.ctor()
+// 0x00001430 System.Void pure.assetdb.Asset_SpriteAltas::.ctor()
 extern void Asset_SpriteAltas__ctor_m795AA190B44F929ADC29C52CEEA84E05256EA2F9 (void);
-// 0x0000143B pure.assetdb.AssetType pure.assetdb.Asset_Texture::get_type()
+// 0x00001431 pure.assetdb.AssetType pure.assetdb.Asset_Texture::get_type()
 extern void Asset_Texture_get_type_m2A45E70633523469610FB8133D20D466C741E375 (void);
-// 0x0000143C System.Void pure.assetdb.Asset_Texture::.ctor()
+// 0x00001432 System.Void pure.assetdb.Asset_Texture::.ctor()
 extern void Asset_Texture__ctor_mBBC261C0525CEA93D9C539850765D413D82E0000 (void);
-// 0x0000143D pure.assetdb.AssetType pure.assetdb.Asset_Tree::get_type()
+// 0x00001433 pure.assetdb.AssetType pure.assetdb.Asset_Tree::get_type()
 extern void Asset_Tree_get_type_mD2141F820EBC861F2652808D2E446C1820089979 (void);
-// 0x0000143E pure.database.tree.TreeCore pure.assetdb.Asset_Tree::pure.assetdb.IMulitDataAsset<pure.database.tree.TreeCore>.GetData(System.String)
+// 0x00001434 pure.database.tree.TreeCore pure.assetdb.Asset_Tree::pure.assetdb.IMulitDataAsset<pure.database.tree.TreeCore>.GetData(System.String)
 extern void Asset_Tree_pure_assetdb_IMulitDataAssetU3Cpure_database_tree_TreeCoreU3E_GetData_m832A4D121D64FFF29BC12D558D1CAB79D7D25A2F (void);
-// 0x0000143F System.String pure.assetdb.Asset_Tree::FileToID(System.String)
+// 0x00001435 System.String pure.assetdb.Asset_Tree::FileToID(System.String)
 extern void Asset_Tree_FileToID_m4BAE73E3727DC8AD9D43367CF7F6826F49F6C56F (void);
-// 0x00001440 pure.assetdb.Asset_Tree pure.assetdb.Asset_Tree::GetPackAsset()
+// 0x00001436 pure.assetdb.Asset_Tree pure.assetdb.Asset_Tree::GetPackAsset()
 extern void Asset_Tree_GetPackAsset_m2878CFB0F5CEA1022368A87EAB3DE019AD19269E (void);
-// 0x00001441 System.Boolean pure.assetdb.Asset_Tree::get_isPackedFile()
+// 0x00001437 System.Boolean pure.assetdb.Asset_Tree::get_isPackedFile()
 extern void Asset_Tree_get_isPackedFile_m32CD05C062ED3DCEBE723AFC7DE4F2E5FAE4193B (void);
-// 0x00001442 System.Void pure.assetdb.Asset_Tree::set_isPackedFile(System.Boolean)
+// 0x00001438 System.Void pure.assetdb.Asset_Tree::set_isPackedFile(System.Boolean)
 extern void Asset_Tree_set_isPackedFile_mBB2E90E21BC992373B96DA627896D8F7BF3D7930 (void);
-// 0x00001443 System.Void pure.assetdb.Asset_Tree::OnRead()
+// 0x00001439 System.Void pure.assetdb.Asset_Tree::OnRead()
 extern void Asset_Tree_OnRead_m1E1479AC9BAEB78D217F9D404CDE816EFB2B9220 (void);
-// 0x00001444 System.Boolean pure.assetdb.Asset_Tree::TryGetTree(System.String,pure.database.tree.TreeCore&)
+// 0x0000143A System.Boolean pure.assetdb.Asset_Tree::TryGetTree(System.String,pure.database.tree.TreeCore&)
 extern void Asset_Tree_TryGetTree_m679CABD4EF3377F8E5B29EACF350A156341D44DF (void);
-// 0x00001445 System.Collections.Generic.IEnumerable`1<pure.database.tree.TreeCore> pure.assetdb.Asset_Tree::GetTrees()
+// 0x0000143B System.Collections.Generic.IEnumerable`1<pure.database.tree.TreeCore> pure.assetdb.Asset_Tree::GetTrees()
 extern void Asset_Tree_GetTrees_mB4B8F735447672D331EA5BE2820524256C89D828 (void);
-// 0x00001446 System.Void pure.assetdb.Asset_Tree::ParseBytes(System.Byte[])
+// 0x0000143C System.Void pure.assetdb.Asset_Tree::ParseBytes(System.Byte[])
 extern void Asset_Tree_ParseBytes_m76DAE599E72D8799D8367818805048F3476150DD (void);
-// 0x00001447 System.Collections.IEnumerator pure.assetdb.Asset_Tree::Load()
+// 0x0000143D System.Collections.IEnumerator pure.assetdb.Asset_Tree::Load()
 extern void Asset_Tree_Load_mCC1C2587136FEE0657CD2C98FF9CC8171A4DF190 (void);
-// 0x00001448 System.Boolean pure.assetdb.Asset_Tree::Contains(System.String)
+// 0x0000143E System.Boolean pure.assetdb.Asset_Tree::Contains(System.String)
 extern void Asset_Tree_Contains_mF6E56461D5CDA8AA3C663313D95F224B0DFC0A50 (void);
-// 0x00001449 System.Void pure.assetdb.Asset_Tree::OnDestroy()
+// 0x0000143F System.Void pure.assetdb.Asset_Tree::OnDestroy()
 extern void Asset_Tree_OnDestroy_m3F5349413F3C033FCB246CE309791D9A26F88F60 (void);
-// 0x0000144A System.Void pure.assetdb.Asset_Tree::.ctor()
+// 0x00001440 System.Void pure.assetdb.Asset_Tree::.ctor()
 extern void Asset_Tree__ctor_mC2BCE5C5069B238D507920E958F96741F80FF322 (void);
-// 0x0000144B System.Void pure.assetdb.Asset_Tree/<Load>d__15::.ctor(System.Int32)
+// 0x00001441 System.Void pure.assetdb.Asset_Tree/<Load>d__15::.ctor(System.Int32)
 extern void U3CLoadU3Ed__15__ctor_m08E20800F53C26BB74CCBAEB95746BFB4254427F (void);
-// 0x0000144C System.Void pure.assetdb.Asset_Tree/<Load>d__15::System.IDisposable.Dispose()
+// 0x00001442 System.Void pure.assetdb.Asset_Tree/<Load>d__15::System.IDisposable.Dispose()
 extern void U3CLoadU3Ed__15_System_IDisposable_Dispose_m838482D6ED57BB535D07F389968BE17D5C4DBCD1 (void);
-// 0x0000144D System.Boolean pure.assetdb.Asset_Tree/<Load>d__15::MoveNext()
+// 0x00001443 System.Boolean pure.assetdb.Asset_Tree/<Load>d__15::MoveNext()
 extern void U3CLoadU3Ed__15_MoveNext_m15CEB530EE07AE1D020F7CD2212B12A2B1C9B0CF (void);
-// 0x0000144E System.Object pure.assetdb.Asset_Tree/<Load>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001444 System.Object pure.assetdb.Asset_Tree/<Load>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9496A39107CAA35C6A6BA581FFDDB6F46F66BE74 (void);
-// 0x0000144F System.Void pure.assetdb.Asset_Tree/<Load>d__15::System.Collections.IEnumerator.Reset()
+// 0x00001445 System.Void pure.assetdb.Asset_Tree/<Load>d__15::System.Collections.IEnumerator.Reset()
 extern void U3CLoadU3Ed__15_System_Collections_IEnumerator_Reset_m97EEF109130203EB07DBBC7F4D67291006AAC8D4 (void);
-// 0x00001450 System.Object pure.assetdb.Asset_Tree/<Load>d__15::System.Collections.IEnumerator.get_Current()
+// 0x00001446 System.Object pure.assetdb.Asset_Tree/<Load>d__15::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadU3Ed__15_System_Collections_IEnumerator_get_Current_mDFC3A1E34166C0BED98D1B5E3B49454857992AFA (void);
-// 0x00001451 pure.assetdb.AssetType pure.assetdb.Asset_UnityAsset::get_type()
+// 0x00001447 pure.assetdb.AssetType pure.assetdb.Asset_UnityAsset::get_type()
 extern void Asset_UnityAsset_get_type_m6C912BEC525C812E1BC9090295B66B5C7B1C343C (void);
-// 0x00001452 System.Void pure.assetdb.Asset_UnityAsset::.ctor()
+// 0x00001448 System.Void pure.assetdb.Asset_UnityAsset::.ctor()
 extern void Asset_UnityAsset__ctor_m0C0E24294BD5330DA02F92AB010A8B69E1CE4835 (void);
-// 0x00001453 System.String pure.assetdb.Asset_Video::URL(System.String)
+// 0x00001449 System.String pure.assetdb.Asset_Video::URL(System.String)
 extern void Asset_Video_URL_m1887ED9D787C88AFEA618E99691FCCA0F09004E6 (void);
-// 0x00001454 System.Void pure.assetdb.Asset_Video::Destory()
+// 0x0000144A System.Void pure.assetdb.Asset_Video::Destory()
 extern void Asset_Video_Destory_m60C3C6C43D7F4A0B1FBBE296AE4CAE4223F2A3C2 (void);
-// 0x00001455 pure.assetdb.AssetType pure.assetdb.Asset_Video::get_type()
+// 0x0000144B pure.assetdb.AssetType pure.assetdb.Asset_Video::get_type()
 extern void Asset_Video_get_type_m794F9AF4BF23A969B51309FC0B613099EF75BCAA (void);
-// 0x00001456 System.Boolean pure.assetdb.Asset_Video::get_available()
+// 0x0000144C System.Boolean pure.assetdb.Asset_Video::get_available()
 extern void Asset_Video_get_available_mDD9C53E4FE711B338E80F2A866FEBE3106136453 (void);
-// 0x00001457 System.Int64 pure.assetdb.Asset_Video::get_version()
+// 0x0000144D System.Int64 pure.assetdb.Asset_Video::get_version()
 extern void Asset_Video_get_version_m0CC785AAC4A78D9B87898EEEBD8DB7D079C514A5 (void);
-// 0x00001458 System.Void pure.assetdb.Asset_Video::set_version(System.Int64)
+// 0x0000144E System.Void pure.assetdb.Asset_Video::set_version(System.Int64)
 extern void Asset_Video_set_version_m31727E76E210CCB78A8171B4CDEA58CE8A99545A (void);
-// 0x00001459 System.Int64 pure.assetdb.Asset_Video::get_fileSize()
+// 0x0000144F System.Int64 pure.assetdb.Asset_Video::get_fileSize()
 extern void Asset_Video_get_fileSize_mA22EF736B7E2F9CAA4A4E0E8196953DD54CAAD84 (void);
-// 0x0000145A System.Void pure.assetdb.Asset_Video::set_fileSize(System.Int64)
+// 0x00001450 System.Void pure.assetdb.Asset_Video::set_fileSize(System.Int64)
 extern void Asset_Video_set_fileSize_mAA55452E7DCA14BD5D8830D2CD24E11D791C782B (void);
-// 0x0000145B pure.assetdb.AssetStorge pure.assetdb.Asset_Video::get_storge()
+// 0x00001451 pure.assetdb.AssetStorge pure.assetdb.Asset_Video::get_storge()
 extern void Asset_Video_get_storge_m775A2FB81C8BA63DD37BDE1BD9860AE943BF2041 (void);
-// 0x0000145C System.Void pure.assetdb.Asset_Video::set_storge(pure.assetdb.AssetStorge)
+// 0x00001452 System.Void pure.assetdb.Asset_Video::set_storge(pure.assetdb.AssetStorge)
 extern void Asset_Video_set_storge_mA8DC4F9A94E742EE0864B44434919D218B70D6D6 (void);
-// 0x0000145D pure.utils.mathTools.HashCode pure.assetdb.Asset_Video::get_hashCode()
+// 0x00001453 pure.utils.mathTools.HashCode pure.assetdb.Asset_Video::get_hashCode()
 extern void Asset_Video_get_hashCode_mF45DF0ACA3D942C4298DB11C87947622F3432735 (void);
-// 0x0000145E System.Void pure.assetdb.Asset_Video::set_hashCode(pure.utils.mathTools.HashCode)
+// 0x00001454 System.Void pure.assetdb.Asset_Video::set_hashCode(pure.utils.mathTools.HashCode)
 extern void Asset_Video_set_hashCode_m033EABD207ECEF18A0D3F6CE6374131324319DCE (void);
-// 0x0000145F System.String pure.assetdb.Asset_Video::get_filePath()
+// 0x00001455 System.String pure.assetdb.Asset_Video::get_filePath()
 extern void Asset_Video_get_filePath_m6FF32C795EA94543662B7879E9345BAAA4A1B914 (void);
-// 0x00001460 System.String pure.assetdb.Asset_Video::get_fullUrl()
+// 0x00001456 System.String pure.assetdb.Asset_Video::get_fullUrl()
 extern void Asset_Video_get_fullUrl_m3C6DE4B6107DE540167C75EDB3BEDD40EA3F78D0 (void);
-// 0x00001461 System.String pure.assetdb.Asset_Video::play_url()
+// 0x00001457 System.String pure.assetdb.Asset_Video::play_url()
 extern void Asset_Video_play_url_mF6E71C0C0E57166C041B037C4C2BC99BD811DBF4 (void);
-// 0x00001462 System.Void pure.assetdb.Asset_Video::ReadBytes(pure.assetdb.AssetReadContext)
+// 0x00001458 System.Void pure.assetdb.Asset_Video::ReadBytes(pure.assetdb.AssetReadContext)
 extern void Asset_Video_ReadBytes_mDBA54738782EF01644AD1AF28A26C94929573C2D (void);
-// 0x00001463 System.Void pure.assetdb.Asset_Video::WriteBytes(pure.assetdb.AssetWriteContext)
+// 0x00001459 System.Void pure.assetdb.Asset_Video::WriteBytes(pure.assetdb.AssetWriteContext)
 extern void Asset_Video_WriteBytes_m861F54C3DE3D5E885FCDA1886278347E570F90DB (void);
-// 0x00001464 System.Void pure.assetdb.Asset_Video::.ctor()
+// 0x0000145A System.Void pure.assetdb.Asset_Video::.ctor()
 extern void Asset_Video__ctor_mD218D0E23E3D045E054AC51FB62064E0373B6250 (void);
-// 0x00001465 T pure.assetdb.IAssetTask`1::get_asset()
-// 0x00001466 System.String pure.assetdb.IFileAsset::get_id()
-// 0x00001467 pure.utils.mathTools.HashCode pure.assetdb.IFileAsset::get_hashCode()
-// 0x00001468 System.Void pure.assetdb.IFileAsset::set_hashCode(pure.utils.mathTools.HashCode)
-// 0x00001469 System.Int64 pure.assetdb.IFileAsset::get_version()
-// 0x0000146A System.Void pure.assetdb.IFileAsset::set_version(System.Int64)
-// 0x0000146B System.Int64 pure.assetdb.IFileAsset::get_fileSize()
-// 0x0000146C System.Void pure.assetdb.IFileAsset::set_fileSize(System.Int64)
-// 0x0000146D pure.assetdb.AssetStorge pure.assetdb.IFileAsset::get_storge()
-// 0x0000146E System.Void pure.assetdb.IFileAsset::set_storge(pure.assetdb.AssetStorge)
-// 0x0000146F System.String pure.assetdb.IFileAsset::get_filePath()
-// 0x00001470 T pure.assetdb.IMulitDataAsset`1::GetData(System.String)
-// 0x00001471 System.Void pure.assetdb.IRefCounter::Release()
-// 0x00001472 System.Void pure.assetdb.IRefCounter::Use()
-// 0x00001473 System.Void pure.assetdb.IReleasableAsset::ReleaseAsset(pure.assetdb.AssetLife)
-// 0x00001474 System.Void pure.assetdb.IReleasableAsset::UnloadIfNotUsed()
-// 0x00001475 pure.assetdb.IAotLoader pure.assetdb.AotLoaderFactory::GetLoader()
+// 0x0000145B T pure.assetdb.IAssetTask`1::get_asset()
+// 0x0000145C System.String pure.assetdb.IFileAsset::get_id()
+// 0x0000145D pure.utils.mathTools.HashCode pure.assetdb.IFileAsset::get_hashCode()
+// 0x0000145E System.Void pure.assetdb.IFileAsset::set_hashCode(pure.utils.mathTools.HashCode)
+// 0x0000145F System.Int64 pure.assetdb.IFileAsset::get_version()
+// 0x00001460 System.Void pure.assetdb.IFileAsset::set_version(System.Int64)
+// 0x00001461 System.Int64 pure.assetdb.IFileAsset::get_fileSize()
+// 0x00001462 System.Void pure.assetdb.IFileAsset::set_fileSize(System.Int64)
+// 0x00001463 pure.assetdb.AssetStorge pure.assetdb.IFileAsset::get_storge()
+// 0x00001464 System.Void pure.assetdb.IFileAsset::set_storge(pure.assetdb.AssetStorge)
+// 0x00001465 System.String pure.assetdb.IFileAsset::get_filePath()
+// 0x00001466 T pure.assetdb.IMulitDataAsset`1::GetData(System.String)
+// 0x00001467 System.Void pure.assetdb.IRefCounter::Release()
+// 0x00001468 System.Void pure.assetdb.IRefCounter::Use()
+// 0x00001469 System.Void pure.assetdb.IReleasableAsset::ReleaseAsset(pure.assetdb.AssetLife)
+// 0x0000146A System.Void pure.assetdb.IReleasableAsset::UnloadIfNotUsed()
+// 0x0000146B pure.assetdb.IAotLoader pure.assetdb.AotLoaderFactory::GetLoader()
 extern void AotLoaderFactory_GetLoader_mAA22E171067660DF4F083D0B7DB730DF91D77FA2 (void);
-// 0x00001476 System.Void pure.assetdb.UpLoadHotfixMetaCallback::.ctor(System.Object,System.IntPtr)
+// 0x0000146C System.Void pure.assetdb.UpLoadHotfixMetaCallback::.ctor(System.Object,System.IntPtr)
 extern void UpLoadHotfixMetaCallback__ctor_mF8A4B8D19D679C0D5DC94994BBB7B29FBF505F0B (void);
-// 0x00001477 System.Int32 pure.assetdb.UpLoadHotfixMetaCallback::Invoke(System.Byte[],System.String)
+// 0x0000146D System.Int32 pure.assetdb.UpLoadHotfixMetaCallback::Invoke(System.Byte[],System.String)
 extern void UpLoadHotfixMetaCallback_Invoke_mED66C4BA343B2625ABFD34DD3BC0B57DBE800C99 (void);
-// 0x00001478 System.Void pure.assetdb.AssemblyRecord::Read(System.String)
+// 0x0000146E System.Void pure.assetdb.AssemblyRecord::Read(System.String)
 extern void AssemblyRecord_Read_m52A413BAD4C5FB3609E24BFF642E084E1D1B4758 (void);
-// 0x00001479 System.Void pure.assetdb.AssemblyRecord::Write(System.String)
+// 0x0000146F System.Void pure.assetdb.AssemblyRecord::Write(System.String)
 extern void AssemblyRecord_Write_m070763A88EFF0A297F26AEAE278DB654231FDC10 (void);
-// 0x0000147A System.Void pure.assetdb.AssemblyRecord::.ctor()
+// 0x00001470 System.Void pure.assetdb.AssemblyRecord::.ctor()
 extern void AssemblyRecord__ctor_m51CF620A6956D18B2DE8EB8DB959F3D345F70AA5 (void);
-// 0x0000147B System.Void pure.assetdb.AssemblyCache::FromJson(pure.utils.json.JsonNode)
+// 0x00001471 System.Void pure.assetdb.AssemblyCache::FromJson(pure.utils.json.JsonNode)
 extern void AssemblyCache_FromJson_m8596B276C6D2827F1C69445D016F142B477074E2 (void);
-// 0x0000147C pure.utils.json.JsonNode pure.assetdb.AssemblyCache::ToJson()
+// 0x00001472 pure.utils.json.JsonNode pure.assetdb.AssemblyCache::ToJson()
 extern void AssemblyCache_ToJson_m0DC97B1F7F4E339DFF697B286E5E5D0F7D02AFF5 (void);
-// 0x0000147D System.Void pure.assetdb.AssemblyCache::.ctor()
+// 0x00001473 System.Void pure.assetdb.AssemblyCache::.ctor()
 extern void AssemblyCache__ctor_m361479D0430EF86587416B6F5B0C3A4CB9F2E84F (void);
-// 0x0000147E System.Void pure.assetdb.BreakStep::SetText(pure.ui.IValueField`1<System.String>)
+// 0x00001474 System.Void pure.assetdb.BreakStep::SetText(pure.ui.IValueField`1<System.String>)
 extern void BreakStep_SetText_mC80048C5F084931DB4CFD8C0464DDF8079A5016C (void);
-// 0x0000147F System.Void pure.assetdb.BreakStep::Lock(UnityEngine.Object)
+// 0x00001475 System.Void pure.assetdb.BreakStep::Lock(UnityEngine.Object)
 extern void BreakStep_Lock_mCCEBBB01C474FCB54A5FF3A3925D8EFDF899BEC4 (void);
-// 0x00001480 System.Void pure.assetdb.BreakStep::Unlock(UnityEngine.Object)
+// 0x00001476 System.Void pure.assetdb.BreakStep::Unlock(UnityEngine.Object)
 extern void BreakStep_Unlock_mE883919AABB69D821475358247C8063CD881E958 (void);
-// 0x00001481 System.Collections.IEnumerator pure.assetdb.BreakStep::Pause(System.String)
+// 0x00001477 System.Collections.IEnumerator pure.assetdb.BreakStep::Pause(System.String)
 extern void BreakStep_Pause_m2D447F746C20B5E68215C82324DE79C03A9033D6 (void);
-// 0x00001482 System.Void pure.assetdb.BreakStep::.cctor()
+// 0x00001478 System.Void pure.assetdb.BreakStep::.cctor()
 extern void BreakStep__cctor_mF1EAEEEE58F61594510CB2572797E32861E93D61 (void);
-// 0x00001483 System.Void pure.assetdb.BreakStep/<Pause>d__7::.ctor(System.Int32)
+// 0x00001479 System.Void pure.assetdb.BreakStep/<Pause>d__7::.ctor(System.Int32)
 extern void U3CPauseU3Ed__7__ctor_mE640D32676F33C3046D4A4883055658883DFA158 (void);
-// 0x00001484 System.Void pure.assetdb.BreakStep/<Pause>d__7::System.IDisposable.Dispose()
+// 0x0000147A System.Void pure.assetdb.BreakStep/<Pause>d__7::System.IDisposable.Dispose()
 extern void U3CPauseU3Ed__7_System_IDisposable_Dispose_mE838CC235D2F04098E26F737E341988EF4779A9E (void);
-// 0x00001485 System.Boolean pure.assetdb.BreakStep/<Pause>d__7::MoveNext()
+// 0x0000147B System.Boolean pure.assetdb.BreakStep/<Pause>d__7::MoveNext()
 extern void U3CPauseU3Ed__7_MoveNext_mC64167967942B90B27ECED2D15BC52EBFE1B265B (void);
-// 0x00001486 System.Object pure.assetdb.BreakStep/<Pause>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000147C System.Object pure.assetdb.BreakStep/<Pause>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CPauseU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7AFAF65B94876582935A2BC02CA82C0D727F832B (void);
-// 0x00001487 System.Void pure.assetdb.BreakStep/<Pause>d__7::System.Collections.IEnumerator.Reset()
+// 0x0000147D System.Void pure.assetdb.BreakStep/<Pause>d__7::System.Collections.IEnumerator.Reset()
 extern void U3CPauseU3Ed__7_System_Collections_IEnumerator_Reset_m4A8BD6A3528BAAE7C29B9E088F8636A1E3BB91C2 (void);
-// 0x00001488 System.Object pure.assetdb.BreakStep/<Pause>d__7::System.Collections.IEnumerator.get_Current()
+// 0x0000147E System.Object pure.assetdb.BreakStep/<Pause>d__7::System.Collections.IEnumerator.get_Current()
 extern void U3CPauseU3Ed__7_System_Collections_IEnumerator_get_Current_mF62DCC29F3B13B3ABE62268A07DFA53B43712DDD (void);
-// 0x00001489 System.String pure.assetdb.GameArguments::GetConfigURL()
+// 0x0000147F System.String pure.assetdb.GameArguments::GetConfigURL()
 extern void GameArguments_GetConfigURL_m7AF246D7BF993B30561F28D02E4CDB429429E418 (void);
-// 0x0000148A System.Void pure.assetdb.GameArguments::.ctor()
+// 0x00001480 System.Void pure.assetdb.GameArguments::.ctor()
 extern void GameArguments__ctor_m222B1A1CC747B15B827A2B51822CDF4A719DE397 (void);
-// 0x0000148B System.Boolean pure.assetdb.HotfixDll::TryGet(System.String,System.Reflection.Assembly&)
+// 0x00001481 System.Boolean pure.assetdb.HotfixDll::TryGet(System.String,System.Reflection.Assembly&)
 extern void HotfixDll_TryGet_m51653E75BB9216847F662A0C4460BA4C62411C7C (void);
-// 0x0000148C System.Void pure.assetdb.HotfixDll::.cctor()
+// 0x00001482 System.Void pure.assetdb.HotfixDll::.cctor()
 extern void HotfixDll__cctor_m6EA474F67B764A9622314BDAF5D0034500887A99 (void);
-// 0x0000148D System.Void pure.assetdb.IAotLoader::set_loaderBar(pure.assetdb.AotLoaderSetting)
-// 0x0000148E System.Void pure.assetdb.IAotLoader::set_root(UnityEngine.GameObject)
-// 0x0000148F System.Void pure.assetdb.IAotLoader::set_metaUploader(pure.assetdb.UpLoadHotfixMetaCallback)
-// 0x00001490 System.Void pure.assetdb.IAotLoader::set_assemblies(System.String[])
-// 0x00001491 System.Void pure.assetdb.IAotLoader::set_metadatas(System.String[])
-// 0x00001492 System.Collections.IEnumerator pure.assetdb.IAotLoader::Start()
-// 0x00001493 pure.native.NativeFormType pure.assetdb.NativeForm_Prelogin::get_formType()
+// 0x00001483 System.Void pure.assetdb.IAotLoader::set_loaderBar(pure.assetdb.AotLoaderSetting)
+// 0x00001484 System.Void pure.assetdb.IAotLoader::set_root(UnityEngine.GameObject)
+// 0x00001485 System.Void pure.assetdb.IAotLoader::set_metaUploader(pure.assetdb.UpLoadHotfixMetaCallback)
+// 0x00001486 System.Void pure.assetdb.IAotLoader::set_assemblies(System.String[])
+// 0x00001487 System.Void pure.assetdb.IAotLoader::set_metadatas(System.String[])
+// 0x00001488 System.Collections.IEnumerator pure.assetdb.IAotLoader::Start()
+// 0x00001489 pure.native.NativeFormType pure.assetdb.NativeForm_Prelogin::get_formType()
 extern void NativeForm_Prelogin_get_formType_m149BF53C01194ED7DB0EADD24C2A6164231FF653 (void);
-// 0x00001494 System.String pure.assetdb.NativeForm_Prelogin::get_method()
+// 0x0000148A System.String pure.assetdb.NativeForm_Prelogin::get_method()
 extern void NativeForm_Prelogin_get_method_m0A4198A3A2758BBDBB632F917FD2388896D99711 (void);
-// 0x00001495 System.Void pure.assetdb.NativeForm_Prelogin::Send()
+// 0x0000148B System.Void pure.assetdb.NativeForm_Prelogin::Send()
 extern void NativeForm_Prelogin_Send_m3F4CF17A6DBCF8428CACDA38F7FB1BAA88F6B720 (void);
-// 0x00001496 System.Void pure.assetdb.NativeForm_Prelogin::OnReply(pure.utils.json.JsonNode)
+// 0x0000148C System.Void pure.assetdb.NativeForm_Prelogin::OnReply(pure.utils.json.JsonNode)
 extern void NativeForm_Prelogin_OnReply_mDA14C574E9077ADB9F65766FC5B4E34F94CF447B (void);
-// 0x00001497 System.Void pure.assetdb.NativeForm_Prelogin::.ctor()
+// 0x0000148D System.Void pure.assetdb.NativeForm_Prelogin::.ctor()
 extern void NativeForm_Prelogin__ctor_mECC4C0CB42B01D53843B73F9E6BBFCFF58959772 (void);
-// 0x00001498 System.Single pure.assetdb.VersionLoader::get_progress()
+// 0x0000148E System.Single pure.assetdb.VersionLoader::get_progress()
 extern void VersionLoader_get_progress_m1F85889A659A8FA489846D40AA0A48D51B12B825 (void);
-// 0x00001499 System.Void pure.assetdb.VersionLoader::set_progress(System.Single)
+// 0x0000148F System.Void pure.assetdb.VersionLoader::set_progress(System.Single)
 extern void VersionLoader_set_progress_m45B8D7B485EA666BBDEE54ED9C9CED69E1ED54C3 (void);
-// 0x0000149A System.Boolean pure.assetdb.VersionLoader::get_isDone()
+// 0x00001490 System.Boolean pure.assetdb.VersionLoader::get_isDone()
 extern void VersionLoader_get_isDone_mB3F800383701B034B2FD2739C8E4A342E8DB95D0 (void);
-// 0x0000149B System.Void pure.assetdb.VersionLoader::set_isDone(System.Boolean)
+// 0x00001491 System.Void pure.assetdb.VersionLoader::set_isDone(System.Boolean)
 extern void VersionLoader_set_isDone_m5E96C293F728A12DC3E565CB6DEBA6BDF2F3E842 (void);
-// 0x0000149C System.Boolean pure.assetdb.VersionLoader::get_error()
+// 0x00001492 System.Boolean pure.assetdb.VersionLoader::get_error()
 extern void VersionLoader_get_error_m486134F402B95D6CB430D2079A6792909BF9338A (void);
-// 0x0000149D System.Void pure.assetdb.VersionLoader::set_error(System.Boolean)
+// 0x00001493 System.Void pure.assetdb.VersionLoader::set_error(System.Boolean)
 extern void VersionLoader_set_error_m8E8A3E37A22D56CDA63CD74A8434E5C4DC8D327B (void);
-// 0x0000149E System.String pure.assetdb.VersionLoader::get_errmsg()
+// 0x00001494 System.String pure.assetdb.VersionLoader::get_errmsg()
 extern void VersionLoader_get_errmsg_m7962AB9431817E2A3A3009EDDE310A8B9650EDB6 (void);
-// 0x0000149F System.Void pure.assetdb.VersionLoader::set_errmsg(System.String)
+// 0x00001495 System.Void pure.assetdb.VersionLoader::set_errmsg(System.String)
 extern void VersionLoader_set_errmsg_m7D2D53F008D156ACA5D67B337F762669F6EA0710 (void);
-// 0x000014A0 pure.assetdb.VersionData pure.assetdb.VersionLoader::get_version()
+// 0x00001496 pure.assetdb.VersionData pure.assetdb.VersionLoader::get_version()
 extern void VersionLoader_get_version_m7164CD3B1789967A8B3E833B5C66C29E54CA8064 (void);
-// 0x000014A1 System.Collections.IEnumerator pure.assetdb.VersionLoader::Load()
+// 0x00001497 System.Collections.IEnumerator pure.assetdb.VersionLoader::Load()
 extern void VersionLoader_Load_mCD9DCC662456986916D607B74A0AFC93AEC81943 (void);
-// 0x000014A2 System.Void pure.assetdb.VersionLoader::.ctor()
+// 0x00001498 System.Void pure.assetdb.VersionLoader::.ctor()
 extern void VersionLoader__ctor_m686666E3B52E593F4859DA211A087BA4B9EC534C (void);
-// 0x000014A3 System.Void pure.assetdb.VersionLoader/<Load>d__19::.ctor(System.Int32)
+// 0x00001499 System.Void pure.assetdb.VersionLoader/<Load>d__19::.ctor(System.Int32)
 extern void U3CLoadU3Ed__19__ctor_m91F62DDD9DEA55AF0C62C9367C27F89D117C17F2 (void);
-// 0x000014A4 System.Void pure.assetdb.VersionLoader/<Load>d__19::System.IDisposable.Dispose()
+// 0x0000149A System.Void pure.assetdb.VersionLoader/<Load>d__19::System.IDisposable.Dispose()
 extern void U3CLoadU3Ed__19_System_IDisposable_Dispose_m3B9129D1B30F923C394CF2530CD57D5AFBA43764 (void);
-// 0x000014A5 System.Boolean pure.assetdb.VersionLoader/<Load>d__19::MoveNext()
+// 0x0000149B System.Boolean pure.assetdb.VersionLoader/<Load>d__19::MoveNext()
 extern void U3CLoadU3Ed__19_MoveNext_mA2BE580E26EBEECDC14F874D3F287A084DF13F29 (void);
-// 0x000014A6 System.Object pure.assetdb.VersionLoader/<Load>d__19::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000149C System.Object pure.assetdb.VersionLoader/<Load>d__19::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9D1A3EDF57D231621AC48216239684CDCF035955 (void);
-// 0x000014A7 System.Void pure.assetdb.VersionLoader/<Load>d__19::System.Collections.IEnumerator.Reset()
+// 0x0000149D System.Void pure.assetdb.VersionLoader/<Load>d__19::System.Collections.IEnumerator.Reset()
 extern void U3CLoadU3Ed__19_System_Collections_IEnumerator_Reset_mB4A1D29BEC39773C1882B4AC6B16B22AACE80A1E (void);
-// 0x000014A8 System.Object pure.assetdb.VersionLoader/<Load>d__19::System.Collections.IEnumerator.get_Current()
+// 0x0000149E System.Object pure.assetdb.VersionLoader/<Load>d__19::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadU3Ed__19_System_Collections_IEnumerator_get_Current_m377C5CE58E96E14FF210739CAED039D2EE175BB7 (void);
-// 0x000014A9 System.Void pure.assetdb.AssetDBDecoder::.ctor(pure.assetdb.AssetDB)
+// 0x0000149F System.Void pure.assetdb.AssetDBDecoder::.ctor(pure.assetdb.AssetDB)
 extern void AssetDBDecoder__ctor_mAFAC85B00330C796B5B4AF8C7C6560532C02F9B3 (void);
-// 0x000014AA System.Void pure.assetdb.AssetDBDecoder::.ctor(pure.assetdb.AssetDB,pure.assetdb.AssetType[])
+// 0x000014A0 System.Void pure.assetdb.AssetDBDecoder::.ctor(pure.assetdb.AssetDB,pure.assetdb.AssetType[])
 extern void AssetDBDecoder__ctor_m8B0C151F07CDBA69201DC6CBD087290F8A5224D6 (void);
-// 0x000014AB System.Void pure.assetdb.AssetDBDecoder::Decode(System.Byte[])
+// 0x000014A1 System.Void pure.assetdb.AssetDBDecoder::Decode(System.Byte[])
 extern void AssetDBDecoder_Decode_mC862B8B2EB4264574CDC9E7350DBD32901C0FCB6 (void);
-// 0x000014AC System.Void pure.assetdb.AssetDBDecoder::Decode(System.Byte[],System.Boolean)
+// 0x000014A2 System.Void pure.assetdb.AssetDBDecoder::Decode(System.Byte[],System.Boolean)
 extern void AssetDBDecoder_Decode_mE7DD6AFEDDE9225E311E77162AD2641438DA756A (void);
-// 0x000014AD System.Void pure.assetdb.AssetDBDecoder::Decode(pure.refactor.serialize.IByteReader)
+// 0x000014A3 System.Void pure.assetdb.AssetDBDecoder::Decode(pure.refactor.serialize.IByteReader)
 extern void AssetDBDecoder_Decode_mF4D590726BD90B1088DB56CA25AA5D9A136A3DF8 (void);
-// 0x000014AE System.Void pure.assetdb.AssetDBDecoderExpired::.ctor(pure.assetdb.AssetDB,pure.assetdb.AssetType[])
+// 0x000014A4 System.Void pure.assetdb.AssetDBDecoderExpired::.ctor(pure.assetdb.AssetDB,pure.assetdb.AssetType[])
 extern void AssetDBDecoderExpired__ctor_m1E90A45084120D1960D45285C4DF033378D30B22 (void);
-// 0x000014AF System.Boolean pure.assetdb.AssetDBDecoderExpired::ok_read(pure.assetdb.AssetType)
+// 0x000014A5 System.Boolean pure.assetdb.AssetDBDecoderExpired::ok_read(pure.assetdb.AssetType)
 extern void AssetDBDecoderExpired_ok_read_mD2328F3B8B2F216AF994EEB7509D0971B2F310D9 (void);
-// 0x000014B0 System.Void pure.assetdb.AssetDBDecoderExpired::read_context(pure.assetdb.AssetReadContext,pure.refactor.serialize.IByteReader)
+// 0x000014A6 System.Void pure.assetdb.AssetDBDecoderExpired::read_context(pure.assetdb.AssetReadContext,pure.refactor.serialize.IByteReader)
 extern void AssetDBDecoderExpired_read_context_m38D3C92531DB72C38C6D4D3EAB231DD0B4C10152 (void);
-// 0x000014B1 System.Void pure.assetdb.AssetDBDecoderExpired::Decode(pure.refactor.serialize.IByteReader)
+// 0x000014A7 System.Void pure.assetdb.AssetDBDecoderExpired::Decode(pure.refactor.serialize.IByteReader)
 extern void AssetDBDecoderExpired_Decode_m57155AC9AC2120C6F0D69EE21E5372A605F12D1F (void);
-// 0x000014B2 System.Void pure.assetdb.AssetDBDecoderV3::.ctor(pure.assetdb.AssetDB,pure.assetdb.AssetType[])
+// 0x000014A8 System.Void pure.assetdb.AssetDBDecoderV3::.ctor(pure.assetdb.AssetDB,pure.assetdb.AssetType[])
 extern void AssetDBDecoderV3__ctor_m5C1D5C0A76F00DE6824DB1D0C69910A94DA470E3 (void);
-// 0x000014B3 System.Void pure.assetdb.AssetDBDecoderV3::read_context(pure.assetdb.AssetReadContext,pure.refactor.serialize.IByteReader)
+// 0x000014A9 System.Void pure.assetdb.AssetDBDecoderV3::read_context(pure.assetdb.AssetReadContext,pure.refactor.serialize.IByteReader)
 extern void AssetDBDecoderV3_read_context_mF1104E2DDE3964DD568A400B80770671761FAFBE (void);
-// 0x000014B4 System.Boolean pure.assetdb.AssetDBDecoderV3::ok_read(pure.assetdb.AssetType)
+// 0x000014AA System.Boolean pure.assetdb.AssetDBDecoderV3::ok_read(pure.assetdb.AssetType)
 extern void AssetDBDecoderV3_ok_read_mBFBF321B1F1DE2E211E5BC155E7EBF349135A077 (void);
-// 0x000014B5 System.Void pure.assetdb.AssetDBDecoderV3::Decode(pure.refactor.serialize.IByteReader)
+// 0x000014AB System.Void pure.assetdb.AssetDBDecoderV3::Decode(pure.refactor.serialize.IByteReader)
 extern void AssetDBDecoderV3_Decode_m335E1EB2AB0CA8662F8521A32C4DF30ABA609E59 (void);
-// 0x000014B6 System.Boolean pure.assetdb.AssetDBReader::ReadStream(pure.assetdb.AssetType[],pure.assetdb.AssetDB&)
+// 0x000014AC System.Boolean pure.assetdb.AssetDBReader::ReadStream(pure.assetdb.AssetType[],pure.assetdb.AssetDB&)
 extern void AssetDBReader_ReadStream_mC8EA1944ACCF4F0418537B55FE5F5AEDD5670F20 (void);
-// 0x000014B7 System.Boolean pure.assetdb.AssetDBReader::ReadStream(pure.assetdb.AssetDB&)
+// 0x000014AD System.Boolean pure.assetdb.AssetDBReader::ReadStream(pure.assetdb.AssetDB&)
 extern void AssetDBReader_ReadStream_m945FD9830E4CB12C35C64E795623F123DE5EF93B (void);
-// 0x000014B8 System.Boolean pure.assetdb.AssetDBReader::ReadCurrent(pure.assetdb.AssetType[],pure.assetdb.AssetDB&)
+// 0x000014AE System.Boolean pure.assetdb.AssetDBReader::ReadCurrent(pure.assetdb.AssetType[],pure.assetdb.AssetDB&)
 extern void AssetDBReader_ReadCurrent_mC750ED9466381030864A0ED16C45624F1455BE5E (void);
-// 0x000014B9 System.Boolean pure.assetdb.AssetDBReader::ReadCurrent(pure.assetdb.AssetDB&)
+// 0x000014AF System.Boolean pure.assetdb.AssetDBReader::ReadCurrent(pure.assetdb.AssetDB&)
 extern void AssetDBReader_ReadCurrent_m8DD6DD483BE0BC8AA0F1976823676746F17F9210 (void);
-// 0x000014BA System.Void pure.assetdb.AssetDBWriter::.ctor(System.String,pure.assetdb.AssetDB)
+// 0x000014B0 System.Void pure.assetdb.AssetDBWriter::.ctor(System.String,pure.assetdb.AssetDB)
 extern void AssetDBWriter__ctor_m66B19F5E4550BA201FDD8E1A845BBA271BD453CB (void);
-// 0x000014BB System.Void pure.assetdb.AssetDBWriter::Write()
+// 0x000014B1 System.Void pure.assetdb.AssetDBWriter::Write()
 extern void AssetDBWriter_Write_m6B3C83E0837E0E7FCF129B03AD9FE743F297ACAF (void);
-// 0x000014BC System.Void pure.assetdb.AssetDBWriter::write_data(pure.database.ValuePool`1<System.String>,pure.refactor.serialize.ByteWriter)
+// 0x000014B2 System.Void pure.assetdb.AssetDBWriter::write_data(pure.database.ValuePool`1<System.String>,pure.refactor.serialize.ByteWriter)
 extern void AssetDBWriter_write_data_mF7B3B0846F685444DDBB74CBDB28B3F38578169C (void);
-// 0x000014BD System.Void pure.assetdb.AssetDBWriter::write_string(pure.database.ValuePool`1<System.String>,pure.refactor.serialize.ByteWriter)
+// 0x000014B3 System.Void pure.assetdb.AssetDBWriter::write_string(pure.database.ValuePool`1<System.String>,pure.refactor.serialize.ByteWriter)
 extern void AssetDBWriter_write_string_m1046190C835A05AD05B9C0ABF766ECFDB4EF9115 (void);
-// 0x000014BE System.Void pure.assetdb.AssetWriteContext::.ctor()
+// 0x000014B4 System.Void pure.assetdb.AssetWriteContext::.ctor()
 extern void AssetWriteContext__ctor_m52E617CBE0D8F93519EC64927F31C4B48D537372 (void);
-// 0x000014BF System.Void pure.assetdb.AssetReadContext::.ctor()
+// 0x000014B5 System.Void pure.assetdb.AssetReadContext::.ctor()
 extern void AssetReadContext__ctor_mCECFDA0EE001131534A1AAF905B5FE467BEFD2C7 (void);
-// 0x000014C0 System.Boolean pure.assetdb.AddressIndexer::Find(pure.assetdb.AssetType,System.String,System.String&)
+// 0x000014B6 System.Boolean pure.assetdb.AddressIndexer::Find(pure.assetdb.AssetType,System.String,System.String&)
 extern void AddressIndexer_Find_m141974CA263DB6B3C93DD874BF155F210F70D876 (void);
-// 0x000014C1 System.Boolean pure.assetdb.AddressIndexer::should_check_conflict(System.String)
+// 0x000014B7 System.Boolean pure.assetdb.AddressIndexer::should_check_conflict(System.String)
 extern void AddressIndexer_should_check_conflict_mC1A92B65F2D2CF8D18DEFB804F2289BB1C474DB0 (void);
-// 0x000014C2 System.Boolean pure.assetdb.AddressIndexer::tryget_runtime(pure.assetdb.AssetType,pure.assetdb.AddressIndexer/RuntimeCache&)
+// 0x000014B8 System.Boolean pure.assetdb.AddressIndexer::tryget_runtime(pure.assetdb.AssetType,pure.assetdb.AddressIndexer/RuntimeCache&)
 extern void AddressIndexer_tryget_runtime_m1FB88DDACDE15E254A4CEEB5F9679E6CCDB3F657 (void);
-// 0x000014C3 System.Boolean pure.assetdb.AddressIndexer::find_assetdb(pure.assetdb.AssetType,System.String,System.String&)
+// 0x000014B9 System.Boolean pure.assetdb.AddressIndexer::find_assetdb(pure.assetdb.AssetType,System.String,System.String&)
 extern void AddressIndexer_find_assetdb_m29BAE9699C22270B4B7F8283C31EBD1AA0474F9B (void);
-// 0x000014C4 System.Void pure.assetdb.AddressIndexer::.ctor()
+// 0x000014BA System.Void pure.assetdb.AddressIndexer::.ctor()
 extern void AddressIndexer__ctor_m6BB9D81E89C85AB3EF114EBA617D364384F03F86 (void);
-// 0x000014C5 System.Void pure.assetdb.AddressIndexer::.cctor()
+// 0x000014BB System.Void pure.assetdb.AddressIndexer::.cctor()
 extern void AddressIndexer__cctor_m54D08E2C99821FC7E4815559E39727A1528652DB (void);
-// 0x000014C6 System.Void pure.assetdb.AddressIndexer/RuntimeCache::.ctor()
+// 0x000014BC System.Void pure.assetdb.AddressIndexer/RuntimeCache::.ctor()
 extern void RuntimeCache__ctor_m96D1B1EB0E03D0DC96A2BE92556786DA9E4C7ED8 (void);
-// 0x000014C7 System.Boolean pure.assetdb.AssetLoadLog::IsSupport(pure.assetdb.AssetLogPolicy)
+// 0x000014BD System.Boolean pure.assetdb.AssetLoadLog::IsSupport(pure.assetdb.AssetLogPolicy)
 extern void AssetLoadLog_IsSupport_mCD7ABCC8AFDCFDECFC43E7031F6B7B0FE2FD41A8 (void);
-// 0x000014C8 System.Void pure.assetdb.AssetLoadLog::Log(System.String,System.Collections.Generic.IEnumerable`1<pure.assetdb.Asset_Bundle>,pure.assetdb.AssetLogPolicy)
+// 0x000014BE System.Void pure.assetdb.AssetLoadLog::Log(System.String,System.Collections.Generic.IEnumerable`1<pure.assetdb.Asset_Bundle>,pure.assetdb.AssetLogPolicy)
 extern void AssetLoadLog_Log_m99B1082C17F5E201250D11D33119C8D6A7608440 (void);
-// 0x000014C9 System.String pure.assetdb.AssetPtr::op_Implicit(pure.assetdb.AssetPtr)
+// 0x000014BF System.String pure.assetdb.AssetPtr::op_Implicit(pure.assetdb.AssetPtr)
 extern void AssetPtr_op_Implicit_m7B6378D83EB15F5CD87A3170293690E980351A4C (void);
-// 0x000014CA System.Void pure.assetdb.AssetPtr::.ctor()
+// 0x000014C0 System.Void pure.assetdb.AssetPtr::.ctor()
 extern void AssetPtr__ctor_mCE8F676CBFC29BBE7040EE32786CAE061DD3879B (void);
-// 0x000014CB System.Boolean pure.assetdb.AssetUtils::get_isGameMode()
+// 0x000014C1 System.Boolean pure.assetdb.AssetUtils::get_isGameMode()
 extern void AssetUtils_get_isGameMode_m2239C309569F9C4605CB6B1848FF242DA242ED2E (void);
-// 0x000014CC System.Void pure.assetdb.AssetUtils::ResetAddressBook()
+// 0x000014C2 System.Void pure.assetdb.AssetUtils::ResetAddressBook()
 extern void AssetUtils_ResetAddressBook_m2F06FCA942FE96AC297388BAE8E6895F14618728 (void);
-// 0x000014CD System.Boolean pure.assetdb.AssetUtils::AddressToPath(System.String,System.String&)
-// 0x000014CE System.Boolean pure.assetdb.AssetUtils::Contains(System.String)
-// 0x000014CF System.Boolean pure.assetdb.AssetUtils::Contains(pure.utils.mathTools.HashCode)
-// 0x000014D0 System.String pure.assetdb.AssetUtils::GUIDToPath(pure.utils.mathTools.HashCode)
-// 0x000014D1 pure.utils.mathTools.HashCode pure.assetdb.AssetUtils::AddressToGUID(System.String)
-// 0x000014D2 pure.assetdb.IAssetTask`1<T> pure.assetdb.AssetUtils::Read(System.String,pure.assetdb.AssetLife)
-// 0x000014D3 pure.assetdb.IAssetTask`1<T> pure.assetdb.AssetUtils::Load(System.String,pure.assetdb.AssetLife)
-// 0x000014D4 pure.assetdb.IAssetTask`1<UnityEngine.ScriptableObject> pure.assetdb.AssetUtils::LoadAsset(System.String,pure.assetdb.AssetLife)
-// 0x000014D5 System.Void pure.assetdb.AssetUtils::.cctor()
+// 0x000014C3 System.Boolean pure.assetdb.AssetUtils::AddressToPath(System.String,System.String&)
+// 0x000014C4 System.Boolean pure.assetdb.AssetUtils::Contains(System.String)
+// 0x000014C5 System.Boolean pure.assetdb.AssetUtils::Contains(pure.utils.mathTools.HashCode)
+// 0x000014C6 System.String pure.assetdb.AssetUtils::GUIDToPath(pure.utils.mathTools.HashCode)
+// 0x000014C7 pure.utils.mathTools.HashCode pure.assetdb.AssetUtils::AddressToGUID(System.String)
+// 0x000014C8 pure.assetdb.IAssetTask`1<T> pure.assetdb.AssetUtils::Read(System.String,pure.assetdb.AssetLife)
+// 0x000014C9 pure.assetdb.IAssetTask`1<T> pure.assetdb.AssetUtils::Load(System.String,pure.assetdb.AssetLife)
+// 0x000014CA pure.assetdb.IAssetTask`1<UnityEngine.ScriptableObject> pure.assetdb.AssetUtils::LoadAsset(System.String,pure.assetdb.AssetLife)
+// 0x000014CB System.Void pure.assetdb.AssetUtils::.cctor()
 extern void AssetUtils__cctor_m74A6E6C3DDEF05016CBA0CC4DA7851B654F509BB (void);
-// 0x000014D6 System.Boolean pure.assetdb.IconUtils::Contains(System.String)
+// 0x000014CC System.Boolean pure.assetdb.IconUtils::Contains(System.String)
 extern void IconUtils_Contains_m5106E3850D6202984333780F0AA960E1E5415D2F (void);
-// 0x000014D7 System.Boolean pure.assetdb.IconUtils::TryGet(System.String,System.String&,pure.assetdb.IconType&)
+// 0x000014CD System.Boolean pure.assetdb.IconUtils::TryGet(System.String,System.String&,pure.assetdb.IconType&)
 extern void IconUtils_TryGet_m8C44D141F5AEB0689E76031D90430570515F4C0D (void);
-// 0x000014D8 System.Void pure.assetdb.IconUtils::TryGetIconSize(System.String,System.Single&,System.Single&)
+// 0x000014CE System.Void pure.assetdb.IconUtils::TryGetIconSize(System.String,System.Single&,System.Single&)
 extern void IconUtils_TryGetIconSize_mFC1A46E007BE5C4435BF9E8F5BB7B00472F8DAB7 (void);
-// 0x000014D9 System.Boolean pure.assetdb.IconUtils::search_in_assetdb(System.String,System.String&,pure.assetdb.IconType&)
+// 0x000014CF System.Boolean pure.assetdb.IconUtils::search_in_assetdb(System.String,System.String&,pure.assetdb.IconType&)
 extern void IconUtils_search_in_assetdb_mAD8C99DC5205FB4A9D6AC7A9F3C07202F26E023E (void);
-// 0x000014DA System.Void pure.assetdb.IconUtils::getsize_by_assetdb(System.String,System.Single&,System.Single&)
+// 0x000014D0 System.Void pure.assetdb.IconUtils::getsize_by_assetdb(System.String,System.Single&,System.Single&)
 extern void IconUtils_getsize_by_assetdb_mC6986E0969FB64EAD07F23096204AB56395C20DF (void);
-// 0x000014DB System.Boolean pure.assetdb.MachineFileUtils::Contains(System.String)
+// 0x000014D1 System.Boolean pure.assetdb.MachineFileUtils::Contains(System.String)
 extern void MachineFileUtils_Contains_m0AC1E11387A6C2D74C22EEE34A792AECF37BFED0 (void);
-// 0x000014DC System.Boolean pure.assetdb.MachineFileUtils::TryGet(System.String,pure.stateMachine.machine.CpxController&)
+// 0x000014D2 System.Boolean pure.assetdb.MachineFileUtils::TryGet(System.String,pure.stateMachine.machine.CpxController&)
 extern void MachineFileUtils_TryGet_m1DB4463D0114BB671008A2B7C9FE2FBD0F241DDC (void);
-// 0x000014DD System.Boolean pure.assetdb.MachineFileUtils::tryfind_assetdbase(System.String,pure.stateMachine.machine.CpxController&)
+// 0x000014D3 System.Boolean pure.assetdb.MachineFileUtils::tryfind_assetdbase(System.String,pure.stateMachine.machine.CpxController&)
 extern void MachineFileUtils_tryfind_assetdbase_mC571D1965B1034895B52F45A115F3165646EF1FF (void);
-// 0x000014DE UnityEngine.GameObject pure.assetdb.PrefabLoader::get_prefab()
+// 0x000014D4 UnityEngine.GameObject pure.assetdb.PrefabLoader::get_prefab()
 extern void PrefabLoader_get_prefab_m8FFE6D8598277B49A0CF47B6F5F6531F0444E168 (void);
-// 0x000014DF System.Void pure.assetdb.PrefabLoader::set_prefab(UnityEngine.GameObject)
+// 0x000014D5 System.Void pure.assetdb.PrefabLoader::set_prefab(UnityEngine.GameObject)
 extern void PrefabLoader_set_prefab_mEA7354A4D37C314F68F0B8A8DC5D0BA0029A8221 (void);
-// 0x000014E0 System.Boolean pure.assetdb.PrefabLoader::get_error()
+// 0x000014D6 System.Boolean pure.assetdb.PrefabLoader::get_error()
 extern void PrefabLoader_get_error_mD6AC502B1597E44E433976D4D3F458A573B6AD75 (void);
-// 0x000014E1 System.Void pure.assetdb.PrefabLoader::.ctor(System.Boolean)
+// 0x000014D7 System.Void pure.assetdb.PrefabLoader::.ctor(System.Boolean)
 extern void PrefabLoader__ctor_mFD6CF6EDBE890124FE042D336D47A84CC07591C5 (void);
-// 0x000014E2 System.Void pure.assetdb.PrefabLoader::.ctor()
+// 0x000014D8 System.Void pure.assetdb.PrefabLoader::.ctor()
 extern void PrefabLoader__ctor_m87AB4F9C9E15E0E657AE70B3920207ADE86FC78B (void);
-// 0x000014E3 System.Boolean pure.assetdb.PrefabLoader::fetch_asset(System.String)
+// 0x000014D9 System.Boolean pure.assetdb.PrefabLoader::fetch_asset(System.String)
 extern void PrefabLoader_fetch_asset_mD8DD7E6A8AF5A458BAAC57884D4369A5221C7F00 (void);
-// 0x000014E4 System.Boolean pure.assetdb.PrefabLoader::fetch_asset(pure.utils.mathTools.HashCode)
+// 0x000014DA System.Boolean pure.assetdb.PrefabLoader::fetch_asset(pure.utils.mathTools.HashCode)
 extern void PrefabLoader_fetch_asset_mCB93896D84DB6B07834E2478693B38DB2CA7686D (void);
-// 0x000014E5 System.Collections.IEnumerator pure.assetdb.PrefabLoader::Load(System.String,pure.assetdb.AssetLife)
+// 0x000014DB System.Collections.IEnumerator pure.assetdb.PrefabLoader::Load(System.String,pure.assetdb.AssetLife)
 extern void PrefabLoader_Load_m93E6626ECF0DF5FD41AFC2179085A3772140648E (void);
-// 0x000014E6 System.Collections.IEnumerator pure.assetdb.PrefabLoader::Load(pure.utils.mathTools.HashCode,pure.assetdb.AssetLife)
+// 0x000014DC System.Collections.IEnumerator pure.assetdb.PrefabLoader::Load(pure.utils.mathTools.HashCode,pure.assetdb.AssetLife)
 extern void PrefabLoader_Load_m420930E1E30F4113FD4ED2417DA0358981D6D146 (void);
-// 0x000014E7 System.Collections.IEnumerator pure.assetdb.PrefabLoader::internal_load(pure.assetdb.AssetLife)
+// 0x000014DD System.Collections.IEnumerator pure.assetdb.PrefabLoader::internal_load(pure.assetdb.AssetLife)
 extern void PrefabLoader_internal_load_m5BB68D14C2D4081F4FEA59001E364BA27FACCCA0 (void);
-// 0x000014E8 System.Collections.IEnumerator pure.assetdb.PrefabLoader::Read(System.String,pure.assetdb.AssetLife)
+// 0x000014DE System.Collections.IEnumerator pure.assetdb.PrefabLoader::Read(System.String,pure.assetdb.AssetLife)
 extern void PrefabLoader_Read_m0C378D63C3F3CA782354A7E2FC788B0A98009619 (void);
-// 0x000014E9 System.Collections.IEnumerator pure.assetdb.PrefabLoader::Read(pure.utils.mathTools.HashCode,pure.assetdb.AssetLife)
+// 0x000014DF System.Collections.IEnumerator pure.assetdb.PrefabLoader::Read(pure.utils.mathTools.HashCode,pure.assetdb.AssetLife)
 extern void PrefabLoader_Read_m9050F3EEA16D22B4B6DBF7E9A342EBC36784EAE5 (void);
-// 0x000014EA System.Collections.IEnumerator pure.assetdb.PrefabLoader::internal_reader(pure.assetdb.AssetLife)
+// 0x000014E0 System.Collections.IEnumerator pure.assetdb.PrefabLoader::internal_reader(pure.assetdb.AssetLife)
 extern void PrefabLoader_internal_reader_mA336FBB3EE9EFF5D6BB22419BCE37A6408238F75 (void);
-// 0x000014EB System.String pure.assetdb.PrefabLoader::GuidToPath(pure.utils.mathTools.HashCode)
+// 0x000014E1 System.String pure.assetdb.PrefabLoader::GuidToPath(pure.utils.mathTools.HashCode)
 extern void PrefabLoader_GuidToPath_m137C523D364FCC48DFFCFCB5DE531A8B112A5035 (void);
-// 0x000014EC pure.utils.mathTools.HashCode pure.assetdb.PrefabLoader::PathToGuid(System.String)
+// 0x000014E2 pure.utils.mathTools.HashCode pure.assetdb.PrefabLoader::PathToGuid(System.String)
 extern void PrefabLoader_PathToGuid_mF11E796D49B34061E3FF56CCBAFD66EF012F04CE (void);
-// 0x000014ED System.Boolean pure.assetdb.PrefabLoader::ParseFile(System.String,System.String&,System.Boolean)
+// 0x000014E3 System.Boolean pure.assetdb.PrefabLoader::ParseFile(System.String,System.String&,System.Boolean)
 extern void PrefabLoader_ParseFile_m5B7406C899411667F366F943B2584C4AB9E87134 (void);
-// 0x000014EE System.Boolean pure.assetdb.PrefabLoader::ParseFile(System.String,System.String&)
+// 0x000014E4 System.Boolean pure.assetdb.PrefabLoader::ParseFile(System.String,System.String&)
 extern void PrefabLoader_ParseFile_mF0BC353F8185B580DA7E8EA76F35B3A66B9BD409 (void);
-// 0x000014EF System.Void pure.assetdb.PrefabLoader/<Load>d__12::.ctor(System.Int32)
+// 0x000014E5 System.Void pure.assetdb.PrefabLoader/<Load>d__12::.ctor(System.Int32)
 extern void U3CLoadU3Ed__12__ctor_m0D38437EE28B2C83719AA50B3C06DECBD7558E6B (void);
-// 0x000014F0 System.Void pure.assetdb.PrefabLoader/<Load>d__12::System.IDisposable.Dispose()
+// 0x000014E6 System.Void pure.assetdb.PrefabLoader/<Load>d__12::System.IDisposable.Dispose()
 extern void U3CLoadU3Ed__12_System_IDisposable_Dispose_m66CD3625CF69702D64363193A451A3B131553F74 (void);
-// 0x000014F1 System.Boolean pure.assetdb.PrefabLoader/<Load>d__12::MoveNext()
+// 0x000014E7 System.Boolean pure.assetdb.PrefabLoader/<Load>d__12::MoveNext()
 extern void U3CLoadU3Ed__12_MoveNext_m0DB65FEFDF1920940303F73810C8CE7A84B2F826 (void);
-// 0x000014F2 System.Object pure.assetdb.PrefabLoader/<Load>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000014E8 System.Object pure.assetdb.PrefabLoader/<Load>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m24DAAC3EE90F2C841491466BDB78C331B9F54CF1 (void);
-// 0x000014F3 System.Void pure.assetdb.PrefabLoader/<Load>d__12::System.Collections.IEnumerator.Reset()
+// 0x000014E9 System.Void pure.assetdb.PrefabLoader/<Load>d__12::System.Collections.IEnumerator.Reset()
 extern void U3CLoadU3Ed__12_System_Collections_IEnumerator_Reset_m78AA0E9A620A83775C4CD3DC345FE525F8F23913 (void);
-// 0x000014F4 System.Object pure.assetdb.PrefabLoader/<Load>d__12::System.Collections.IEnumerator.get_Current()
+// 0x000014EA System.Object pure.assetdb.PrefabLoader/<Load>d__12::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadU3Ed__12_System_Collections_IEnumerator_get_Current_m71C78D203192F631F0359BB73BEDFA5EA84CEDDC (void);
-// 0x000014F5 System.Void pure.assetdb.PrefabLoader/<Load>d__13::.ctor(System.Int32)
+// 0x000014EB System.Void pure.assetdb.PrefabLoader/<Load>d__13::.ctor(System.Int32)
 extern void U3CLoadU3Ed__13__ctor_mAF233250B6A7E2559987B921E8D2A866B68220E6 (void);
-// 0x000014F6 System.Void pure.assetdb.PrefabLoader/<Load>d__13::System.IDisposable.Dispose()
+// 0x000014EC System.Void pure.assetdb.PrefabLoader/<Load>d__13::System.IDisposable.Dispose()
 extern void U3CLoadU3Ed__13_System_IDisposable_Dispose_mFC0FB57354E19FD725505B5F0702110F3CAE5DA9 (void);
-// 0x000014F7 System.Boolean pure.assetdb.PrefabLoader/<Load>d__13::MoveNext()
+// 0x000014ED System.Boolean pure.assetdb.PrefabLoader/<Load>d__13::MoveNext()
 extern void U3CLoadU3Ed__13_MoveNext_m07DB0BAC289F40A713FFBE532AF508BABF86F8DE (void);
-// 0x000014F8 System.Object pure.assetdb.PrefabLoader/<Load>d__13::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000014EE System.Object pure.assetdb.PrefabLoader/<Load>d__13::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5CBE07553F5B5712DB51C56430914C7EDC7D7DD1 (void);
-// 0x000014F9 System.Void pure.assetdb.PrefabLoader/<Load>d__13::System.Collections.IEnumerator.Reset()
+// 0x000014EF System.Void pure.assetdb.PrefabLoader/<Load>d__13::System.Collections.IEnumerator.Reset()
 extern void U3CLoadU3Ed__13_System_Collections_IEnumerator_Reset_mD62375A219E4594C8C8875E6C94A0DC8F538E627 (void);
-// 0x000014FA System.Object pure.assetdb.PrefabLoader/<Load>d__13::System.Collections.IEnumerator.get_Current()
+// 0x000014F0 System.Object pure.assetdb.PrefabLoader/<Load>d__13::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadU3Ed__13_System_Collections_IEnumerator_get_Current_m1B2B9CF94A95D970D213AAF53112A04AA717997A (void);
-// 0x000014FB System.Void pure.assetdb.PrefabLoader/<internal_load>d__14::.ctor(System.Int32)
+// 0x000014F1 System.Void pure.assetdb.PrefabLoader/<internal_load>d__14::.ctor(System.Int32)
 extern void U3Cinternal_loadU3Ed__14__ctor_mA6180C5455FDE10D39CCFC6F592764D5D964DBE6 (void);
-// 0x000014FC System.Void pure.assetdb.PrefabLoader/<internal_load>d__14::System.IDisposable.Dispose()
+// 0x000014F2 System.Void pure.assetdb.PrefabLoader/<internal_load>d__14::System.IDisposable.Dispose()
 extern void U3Cinternal_loadU3Ed__14_System_IDisposable_Dispose_mE87F0D9036EEDBE6084204738D866407659707A0 (void);
-// 0x000014FD System.Boolean pure.assetdb.PrefabLoader/<internal_load>d__14::MoveNext()
+// 0x000014F3 System.Boolean pure.assetdb.PrefabLoader/<internal_load>d__14::MoveNext()
 extern void U3Cinternal_loadU3Ed__14_MoveNext_m8380535F65094AAB901AF644291155736FB1A2D4 (void);
-// 0x000014FE System.Object pure.assetdb.PrefabLoader/<internal_load>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000014F4 System.Object pure.assetdb.PrefabLoader/<internal_load>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3Cinternal_loadU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC9ED3CAD8B287DDFD1A44AE6AA720136EB09B4E2 (void);
-// 0x000014FF System.Void pure.assetdb.PrefabLoader/<internal_load>d__14::System.Collections.IEnumerator.Reset()
+// 0x000014F5 System.Void pure.assetdb.PrefabLoader/<internal_load>d__14::System.Collections.IEnumerator.Reset()
 extern void U3Cinternal_loadU3Ed__14_System_Collections_IEnumerator_Reset_m9EB860BE0B1102FBC9BF9F4F52B5E7AD10CC699A (void);
-// 0x00001500 System.Object pure.assetdb.PrefabLoader/<internal_load>d__14::System.Collections.IEnumerator.get_Current()
+// 0x000014F6 System.Object pure.assetdb.PrefabLoader/<internal_load>d__14::System.Collections.IEnumerator.get_Current()
 extern void U3Cinternal_loadU3Ed__14_System_Collections_IEnumerator_get_Current_m2DEE171A9779F183439E3D60B2BF2340A9274037 (void);
-// 0x00001501 System.Void pure.assetdb.PrefabLoader/<Read>d__15::.ctor(System.Int32)
+// 0x000014F7 System.Void pure.assetdb.PrefabLoader/<Read>d__15::.ctor(System.Int32)
 extern void U3CReadU3Ed__15__ctor_m2414A28D0492AC187ECE3B9EB9B090F673AE2397 (void);
-// 0x00001502 System.Void pure.assetdb.PrefabLoader/<Read>d__15::System.IDisposable.Dispose()
+// 0x000014F8 System.Void pure.assetdb.PrefabLoader/<Read>d__15::System.IDisposable.Dispose()
 extern void U3CReadU3Ed__15_System_IDisposable_Dispose_mAFFFB9F5191CBA6C207569D9E5E28CB020844C6D (void);
-// 0x00001503 System.Boolean pure.assetdb.PrefabLoader/<Read>d__15::MoveNext()
+// 0x000014F9 System.Boolean pure.assetdb.PrefabLoader/<Read>d__15::MoveNext()
 extern void U3CReadU3Ed__15_MoveNext_m835E5EC7EEAEE59F9DEE1F21EBDC5824415C3CEA (void);
-// 0x00001504 System.Object pure.assetdb.PrefabLoader/<Read>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000014FA System.Object pure.assetdb.PrefabLoader/<Read>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CReadU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAEDCB2872CF80E75264B1574ECFFA899A49FCBDD (void);
-// 0x00001505 System.Void pure.assetdb.PrefabLoader/<Read>d__15::System.Collections.IEnumerator.Reset()
+// 0x000014FB System.Void pure.assetdb.PrefabLoader/<Read>d__15::System.Collections.IEnumerator.Reset()
 extern void U3CReadU3Ed__15_System_Collections_IEnumerator_Reset_m603BB0A9350B2BC0211ED92EC24C1796D61EB098 (void);
-// 0x00001506 System.Object pure.assetdb.PrefabLoader/<Read>d__15::System.Collections.IEnumerator.get_Current()
+// 0x000014FC System.Object pure.assetdb.PrefabLoader/<Read>d__15::System.Collections.IEnumerator.get_Current()
 extern void U3CReadU3Ed__15_System_Collections_IEnumerator_get_Current_m690B28134F4C4895012B6FFF3B89632DDB9979CC (void);
-// 0x00001507 System.Void pure.assetdb.PrefabLoader/<Read>d__16::.ctor(System.Int32)
+// 0x000014FD System.Void pure.assetdb.PrefabLoader/<Read>d__16::.ctor(System.Int32)
 extern void U3CReadU3Ed__16__ctor_mCCFC1826828B96B0C0EF436D2892C1D69EA3B0DC (void);
-// 0x00001508 System.Void pure.assetdb.PrefabLoader/<Read>d__16::System.IDisposable.Dispose()
+// 0x000014FE System.Void pure.assetdb.PrefabLoader/<Read>d__16::System.IDisposable.Dispose()
 extern void U3CReadU3Ed__16_System_IDisposable_Dispose_m07C03AB6E4483ED7D6E55534C341C1754766BFD2 (void);
-// 0x00001509 System.Boolean pure.assetdb.PrefabLoader/<Read>d__16::MoveNext()
+// 0x000014FF System.Boolean pure.assetdb.PrefabLoader/<Read>d__16::MoveNext()
 extern void U3CReadU3Ed__16_MoveNext_mBF5F8A3D1EE08753C13AA72A65B6B33A30030054 (void);
-// 0x0000150A System.Object pure.assetdb.PrefabLoader/<Read>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001500 System.Object pure.assetdb.PrefabLoader/<Read>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CReadU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC3A3AA6DAD465ACB2083B732F0DCB2EE45F4E723 (void);
-// 0x0000150B System.Void pure.assetdb.PrefabLoader/<Read>d__16::System.Collections.IEnumerator.Reset()
+// 0x00001501 System.Void pure.assetdb.PrefabLoader/<Read>d__16::System.Collections.IEnumerator.Reset()
 extern void U3CReadU3Ed__16_System_Collections_IEnumerator_Reset_mC4447377DC613C3E9364B84512556F67419155C7 (void);
-// 0x0000150C System.Object pure.assetdb.PrefabLoader/<Read>d__16::System.Collections.IEnumerator.get_Current()
+// 0x00001502 System.Object pure.assetdb.PrefabLoader/<Read>d__16::System.Collections.IEnumerator.get_Current()
 extern void U3CReadU3Ed__16_System_Collections_IEnumerator_get_Current_m771D51EE5EBBD359D367DE07E40147A96E2518A4 (void);
-// 0x0000150D System.Void pure.assetdb.PrefabLoader/<internal_reader>d__17::.ctor(System.Int32)
+// 0x00001503 System.Void pure.assetdb.PrefabLoader/<internal_reader>d__17::.ctor(System.Int32)
 extern void U3Cinternal_readerU3Ed__17__ctor_m38F14B4A9F5F8319064E0D7B6069B872FA3E3F68 (void);
-// 0x0000150E System.Void pure.assetdb.PrefabLoader/<internal_reader>d__17::System.IDisposable.Dispose()
+// 0x00001504 System.Void pure.assetdb.PrefabLoader/<internal_reader>d__17::System.IDisposable.Dispose()
 extern void U3Cinternal_readerU3Ed__17_System_IDisposable_Dispose_mA53FA1CC313C5769D575440F11840EB3D49F1776 (void);
-// 0x0000150F System.Boolean pure.assetdb.PrefabLoader/<internal_reader>d__17::MoveNext()
+// 0x00001505 System.Boolean pure.assetdb.PrefabLoader/<internal_reader>d__17::MoveNext()
 extern void U3Cinternal_readerU3Ed__17_MoveNext_mC3C39B49E64E849E52CC6FA780C5C5237DD1F76A (void);
-// 0x00001510 System.Object pure.assetdb.PrefabLoader/<internal_reader>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001506 System.Object pure.assetdb.PrefabLoader/<internal_reader>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3Cinternal_readerU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0CAD3E0E579FA5C6F746E00506756811847333EE (void);
-// 0x00001511 System.Void pure.assetdb.PrefabLoader/<internal_reader>d__17::System.Collections.IEnumerator.Reset()
+// 0x00001507 System.Void pure.assetdb.PrefabLoader/<internal_reader>d__17::System.Collections.IEnumerator.Reset()
 extern void U3Cinternal_readerU3Ed__17_System_Collections_IEnumerator_Reset_m946A572A2B80C6FD0429347A8AFEAF4BFBA8D176 (void);
-// 0x00001512 System.Object pure.assetdb.PrefabLoader/<internal_reader>d__17::System.Collections.IEnumerator.get_Current()
+// 0x00001508 System.Object pure.assetdb.PrefabLoader/<internal_reader>d__17::System.Collections.IEnumerator.get_Current()
 extern void U3Cinternal_readerU3Ed__17_System_Collections_IEnumerator_get_Current_m87929976AE59CC7CB776153DC6DF01E9AFBC93DA (void);
-// 0x00001513 System.Boolean pure.assetdb.TreeFileUtils::Contains(System.String)
+// 0x00001509 System.Boolean pure.assetdb.TreeFileUtils::Contains(System.String)
 extern void TreeFileUtils_Contains_mDB21815488C307FF126C107D30B1E01C9E55B242 (void);
-// 0x00001514 System.Boolean pure.assetdb.TreeFileUtils::TryGet(System.String,T&)
-// 0x00001515 System.Boolean pure.assetdb.TreeFileUtils::try_assetdb(System.String,T&)
-// 0x00001516 pure.assetdb.AotLoaderSetting pure.assetdb.AppAotLoader::get_loaderBar()
+// 0x0000150A System.Boolean pure.assetdb.TreeFileUtils::TryGet(System.String,T&)
+// 0x0000150B System.Boolean pure.assetdb.TreeFileUtils::try_assetdb(System.String,T&)
+// 0x0000150C pure.assetdb.AotLoaderSetting pure.assetdb.AppAotLoader::get_loaderBar()
 extern void AppAotLoader_get_loaderBar_mD095DFB4AB985378EB9F804C938E2131E1358670 (void);
-// 0x00001517 System.Void pure.assetdb.AppAotLoader::set_loaderBar(pure.assetdb.AotLoaderSetting)
+// 0x0000150D System.Void pure.assetdb.AppAotLoader::set_loaderBar(pure.assetdb.AotLoaderSetting)
 extern void AppAotLoader_set_loaderBar_m1F0D0210E6CACD544A13E8241D50B4CD33A1EC42 (void);
-// 0x00001518 pure.assetdb.UpLoadHotfixMetaCallback pure.assetdb.AppAotLoader::get_metaUploader()
+// 0x0000150E pure.assetdb.UpLoadHotfixMetaCallback pure.assetdb.AppAotLoader::get_metaUploader()
 extern void AppAotLoader_get_metaUploader_m750296AA73D141B2457EE7C9E2DDDE82884D7DE3 (void);
-// 0x00001519 System.Void pure.assetdb.AppAotLoader::set_metaUploader(pure.assetdb.UpLoadHotfixMetaCallback)
+// 0x0000150F System.Void pure.assetdb.AppAotLoader::set_metaUploader(pure.assetdb.UpLoadHotfixMetaCallback)
 extern void AppAotLoader_set_metaUploader_mC0FDCE3D8FD1D2115B8DF8062015C3AAF0570ACE (void);
-// 0x0000151A System.String[] pure.assetdb.AppAotLoader::get_assemblies()
+// 0x00001510 System.String[] pure.assetdb.AppAotLoader::get_assemblies()
 extern void AppAotLoader_get_assemblies_mF5EAC5078DDA0C1888706DBD3C3F05E3CC439D54 (void);
-// 0x0000151B System.Void pure.assetdb.AppAotLoader::set_assemblies(System.String[])
+// 0x00001511 System.Void pure.assetdb.AppAotLoader::set_assemblies(System.String[])
 extern void AppAotLoader_set_assemblies_m7B947768C580303255163A8CE9A039CC5F39F27E (void);
-// 0x0000151C System.String[] pure.assetdb.AppAotLoader::get_metadatas()
+// 0x00001512 System.String[] pure.assetdb.AppAotLoader::get_metadatas()
 extern void AppAotLoader_get_metadatas_m0E89A1694A4ED41A232118F991DD4016AD9A1BCF (void);
-// 0x0000151D System.Void pure.assetdb.AppAotLoader::set_metadatas(System.String[])
+// 0x00001513 System.Void pure.assetdb.AppAotLoader::set_metadatas(System.String[])
 extern void AppAotLoader_set_metadatas_mB47FBE7511EBD93EE88244FD8AE429EE905D3081 (void);
-// 0x0000151E UnityEngine.GameObject pure.assetdb.AppAotLoader::get_root()
+// 0x00001514 UnityEngine.GameObject pure.assetdb.AppAotLoader::get_root()
 extern void AppAotLoader_get_root_m83809B85873026DCB40D837687DE58F8111FC782 (void);
-// 0x0000151F System.Void pure.assetdb.AppAotLoader::set_root(UnityEngine.GameObject)
+// 0x00001515 System.Void pure.assetdb.AppAotLoader::set_root(UnityEngine.GameObject)
 extern void AppAotLoader_set_root_mDB1DE92A2E4BDA7BA60EAF7D7C95BC969C7EB52C (void);
-// 0x00001520 System.Collections.IEnumerator pure.assetdb.AppAotLoader::Start()
+// 0x00001516 System.Collections.IEnumerator pure.assetdb.AppAotLoader::Start()
 extern void AppAotLoader_Start_m49A7D06589C21C78E9D0B5AD3230150EF028E9A5 (void);
-// 0x00001521 System.Void pure.assetdb.AppAotLoader::cleanup()
+// 0x00001517 System.Void pure.assetdb.AppAotLoader::cleanup()
 extern void AppAotLoader_cleanup_mAE4A20EB11E01F68DDF73FB3EBD7828E781B4F42 (void);
-// 0x00001522 System.Collections.IEnumerator pure.assetdb.AppAotLoader::run_task()
+// 0x00001518 System.Collections.IEnumerator pure.assetdb.AppAotLoader::run_task()
 extern void AppAotLoader_run_task_mDC86BCA848A6C365D789EA7EAB9CDA5C0249B4CB (void);
-// 0x00001523 System.Collections.IEnumerator pure.assetdb.AppAotLoader::run_task(System.Collections.Generic.IReadOnlyList`1<pure.assetdb.AppAotTask>)
+// 0x00001519 System.Collections.IEnumerator pure.assetdb.AppAotLoader::run_task(System.Collections.Generic.IReadOnlyList`1<pure.assetdb.AppAotTask>)
 extern void AppAotLoader_run_task_mEAD9F0A544D14F89CF1BA708BBAAACF45AFCF470 (void);
-// 0x00001524 System.Void pure.assetdb.AppAotLoader::write_record()
+// 0x0000151A System.Void pure.assetdb.AppAotLoader::write_record()
 extern void AppAotLoader_write_record_m91DCF51FA37AD39177CA82496C5CF99838110819 (void);
-// 0x00001525 System.Void pure.assetdb.AppAotLoader::.ctor()
+// 0x0000151B System.Void pure.assetdb.AppAotLoader::.ctor()
 extern void AppAotLoader__ctor_m12B827AEAD675B02DFD27EEB7AB69B374DE79A2C (void);
-// 0x00001526 System.Void pure.assetdb.AppAotLoader/<Start>d__29::.ctor(System.Int32)
+// 0x0000151C System.Void pure.assetdb.AppAotLoader/<Start>d__29::.ctor(System.Int32)
 extern void U3CStartU3Ed__29__ctor_mB8C5511EA51C34F24633096B4A67B0085ACC68BD (void);
-// 0x00001527 System.Void pure.assetdb.AppAotLoader/<Start>d__29::System.IDisposable.Dispose()
+// 0x0000151D System.Void pure.assetdb.AppAotLoader/<Start>d__29::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__29_System_IDisposable_Dispose_m7CD9F9F7AC6901BC758D00C6C45FB89F9A424008 (void);
-// 0x00001528 System.Boolean pure.assetdb.AppAotLoader/<Start>d__29::MoveNext()
+// 0x0000151E System.Boolean pure.assetdb.AppAotLoader/<Start>d__29::MoveNext()
 extern void U3CStartU3Ed__29_MoveNext_mB6A95285B4AA2ACAEEB000BF8422CCF911046F6F (void);
-// 0x00001529 System.Object pure.assetdb.AppAotLoader/<Start>d__29::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000151F System.Object pure.assetdb.AppAotLoader/<Start>d__29::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4C55B11A044DA9AB82943DF83C02F71B2B89C1A0 (void);
-// 0x0000152A System.Void pure.assetdb.AppAotLoader/<Start>d__29::System.Collections.IEnumerator.Reset()
+// 0x00001520 System.Void pure.assetdb.AppAotLoader/<Start>d__29::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__29_System_Collections_IEnumerator_Reset_m4E29BCCC0CBDB1791D48D6F3039C22734FFBFC42 (void);
-// 0x0000152B System.Object pure.assetdb.AppAotLoader/<Start>d__29::System.Collections.IEnumerator.get_Current()
+// 0x00001521 System.Object pure.assetdb.AppAotLoader/<Start>d__29::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__29_System_Collections_IEnumerator_get_Current_mC2BA205129C0CAA4770024DE1CAFEDAD1B94467B (void);
-// 0x0000152C System.Void pure.assetdb.AppAotLoader/<run_task>d__31::.ctor(System.Int32)
+// 0x00001522 System.Void pure.assetdb.AppAotLoader/<run_task>d__31::.ctor(System.Int32)
 extern void U3Crun_taskU3Ed__31__ctor_m57533A87FA2BE6DCF8EEB467565001C76C4CDA81 (void);
-// 0x0000152D System.Void pure.assetdb.AppAotLoader/<run_task>d__31::System.IDisposable.Dispose()
+// 0x00001523 System.Void pure.assetdb.AppAotLoader/<run_task>d__31::System.IDisposable.Dispose()
 extern void U3Crun_taskU3Ed__31_System_IDisposable_Dispose_m59B082AF18DF9D586CD9D06710BA918F91161961 (void);
-// 0x0000152E System.Boolean pure.assetdb.AppAotLoader/<run_task>d__31::MoveNext()
+// 0x00001524 System.Boolean pure.assetdb.AppAotLoader/<run_task>d__31::MoveNext()
 extern void U3Crun_taskU3Ed__31_MoveNext_m4AAB17FBFDA7BE86DB2F8B7480AA93A09D1D20DD (void);
-// 0x0000152F System.Object pure.assetdb.AppAotLoader/<run_task>d__31::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001525 System.Object pure.assetdb.AppAotLoader/<run_task>d__31::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3Crun_taskU3Ed__31_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAA25671D9D6461661F7214DCCDD67F7CE6E48103 (void);
-// 0x00001530 System.Void pure.assetdb.AppAotLoader/<run_task>d__31::System.Collections.IEnumerator.Reset()
+// 0x00001526 System.Void pure.assetdb.AppAotLoader/<run_task>d__31::System.Collections.IEnumerator.Reset()
 extern void U3Crun_taskU3Ed__31_System_Collections_IEnumerator_Reset_m29038EA059E063E3576A1A916F23AB01E0CCFA83 (void);
-// 0x00001531 System.Object pure.assetdb.AppAotLoader/<run_task>d__31::System.Collections.IEnumerator.get_Current()
+// 0x00001527 System.Object pure.assetdb.AppAotLoader/<run_task>d__31::System.Collections.IEnumerator.get_Current()
 extern void U3Crun_taskU3Ed__31_System_Collections_IEnumerator_get_Current_mBB4183B4CBE3DC8B6DC04BC9E7A0391B9C71C38C (void);
-// 0x00001532 System.Void pure.assetdb.AppAotLoader/<run_task>d__32::.ctor(System.Int32)
+// 0x00001528 System.Void pure.assetdb.AppAotLoader/<run_task>d__32::.ctor(System.Int32)
 extern void U3Crun_taskU3Ed__32__ctor_mB4FDAFC45C71A75B6312D14AD16F7E9A7BBAF02A (void);
-// 0x00001533 System.Void pure.assetdb.AppAotLoader/<run_task>d__32::System.IDisposable.Dispose()
+// 0x00001529 System.Void pure.assetdb.AppAotLoader/<run_task>d__32::System.IDisposable.Dispose()
 extern void U3Crun_taskU3Ed__32_System_IDisposable_Dispose_m5001AE7C9FAE69F43E6AAF341477675C2F81C9FA (void);
-// 0x00001534 System.Boolean pure.assetdb.AppAotLoader/<run_task>d__32::MoveNext()
+// 0x0000152A System.Boolean pure.assetdb.AppAotLoader/<run_task>d__32::MoveNext()
 extern void U3Crun_taskU3Ed__32_MoveNext_m03DCE75C7DBE36485319C59AA7703BF0FE6FB95B (void);
-// 0x00001535 System.Object pure.assetdb.AppAotLoader/<run_task>d__32::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000152B System.Object pure.assetdb.AppAotLoader/<run_task>d__32::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3Crun_taskU3Ed__32_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m69092E01D04886379EC7F3ACE523981ABDD14D17 (void);
-// 0x00001536 System.Void pure.assetdb.AppAotLoader/<run_task>d__32::System.Collections.IEnumerator.Reset()
+// 0x0000152C System.Void pure.assetdb.AppAotLoader/<run_task>d__32::System.Collections.IEnumerator.Reset()
 extern void U3Crun_taskU3Ed__32_System_Collections_IEnumerator_Reset_mB14C94A3B66D5B32E3E1429BE4A6C43D8F0EC4FF (void);
-// 0x00001537 System.Object pure.assetdb.AppAotLoader/<run_task>d__32::System.Collections.IEnumerator.get_Current()
+// 0x0000152D System.Object pure.assetdb.AppAotLoader/<run_task>d__32::System.Collections.IEnumerator.get_Current()
 extern void U3Crun_taskU3Ed__32_System_Collections_IEnumerator_get_Current_m03B2A723CDB2C976BFC75B998523A44FDC41B95E (void);
-// 0x00001538 System.Single pure.assetdb.AppAotTask::get_progress()
+// 0x0000152E System.Single pure.assetdb.AppAotTask::get_progress()
 extern void AppAotTask_get_progress_mA49F0A60FDE4BEA74EBF94D9C69350E4F4EE5008 (void);
-// 0x00001539 System.Void pure.assetdb.AppAotTask::set_progress(System.Single)
+// 0x0000152F System.Void pure.assetdb.AppAotTask::set_progress(System.Single)
 extern void AppAotTask_set_progress_m8B08DF0C837AF8AFF6C2A2C7DA44D2053429E6F3 (void);
-// 0x0000153A System.Void pure.assetdb.AppAotTask::set_isDone(System.Boolean)
+// 0x00001530 System.Void pure.assetdb.AppAotTask::set_isDone(System.Boolean)
 extern void AppAotTask_set_isDone_mF83BD2D44C93A853C994D1593EAFDDC28C9053A4 (void);
-// 0x0000153B System.Boolean pure.assetdb.AppAotTask::get_error()
+// 0x00001531 System.Boolean pure.assetdb.AppAotTask::get_error()
 extern void AppAotTask_get_error_m4DB1225B63EF1D9A45439A4747010B4A82071D2B (void);
-// 0x0000153C System.Void pure.assetdb.AppAotTask::set_error(System.Boolean)
+// 0x00001532 System.Void pure.assetdb.AppAotTask::set_error(System.Boolean)
 extern void AppAotTask_set_error_m15B8F35B4751F83483FA2183407595856E4DF34D (void);
-// 0x0000153D System.String pure.assetdb.AppAotTask::get_errmsg()
+// 0x00001533 System.String pure.assetdb.AppAotTask::get_errmsg()
 extern void AppAotTask_get_errmsg_m880E1B7E9EB0377EEE03B8D71BC15252665AFE7F (void);
-// 0x0000153E System.Void pure.assetdb.AppAotTask::set_errmsg(System.String)
+// 0x00001534 System.Void pure.assetdb.AppAotTask::set_errmsg(System.String)
 extern void AppAotTask_set_errmsg_mC58AFE743F16196C4B103C70E361436F7074D468 (void);
-// 0x0000153F System.Collections.IEnumerator pure.assetdb.AppAotTask::Start()
-// 0x00001540 System.Void pure.assetdb.AppAotTask::.ctor()
+// 0x00001535 System.Collections.IEnumerator pure.assetdb.AppAotTask::Start()
+// 0x00001536 System.Void pure.assetdb.AppAotTask::.ctor()
 extern void AppAotTask__ctor_m8A143E428287F0F5694D673D3E9551A1B85F58CC (void);
-// 0x00001541 System.Collections.IEnumerator pure.assetdb.AppAot_InitAssetDB::Start()
+// 0x00001537 System.Collections.IEnumerator pure.assetdb.AppAot_InitAssetDB::Start()
 extern void AppAot_InitAssetDB_Start_m35F7A8C2245A48D93D59E67D8E88004B0C08AD2C (void);
-// 0x00001542 System.Void pure.assetdb.AppAot_InitAssetDB::.ctor()
+// 0x00001538 System.Void pure.assetdb.AppAot_InitAssetDB::.ctor()
 extern void AppAot_InitAssetDB__ctor_m1698B192D40925F6A6D3092842F975D8FE985598 (void);
-// 0x00001543 System.Void pure.assetdb.AppAot_InitAssetDB/<Start>d__0::.ctor(System.Int32)
+// 0x00001539 System.Void pure.assetdb.AppAot_InitAssetDB/<Start>d__0::.ctor(System.Int32)
 extern void U3CStartU3Ed__0__ctor_m3E332B639AA0EF8408225C33B92C2D3D62E38850 (void);
-// 0x00001544 System.Void pure.assetdb.AppAot_InitAssetDB/<Start>d__0::System.IDisposable.Dispose()
+// 0x0000153A System.Void pure.assetdb.AppAot_InitAssetDB/<Start>d__0::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__0_System_IDisposable_Dispose_m089060F8E515F341B9EB3EEADA429839EC7ED65B (void);
-// 0x00001545 System.Boolean pure.assetdb.AppAot_InitAssetDB/<Start>d__0::MoveNext()
+// 0x0000153B System.Boolean pure.assetdb.AppAot_InitAssetDB/<Start>d__0::MoveNext()
 extern void U3CStartU3Ed__0_MoveNext_m93C34EBACA2E789FEB11908C1374F88521C9C053 (void);
-// 0x00001546 System.Object pure.assetdb.AppAot_InitAssetDB/<Start>d__0::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000153C System.Object pure.assetdb.AppAot_InitAssetDB/<Start>d__0::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__0_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3CB71F32A1B599D1EFABCEDDFECF05BB61F99211 (void);
-// 0x00001547 System.Void pure.assetdb.AppAot_InitAssetDB/<Start>d__0::System.Collections.IEnumerator.Reset()
+// 0x0000153D System.Void pure.assetdb.AppAot_InitAssetDB/<Start>d__0::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__0_System_Collections_IEnumerator_Reset_mABE9B1AB788FF327955223951D453125C63D2EEE (void);
-// 0x00001548 System.Object pure.assetdb.AppAot_InitAssetDB/<Start>d__0::System.Collections.IEnumerator.get_Current()
+// 0x0000153E System.Object pure.assetdb.AppAot_InitAssetDB/<Start>d__0::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__0_System_Collections_IEnumerator_get_Current_m87ACD2B118701FE0052B6C364BB203E0F3B55A7D (void);
-// 0x00001549 System.Collections.IEnumerator pure.assetdb.AppAot_LoadAssembly::Start()
+// 0x0000153F System.Collections.IEnumerator pure.assetdb.AppAot_LoadAssembly::Start()
 extern void AppAot_LoadAssembly_Start_m9843C60284E3FEFBB1A41CE3B329E20A30EF431F (void);
-// 0x0000154A System.Void pure.assetdb.AppAot_LoadAssembly::load_asset(pure.assetdb.IFileAsset)
+// 0x00001540 System.Void pure.assetdb.AppAot_LoadAssembly::load_asset(pure.assetdb.IFileAsset)
 extern void AppAot_LoadAssembly_load_asset_m3D3F70A4656BD61BFD2A742C50515AA378E41BC7 (void);
-// 0x0000154B System.Void pure.assetdb.AppAot_LoadAssembly::.ctor()
+// 0x00001541 System.Void pure.assetdb.AppAot_LoadAssembly::.ctor()
 extern void AppAot_LoadAssembly__ctor_m5B49E8210C467F58900F46A20D948DA2570194D3 (void);
-// 0x0000154C System.Void pure.assetdb.AppAot_LoadAssembly/<Start>d__3::.ctor(System.Int32)
+// 0x00001542 System.Void pure.assetdb.AppAot_LoadAssembly/<Start>d__3::.ctor(System.Int32)
 extern void U3CStartU3Ed__3__ctor_m0FB70B8017F4B8E2751296001E8EE67FEF28E9F1 (void);
-// 0x0000154D System.Void pure.assetdb.AppAot_LoadAssembly/<Start>d__3::System.IDisposable.Dispose()
+// 0x00001543 System.Void pure.assetdb.AppAot_LoadAssembly/<Start>d__3::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__3_System_IDisposable_Dispose_mACA4260DA66E6971ECF7D7476ECB6B054235835F (void);
-// 0x0000154E System.Boolean pure.assetdb.AppAot_LoadAssembly/<Start>d__3::MoveNext()
+// 0x00001544 System.Boolean pure.assetdb.AppAot_LoadAssembly/<Start>d__3::MoveNext()
 extern void U3CStartU3Ed__3_MoveNext_m0B228CF2635EE1DDF05938152CD2FC7FC1793043 (void);
-// 0x0000154F System.Object pure.assetdb.AppAot_LoadAssembly/<Start>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001545 System.Object pure.assetdb.AppAot_LoadAssembly/<Start>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEB45BE6B85184873A2DD7B2D5362F32290053828 (void);
-// 0x00001550 System.Void pure.assetdb.AppAot_LoadAssembly/<Start>d__3::System.Collections.IEnumerator.Reset()
+// 0x00001546 System.Void pure.assetdb.AppAot_LoadAssembly/<Start>d__3::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__3_System_Collections_IEnumerator_Reset_m9DB568F4435FB9862D858E0AE18F59B1A7679634 (void);
-// 0x00001551 System.Object pure.assetdb.AppAot_LoadAssembly/<Start>d__3::System.Collections.IEnumerator.get_Current()
+// 0x00001547 System.Object pure.assetdb.AppAot_LoadAssembly/<Start>d__3::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__3_System_Collections_IEnumerator_get_Current_mA2AEC5D83D397795E8DC11316213762CB0FEE753 (void);
-// 0x00001552 System.Void pure.assetdb.AppAot_LoadAssembly/<>c__DisplayClass4_0::.ctor()
+// 0x00001548 System.Void pure.assetdb.AppAot_LoadAssembly/<>c__DisplayClass4_0::.ctor()
 extern void U3CU3Ec__DisplayClass4_0__ctor_mCCBBEF484CD41ABF6775AF1AC28FDF34C7D6ACDA (void);
-// 0x00001553 System.Void pure.assetdb.AppAot_LoadAssembly/<>c__DisplayClass4_0::<load_asset>b__0(System.Int64,System.Boolean)
+// 0x00001549 System.Void pure.assetdb.AppAot_LoadAssembly/<>c__DisplayClass4_0::<load_asset>b__0(System.Int64,System.Boolean)
 extern void U3CU3Ec__DisplayClass4_0_U3Cload_assetU3Eb__0_mF63EE8BB2615CC5B2575B88F32A919D591D5411A (void);
-// 0x00001554 System.Collections.IEnumerator pure.assetdb.AppAot_LoadAssetDB::Start()
+// 0x0000154A System.Collections.IEnumerator pure.assetdb.AppAot_LoadAssetDB::Start()
 extern void AppAot_LoadAssetDB_Start_mBE712251A0D1CF26E112D8AE19359D8CF5ACFCB3 (void);
-// 0x00001555 System.Void pure.assetdb.AppAot_LoadAssetDB::.ctor()
+// 0x0000154B System.Void pure.assetdb.AppAot_LoadAssetDB::.ctor()
 extern void AppAot_LoadAssetDB__ctor_mA8CDFF516DC6E48EDA69EC97CA28807755560DA1 (void);
-// 0x00001556 System.Void pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::.ctor(System.Int32)
+// 0x0000154C System.Void pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::.ctor(System.Int32)
 extern void U3CStartU3Ed__1__ctor_mD8EB7874EA17589972D6AAAA8D0F44E640B15E65 (void);
-// 0x00001557 System.Void pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::System.IDisposable.Dispose()
+// 0x0000154D System.Void pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__1_System_IDisposable_Dispose_m472B670305F8AFD2BFAF45060385611CA44F3C93 (void);
-// 0x00001558 System.Boolean pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::MoveNext()
+// 0x0000154E System.Boolean pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::MoveNext()
 extern void U3CStartU3Ed__1_MoveNext_mC26966B71B4BB0AAE4FEBB06F222D00BC751EC32 (void);
-// 0x00001559 System.Object pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000154F System.Object pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD6EFD758052D5857BB4F3AA9421BFAB7D1E66361 (void);
-// 0x0000155A System.Void pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::System.Collections.IEnumerator.Reset()
+// 0x00001550 System.Void pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__1_System_Collections_IEnumerator_Reset_mF124C67BF63F25EBFBF81AEEE11BBE25C4DC56C8 (void);
-// 0x0000155B System.Object pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::System.Collections.IEnumerator.get_Current()
+// 0x00001551 System.Object pure.assetdb.AppAot_LoadAssetDB/<Start>d__1::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__1_System_Collections_IEnumerator_get_Current_m7D74FAE679BC4D594FB3551D76A728DCBBEA9020 (void);
-// 0x0000155C System.Collections.IEnumerator pure.assetdb.AppAot_LoadBar::Start()
+// 0x00001552 System.Collections.IEnumerator pure.assetdb.AppAot_LoadBar::Start()
 extern void AppAot_LoadBar_Start_mB540FC5FC20AD4C4862947BDF4FEF16A00747959 (void);
-// 0x0000155D System.Void pure.assetdb.AppAot_LoadBar::.ctor()
+// 0x00001553 System.Void pure.assetdb.AppAot_LoadBar::.ctor()
 extern void AppAot_LoadBar__ctor_m24C0DDC8C912F0BB9A7ED141EB6D2FAFA69602DE (void);
-// 0x0000155E System.Void pure.assetdb.AppAot_LoadBar/<Start>d__0::.ctor(System.Int32)
+// 0x00001554 System.Void pure.assetdb.AppAot_LoadBar/<Start>d__0::.ctor(System.Int32)
 extern void U3CStartU3Ed__0__ctor_m6417F0F07F91FA27FDB124CD0F17106EA64C6560 (void);
-// 0x0000155F System.Void pure.assetdb.AppAot_LoadBar/<Start>d__0::System.IDisposable.Dispose()
+// 0x00001555 System.Void pure.assetdb.AppAot_LoadBar/<Start>d__0::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__0_System_IDisposable_Dispose_m14AD361B387A7FA2621CD4FB41ED41EA80B9EFE8 (void);
-// 0x00001560 System.Boolean pure.assetdb.AppAot_LoadBar/<Start>d__0::MoveNext()
+// 0x00001556 System.Boolean pure.assetdb.AppAot_LoadBar/<Start>d__0::MoveNext()
 extern void U3CStartU3Ed__0_MoveNext_mD91303B9468E85638C17EBB4633A5F9E55FCD51C (void);
-// 0x00001561 System.Object pure.assetdb.AppAot_LoadBar/<Start>d__0::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001557 System.Object pure.assetdb.AppAot_LoadBar/<Start>d__0::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__0_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9ACFFB50FA628DE4FA541D3228C79B964705E044 (void);
-// 0x00001562 System.Void pure.assetdb.AppAot_LoadBar/<Start>d__0::System.Collections.IEnumerator.Reset()
+// 0x00001558 System.Void pure.assetdb.AppAot_LoadBar/<Start>d__0::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__0_System_Collections_IEnumerator_Reset_mE82CDEED62353235908479D6955725993E1585F4 (void);
-// 0x00001563 System.Object pure.assetdb.AppAot_LoadBar/<Start>d__0::System.Collections.IEnumerator.get_Current()
+// 0x00001559 System.Object pure.assetdb.AppAot_LoadBar/<Start>d__0::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__0_System_Collections_IEnumerator_get_Current_m087CA641BBA20EE7B641000D8A2C093C8895936C (void);
-// 0x00001564 pure.net.Req_Json pure.assetdb.AppAot_LoadConfig::request_config(System.String)
+// 0x0000155A pure.net.Req_Json pure.assetdb.AppAot_LoadConfig::request_config(System.String)
 extern void AppAot_LoadConfig_request_config_m7D77F9C28F9E2DEAA172AC8A84CF3EE11AE27910 (void);
-// 0x00001565 System.Collections.IEnumerator pure.assetdb.AppAot_LoadConfig::Start()
+// 0x0000155B System.Collections.IEnumerator pure.assetdb.AppAot_LoadConfig::Start()
 extern void AppAot_LoadConfig_Start_m674088794508DDFC5D2344A585F5912D7D10A2DC (void);
-// 0x00001566 System.Void pure.assetdb.AppAot_LoadConfig::.ctor()
+// 0x0000155C System.Void pure.assetdb.AppAot_LoadConfig::.ctor()
 extern void AppAot_LoadConfig__ctor_m0AC3CBE9D6BAF54CEF3F88C6D9F1D7C45DA20E5C (void);
-// 0x00001567 System.Void pure.assetdb.AppAot_LoadConfig/<Start>d__1::.ctor(System.Int32)
+// 0x0000155D System.Void pure.assetdb.AppAot_LoadConfig/<Start>d__1::.ctor(System.Int32)
 extern void U3CStartU3Ed__1__ctor_m6C4A58932EF6C39B996D8A4152F16E11B6955418 (void);
-// 0x00001568 System.Void pure.assetdb.AppAot_LoadConfig/<Start>d__1::System.IDisposable.Dispose()
+// 0x0000155E System.Void pure.assetdb.AppAot_LoadConfig/<Start>d__1::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__1_System_IDisposable_Dispose_mAC6E09A71CC69498A24C542946AD140C840274F2 (void);
-// 0x00001569 System.Boolean pure.assetdb.AppAot_LoadConfig/<Start>d__1::MoveNext()
+// 0x0000155F System.Boolean pure.assetdb.AppAot_LoadConfig/<Start>d__1::MoveNext()
 extern void U3CStartU3Ed__1_MoveNext_m94FC3160B0F3FAF59922B82A77159BDA4F9B9F22 (void);
-// 0x0000156A System.Object pure.assetdb.AppAot_LoadConfig/<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001560 System.Object pure.assetdb.AppAot_LoadConfig/<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCCA60264ADDD78D4461F265EA6FFF61247BC0FBB (void);
-// 0x0000156B System.Void pure.assetdb.AppAot_LoadConfig/<Start>d__1::System.Collections.IEnumerator.Reset()
+// 0x00001561 System.Void pure.assetdb.AppAot_LoadConfig/<Start>d__1::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__1_System_Collections_IEnumerator_Reset_mC9B3556E093131ABCAEC20D6078D6A64BBEA1AE9 (void);
-// 0x0000156C System.Object pure.assetdb.AppAot_LoadConfig/<Start>d__1::System.Collections.IEnumerator.get_Current()
+// 0x00001562 System.Object pure.assetdb.AppAot_LoadConfig/<Start>d__1::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__1_System_Collections_IEnumerator_get_Current_mD5D0F2681820B74E443478E53F503F266D14D766 (void);
-// 0x0000156D System.Collections.IEnumerator pure.assetdb.AppAot_LoadHotfix::load_assembly()
+// 0x00001563 System.Collections.IEnumerator pure.assetdb.AppAot_LoadHotfix::load_assembly()
 extern void AppAot_LoadHotfix_load_assembly_m7FBCD51A13D14787E1DF55544EFFA31FE1143816 (void);
-// 0x0000156E System.Collections.IEnumerator pure.assetdb.AppAot_LoadHotfix::Start()
+// 0x00001564 System.Collections.IEnumerator pure.assetdb.AppAot_LoadHotfix::Start()
 extern void AppAot_LoadHotfix_Start_mDE9A443AFCCA3D9E23AE8D23B98BE56B0E7CF710 (void);
-// 0x0000156F System.Void pure.assetdb.AppAot_LoadHotfix::.ctor()
+// 0x00001565 System.Void pure.assetdb.AppAot_LoadHotfix::.ctor()
 extern void AppAot_LoadHotfix__ctor_mE2EB1B9CE5FEE4E834393B7CCCFA5704F465B992 (void);
-// 0x00001570 System.Void pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::.ctor(System.Int32)
+// 0x00001566 System.Void pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::.ctor(System.Int32)
 extern void U3Cload_assemblyU3Ed__0__ctor_m4B840CDAF2945FFADFC11C133C6F5C0F695B38A5 (void);
-// 0x00001571 System.Void pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::System.IDisposable.Dispose()
+// 0x00001567 System.Void pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::System.IDisposable.Dispose()
 extern void U3Cload_assemblyU3Ed__0_System_IDisposable_Dispose_mD92653012A1D149F4C9D006BE994A83C6D688421 (void);
-// 0x00001572 System.Boolean pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::MoveNext()
+// 0x00001568 System.Boolean pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::MoveNext()
 extern void U3Cload_assemblyU3Ed__0_MoveNext_mD7C9C8DEF773E154E90E9B59B7E8266B9346EA6A (void);
-// 0x00001573 System.Object pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001569 System.Object pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3Cload_assemblyU3Ed__0_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDCCFB6C90E7210BB118CAF9D48499F2CC70BD713 (void);
-// 0x00001574 System.Void pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::System.Collections.IEnumerator.Reset()
+// 0x0000156A System.Void pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::System.Collections.IEnumerator.Reset()
 extern void U3Cload_assemblyU3Ed__0_System_Collections_IEnumerator_Reset_m91117EAB4458ECD0978B1371E7C1CEBAC58FDFC0 (void);
-// 0x00001575 System.Object pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::System.Collections.IEnumerator.get_Current()
+// 0x0000156B System.Object pure.assetdb.AppAot_LoadHotfix/<load_assembly>d__0::System.Collections.IEnumerator.get_Current()
 extern void U3Cload_assemblyU3Ed__0_System_Collections_IEnumerator_get_Current_mA7BEBDCBDDAFDAB48431A4C7EDFD0B0202FE4AED (void);
-// 0x00001576 System.Void pure.assetdb.AppAot_LoadHotfix/<Start>d__1::.ctor(System.Int32)
+// 0x0000156C System.Void pure.assetdb.AppAot_LoadHotfix/<Start>d__1::.ctor(System.Int32)
 extern void U3CStartU3Ed__1__ctor_m2C2F8561DFB7934A782AF4E0BFCCECFE58F9B257 (void);
-// 0x00001577 System.Void pure.assetdb.AppAot_LoadHotfix/<Start>d__1::System.IDisposable.Dispose()
+// 0x0000156D System.Void pure.assetdb.AppAot_LoadHotfix/<Start>d__1::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__1_System_IDisposable_Dispose_m5AAB6485694AEB2E6A9BDDC3E35A1381BC74730A (void);
-// 0x00001578 System.Boolean pure.assetdb.AppAot_LoadHotfix/<Start>d__1::MoveNext()
+// 0x0000156E System.Boolean pure.assetdb.AppAot_LoadHotfix/<Start>d__1::MoveNext()
 extern void U3CStartU3Ed__1_MoveNext_mD493678A47018CD4CC473E755AD945D48DE00DA7 (void);
-// 0x00001579 System.Object pure.assetdb.AppAot_LoadHotfix/<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000156F System.Object pure.assetdb.AppAot_LoadHotfix/<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0417996A9BA1CEC4617BE969E7C4D0E7F91B272E (void);
-// 0x0000157A System.Void pure.assetdb.AppAot_LoadHotfix/<Start>d__1::System.Collections.IEnumerator.Reset()
+// 0x00001570 System.Void pure.assetdb.AppAot_LoadHotfix/<Start>d__1::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__1_System_Collections_IEnumerator_Reset_mD4018558CA589949CD4E5F5D9867791DAE6BB97C (void);
-// 0x0000157B System.Object pure.assetdb.AppAot_LoadHotfix/<Start>d__1::System.Collections.IEnumerator.get_Current()
+// 0x00001571 System.Object pure.assetdb.AppAot_LoadHotfix/<Start>d__1::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__1_System_Collections_IEnumerator_get_Current_mA94CF59B65046B01B78CB98D7AD38395F1AE8C77 (void);
-// 0x0000157C System.String pure.assetdb.AppAot_LoadHotMeta::get_meta_name(System.String)
+// 0x00001572 System.String pure.assetdb.AppAot_LoadHotMeta::get_meta_name(System.String)
 extern void AppAot_LoadHotMeta_get_meta_name_m37B5580A1FDC21F795C6C8B09A522463E79CEF4F (void);
-// 0x0000157D System.Collections.IEnumerator pure.assetdb.AppAot_LoadHotMeta::Start()
+// 0x00001573 System.Collections.IEnumerator pure.assetdb.AppAot_LoadHotMeta::Start()
 extern void AppAot_LoadHotMeta_Start_m9411B7D8B1D0343EECF543285825609F33466F85 (void);
-// 0x0000157E System.Void pure.assetdb.AppAot_LoadHotMeta::.ctor()
+// 0x00001574 System.Void pure.assetdb.AppAot_LoadHotMeta::.ctor()
 extern void AppAot_LoadHotMeta__ctor_mBE552CAD2B43D0476E8FC1CD8EB58FAC1AC56386 (void);
-// 0x0000157F System.Void pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::.ctor(System.Int32)
+// 0x00001575 System.Void pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::.ctor(System.Int32)
 extern void U3CStartU3Ed__1__ctor_m27D0BAE0701464B9158EEBC9A35AAF1F40872FA2 (void);
-// 0x00001580 System.Void pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::System.IDisposable.Dispose()
+// 0x00001576 System.Void pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__1_System_IDisposable_Dispose_mD54328CB889C148324238F92489EB5AE2210A47A (void);
-// 0x00001581 System.Boolean pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::MoveNext()
+// 0x00001577 System.Boolean pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::MoveNext()
 extern void U3CStartU3Ed__1_MoveNext_m954F76D5D8194C22C8C8FF8D1961E89C902B9EB8 (void);
-// 0x00001582 System.Object pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001578 System.Object pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9D50F0CD2663D6A412101A155F8ECA2BC86A3BD9 (void);
-// 0x00001583 System.Void pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::System.Collections.IEnumerator.Reset()
+// 0x00001579 System.Void pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__1_System_Collections_IEnumerator_Reset_m5D2F5C73728E33410B850C87DF497F851AAF5473 (void);
-// 0x00001584 System.Object pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::System.Collections.IEnumerator.get_Current()
+// 0x0000157A System.Object pure.assetdb.AppAot_LoadHotMeta/<Start>d__1::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__1_System_Collections_IEnumerator_get_Current_mF2B4BF58362A8E81E8CD0F71C1AF5F2A634B4D33 (void);
-// 0x00001585 System.Collections.IEnumerator pure.assetdb.AppAot_LoadVersion::Start()
+// 0x0000157B System.Collections.IEnumerator pure.assetdb.AppAot_LoadVersion::Start()
 extern void AppAot_LoadVersion_Start_m6ECF45CA4A16EBFC0E35B6C9E5DDC0529CDAFF6C (void);
-// 0x00001586 System.Void pure.assetdb.AppAot_LoadVersion::.ctor()
+// 0x0000157C System.Void pure.assetdb.AppAot_LoadVersion::.ctor()
 extern void AppAot_LoadVersion__ctor_m77C0EE802CA81EBB1F08837F2CD3F74DA95039E6 (void);
-// 0x00001587 System.Void pure.assetdb.AppAot_LoadVersion/<Start>d__0::.ctor(System.Int32)
+// 0x0000157D System.Void pure.assetdb.AppAot_LoadVersion/<Start>d__0::.ctor(System.Int32)
 extern void U3CStartU3Ed__0__ctor_mEF6D319287C27EFD2334F92207D8C17389C5AD62 (void);
-// 0x00001588 System.Void pure.assetdb.AppAot_LoadVersion/<Start>d__0::System.IDisposable.Dispose()
+// 0x0000157E System.Void pure.assetdb.AppAot_LoadVersion/<Start>d__0::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__0_System_IDisposable_Dispose_mE26B0FF3080D6B076DEBC1722B172FB532033643 (void);
-// 0x00001589 System.Boolean pure.assetdb.AppAot_LoadVersion/<Start>d__0::MoveNext()
+// 0x0000157F System.Boolean pure.assetdb.AppAot_LoadVersion/<Start>d__0::MoveNext()
 extern void U3CStartU3Ed__0_MoveNext_m310B515BD51110E985480017DFC9E6C19B43FAE7 (void);
-// 0x0000158A System.Object pure.assetdb.AppAot_LoadVersion/<Start>d__0::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001580 System.Object pure.assetdb.AppAot_LoadVersion/<Start>d__0::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__0_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE6822D6C04D58B8CAC02715895B4A29E4C8ED795 (void);
-// 0x0000158B System.Void pure.assetdb.AppAot_LoadVersion/<Start>d__0::System.Collections.IEnumerator.Reset()
+// 0x00001581 System.Void pure.assetdb.AppAot_LoadVersion/<Start>d__0::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__0_System_Collections_IEnumerator_Reset_m487B6FB8D23E6EB609480FF2CC98CCFC7FB4D533 (void);
-// 0x0000158C System.Object pure.assetdb.AppAot_LoadVersion/<Start>d__0::System.Collections.IEnumerator.get_Current()
+// 0x00001582 System.Object pure.assetdb.AppAot_LoadVersion/<Start>d__0::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__0_System_Collections_IEnumerator_get_Current_m5C5507C4D240CE77B5D357D816A4697F32D5581E (void);
-// 0x0000158D System.Collections.IEnumerator pure.assetdb.AppAot_Sdk::Start()
+// 0x00001583 System.Collections.IEnumerator pure.assetdb.AppAot_Sdk::Start()
 extern void AppAot_Sdk_Start_mB0567C91480986F192C234B6A6AA599A9209C494 (void);
-// 0x0000158E System.Void pure.assetdb.AppAot_Sdk::.ctor()
+// 0x00001584 System.Void pure.assetdb.AppAot_Sdk::.ctor()
 extern void AppAot_Sdk__ctor_m674E6C2E6FE04110A3EB25B001317EDBFC132EFF (void);
-// 0x0000158F System.Void pure.assetdb.AppAot_Sdk/<Start>d__0::.ctor(System.Int32)
+// 0x00001585 System.Void pure.assetdb.AppAot_Sdk/<Start>d__0::.ctor(System.Int32)
 extern void U3CStartU3Ed__0__ctor_m2F1DC84A64FBF05B4F2113EA032BE6569F672F90 (void);
-// 0x00001590 System.Void pure.assetdb.AppAot_Sdk/<Start>d__0::System.IDisposable.Dispose()
+// 0x00001586 System.Void pure.assetdb.AppAot_Sdk/<Start>d__0::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__0_System_IDisposable_Dispose_m09F84A20F0C9586BFAEB0F40DE22068DB749B9E4 (void);
-// 0x00001591 System.Boolean pure.assetdb.AppAot_Sdk/<Start>d__0::MoveNext()
+// 0x00001587 System.Boolean pure.assetdb.AppAot_Sdk/<Start>d__0::MoveNext()
 extern void U3CStartU3Ed__0_MoveNext_m999AB9204564F51CD8727FABC5BD025DBB96FDD9 (void);
-// 0x00001592 System.Object pure.assetdb.AppAot_Sdk/<Start>d__0::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00001588 System.Object pure.assetdb.AppAot_Sdk/<Start>d__0::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__0_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1230C4D71407F41EFC3B517DFB85108F4EFA3D43 (void);
-// 0x00001593 System.Void pure.assetdb.AppAot_Sdk/<Start>d__0::System.Collections.IEnumerator.Reset()
+// 0x00001589 System.Void pure.assetdb.AppAot_Sdk/<Start>d__0::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__0_System_Collections_IEnumerator_Reset_m73989D2493D0ADAD10FAAA1ED40DBE9FEF3CE07E (void);
-// 0x00001594 System.Object pure.assetdb.AppAot_Sdk/<Start>d__0::System.Collections.IEnumerator.get_Current()
+// 0x0000158A System.Object pure.assetdb.AppAot_Sdk/<Start>d__0::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__0_System_Collections_IEnumerator_get_Current_m44B6547FDBC0FF0177ACE894D058121D340002A3 (void);
-// 0x00001595 System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
+// 0x0000158B System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m9B70A60E6AF2CB5B045AEA5B3F008C7F667EE2D2 (void);
-// 0x00001596 System.Void pure.utils.fileTools.FileNameToPath::Clear()
+// 0x0000158C System.Void pure.utils.fileTools.FileNameToPath::Clear()
 extern void FileNameToPath_Clear_m33A51FEB45FDA868690EF57F8203E1BFEA725AB5 (void);
-// 0x00001597 System.Boolean pure.utils.fileTools.FileNameToPath::Find(System.String,System.String&)
-static Il2CppMethodPointer s_methodPointers[5527] = 
+// 0x0000158D System.Boolean pure.utils.fileTools.FileNameToPath::Find(System.String,System.String&)
+static Il2CppMethodPointer s_methodPointers[5517] = 
 {
 	EmbeddedAttribute__ctor_mE40389D41B19E48D7197B66B52AB13975A6F05B8,
 	IsUnmanagedAttribute__ctor_m9F37A79A826798BFF5AF90EE6475DA74ED701759,
@@ -14321,16 +14301,6 @@ static Il2CppMethodPointer s_methodPointers[5527] =
 	NativeHandler_FormResponse_OnReply_mF7C32B31B4587A231CA8784B64849F9DE77E4DE7,
 	NativeHandler_FormResponse_Remove_m94BBE24BC78FAE34E83E882966BBE70FC869C29A,
 	NativeHandler_FormResponse__ctor_m763BC65D51327FDC68C02DDD0B84181C754BB309,
-	NativeImpl_Android_get_mainThreadBridge_mC466E6D176DED1773F9D62322DF45037B9716CAA,
-	NativeImpl_Android_get_bridgeName_mF96B2C10A33901626F44E1E366928A22B6FBE83E,
-	NativeImpl_Android_pure_native_INativeInterface_CallMethod_mBF9626266F87166656E4BD0FC24A6A8AF3BD2F4C,
-	NativeImpl_Android_pure_native_INativeInterface_Log_m466BD7E8B9280B476B1E2D702A4579BD59890D92,
-	NativeImpl_Android_pure_native_INativeInterface_InvokeMethod_mE25FAC61AC8F182E56327953277218F6265ADE5D,
-	NativeImpl_Android_pure_native_INativeInterface_GetNetStatus_mD1FBEB898DE39042DDCD646218AF6DD93B70493A,
-	NativeImpl_Android_pure_native_INativeInterface_IsValidate_m23B9B300F4E49FE161C76DF8F058C6E48108D1B7,
-	NativeImpl_Android__ctor_mA704D46DDF7757492BD580732D4F050869D21108,
-	AndroidThread__ctor_mCB0562BF3117E1EAA9F0E90C8A0886B06EC1147E,
-	AndroidThread_Dispose_mE1CF193C4F0A5C0EC3CC8747B3F9576DA5E574D0,
 	NativeImpl_Editor_pure_native_INativeInterface_CallMethod_m384F56A2DAF96F80B254CA1BB5A01F61056C9DE3,
 	NativeImpl_Editor_test_multi_form_mBEF1D33471F4AF34398463DD14FEF92E2265617F,
 	NativeImpl_Editor_pure_native_INativeInterface_Log_mAAE5F63E9C43149789B81694FA46C14A3CD75C5D,
@@ -15810,8 +15780,6 @@ extern void PathPoint_ToVec3_mFA28E6AC05FCB873F91BCA3C0D326B0D891F6DB5_AdjustorT
 extern void PathPoint_Set_mCF65F4F0BB8FC750A2192327B51DE1B6555839FF_AdjustorThunk (void);
 extern void PathPoint_ToString_m439AFCEF3124452CF436AB77F9AA0EF536023830_AdjustorThunk (void);
 extern void Anim_get_mask_m35AF55BBB014400C311023D3C766519F451133F6_AdjustorThunk (void);
-extern void AndroidThread__ctor_mCB0562BF3117E1EAA9F0E90C8A0886B06EC1147E_AdjustorThunk (void);
-extern void AndroidThread_Dispose_mE1CF193C4F0A5C0EC3CC8747B3F9576DA5E574D0_AdjustorThunk (void);
 extern void IntRange_Equals_mD51C6FB11E90091D75AA8053768E28A6B7630A54_AdjustorThunk (void);
 extern void IntRange_GetHashCode_mF0F907FDB12E19FC92C58A0315DF70A3A276BFD6_AdjustorThunk (void);
 extern void IntRange_width_m58A19398F02A50238D45B3078B1C4C3DE319119F_AdjustorThunk (void);
@@ -15866,7 +15834,7 @@ extern void AssetDBDecoderV3_Decode_m335E1EB2AB0CA8662F8521A32C4DF30ABA609E59_Ad
 extern void AssetDBWriter__ctor_m66B19F5E4550BA201FDD8E1A845BBA271BD453CB_AdjustorThunk (void);
 extern void AssetDBWriter_Write_m6B3C83E0837E0E7FCF129B03AD9FE743F297ACAF_AdjustorThunk (void);
 extern void AssetDBWriter_write_data_mF7B3B0846F685444DDBB74CBDB28B3F38578169C_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[214] = 
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[212] = 
 {
 	{ 0x06000019, InvalidateCache__ctor_m9006B2F5DCCAFBE53926744704C5FB51760A74D7_AdjustorThunk },
 	{ 0x0600001A, InvalidateCache_Add_m8F1B663C72EB63316613BAAF35E2C5BAC09606F1_AdjustorThunk },
@@ -16026,83 +15994,81 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[214] =
 	{ 0x0600102C, PathPoint_Set_mCF65F4F0BB8FC750A2192327B51DE1B6555839FF_AdjustorThunk },
 	{ 0x0600102D, PathPoint_ToString_m439AFCEF3124452CF436AB77F9AA0EF536023830_AdjustorThunk },
 	{ 0x0600102F, Anim_get_mask_m35AF55BBB014400C311023D3C766519F451133F6_AdjustorThunk },
-	{ 0x0600106E, AndroidThread__ctor_mCB0562BF3117E1EAA9F0E90C8A0886B06EC1147E_AdjustorThunk },
-	{ 0x0600106F, AndroidThread_Dispose_mE1CF193C4F0A5C0EC3CC8747B3F9576DA5E574D0_AdjustorThunk },
-	{ 0x060010C1, IntRange_Equals_mD51C6FB11E90091D75AA8053768E28A6B7630A54_AdjustorThunk },
-	{ 0x060010C2, IntRange_GetHashCode_mF0F907FDB12E19FC92C58A0315DF70A3A276BFD6_AdjustorThunk },
-	{ 0x060010C3, IntRange_width_m58A19398F02A50238D45B3078B1C4C3DE319119F_AdjustorThunk },
-	{ 0x060010C4, IntRange_height_mFF48CCA0A3A08E6BE98E4FEBB320E5656C735863_AdjustorThunk },
-	{ 0x060010C5, IntRange_InRange_m6990B09B7E0F45A57E50104452D11C3DCF3B356A_AdjustorThunk },
-	{ 0x060010C6, IntRange_Expend_m8F9BB900D30F2BACD1295D81D24A8C47FE9E31E9_AdjustorThunk },
-	{ 0x060010C7, IntRange_Limite_mCD9731FE2205FFBFE9F26F148945D49B61E9ACEA_AdjustorThunk },
-	{ 0x060010CA, IntRange_ToString_m36BC5CBABB53835A20CD91BB1AEF51EEF6237B62_AdjustorThunk },
-	{ 0x060010CB, IntRange_Calculator_m4CE0B604D76F39EF30A1AC4BC5AA23C995B835A3_AdjustorThunk },
-	{ 0x060010CC, IntRange_Size_m2DD071A0F310DCB7FE5CB1B8AA8277BAF5173F4E_AdjustorThunk },
-	{ 0x0600121B, PageInfo_ToString_m46BB75915FE7B27EBE5B2127E399EF7CE37B238B_AdjustorThunk },
-	{ 0x06001309, VersionData_ToString_m8A1A17C49085ED96BCBE8FE51BAEBAF4E53DEED8_AdjustorThunk },
-	{ 0x0600130A, VersionData_get_sdkName_m00D10457748D9F0FEFC9141B3939421E8B37A424_AdjustorThunk },
-	{ 0x0600130B, VersionData_get_version_m53A7F3472E4B1AD50628B81185C420624B71C375_AdjustorThunk },
-	{ 0x0600130C, VersionData_set_version_m6D0245EE57F75BA22CD380265E6B0D7B2FF47D38_AdjustorThunk },
-	{ 0x0600130D, VersionData_get_sdkVer_m0D91D556A58DE438D8F44FFC63CAD5B1C03A01B5_AdjustorThunk },
-	{ 0x0600130E, VersionData_set_sdkVer_m31269FE2D3F05C086A6EAB3BDB598B78E5D85EB4_AdjustorThunk },
-	{ 0x0600130F, VersionData_get_minimumSdk_m7D33CA7957F524EACC86A2AFC708A7B3EE9A2F56_AdjustorThunk },
-	{ 0x06001310, VersionData_Equals_m78DF571A4F86C7A783DB6D28A3FC8F787BCD17A6_AdjustorThunk },
-	{ 0x06001311, VersionData_Equals_m50C958F2844236D41FC96B538F7EE57A40DA6679_AdjustorThunk },
-	{ 0x06001312, VersionData_GetHashCode_m6572FC0E582A0B62764287F02E5152B58F5AE482_AdjustorThunk },
-	{ 0x06001319, VersionData_Read_m64CBCE1B9215D3939B6725BC089B833C11C6BBC3_AdjustorThunk },
-	{ 0x0600131A, VersionData_ToBuffer_m52C9C1970368F65B0F3B1B7247E2FD43BB307F54_AdjustorThunk },
-	{ 0x0600131B, VersionData_get_major_mE3F1B0BE085C87983CC3C8CF3A48E3EA88D8FD9B_AdjustorThunk },
-	{ 0x0600131C, VersionData_get_minor_m0CED1C4833CDC953228CEBB7BEC35CFE2DDB5BC6_AdjustorThunk },
-	{ 0x0600131D, VersionData_get_point_m50D43AA927E4D8DE592DB372D30983ED66F0637A_AdjustorThunk },
-	{ 0x0600131E, VersionData_get_sdkMajor_m7F899C19C41745BCBE1132CF0F3FF722117CC699_AdjustorThunk },
-	{ 0x0600131F, VersionData_get_sdkMinor_m1D926E24DE4012BC78BBBE36EDB7CCB6B9432D09_AdjustorThunk },
-	{ 0x06001320, VersionData_get_sdkPoint_mF4719906FA16F4A3C2638F7762568BC550C39EDA_AdjustorThunk },
-	{ 0x06001321, VersionData_get_directory_m57B4FDE8C353A626FDAC8A2DAD40B86A1BC3E0EE_AdjustorThunk },
-	{ 0x06001322, VersionData_Parse_m6E2EE9949A06723ADEA68BB606FD2068DF1FA3B2_AdjustorThunk },
-	{ 0x06001323, VersionData_Write_m19BC467610D4D059D305E1CA8AC3B9F284CAC7F0_AdjustorThunk },
-	{ 0x06001324, VersionData_Write_mDD838FAA6E3C3C242A44B8B5DCE064712828E760_AdjustorThunk },
-	{ 0x06001325, VersionData_ReadStream_mA99F30820A25ACDA60FD890063F51F4CCABF8ACA_AdjustorThunk },
-	{ 0x06001326, VersionData_Read_mFD861751EB17455C4EDE11CBFCA4339590CF7D50_AdjustorThunk },
-	{ 0x06001327, VersionData_ReadCurrent_m101F03F5A3F6ACDADA10B6995F6482EF297FBC11_AdjustorThunk },
-	{ 0x06001344, loading_lock__ctor_mC75B833F73D3EFABBB25D4DB1086A69483A0D377_AdjustorThunk },
-	{ 0x06001345, loading_lock_Dispose_m47951F63AB9D63850052F61F9028750B2633E981_AdjustorThunk },
-	{ 0x060014A9, AssetDBDecoder__ctor_mAFAC85B00330C796B5B4AF8C7C6560532C02F9B3_AdjustorThunk },
-	{ 0x060014AA, AssetDBDecoder__ctor_m8B0C151F07CDBA69201DC6CBD087290F8A5224D6_AdjustorThunk },
-	{ 0x060014AB, AssetDBDecoder_Decode_mC862B8B2EB4264574CDC9E7350DBD32901C0FCB6_AdjustorThunk },
-	{ 0x060014AC, AssetDBDecoder_Decode_mE7DD6AFEDDE9225E311E77162AD2641438DA756A_AdjustorThunk },
-	{ 0x060014AD, AssetDBDecoder_Decode_mF4D590726BD90B1088DB56CA25AA5D9A136A3DF8_AdjustorThunk },
-	{ 0x060014AE, AssetDBDecoderExpired__ctor_m1E90A45084120D1960D45285C4DF033378D30B22_AdjustorThunk },
-	{ 0x060014AF, AssetDBDecoderExpired_ok_read_mD2328F3B8B2F216AF994EEB7509D0971B2F310D9_AdjustorThunk },
-	{ 0x060014B0, AssetDBDecoderExpired_read_context_m38D3C92531DB72C38C6D4D3EAB231DD0B4C10152_AdjustorThunk },
-	{ 0x060014B1, AssetDBDecoderExpired_Decode_m57155AC9AC2120C6F0D69EE21E5372A605F12D1F_AdjustorThunk },
-	{ 0x060014B2, AssetDBDecoderV3__ctor_m5C1D5C0A76F00DE6824DB1D0C69910A94DA470E3_AdjustorThunk },
-	{ 0x060014B3, AssetDBDecoderV3_read_context_mF1104E2DDE3964DD568A400B80770671761FAFBE_AdjustorThunk },
-	{ 0x060014B4, AssetDBDecoderV3_ok_read_mBFBF321B1F1DE2E211E5BC155E7EBF349135A077_AdjustorThunk },
-	{ 0x060014B5, AssetDBDecoderV3_Decode_m335E1EB2AB0CA8662F8521A32C4DF30ABA609E59_AdjustorThunk },
-	{ 0x060014BA, AssetDBWriter__ctor_m66B19F5E4550BA201FDD8E1A845BBA271BD453CB_AdjustorThunk },
-	{ 0x060014BB, AssetDBWriter_Write_m6B3C83E0837E0E7FCF129B03AD9FE743F297ACAF_AdjustorThunk },
-	{ 0x060014BC, AssetDBWriter_write_data_mF7B3B0846F685444DDBB74CBDB28B3F38578169C_AdjustorThunk },
+	{ 0x060010B7, IntRange_Equals_mD51C6FB11E90091D75AA8053768E28A6B7630A54_AdjustorThunk },
+	{ 0x060010B8, IntRange_GetHashCode_mF0F907FDB12E19FC92C58A0315DF70A3A276BFD6_AdjustorThunk },
+	{ 0x060010B9, IntRange_width_m58A19398F02A50238D45B3078B1C4C3DE319119F_AdjustorThunk },
+	{ 0x060010BA, IntRange_height_mFF48CCA0A3A08E6BE98E4FEBB320E5656C735863_AdjustorThunk },
+	{ 0x060010BB, IntRange_InRange_m6990B09B7E0F45A57E50104452D11C3DCF3B356A_AdjustorThunk },
+	{ 0x060010BC, IntRange_Expend_m8F9BB900D30F2BACD1295D81D24A8C47FE9E31E9_AdjustorThunk },
+	{ 0x060010BD, IntRange_Limite_mCD9731FE2205FFBFE9F26F148945D49B61E9ACEA_AdjustorThunk },
+	{ 0x060010C0, IntRange_ToString_m36BC5CBABB53835A20CD91BB1AEF51EEF6237B62_AdjustorThunk },
+	{ 0x060010C1, IntRange_Calculator_m4CE0B604D76F39EF30A1AC4BC5AA23C995B835A3_AdjustorThunk },
+	{ 0x060010C2, IntRange_Size_m2DD071A0F310DCB7FE5CB1B8AA8277BAF5173F4E_AdjustorThunk },
+	{ 0x06001211, PageInfo_ToString_m46BB75915FE7B27EBE5B2127E399EF7CE37B238B_AdjustorThunk },
+	{ 0x060012FF, VersionData_ToString_m8A1A17C49085ED96BCBE8FE51BAEBAF4E53DEED8_AdjustorThunk },
+	{ 0x06001300, VersionData_get_sdkName_m00D10457748D9F0FEFC9141B3939421E8B37A424_AdjustorThunk },
+	{ 0x06001301, VersionData_get_version_m53A7F3472E4B1AD50628B81185C420624B71C375_AdjustorThunk },
+	{ 0x06001302, VersionData_set_version_m6D0245EE57F75BA22CD380265E6B0D7B2FF47D38_AdjustorThunk },
+	{ 0x06001303, VersionData_get_sdkVer_m0D91D556A58DE438D8F44FFC63CAD5B1C03A01B5_AdjustorThunk },
+	{ 0x06001304, VersionData_set_sdkVer_m31269FE2D3F05C086A6EAB3BDB598B78E5D85EB4_AdjustorThunk },
+	{ 0x06001305, VersionData_get_minimumSdk_m7D33CA7957F524EACC86A2AFC708A7B3EE9A2F56_AdjustorThunk },
+	{ 0x06001306, VersionData_Equals_m78DF571A4F86C7A783DB6D28A3FC8F787BCD17A6_AdjustorThunk },
+	{ 0x06001307, VersionData_Equals_m50C958F2844236D41FC96B538F7EE57A40DA6679_AdjustorThunk },
+	{ 0x06001308, VersionData_GetHashCode_m6572FC0E582A0B62764287F02E5152B58F5AE482_AdjustorThunk },
+	{ 0x0600130F, VersionData_Read_m64CBCE1B9215D3939B6725BC089B833C11C6BBC3_AdjustorThunk },
+	{ 0x06001310, VersionData_ToBuffer_m52C9C1970368F65B0F3B1B7247E2FD43BB307F54_AdjustorThunk },
+	{ 0x06001311, VersionData_get_major_mE3F1B0BE085C87983CC3C8CF3A48E3EA88D8FD9B_AdjustorThunk },
+	{ 0x06001312, VersionData_get_minor_m0CED1C4833CDC953228CEBB7BEC35CFE2DDB5BC6_AdjustorThunk },
+	{ 0x06001313, VersionData_get_point_m50D43AA927E4D8DE592DB372D30983ED66F0637A_AdjustorThunk },
+	{ 0x06001314, VersionData_get_sdkMajor_m7F899C19C41745BCBE1132CF0F3FF722117CC699_AdjustorThunk },
+	{ 0x06001315, VersionData_get_sdkMinor_m1D926E24DE4012BC78BBBE36EDB7CCB6B9432D09_AdjustorThunk },
+	{ 0x06001316, VersionData_get_sdkPoint_mF4719906FA16F4A3C2638F7762568BC550C39EDA_AdjustorThunk },
+	{ 0x06001317, VersionData_get_directory_m57B4FDE8C353A626FDAC8A2DAD40B86A1BC3E0EE_AdjustorThunk },
+	{ 0x06001318, VersionData_Parse_m6E2EE9949A06723ADEA68BB606FD2068DF1FA3B2_AdjustorThunk },
+	{ 0x06001319, VersionData_Write_m19BC467610D4D059D305E1CA8AC3B9F284CAC7F0_AdjustorThunk },
+	{ 0x0600131A, VersionData_Write_mDD838FAA6E3C3C242A44B8B5DCE064712828E760_AdjustorThunk },
+	{ 0x0600131B, VersionData_ReadStream_mA99F30820A25ACDA60FD890063F51F4CCABF8ACA_AdjustorThunk },
+	{ 0x0600131C, VersionData_Read_mFD861751EB17455C4EDE11CBFCA4339590CF7D50_AdjustorThunk },
+	{ 0x0600131D, VersionData_ReadCurrent_m101F03F5A3F6ACDADA10B6995F6482EF297FBC11_AdjustorThunk },
+	{ 0x0600133A, loading_lock__ctor_mC75B833F73D3EFABBB25D4DB1086A69483A0D377_AdjustorThunk },
+	{ 0x0600133B, loading_lock_Dispose_m47951F63AB9D63850052F61F9028750B2633E981_AdjustorThunk },
+	{ 0x0600149F, AssetDBDecoder__ctor_mAFAC85B00330C796B5B4AF8C7C6560532C02F9B3_AdjustorThunk },
+	{ 0x060014A0, AssetDBDecoder__ctor_m8B0C151F07CDBA69201DC6CBD087290F8A5224D6_AdjustorThunk },
+	{ 0x060014A1, AssetDBDecoder_Decode_mC862B8B2EB4264574CDC9E7350DBD32901C0FCB6_AdjustorThunk },
+	{ 0x060014A2, AssetDBDecoder_Decode_mE7DD6AFEDDE9225E311E77162AD2641438DA756A_AdjustorThunk },
+	{ 0x060014A3, AssetDBDecoder_Decode_mF4D590726BD90B1088DB56CA25AA5D9A136A3DF8_AdjustorThunk },
+	{ 0x060014A4, AssetDBDecoderExpired__ctor_m1E90A45084120D1960D45285C4DF033378D30B22_AdjustorThunk },
+	{ 0x060014A5, AssetDBDecoderExpired_ok_read_mD2328F3B8B2F216AF994EEB7509D0971B2F310D9_AdjustorThunk },
+	{ 0x060014A6, AssetDBDecoderExpired_read_context_m38D3C92531DB72C38C6D4D3EAB231DD0B4C10152_AdjustorThunk },
+	{ 0x060014A7, AssetDBDecoderExpired_Decode_m57155AC9AC2120C6F0D69EE21E5372A605F12D1F_AdjustorThunk },
+	{ 0x060014A8, AssetDBDecoderV3__ctor_m5C1D5C0A76F00DE6824DB1D0C69910A94DA470E3_AdjustorThunk },
+	{ 0x060014A9, AssetDBDecoderV3_read_context_mF1104E2DDE3964DD568A400B80770671761FAFBE_AdjustorThunk },
+	{ 0x060014AA, AssetDBDecoderV3_ok_read_mBFBF321B1F1DE2E211E5BC155E7EBF349135A077_AdjustorThunk },
+	{ 0x060014AB, AssetDBDecoderV3_Decode_m335E1EB2AB0CA8662F8521A32C4DF30ABA609E59_AdjustorThunk },
+	{ 0x060014B0, AssetDBWriter__ctor_m66B19F5E4550BA201FDD8E1A845BBA271BD453CB_AdjustorThunk },
+	{ 0x060014B1, AssetDBWriter_Write_m6B3C83E0837E0E7FCF129B03AD9FE743F297ACAF_AdjustorThunk },
+	{ 0x060014B2, AssetDBWriter_write_data_mF7B3B0846F685444DDBB74CBDB28B3F38578169C_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[5527] = 
+static const int32_t s_InvokerIndices[5517] = 
 {
 	5790,
 	5790,
 	5589,
 	5790,
 	5790,
-	8748,
-	9303,
-	9303,
-	9144,
-	8958,
-	8268,
-	8263,
-	7542,
-	8969,
-	9149,
-	9303,
+	8742,
+	9297,
+	9297,
+	9138,
+	8952,
+	8264,
+	8259,
+	7541,
+	8963,
+	9143,
+	9297,
 	5790,
-	9303,
+	9297,
 	4786,
 	5790,
 	5589,
@@ -16117,11 +16083,11 @@ static const int32_t s_InvokerIndices[5527] =
 	5589,
 	5790,
 	5677,
-	9270,
-	9270,
-	8969,
-	9303,
-	9303,
+	9264,
+	9264,
+	8963,
+	9297,
+	9297,
 	0,
 	0,
 	0,
@@ -16169,9 +16135,9 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	5790,
 	5790,
-	9149,
-	9149,
-	8595,
+	9143,
+	9143,
+	8589,
 	0,
 	0,
 	0,
@@ -16180,24 +16146,24 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	8958,
-	8958,
-	9247,
-	9138,
-	9303,
-	8958,
-	9247,
-	9303,
-	9270,
-	9263,
-	9149,
-	8268,
-	8268,
+	8952,
+	8952,
+	9241,
+	9132,
+	9297,
+	8952,
+	9241,
+	9297,
+	9264,
+	9257,
+	9143,
+	8264,
+	8264,
 	5790,
 	5790,
 	5677,
 	5790,
-	9303,
+	9297,
 	0,
 	0,
 	0,
@@ -16329,35 +16295,35 @@ static const int32_t s_InvokerIndices[5527] =
 	4406,
 	1516,
 	4405,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	9031,
-	8954,
-	9031,
-	9031,
-	9270,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	9025,
+	8948,
+	9025,
+	9025,
+	9264,
 	4336,
 	4331,
 	5677,
@@ -16385,7 +16351,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5790,
-	9303,
+	9297,
 	0,
 	0,
 	0,
@@ -16424,18 +16390,18 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	9303,
-	9287,
-	9159,
-	9255,
-	9141,
-	9149,
-	9149,
+	9297,
+	9281,
+	9153,
+	9249,
+	9135,
+	9143,
+	9143,
 	4749,
 	5790,
 	2973,
 	5790,
-	9270,
+	9264,
 	6136,
 	5790,
 	5790,
@@ -16448,7 +16414,7 @@ static const int32_t s_InvokerIndices[5527] =
 	4316,
 	4331,
 	5790,
-	9303,
+	9297,
 	0,
 	0,
 	0,
@@ -16478,50 +16444,50 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	8969,
+	8963,
 	5790,
 	5677,
 	5677,
 	5790,
 	5790,
-	9303,
-	8958,
-	8258,
-	8958,
-	8958,
-	8278,
-	7553,
-	8278,
-	7553,
-	8958,
-	8258,
-	8278,
-	7553,
+	9297,
+	8952,
+	8254,
+	8952,
+	8952,
+	8274,
+	7552,
+	8274,
+	7552,
+	8952,
+	8254,
+	8274,
+	7552,
 	7059,
-	8278,
-	7553,
+	8274,
+	7552,
 	7059,
-	8958,
-	8258,
-	7528,
-	8958,
-	8278,
-	8278,
-	8268,
-	7542,
+	8952,
+	8254,
+	7527,
+	8952,
+	8274,
+	8274,
+	8264,
+	7541,
 	7042,
-	8958,
-	8958,
+	8952,
+	8952,
 	5790,
 	4850,
 	5790,
 	4727,
-	8958,
-	8277,
-	8277,
-	8958,
-	8268,
-	7542,
+	8952,
+	8273,
+	8273,
+	8952,
+	8264,
+	7541,
 	7042,
 	5790,
 	4901,
@@ -16529,27 +16495,27 @@ static const int32_t s_InvokerIndices[5527] =
 	4899,
 	5790,
 	4901,
-	8958,
-	8258,
-	8278,
-	7553,
-	8278,
-	7553,
-	8258,
-	8278,
-	7553,
+	8952,
+	8254,
+	8274,
+	7552,
+	8274,
+	7552,
+	8254,
+	8274,
+	7552,
 	7059,
-	8278,
-	7553,
+	8274,
+	7552,
 	7059,
-	8958,
-	8258,
-	7528,
-	8278,
-	8278,
-	8958,
-	8268,
-	7542,
+	8952,
+	8254,
+	7527,
+	8274,
+	8274,
+	8952,
+	8264,
+	7541,
 	7042,
 	5790,
 	4901,
@@ -16564,27 +16530,27 @@ static const int32_t s_InvokerIndices[5527] =
 	2086,
 	1289,
 	5790,
-	9303,
+	9297,
 	2502,
 	1596,
-	7599,
+	7598,
 	5790,
-	9303,
+	9297,
 	2472,
 	1582,
 	5790,
-	9303,
+	9297,
 	0,
 	0,
 	0,
-	9303,
+	9297,
 	0,
-	8258,
+	8254,
 	0,
 	2178,
 	1334,
 	5790,
-	9303,
+	9297,
 	5721,
 	4850,
 	5651,
@@ -16606,42 +16572,42 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5790,
-	8165,
+	8161,
 	6279,
 	5790,
 	2458,
 	1576,
 	5790,
-	9303,
+	9297,
 	2499,
 	1593,
 	5790,
-	9303,
+	9297,
 	2502,
 	1596,
 	5790,
-	9303,
+	9297,
 	2506,
 	1597,
 	5790,
-	9303,
-	9291,
-	9291,
-	8353,
+	9297,
+	9285,
+	9285,
+	8348,
 	3023,
 	4850,
 	4404,
 	2823,
-	8353,
-	8353,
-	9055,
-	8352,
-	8351,
-	8353,
-	8352,
-	8353,
-	8081,
-	8081,
+	8348,
+	8348,
+	9049,
+	8347,
+	8346,
+	8348,
+	8347,
+	8348,
+	8077,
+	8077,
 	3704,
 	5677,
 	3617,
@@ -16659,14 +16625,14 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5790,
 	5790,
-	9270,
-	8610,
-	7877,
+	9264,
+	8604,
+	7873,
 	6749,
-	9270,
+	9264,
 	6749,
 	6743,
-	9303,
+	9297,
 	5698,
 	4828,
 	4807,
@@ -16679,32 +16645,32 @@ static const int32_t s_InvokerIndices[5527] =
 	337,
 	6834,
 	4807,
-	8989,
+	8983,
 	4331,
-	8268,
-	8177,
-	8180,
+	8264,
+	8173,
+	8176,
 	1804,
 	1953,
 	5790,
 	7403,
 	7403,
 	6373,
-	7543,
-	7626,
+	7542,
+	7625,
 	6581,
-	7636,
+	7635,
 	6586,
-	8097,
-	8042,
+	8093,
+	8038,
 	7328,
 	7331,
-	8958,
-	8958,
-	8268,
-	7862,
-	7862,
-	9303,
+	8952,
+	8952,
+	8264,
+	7858,
+	7858,
+	9297,
 	5790,
 	4410,
 	4410,
@@ -16723,25 +16689,25 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	5790,
+	8016,
+	8259,
+	7322,
+	7322,
+	8948,
+	8259,
+	7842,
+	8038,
+	8038,
+	9143,
+	7857,
+	8589,
+	7857,
+	8589,
 	8020,
-	8263,
-	7322,
-	7322,
-	8954,
-	8263,
-	7846,
-	8042,
-	8042,
-	9149,
-	7861,
-	8595,
-	7861,
-	8595,
-	8024,
-	8748,
-	9144,
-	9144,
-	9270,
+	8742,
+	9138,
+	9138,
+	9264,
 	5677,
 	2977,
 	5790,
@@ -16750,7 +16716,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	2983,
-	9303,
+	9297,
 	1953,
 	2983,
 	4807,
@@ -16759,39 +16725,39 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	5677,
 	5790,
-	8748,
-	9149,
-	8595,
-	9137,
-	9149,
-	9149,
-	8731,
-	8958,
-	8583,
-	9270,
-	9270,
-	9303,
+	8742,
+	9143,
 	8589,
+	9131,
+	9143,
+	9143,
+	8725,
+	8952,
+	8577,
+	9264,
+	9264,
+	9297,
+	8583,
 	0,
 	0,
-	9149,
-	9149,
-	8748,
-	9247,
+	9143,
+	9143,
+	8742,
+	9241,
 	0,
 	0,
-	8268,
-	9149,
-	9149,
-	9149,
-	9149,
-	9303,
-	9303,
+	8264,
+	9143,
+	9143,
+	9143,
+	9143,
+	9297,
+	9297,
 	5790,
 	4807,
-	8744,
-	8865,
-	9303,
+	8738,
+	8859,
+	9297,
 	0,
 	0,
 	0,
@@ -16803,73 +16769,73 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	8595,
-	9303,
+	8589,
+	9297,
 	0,
-	9303,
+	9297,
 	5790,
 	5790,
 	4807,
 	7200,
+	8583,
+	9264,
+	9297,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	9264,
+	9241,
+	9132,
+	9297,
+	9143,
 	8589,
-	9270,
-	9303,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	9270,
-	9247,
-	9138,
-	9303,
-	9149,
-	8595,
-	8268,
-	7543,
-	8595,
-	8748,
-	8595,
-	8958,
+	8264,
+	7542,
+	8589,
+	8742,
+	8589,
+	8952,
 	7204,
-	9303,
+	9297,
 	4807,
 	4807,
 	5677,
@@ -16882,7 +16848,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	2439,
 	4807,
-	9303,
+	9297,
 	5790,
 	3617,
 	4786,
@@ -16898,50 +16864,50 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5677,
-	8958,
-	9149,
-	8958,
-	9303,
-	9303,
-	8595,
-	7997,
-	7997,
-	9031,
+	8952,
+	9143,
+	8952,
+	9297,
+	9297,
+	8589,
+	7993,
+	7993,
+	9025,
 	7089,
 	7344,
 	7343,
 	7299,
 	7300,
-	8865,
-	8873,
-	9298,
-	8385,
-	9270,
-	9270,
+	8859,
+	8867,
+	9292,
+	8379,
 	9264,
-	8020,
-	8954,
-	8020,
-	8887,
-	8890,
-	8869,
-	8869,
 	9264,
-	9303,
+	9258,
+	8016,
+	8948,
+	8016,
+	8881,
+	8884,
+	8863,
+	8863,
+	9258,
+	9297,
 	1189,
 	5589,
 	5677,
 	3617,
 	5651,
-	8017,
-	8017,
+	8013,
+	8013,
 	4480,
 	2859,
-	8834,
-	8834,
-	8833,
+	8828,
+	8828,
+	8827,
 	5652,
-	9303,
+	9297,
 	6387,
 	6834,
 	7092,
@@ -16951,50 +16917,50 @@ static const int32_t s_InvokerIndices[5527] =
 	6228,
 	6228,
 	5790,
-	8514,
-	7759,
-	7764,
-	8519,
-	7764,
-	8519,
-	9152,
-	8223,
-	8222,
-	8223,
-	8222,
-	8915,
-	8224,
-	7490,
-	9303,
-	6754,
+	8508,
 	7758,
+	7763,
+	8513,
+	7763,
+	8513,
+	9146,
+	8219,
+	8218,
+	8219,
+	8218,
+	8909,
+	8220,
+	7489,
+	9297,
+	6754,
+	7757,
 	6336,
-	8604,
+	8598,
 	7010,
 	6171,
-	8989,
-	8989,
-	8989,
-	8989,
-	8317,
-	8317,
-	8046,
-	8604,
-	7580,
-	7580,
+	8983,
+	8983,
+	8983,
+	8983,
+	8313,
+	8313,
+	8042,
+	8598,
+	7579,
+	7579,
 	6825,
 	6826,
-	9152,
-	8270,
-	7870,
-	9303,
+	9146,
+	8266,
+	7866,
+	9297,
 	2295,
 	5790,
-	8521,
-	9149,
-	8616,
-	8595,
-	9303,
+	8515,
+	9143,
+	8610,
+	8589,
+	9297,
 	5781,
 	4807,
 	2029,
@@ -17004,89 +16970,89 @@ static const int32_t s_InvokerIndices[5527] =
 	3663,
 	3664,
 	5677,
-	8401,
+	8395,
+	7599,
+	7599,
+	7599,
+	7599,
+	7638,
 	7600,
-	7600,
-	7600,
-	7600,
-	7639,
-	7601,
-	7639,
-	8342,
-	7600,
-	8192,
-	8098,
-	9114,
-	8412,
-	8401,
-	8414,
-	8414,
-	8415,
-	8340,
-	8340,
-	8340,
-	8340,
-	8340,
-	8402,
+	7638,
+	8337,
+	7599,
+	8188,
+	8094,
+	9108,
+	8406,
+	8395,
+	8408,
+	8408,
+	8409,
+	8335,
+	8335,
+	8335,
+	8335,
+	8335,
+	8396,
 	7351,
-	9036,
-	9037,
-	8047,
-	8039,
-	8414,
-	7637,
-	8582,
-	9149,
+	9030,
+	9031,
+	8043,
+	8035,
+	8408,
+	7636,
+	8576,
+	9143,
 	6388,
+	9110,
 	9116,
-	9122,
-	8762,
-	8761,
-	9123,
-	9114,
-	7889,
+	8756,
+	8755,
+	9117,
+	9108,
+	7885,
 	7356,
 	7350,
 	7294,
-	7630,
+	7629,
 	6831,
 	6389,
 	6835,
-	8391,
-	8975,
-	8958,
-	8958,
-	8975,
-	8975,
-	8974,
-	8976,
-	8959,
-	8735,
-	8747,
-	8184,
-	8412,
-	7598,
-	9303,
-	9263,
-	8869,
-	8865,
-	8020,
-	9303,
-	8584,
-	7844,
-	7858,
-	8589,
+	8385,
+	8969,
+	8952,
+	8952,
+	8969,
+	8969,
+	8968,
+	8970,
+	8953,
+	8729,
+	8741,
+	8180,
+	8406,
+	7597,
+	9297,
+	9257,
+	8863,
+	8859,
+	8016,
+	9297,
+	8578,
+	7840,
+	7854,
+	8583,
+	7841,
 	7845,
-	7849,
-	8589,
+	8583,
+	7841,
 	7845,
-	7849,
-	9303,
+	9297,
 	0,
 	0,
 	0,
 	0,
-	8958,
+	8952,
 	5651,
 	5589,
 	4723,
@@ -17140,21 +17106,21 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5677,
-	8954,
-	8974,
-	8975,
-	8976,
-	8959,
-	8961,
-	8958,
+	8948,
+	8968,
+	8969,
+	8970,
+	8953,
+	8955,
 	8952,
-	9113,
-	9120,
-	9130,
-	8984,
-	8989,
-	8958,
-	8834,
+	8946,
+	9107,
+	9114,
+	9124,
+	8978,
+	8983,
+	8952,
+	8828,
 	4492,
 	2495,
 	5779,
@@ -17223,27 +17189,27 @@ static const int32_t s_InvokerIndices[5527] =
 	4723,
 	5677,
 	5677,
-	8958,
-	8958,
+	8952,
+	8952,
+	8942,
+	8813,
+	8963,
+	9023,
 	8948,
-	8819,
-	8969,
-	9029,
-	8954,
-	8869,
-	8955,
-	8890,
-	8941,
-	8920,
-	8042,
-	8042,
+	8863,
+	8949,
+	8884,
+	8935,
+	8914,
+	8038,
+	8038,
 	3617,
 	5651,
 	3617,
-	9270,
-	8958,
+	9264,
+	8952,
 	7202,
-	8958,
+	8952,
 	5790,
 	4786,
 	5790,
@@ -17290,11 +17256,11 @@ static const int32_t s_InvokerIndices[5527] =
 	4723,
 	5677,
 	5677,
-	8958,
-	8268,
-	8958,
-	8958,
-	9270,
+	8952,
+	8264,
+	8952,
+	8952,
+	9264,
 	5651,
 	5589,
 	1121,
@@ -17307,7 +17273,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5651,
 	5615,
 	5790,
-	9303,
+	9297,
 	5651,
 	4786,
 	5721,
@@ -17326,7 +17292,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5615,
 	1121,
 	1121,
-	8748,
+	8742,
 	3617,
 	5651,
 	5589,
@@ -17373,12 +17339,12 @@ static const int32_t s_InvokerIndices[5527] =
 	5589,
 	2775,
 	5790,
-	8268,
-	8958,
-	8958,
-	9303,
-	8958,
-	8958,
+	8264,
+	8952,
+	8952,
+	9297,
+	8952,
+	8952,
 	4723,
 	4723,
 	5652,
@@ -17387,31 +17353,31 @@ static const int32_t s_InvokerIndices[5527] =
 	4807,
 	5677,
 	5645,
-	9270,
-	9149,
-	9270,
-	9149,
-	9270,
-	9149,
-	9270,
-	9149,
-	9270,
-	9149,
-	9270,
-	9149,
-	9303,
-	8595,
-	8955,
-	8958,
-	8958,
-	8958,
-	8958,
-	8038,
-	8958,
-	9149,
-	8595,
-	8595,
-	9303,
+	9264,
+	9143,
+	9264,
+	9143,
+	9264,
+	9143,
+	9264,
+	9143,
+	9264,
+	9143,
+	9264,
+	9143,
+	9297,
+	8589,
+	8949,
+	8952,
+	8952,
+	8952,
+	8952,
+	8034,
+	8952,
+	9143,
+	8589,
+	8589,
+	9297,
 	0,
 	0,
 	0,
@@ -17444,40 +17410,40 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	4807,
 	2977,
+	8583,
+	7844,
+	9297,
+	7855,
 	8589,
-	7848,
-	9303,
-	7859,
-	8595,
-	9149,
-	8595,
-	9149,
-	8595,
-	8523,
-	9149,
-	8595,
-	8523,
-	9149,
-	8595,
-	8523,
-	9149,
-	8595,
-	8523,
+	9143,
+	8589,
+	9143,
+	8589,
+	8517,
+	9143,
+	8589,
+	8517,
+	9143,
+	8589,
+	8517,
+	9143,
+	8589,
+	8517,
 	6684,
-	8541,
-	9149,
-	8958,
-	9303,
+	8535,
+	9143,
+	8952,
+	9297,
 	2979,
 	2983,
-	9303,
+	9297,
 	5899,
-	8595,
+	8589,
 	3544,
 	3617,
-	8773,
-	9128,
-	8004,
+	8767,
+	9122,
+	8000,
 	5721,
 	4850,
 	5721,
@@ -17497,31 +17463,31 @@ static const int32_t s_InvokerIndices[5527] =
 	5782,
 	1183,
 	5651,
-	8004,
+	8000,
 	5677,
-	9303,
-	9149,
-	8038,
-	8038,
-	8860,
-	8767,
-	8113,
-	8768,
-	8768,
-	8943,
-	9303,
+	9297,
+	9143,
+	8034,
+	8034,
+	8854,
+	8761,
+	8109,
+	8762,
+	8762,
+	8937,
+	9297,
 	7470,
-	8867,
+	8861,
 	6873,
-	8867,
+	8861,
 	7408,
 	7408,
-	8168,
-	8169,
-	8867,
-	8954,
-	8589,
-	7846,
+	8164,
+	8165,
+	8861,
+	8948,
+	8583,
+	7842,
 	5651,
 	4786,
 	5651,
@@ -17543,7 +17509,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5790,
 	5790,
-	9303,
+	9297,
 	2262,
 	5790,
 	2262,
@@ -17552,7 +17518,7 @@ static const int32_t s_InvokerIndices[5527] =
 	3617,
 	5677,
 	1679,
-	8991,
+	8985,
 	5677,
 	0,
 	0,
@@ -17569,11 +17535,11 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	9149,
-	8263,
-	8263,
-	7542,
-	8600,
+	9143,
+	8259,
+	8259,
+	7541,
+	8594,
 	4786,
 	5790,
 	5589,
@@ -17593,36 +17559,36 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5677,
-	8869,
-	8954,
-	9263,
-	8744,
-	9303,
+	8863,
+	8948,
+	9257,
+	8738,
+	9297,
 	7199,
 	7183,
-	7849,
+	7845,
 	7183,
 	7322,
-	8595,
-	8600,
-	7866,
-	8600,
-	7861,
+	8589,
+	8594,
+	7862,
+	8594,
+	7857,
 	6735,
-	8595,
+	8589,
 	7328,
 	7328,
 	5677,
 	5589,
 	5790,
 	4807,
-	8339,
+	8334,
 	5790,
 	5790,
 	5790,
 	5790,
 	5790,
-	9303,
+	9297,
 	5651,
 	4786,
 	5790,
@@ -17676,22 +17642,22 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5790,
 	5790,
-	8989,
-	7625,
-	8989,
-	8989,
-	8989,
-	8313,
-	8958,
-	8595,
-	7859,
-	7872,
+	8983,
+	7624,
+	8983,
+	8983,
+	8983,
+	8309,
+	8952,
+	8589,
+	7855,
+	7868,
 	7215,
 	7209,
 	6742,
 	7091,
-	7865,
-	9303,
+	7861,
+	9297,
 	5677,
 	5790,
 	4786,
@@ -17716,24 +17682,24 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5677,
 	5677,
-	9149,
+	9143,
 	5790,
-	9303,
-	9303,
-	8165,
-	9303,
-	9149,
-	8748,
+	9297,
+	9297,
+	8161,
+	9297,
+	9143,
+	8742,
 	5790,
 	5677,
 	5790,
-	7540,
+	7539,
+	8583,
+	9143,
 	8589,
-	9149,
-	8595,
-	8989,
-	8954,
-	9149,
+	8983,
+	8948,
+	9143,
 	5592,
 	4727,
 	5790,
@@ -17786,8 +17752,8 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5677,
 	5677,
-	9270,
-	9149,
+	9264,
+	9143,
 	5677,
 	5677,
 	5790,
@@ -18032,7 +17998,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	4807,
 	4807,
-	8420,
+	8414,
 	6324,
 	5790,
 	5790,
@@ -18125,7 +18091,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5721,
 	4331,
 	5790,
-	9303,
+	9297,
 	5677,
 	4807,
 	5677,
@@ -18194,7 +18160,7 @@ static const int32_t s_InvokerIndices[5527] =
 	1743,
 	5790,
 	5790,
-	9303,
+	9297,
 	0,
 	0,
 	0,
@@ -18279,9 +18245,9 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5790,
-	8595,
+	8589,
 	7231,
-	8958,
+	8952,
 	5677,
 	5790,
 	5790,
@@ -18333,8 +18299,8 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	8958,
-	8595,
+	8952,
+	8589,
 	5790,
 	5677,
 	5677,
@@ -18372,12 +18338,12 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5790,
 	5790,
-	9303,
+	9297,
 	5677,
 	4807,
 	5589,
 	5790,
-	9303,
+	9297,
 	5790,
 	4807,
 	0,
@@ -18415,7 +18381,7 @@ static const int32_t s_InvokerIndices[5527] =
 	4807,
 	7319,
 	5790,
-	9303,
+	9297,
 	4786,
 	5790,
 	5589,
@@ -18452,13 +18418,13 @@ static const int32_t s_InvokerIndices[5527] =
 	4786,
 	5721,
 	4850,
-	9303,
+	9297,
 	1752,
-	7859,
-	7859,
-	7858,
-	7858,
-	7858,
+	7855,
+	7855,
+	7854,
+	7854,
+	7854,
 	6372,
 	6745,
 	2983,
@@ -18466,14 +18432,14 @@ static const int32_t s_InvokerIndices[5527] =
 	5721,
 	7195,
 	6324,
-	7642,
+	7641,
 	5677,
 	4807,
 	5677,
 	4807,
 	5589,
 	4723,
-	9270,
+	9264,
 	5677,
 	5677,
 	4807,
@@ -18503,13 +18469,13 @@ static const int32_t s_InvokerIndices[5527] =
 	2025,
 	5790,
 	7099,
-	7641,
+	7640,
 	7108,
 	7218,
 	7218,
 	6164,
-	7633,
 	7632,
+	7631,
 	2090,
 	3817,
 	5790,
@@ -18521,7 +18487,7 @@ static const int32_t s_InvokerIndices[5527] =
 	6069,
 	5993,
 	6386,
-	9303,
+	9297,
 	6317,
 	7213,
 	7213,
@@ -18582,7 +18548,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5651,
 	5790,
 	2733,
-	8958,
+	8952,
 	5790,
 	5790,
 	5790,
@@ -18606,7 +18572,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5721,
 	5721,
 	5651,
-	9303,
+	9297,
 	5677,
 	5677,
 	2977,
@@ -18616,10 +18582,10 @@ static const int32_t s_InvokerIndices[5527] =
 	1775,
 	1775,
 	1775,
-	7838,
+	7834,
 	7232,
-	9168,
-	9303,
+	9162,
+	9297,
 	5677,
 	4807,
 	5779,
@@ -18683,14 +18649,14 @@ static const int32_t s_InvokerIndices[5527] =
 	6326,
 	6166,
 	2983,
-	8595,
-	7862,
+	8589,
+	7858,
 	6328,
 	2983,
-	8595,
-	7862,
+	8589,
+	7858,
 	2983,
-	8595,
+	8589,
 	6328,
 	0,
 	0,
@@ -18743,7 +18709,7 @@ static const int32_t s_InvokerIndices[5527] =
 	2983,
 	4135,
 	0,
-	8865,
+	8859,
 	5790,
 	308,
 	178,
@@ -18759,9 +18725,9 @@ static const int32_t s_InvokerIndices[5527] =
 	3513,
 	0,
 	5790,
-	9303,
-	9149,
-	8595,
+	9297,
+	9143,
+	8589,
 	5677,
 	4807,
 	2983,
@@ -18769,7 +18735,7 @@ static const int32_t s_InvokerIndices[5527] =
 	1937,
 	5790,
 	5790,
-	9303,
+	9297,
 	5790,
 	5611,
 	4749,
@@ -18785,19 +18751,19 @@ static const int32_t s_InvokerIndices[5527] =
 	4331,
 	1757,
 	5790,
-	9303,
+	9297,
 	0,
-	7782,
-	7782,
-	8541,
+	7781,
+	7781,
+	8535,
 	7186,
-	8954,
-	8954,
-	8954,
-	9149,
-	9149,
-	8954,
-	8954,
+	8948,
+	8948,
+	8948,
+	9143,
+	9143,
+	8948,
+	8948,
 	2979,
 	1757,
 	482,
@@ -18825,7 +18791,7 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	3617,
 	5790,
-	9303,
+	9297,
 	5651,
 	5677,
 	4807,
@@ -18925,7 +18891,7 @@ static const int32_t s_InvokerIndices[5527] =
 	2439,
 	5790,
 	5790,
-	8958,
+	8952,
 	5677,
 	4807,
 	5677,
@@ -18948,7 +18914,7 @@ static const int32_t s_InvokerIndices[5527] =
 	4807,
 	4807,
 	5790,
-	9303,
+	9297,
 	4807,
 	2775,
 	4117,
@@ -19006,8 +18972,8 @@ static const int32_t s_InvokerIndices[5527] =
 	4749,
 	5790,
 	5790,
-	8958,
-	8958,
+	8952,
+	8952,
 	5589,
 	4723,
 	5762,
@@ -19062,7 +19028,7 @@ static const int32_t s_InvokerIndices[5527] =
 	4723,
 	2973,
 	5790,
-	9303,
+	9297,
 	2983,
 	3617,
 	2199,
@@ -19142,11 +19108,11 @@ static const int32_t s_InvokerIndices[5527] =
 	2983,
 	2199,
 	6312,
-	8595,
+	8589,
 	7197,
-	8958,
+	8952,
 	5790,
-	9303,
+	9297,
 	2983,
 	2199,
 	5790,
@@ -19206,33 +19172,33 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	9303,
+	9297,
 	0,
 	0,
-	8958,
+	8952,
 	0,
-	8604,
-	9113,
-	8605,
-	9120,
-	8606,
-	9130,
-	8596,
-	8989,
-	7861,
-	8268,
-	8268,
-	8584,
-	8768,
+	8598,
+	9107,
+	8599,
+	9114,
+	8600,
+	9124,
+	8590,
+	8983,
+	7857,
+	8264,
+	8264,
+	8578,
+	8762,
 	0,
 	7204,
 	0,
-	8958,
-	8263,
-	8958,
+	8952,
+	8259,
+	8952,
 	2979,
 	1757,
-	9303,
+	9297,
 	5790,
 	1757,
 	1757,
@@ -19322,10 +19288,10 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	8958,
-	7536,
-	8230,
-	9303,
+	8952,
+	7535,
+	8226,
+	9297,
 	5651,
 	4710,
 	1623,
@@ -19362,7 +19328,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5645,
 	5775,
 	5790,
-	7726,
+	7725,
 	5652,
 	5651,
 	5577,
@@ -19378,8 +19344,8 @@ static const int32_t s_InvokerIndices[5527] =
 	2546,
 	2546,
 	2546,
-	8760,
-	9303,
+	8754,
+	9297,
 	5790,
 	4786,
 	0,
@@ -19406,7 +19372,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5677,
 	6814,
-	8958,
+	8952,
 	5589,
 	5589,
 	5652,
@@ -19468,7 +19434,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5677,
-	8958,
+	8952,
 	5677,
 	5790,
 	5677,
@@ -19487,9 +19453,9 @@ static const int32_t s_InvokerIndices[5527] =
 	4807,
 	5589,
 	5790,
-	8595,
-	7861,
-	7861,
+	8589,
+	7857,
+	7857,
 	5790,
 	4807,
 	5790,
@@ -19524,9 +19490,9 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5677,
-	9270,
-	9149,
-	9303,
+	9264,
+	9143,
+	9297,
 	0,
 	0,
 	0,
@@ -19621,7 +19587,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5677,
 	4807,
-	8958,
+	8952,
 	5790,
 	5645,
 	2975,
@@ -19647,7 +19613,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5677,
 	5790,
-	8958,
+	8952,
 	5677,
 	5677,
 	5790,
@@ -19691,7 +19657,7 @@ static const int32_t s_InvokerIndices[5527] =
 	4807,
 	5790,
 	4807,
-	8890,
+	8884,
 	5790,
 	5589,
 	4723,
@@ -19727,25 +19693,25 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	2979,
 	4331,
-	9270,
-	9149,
-	9270,
-	9149,
-	9270,
-	9149,
-	8958,
-	8958,
-	9270,
-	9149,
-	9149,
-	9149,
-	9303,
-	9303,
+	9264,
+	9143,
+	9264,
+	9143,
+	9264,
+	9143,
+	8952,
+	8952,
+	9264,
+	9143,
+	9143,
+	9143,
+	9297,
+	9297,
 	5790,
 	4331,
-	8172,
-	9149,
-	9303,
+	8168,
+	9143,
+	9297,
 	5677,
 	4807,
 	5790,
@@ -19754,46 +19720,46 @@ static const int32_t s_InvokerIndices[5527] =
 	4807,
 	4807,
 	5790,
-	9270,
-	9149,
-	9270,
-	9149,
-	9247,
-	9138,
-	9270,
-	9149,
-	9270,
-	9149,
-	8958,
-	9149,
-	9303,
-	9303,
-	9270,
-	9270,
-	9149,
-	9141,
-	9303,
-	9270,
-	9303,
-	9270,
+	9264,
+	9143,
+	9264,
+	9143,
+	9241,
+	9132,
+	9264,
+	9143,
+	9264,
+	9143,
+	8952,
+	9143,
+	9297,
+	9297,
+	9264,
+	9264,
+	9143,
+	9135,
+	9297,
+	9264,
+	9297,
+	9264,
 	0,
 	0,
-	8038,
-	8595,
+	8034,
+	8589,
 	0,
 	0,
-	8958,
-	7857,
+	8952,
+	7853,
 	7192,
-	9270,
+	9264,
 	7321,
 	0,
 	7321,
 	0,
 	0,
-	8958,
-	9303,
-	9303,
+	8952,
+	9297,
+	9297,
 	4786,
 	5790,
 	5589,
@@ -19833,12 +19799,12 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	0,
 	0,
-	9270,
+	9264,
 	5677,
 	5790,
 	5677,
 	5790,
-	9303,
+	9297,
 	5790,
 	3617,
 	4786,
@@ -19857,33 +19823,33 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	5721,
 	5790,
+	9258,
+	9139,
+	9241,
+	9132,
+	9281,
+	9153,
+	9143,
 	9264,
-	9145,
-	9247,
-	9138,
+	9281,
+	9281,
+	9281,
+	9281,
+	9297,
+	9135,
+	9257,
 	9287,
-	9159,
-	9149,
-	9270,
-	9287,
-	9287,
-	9287,
-	9287,
-	9303,
-	9141,
-	9263,
-	9293,
-	9247,
-	9138,
-	9303,
-	9303,
-	9287,
-	9141,
+	9241,
+	9132,
+	9297,
+	9297,
+	9281,
+	9135,
 	4749,
-	9303,
-	9303,
+	9297,
+	9297,
 	5790,
-	9303,
+	9297,
 	4749,
 	5790,
 	0,
@@ -19894,33 +19860,33 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	9255,
-	8883,
-	9255,
-	9287,
-	9264,
-	9287,
-	9287,
-	9159,
-	9287,
-	9159,
-	9287,
-	9159,
-	9287,
-	9159,
-	9264,
-	8783,
-	9255,
-	9264,
-	9287,
-	9263,
-	8529,
-	9303,
-	9303,
-	9303,
-	9149,
-	9149,
-	9303,
+	9249,
+	8877,
+	9249,
+	9281,
+	9258,
+	9281,
+	9281,
+	9153,
+	9281,
+	9153,
+	9281,
+	9153,
+	9281,
+	9153,
+	9258,
+	8777,
+	9249,
+	9258,
+	9281,
+	9257,
+	8523,
+	9297,
+	9297,
+	9297,
+	9143,
+	9143,
+	9297,
 	5790,
 	5790,
 	5790,
@@ -19930,11 +19896,11 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	4850,
 	2973,
-	9287,
-	9159,
-	9161,
-	9141,
-	9303,
+	9281,
+	9153,
+	9155,
+	9135,
+	9297,
 	0,
 	0,
 	0,
@@ -19970,21 +19936,21 @@ static const int32_t s_InvokerIndices[5527] =
 	4331,
 	2979,
 	1754,
-	9149,
-	9149,
-	7859,
+	9143,
+	9143,
+	7855,
 	5790,
 	5790,
 	5790,
 	3617,
 	1754,
 	5677,
-	9270,
+	9264,
 	5790,
-	9149,
+	9143,
 	5790,
 	5790,
-	9303,
+	9297,
 	4331,
 	4807,
 	5677,
@@ -20001,8 +19967,8 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5790,
 	5790,
-	9303,
-	9270,
+	9297,
+	9264,
 	5651,
 	5790,
 	4807,
@@ -20120,9 +20086,9 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5790,
 	5790,
-	9303,
+	9297,
 	5790,
-	9303,
+	9297,
 	5790,
 	0,
 	0,
@@ -20144,11 +20110,11 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	4327,
 	5677,
-	8870,
-	8982,
-	8846,
-	8870,
-	8982,
+	8864,
+	8976,
+	8840,
+	8864,
+	8976,
 	4786,
 	4812,
 	5589,
@@ -20162,39 +20128,39 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	2979,
 	2977,
-	8589,
-	8176,
-	8176,
-	8869,
-	9303,
-	9144,
-	9149,
-	8589,
-	9144,
+	8583,
+	8172,
+	8172,
+	8863,
+	9297,
+	9138,
+	9143,
+	8583,
+	9138,
 	7465,
-	8555,
+	8549,
 	6214,
 	6216,
 	6408,
 	7409,
-	8168,
-	8168,
+	8164,
+	8164,
 	6407,
 	6871,
 	6871,
-	8168,
-	8173,
+	8164,
+	8169,
 	7421,
 	7412,
 	7411,
 	6869,
-	8867,
+	8861,
 	6215,
-	8168,
+	8164,
 	7409,
-	8552,
-	8867,
-	9265,
+	8546,
+	8861,
+	9259,
 	6101,
 	6101,
 	7465,
@@ -20203,19 +20169,19 @@ static const int32_t s_InvokerIndices[5527] =
 	6407,
 	6871,
 	6871,
-	8168,
-	8173,
+	8164,
+	8169,
 	7421,
 	7411,
 	6869,
-	8867,
+	8861,
 	6215,
-	8168,
+	8164,
 	7422,
 	6879,
-	8169,
+	8165,
 	6872,
-	8168,
+	8164,
 	6874,
 	6874,
 	4710,
@@ -20226,7 +20192,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5781,
 	4901,
 	5677,
-	9303,
+	9297,
 	5651,
 	3617,
 	5677,
@@ -20238,13 +20204,13 @@ static const int32_t s_InvokerIndices[5527] =
 	5781,
 	4803,
 	5790,
-	9174,
-	8992,
-	9125,
-	9175,
-	9173,
-	8919,
-	9172,
+	9168,
+	8986,
+	9119,
+	9169,
+	9167,
+	8913,
+	9166,
 	0,
 	0,
 	0,
@@ -20252,7 +20218,7 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	4807,
 	5790,
-	9270,
+	9264,
 	2979,
 	5677,
 	0,
@@ -20282,30 +20248,20 @@ static const int32_t s_InvokerIndices[5527] =
 	4807,
 	4786,
 	5790,
-	9270,
-	9270,
 	4807,
+	8952,
 	1754,
 	4331,
 	5651,
-	5589,
-	5790,
-	4723,
-	5790,
-	4807,
-	8958,
-	1754,
-	4331,
-	5651,
-	9149,
-	9149,
-	9149,
-	9149,
-	9149,
-	9149,
-	9149,
-	9149,
-	9149,
+	9143,
+	9143,
+	9143,
+	9143,
+	9143,
+	9143,
+	9143,
+	9143,
+	9143,
 	5589,
 	5790,
 	4786,
@@ -20314,63 +20270,63 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5677,
-	9303,
-	9303,
-	9303,
-	9263,
-	9247,
-	9247,
-	9270,
-	9270,
-	9263,
-	9270,
-	9263,
-	7859,
-	9149,
-	9149,
-	8595,
-	9149,
-	9149,
-	8595,
-	8595,
-	8595,
-	9303,
-	9303,
-	9149,
-	9149,
-	9149,
-	8595,
-	9149,
-	9303,
+	9297,
+	9297,
+	9297,
+	9257,
+	9241,
+	9241,
+	9264,
+	9264,
+	9257,
+	9264,
+	9257,
+	7855,
+	9143,
+	9143,
+	8589,
+	9143,
+	9143,
+	8589,
+	8589,
+	8589,
+	9297,
+	9297,
+	9143,
+	9143,
+	9143,
+	8589,
+	9143,
+	9297,
 	0,
 	0,
 	0,
 	0,
 	0,
 	0,
-	9270,
-	9149,
-	9270,
-	9303,
-	8595,
-	9149,
-	8958,
-	8958,
-	8038,
-	9270,
-	8038,
-	8038,
-	8038,
+	9264,
+	9143,
+	9264,
+	9297,
+	8589,
+	9143,
+	8952,
+	8952,
+	8034,
+	9264,
+	8034,
+	8034,
+	8034,
 	0,
 	0,
-	9303,
-	9149,
-	8954,
-	8958,
-	9149,
-	9303,
+	9297,
+	9143,
+	8948,
+	8952,
+	9143,
+	9297,
 	5790,
-	9303,
+	9297,
 	5790,
 	5790,
 	3617,
@@ -20380,8 +20336,8 @@ static const int32_t s_InvokerIndices[5527] =
 	1927,
 	4286,
 	2393,
-	8031,
-	8031,
+	8027,
+	8027,
 	5677,
 	844,
 	5651,
@@ -20389,63 +20345,63 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5790,
 	5790,
-	9149,
+	9143,
+	8016,
+	5790,
+	9297,
+	9143,
+	8952,
+	8948,
+	8863,
+	8948,
 	8020,
+	8738,
+	8742,
+	8859,
 	5790,
-	9303,
-	9149,
-	8958,
-	8954,
-	8869,
-	8954,
-	8024,
-	8744,
-	8748,
-	8865,
-	5790,
-	9303,
+	9297,
 	5677,
 	4327,
-	8958,
+	8952,
 	5790,
 	5790,
 	5790,
 	5790,
 	5790,
-	9303,
-	8748,
+	9297,
+	8742,
 	0,
 	0,
 	0,
-	9303,
-	8595,
-	9303,
-	9270,
-	9149,
-	9303,
-	8595,
-	8595,
-	8583,
-	8600,
+	9297,
 	8589,
-	8590,
-	8587,
-	8958,
-	8268,
-	8869,
-	8176,
-	9029,
-	8335,
-	8819,
-	8138,
-	8890,
-	8201,
-	8748,
-	8040,
-	8958,
-	8595,
-	8958,
-	9303,
+	9297,
+	9264,
+	9143,
+	9297,
+	8589,
+	8589,
+	8577,
+	8594,
+	8583,
+	8584,
+	8581,
+	8952,
+	8264,
+	8863,
+	8172,
+	9023,
+	8330,
+	8813,
+	8134,
+	8884,
+	8197,
+	8742,
+	8036,
+	8952,
+	8589,
+	8952,
+	9297,
 	4786,
 	5790,
 	5589,
@@ -20481,7 +20437,7 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	9303,
+	9297,
 	0,
 	0,
 	0,
@@ -20626,23 +20582,23 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5790,
 	0,
-	8268,
-	8268,
+	8264,
+	8264,
 	7041,
 	7041,
-	8237,
-	8268,
-	8268,
+	8233,
+	8264,
+	8264,
 	7041,
-	9303,
-	7782,
-	8954,
-	7512,
-	9247,
-	9149,
-	9149,
-	8954,
-	9303,
+	9297,
+	7781,
+	8948,
+	7511,
+	9241,
+	9143,
+	9143,
+	8948,
+	9297,
 	2979,
 	1757,
 	482,
@@ -20663,8 +20619,8 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	3617,
 	4807,
-	8582,
-	7861,
+	8576,
+	7857,
 	4807,
 	4807,
 	4331,
@@ -20720,42 +20676,42 @@ static const int32_t s_InvokerIndices[5527] =
 	7331,
 	7438,
 	5677,
-	8210,
-	7485,
-	8205,
-	7786,
-	7304,
+	8206,
+	7484,
+	8201,
 	7785,
-	8552,
-	9146,
-	8748,
-	8958,
-	9149,
-	9144,
-	8583,
-	8583,
-	8583,
-	9303,
+	7304,
+	7784,
+	8546,
+	9140,
+	8742,
+	8952,
+	9143,
+	9138,
+	8577,
+	8577,
+	8577,
+	9297,
 	5790,
 	5790,
 	5790,
 	5790,
 	6856,
 	7392,
-	8263,
-	8958,
-	8589,
-	8176,
-	8869,
+	8259,
+	8952,
 	8583,
-	9264,
-	9146,
-	9146,
-	9303,
-	9149,
-	8583,
-	8583,
-	9264,
+	8172,
+	8863,
+	8577,
+	9258,
+	9140,
+	9140,
+	9297,
+	9143,
+	8577,
+	8577,
+	9258,
 	0,
 	0,
 	0,
@@ -20810,7 +20766,7 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	8865,
+	8859,
 	0,
 	0,
 	0,
@@ -20875,13 +20831,13 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	9270,
-	9149,
-	9270,
-	9149,
-	9144,
-	9303,
-	9303,
+	9264,
+	9143,
+	9264,
+	9143,
+	9138,
+	9297,
+	9297,
 	5790,
 	5651,
 	4786,
@@ -20899,11 +20855,11 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	4331,
 	5677,
-	9303,
-	9303,
+	9297,
+	9297,
 	0,
-	8954,
-	9270,
+	8948,
+	9264,
 	2979,
 	5677,
 	0,
@@ -20936,15 +20892,15 @@ static const int32_t s_InvokerIndices[5527] =
 	4117,
 	5790,
 	0,
-	9303,
-	8541,
+	9297,
+	8535,
 	5589,
 	4723,
 	4786,
-	9303,
+	9297,
 	5790,
 	5677,
-	9303,
+	9297,
 	5589,
 	4723,
 	5651,
@@ -20956,7 +20912,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5677,
-	8869,
+	8863,
 	5677,
 	5677,
 	5652,
@@ -20967,12 +20923,12 @@ static const int32_t s_InvokerIndices[5527] =
 	3731,
 	3617,
 	5651,
-	8104,
-	8104,
-	8104,
-	8104,
-	8104,
-	8104,
+	8100,
+	8100,
+	8100,
+	8100,
+	8100,
+	8100,
 	4807,
 	5677,
 	5650,
@@ -20989,10 +20945,10 @@ static const int32_t s_InvokerIndices[5527] =
 	3617,
 	5589,
 	5790,
-	9134,
-	9263,
-	9263,
-	9303,
+	9128,
+	9257,
+	9257,
+	9297,
 	5677,
 	5677,
 	4807,
@@ -21000,12 +20956,12 @@ static const int32_t s_InvokerIndices[5527] =
 	4807,
 	3513,
 	5790,
-	9149,
-	9149,
-	9303,
+	9143,
+	9143,
+	9297,
 	0,
-	9263,
-	9270,
+	9257,
+	9264,
 	5677,
 	0,
 	0,
@@ -21015,7 +20971,7 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	5790,
-	9303,
+	9297,
 	4807,
 	5790,
 	5651,
@@ -21200,7 +21156,7 @@ static const int32_t s_InvokerIndices[5527] =
 	4807,
 	4807,
 	5790,
-	8958,
+	8952,
 	5677,
 	4807,
 	4807,
@@ -21215,7 +21171,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5677,
 	5651,
-	9270,
+	9264,
 	4807,
 	5677,
 	2188,
@@ -21267,7 +21223,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5790,
 	5651,
 	4331,
-	8958,
+	8952,
 	5677,
 	5589,
 	4723,
@@ -21287,7 +21243,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5651,
 	5790,
-	8958,
+	8952,
 	5790,
 	5651,
 	5589,
@@ -21321,7 +21277,7 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	9270,
+	9264,
 	2979,
 	2199,
 	4807,
@@ -21330,11 +21286,11 @@ static const int32_t s_InvokerIndices[5527] =
 	4807,
 	5677,
 	5790,
-	9149,
-	9149,
-	9149,
-	8958,
-	9303,
+	9143,
+	9143,
+	9143,
+	8952,
+	9297,
 	4786,
 	5790,
 	5589,
@@ -21343,8 +21299,8 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5677,
 	5790,
-	8038,
-	9303,
+	8034,
+	9297,
 	0,
 	0,
 	0,
@@ -21386,29 +21342,29 @@ static const int32_t s_InvokerIndices[5527] =
 	2983,
 	3595,
 	4807,
-	8038,
-	8735,
-	8038,
-	8735,
+	8034,
+	8729,
+	8034,
+	8729,
 	2983,
 	5790,
 	2983,
-	8595,
+	8589,
 	5790,
 	5790,
 	1225,
-	8748,
+	8742,
 	1923,
 	1225,
 	5790,
-	9303,
+	9297,
 	5790,
-	8744,
-	7859,
-	8958,
+	8738,
+	7855,
+	8952,
 	5790,
-	9247,
-	9303,
+	9241,
+	9297,
 	0,
 	0,
 	0,
@@ -21417,15 +21373,15 @@ static const int32_t s_InvokerIndices[5527] =
 	0,
 	0,
 	0,
-	9303,
-	8748,
+	9297,
+	8742,
 	7319,
-	7834,
+	7830,
 	7319,
-	7834,
-	8748,
-	8038,
-	8038,
+	7830,
+	8742,
+	8034,
+	8034,
 	5677,
 	4807,
 	5589,
@@ -21439,10 +21395,10 @@ static const int32_t s_InvokerIndices[5527] =
 	2437,
 	2411,
 	4327,
-	8952,
-	8834,
+	8946,
+	8828,
 	7320,
-	8038,
+	8034,
 	4786,
 	5790,
 	5589,
@@ -21479,7 +21435,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5677,
-	8748,
+	8742,
 	0,
 	0,
 	5582,
@@ -21560,7 +21516,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5677,
-	8958,
+	8952,
 	5677,
 	5790,
 	4786,
@@ -21584,7 +21540,7 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5677,
-	8958,
+	8952,
 	5677,
 	5790,
 	4786,
@@ -21609,14 +21565,14 @@ static const int32_t s_InvokerIndices[5527] =
 	5677,
 	5790,
 	5677,
-	9088,
-	9303,
+	9082,
+	9297,
 	0,
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[2] = 
 {
 	{ 0x06000FEE, 19,  (void**)&NavDll_print_string_m52DC528AC53F1A11E26B677E9E85038A6F54E482_RuntimeMethod_var, 0 },
-	{ 0x06001234, 3,  (void**)&GameCppDll_print_string_mB6AD3D833B8772D4E4923EF3F91C4E373F7A958D_RuntimeMethod_var, 0 },
+	{ 0x0600122A, 3,  (void**)&GameCppDll_print_string_mB6AD3D833B8772D4E4923EF3F91C4E373F7A958D_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[160] = 
 {
@@ -21647,44 +21603,44 @@ static const Il2CppTokenRangePair s_rgctxIndices[160] =
 	{ 0x020001F7, { 297, 4 } },
 	{ 0x020001FA, { 301, 6 } },
 	{ 0x02000232, { 314, 31 } },
-	{ 0x02000292, { 371, 5 } },
-	{ 0x02000293, { 376, 3 } },
-	{ 0x02000294, { 379, 3 } },
-	{ 0x02000299, { 466, 11 } },
-	{ 0x0200029A, { 480, 5 } },
-	{ 0x0200029B, { 485, 17 } },
-	{ 0x0200029C, { 502, 2 } },
-	{ 0x0200029D, { 504, 14 } },
-	{ 0x0200029E, { 518, 11 } },
-	{ 0x0200029F, { 529, 5 } },
-	{ 0x020002A0, { 534, 10 } },
-	{ 0x020002A1, { 544, 2 } },
-	{ 0x020002A2, { 546, 4 } },
-	{ 0x020002A6, { 550, 6 } },
-	{ 0x020002A7, { 559, 2 } },
-	{ 0x020002B3, { 562, 43 } },
-	{ 0x020002C0, { 605, 14 } },
-	{ 0x020002C1, { 619, 11 } },
-	{ 0x020002C2, { 630, 2 } },
-	{ 0x020002C3, { 632, 3 } },
-	{ 0x020002C5, { 635, 6 } },
-	{ 0x020002C6, { 641, 7 } },
-	{ 0x020002C7, { 648, 14 } },
-	{ 0x020002C9, { 662, 10 } },
-	{ 0x020002CA, { 672, 10 } },
-	{ 0x020002CB, { 682, 8 } },
-	{ 0x020002D3, { 690, 14 } },
-	{ 0x020002D4, { 705, 8 } },
-	{ 0x020002D5, { 713, 12 } },
-	{ 0x020002D6, { 725, 12 } },
-	{ 0x020002D7, { 737, 18 } },
-	{ 0x020002D8, { 755, 11 } },
-	{ 0x020002D9, { 766, 11 } },
-	{ 0x020002E4, { 783, 5 } },
-	{ 0x020002FD, { 810, 14 } },
-	{ 0x020002FE, { 824, 10 } },
-	{ 0x020002FF, { 834, 13 } },
-	{ 0x02000300, { 847, 13 } },
+	{ 0x02000290, { 371, 5 } },
+	{ 0x02000291, { 376, 3 } },
+	{ 0x02000292, { 379, 3 } },
+	{ 0x02000297, { 466, 11 } },
+	{ 0x02000298, { 480, 5 } },
+	{ 0x02000299, { 485, 17 } },
+	{ 0x0200029A, { 502, 2 } },
+	{ 0x0200029B, { 504, 14 } },
+	{ 0x0200029C, { 518, 11 } },
+	{ 0x0200029D, { 529, 5 } },
+	{ 0x0200029E, { 534, 10 } },
+	{ 0x0200029F, { 544, 2 } },
+	{ 0x020002A0, { 546, 4 } },
+	{ 0x020002A4, { 550, 6 } },
+	{ 0x020002A5, { 559, 2 } },
+	{ 0x020002B1, { 562, 43 } },
+	{ 0x020002BE, { 605, 14 } },
+	{ 0x020002BF, { 619, 11 } },
+	{ 0x020002C0, { 630, 2 } },
+	{ 0x020002C1, { 632, 3 } },
+	{ 0x020002C3, { 635, 6 } },
+	{ 0x020002C4, { 641, 7 } },
+	{ 0x020002C5, { 648, 14 } },
+	{ 0x020002C7, { 662, 10 } },
+	{ 0x020002C8, { 672, 10 } },
+	{ 0x020002C9, { 682, 8 } },
+	{ 0x020002D1, { 690, 14 } },
+	{ 0x020002D2, { 705, 8 } },
+	{ 0x020002D3, { 713, 12 } },
+	{ 0x020002D4, { 725, 12 } },
+	{ 0x020002D5, { 737, 18 } },
+	{ 0x020002D6, { 755, 11 } },
+	{ 0x020002D7, { 766, 11 } },
+	{ 0x020002E2, { 783, 5 } },
+	{ 0x020002FB, { 810, 14 } },
+	{ 0x020002FC, { 824, 10 } },
+	{ 0x020002FD, { 834, 13 } },
+	{ 0x020002FE, { 847, 13 } },
 	{ 0x06000058, { 8, 2 } },
 	{ 0x06000059, { 10, 2 } },
 	{ 0x0600005A, { 12, 2 } },
@@ -21736,50 +21692,50 @@ static const Il2CppTokenRangePair s_rgctxIndices[160] =
 	{ 0x06000FD1, { 354, 7 } },
 	{ 0x06000FD7, { 361, 1 } },
 	{ 0x06000FD9, { 362, 4 } },
-	{ 0x060010B5, { 366, 1 } },
-	{ 0x060010B6, { 367, 1 } },
-	{ 0x060010EA, { 368, 1 } },
-	{ 0x060010EB, { 369, 1 } },
-	{ 0x060010EC, { 370, 1 } },
-	{ 0x0600112B, { 382, 14 } },
-	{ 0x0600112C, { 396, 8 } },
-	{ 0x0600112E, { 404, 5 } },
-	{ 0x0600112F, { 409, 5 } },
-	{ 0x06001130, { 414, 5 } },
-	{ 0x06001132, { 419, 1 } },
-	{ 0x06001133, { 420, 1 } },
-	{ 0x06001135, { 421, 8 } },
-	{ 0x06001136, { 429, 3 } },
-	{ 0x06001137, { 432, 10 } },
-	{ 0x06001138, { 442, 5 } },
-	{ 0x06001139, { 447, 1 } },
-	{ 0x0600113A, { 448, 8 } },
-	{ 0x0600113B, { 456, 10 } },
-	{ 0x06001143, { 477, 3 } },
-	{ 0x060011A6, { 556, 3 } },
-	{ 0x060011BD, { 561, 1 } },
-	{ 0x06001282, { 704, 1 } },
-	{ 0x060012A1, { 777, 3 } },
-	{ 0x060012CA, { 780, 1 } },
-	{ 0x060012D1, { 781, 2 } },
-	{ 0x060012DE, { 788, 1 } },
-	{ 0x060012E0, { 789, 1 } },
-	{ 0x060012E1, { 790, 3 } },
-	{ 0x060012E4, { 793, 7 } },
-	{ 0x060012E5, { 800, 3 } },
-	{ 0x060012E6, { 803, 3 } },
-	{ 0x060012E7, { 806, 3 } },
-	{ 0x060012F3, { 809, 1 } },
-	{ 0x060014CD, { 860, 1 } },
-	{ 0x060014CE, { 861, 1 } },
-	{ 0x060014CF, { 862, 1 } },
-	{ 0x060014D0, { 863, 1 } },
-	{ 0x060014D1, { 864, 1 } },
-	{ 0x060014D2, { 865, 4 } },
-	{ 0x060014D3, { 869, 4 } },
-	{ 0x060014D4, { 873, 1 } },
-	{ 0x06001514, { 874, 1 } },
-	{ 0x06001515, { 875, 1 } },
+	{ 0x060010AB, { 366, 1 } },
+	{ 0x060010AC, { 367, 1 } },
+	{ 0x060010E0, { 368, 1 } },
+	{ 0x060010E1, { 369, 1 } },
+	{ 0x060010E2, { 370, 1 } },
+	{ 0x06001121, { 382, 14 } },
+	{ 0x06001122, { 396, 8 } },
+	{ 0x06001124, { 404, 5 } },
+	{ 0x06001125, { 409, 5 } },
+	{ 0x06001126, { 414, 5 } },
+	{ 0x06001128, { 419, 1 } },
+	{ 0x06001129, { 420, 1 } },
+	{ 0x0600112B, { 421, 8 } },
+	{ 0x0600112C, { 429, 3 } },
+	{ 0x0600112D, { 432, 10 } },
+	{ 0x0600112E, { 442, 5 } },
+	{ 0x0600112F, { 447, 1 } },
+	{ 0x06001130, { 448, 8 } },
+	{ 0x06001131, { 456, 10 } },
+	{ 0x06001139, { 477, 3 } },
+	{ 0x0600119C, { 556, 3 } },
+	{ 0x060011B3, { 561, 1 } },
+	{ 0x06001278, { 704, 1 } },
+	{ 0x06001297, { 777, 3 } },
+	{ 0x060012C0, { 780, 1 } },
+	{ 0x060012C7, { 781, 2 } },
+	{ 0x060012D4, { 788, 1 } },
+	{ 0x060012D6, { 789, 1 } },
+	{ 0x060012D7, { 790, 3 } },
+	{ 0x060012DA, { 793, 7 } },
+	{ 0x060012DB, { 800, 3 } },
+	{ 0x060012DC, { 803, 3 } },
+	{ 0x060012DD, { 806, 3 } },
+	{ 0x060012E9, { 809, 1 } },
+	{ 0x060014C3, { 860, 1 } },
+	{ 0x060014C4, { 861, 1 } },
+	{ 0x060014C5, { 862, 1 } },
+	{ 0x060014C6, { 863, 1 } },
+	{ 0x060014C7, { 864, 1 } },
+	{ 0x060014C8, { 865, 4 } },
+	{ 0x060014C9, { 869, 4 } },
+	{ 0x060014CA, { 873, 1 } },
+	{ 0x0600150A, { 874, 1 } },
+	{ 0x0600150B, { 875, 1 } },
 };
 extern const uint32_t g_rgctx_List_1_t8BD81FB59EB237E36DC8EA8B8747D9EE37D06C9D;
 extern const uint32_t g_rgctx_List_1_Add_m86CB5B349DE01BA9C9A4DFDB8AA3C5AF2DAE4E0C;
@@ -23540,9 +23496,9 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_pure_CodeGenModule;
 const Il2CppCodeGenModule g_pure_CodeGenModule = 
 {
 	"pure.dll",
-	5527,
+	5517,
 	s_methodPointers,
-	214,
+	212,
 	s_adjustorThunks,
 	s_InvokerIndices,
 	2,

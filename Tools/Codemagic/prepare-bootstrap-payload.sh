@@ -3,10 +3,12 @@ set -euo pipefail
 
 project_root="${CM_BUILD_DIR:-$(cd "$(dirname "$0")/../.." && pwd)}"
 raw_root="$project_root/Data/Raw"
+data_root="$project_root/Data"
 staging_root="$project_root/Build/bootstrap-raw"
 report="$project_root/Build/bootstrap-payload-report.txt"
 
 test -d "$raw_root" || { echo "Missing Xcode payload: $raw_root" >&2; exit 1; }
+test -d "$data_root" || { echo "Missing Unity Data root: $data_root" >&2; exit 1; }
 
 rm -rf "$staging_root"
 mkdir -p "$staging_root"
@@ -25,12 +27,12 @@ copy_payload() {
 for item in \
   bundle.ver bundlejo.json cache_seed_manifest.txt version.ver \
   platform_build.info \
-  asm bin lang lua machine shader tree; do
+  asm lang lua machine shader tree; do
   copy_payload "$item"
 done
 
-# Keep only the current updater snapshot and the same four starter-class
-# bundles present in MU_full.apk.
+# v15 is active. v16 is retained only as the reserved rollback/update slot.
+copy_payload "1_0_15"
 copy_payload "1_0_16"
 for item in \
   prelogin.ab \
@@ -54,7 +56,8 @@ file_count="$(find "$staging_root" -type f | wc -l | tr -d ' ')"
   echo "Files=$file_count"
   echo "Platform=iOS"
   echo "ResourcePolicy=Gameplay bundles download from /res/ios/res"
-  echo "Required=asm,bin,lua,version,prelogin,starter-classes"
+  echo "RuntimePolicy=Unity runtime stays in Data from this Xcode export"
+  echo "Required=asm,lua,v15,v16,prelogin,starter-classes"
 } | tee "$report"
 
 if [ "$after_mb" -gt 55 ]; then
@@ -68,15 +71,26 @@ find "$staging_root/asm/hotfix" -maxdepth 1 -type f \
 test -s "$staging_root/lua/packed32.bytes"
 test -s "$staging_root/lua/packed64.bytes"
 test -s "$staging_root/platform_build.info"
-# The iOS export stores Unity runtime data under bin/Data. Android's
-# bin/builtin.bytes does not exist in an exported Xcode project.
-test -s "$staging_root/bin/Data/globalgamemanagers"
-test -s "$staging_root/bin/Data/Managed/Metadata/global-metadata.dat"
+test -s "$staging_root/1_0_15/version.ver"
+test -s "$staging_root/1_0_15/bundle.ver"
+test -s "$staging_root/1_0_16/version.ver"
+test -s "$staging_root/1_0_16/bundle.ver"
+# Runtime and metadata must come directly from the same fresh Unity Xcode
+# export. A nested Data/Raw/bin copy is stale, duplicate runtime data.
+test ! -e "$staging_root/bin"
+test -s "$data_root/globalgamemanagers"
+test -s "$data_root/Managed/Metadata/global-metadata.dat"
+test -s "$data_root/ScriptingAssemblies.json"
 test -s "$staging_root/prelogin.ab"
 test -s "$staging_root/prefab/role_p/hero/knight/set_0.ab"
 test -s "$staging_root/prefab/role_p/hero/wizard/set_0.ab"
 test -s "$staging_root/prefab/role_p/hero/elf/set_0.ab"
 test -s "$staging_root/prefab/role_p/hero/magic/set_0.ab"
+if find "$staging_root" -type f \( -name 'lib.bytes' -o -name 'builtin.bytes' \) \
+  -print -quit | grep -q .; then
+  echo "Protected Android runtime bytes leaked into iOS bootstrap" >&2
+  exit 1
+fi
 
 # This modifies only the disposable Codemagic checkout. The Git payload and
 # local Unity source remain intact.

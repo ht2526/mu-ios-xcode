@@ -1,6 +1,0 @@
-#include "Libraries/libil2cpp/il2cpp-config.h"
-#include "Libraries/libil2cpp/mono/ThreadPool/ThreadPoolMonitorThread.cpp"
-#include "Libraries/libil2cpp/mono/ThreadPool/threadpool-ms.cpp"
-#include "Libraries/libil2cpp/mono/ThreadPool/threadpool-ms-io.cpp"
-#include "Libraries/libil2cpp/mono/ThreadPool/threadpool-ms-io-poll.cpp"
-#include "Libraries/libil2cpp/mono/ThreadPool/ThreadPoolWorkerThread.cpp"

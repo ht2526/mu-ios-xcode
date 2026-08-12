@@ -1,5 +1,0 @@
-#include "Libraries/libil2cpp/il2cpp-config.h"
-#include "Libraries/libil2cpp/os/OSX/Image.cpp"
-#include "Libraries/libil2cpp/os/OSX/Process.cpp"
-#include "Libraries/libil2cpp/os/OSX/SystemCertificates.cpp"
-#include "Libraries/libil2cpp/os/OSX/Thread.cpp"

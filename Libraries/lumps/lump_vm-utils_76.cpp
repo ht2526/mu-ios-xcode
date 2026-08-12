@@ -1,8 +1,0 @@
-#include "Libraries/libil2cpp/il2cpp-config.h"
-#include "Libraries/libil2cpp/vm-utils/BlobReader.cpp"
-#include "Libraries/libil2cpp/vm-utils/Debugger.cpp"
-#include "Libraries/libil2cpp/vm-utils/DebugSymbolReader.cpp"
-#include "Libraries/libil2cpp/vm-utils/Finally.cpp"
-#include "Libraries/libil2cpp/vm-utils/NativeSymbol.cpp"
-#include "Libraries/libil2cpp/vm-utils/VmStringUtils.cpp"
-#include "Libraries/libil2cpp/vm-utils/VmThreadUtils.cpp"

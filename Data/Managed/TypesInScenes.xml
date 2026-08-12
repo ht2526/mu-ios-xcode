@@ -11,6 +11,15 @@
 		<type fullname="main.LayerSetting" preserve="nothing"/>
 		<type fullname="main.NativeBridge" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="sceneBuildAnimController" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="MTE_script">
+		<type fullname="MTE.LayerUVMoveHolder" preserve="nothing"/>
+		<type fullname="MTE.LayerUVScalesHolder" preserve="nothing"/>
+		<type fullname="MTE.TextureArrayMaterial" preserve="nothing"/>
+		<type fullname="MTE.TextureArrayRenderer" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="UnityEngine">
 		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>
 		<type fullname="UnityEditor.InputManager" preserve="nothing"/>

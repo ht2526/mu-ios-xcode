@@ -75,7 +75,7 @@ workflows:
           set -euo pipefail
           bash "$CM_BUILD_DIR/Tools/Codemagic/verify-hybridclr-xcode.sh"
 
-      - name: Prepare 77 MB bootstrap payload
+      - name: Prepare minimal iOS bootstrap payload
         script: |
           set -euo pipefail
           bash "$CM_BUILD_DIR/Tools/Codemagic/prepare-bootstrap-payload.sh"
