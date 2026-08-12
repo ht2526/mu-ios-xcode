@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import lzma
 import struct
 from pathlib import Path
@@ -258,6 +259,26 @@ def main() -> int:
     ):
         require(marker in platform_info, f"Missing platform marker: {marker}")
 
+    catalog = json.loads(
+        (raw_root / "bundlejo.json").read_text(encoding="utf-8-sig")
+    )
+    shader_rows = [
+        row
+        for row in catalog.get("assets", [])
+        if row.get("type") == 0 and row.get("file") == "shader/shaders.ab"
+    ]
+    require(len(shader_rows) == 1, "Expected one shader/shaders.ab catalog row")
+    shader_row = shader_rows[0]
+    require(
+        int(shader_row.get("version", -1)) >= 3,
+        "iOS shader catalog version must invalidate legacy Android cache",
+    )
+    require(
+        str(shader_row.get("hashCode", "")).lower()
+        == "593863587d7d2a96f060093211825d47",
+        "iOS shader catalog hash is not the approved target-9 bundle",
+    )
+
     total_bytes = sum(path.stat().st_size for path in raw_root.rglob("*") if path.is_file())
     require(total_bytes <= 55 * 1024 * 1024, f"Bootstrap exceeds 55 MiB: {total_bytes}")
 
@@ -295,6 +316,8 @@ def main() -> int:
                 f"BootstrapBytes={total_bytes}",
                 f"UnityFSBundles={len(bundles)}",
                 "UnityFSBuildTarget=9",
+                f"ShaderCatalogVersion={shader_row['version']}",
+                f"ShaderCatalogHash={shader_row['hashCode']}",
             )
         )
         + "\n",
