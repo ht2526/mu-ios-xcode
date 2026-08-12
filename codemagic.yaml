@@ -86,6 +86,17 @@ workflows:
           python3 "$CM_BUILD_DIR/Tools/Codemagic/verify-ios-resource-route.py" \
             --project-root "$CM_BUILD_DIR"
 
+      - name: Verify device runtime log export
+        script: |
+          set -euo pipefail
+          test "$(/usr/libexec/PlistBuddy -c 'Print :UIFileSharingEnabled' \
+            "$CM_BUILD_DIR/Info.plist")" = "true"
+          test "$(/usr/libexec/PlistBuddy -c 'Print :LSSupportsOpeningDocumentsInPlace' \
+            "$CM_BUILD_DIR/Info.plist")" = "true"
+          grep -q 'MUInstallRuntimeLog' "$CM_BUILD_DIR/MainApp/main.mm"
+          grep -q 'MUUnity.log' "$CM_BUILD_DIR/MainApp/main.mm"
+          grep -q 'MUInstallRuntimeLog();' "$CM_BUILD_DIR/MainApp/main.mm"
+
       - name: Build unsigned ARM64 device archive
         script: |
           set -euo pipefail
