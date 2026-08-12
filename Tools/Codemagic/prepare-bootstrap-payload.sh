@@ -20,10 +20,11 @@ copy_payload() {
   cp -a "$source" "$target"
 }
 
-# Match the verified 73.84 MB Android bootstrap payload. Gameplay bundles are
-# intentionally downloaded on demand from ResourceURL.
+# Keep only the iOS startup payload. Gameplay bundles are intentionally
+# downloaded on demand from the dedicated /res/ios/res endpoint.
 for item in \
   bundle.ver bundlejo.json cache_seed_manifest.txt version.ver \
+  platform_build.info \
   asm bin lang lua machine shader tree; do
   copy_payload "$item"
 done
@@ -51,7 +52,8 @@ file_count="$(find "$staging_root" -type f | wc -l | tr -d ' ')"
   echo "AfterBytes=$after_bytes"
   echo "AfterMiB=$after_mb"
   echo "Files=$file_count"
-  echo "ResourcePolicy=Gameplay bundles download from ResourceURL"
+  echo "Platform=iOS"
+  echo "ResourcePolicy=Gameplay bundles download from /res/ios/res"
   echo "Required=asm,bin,lua,version,prelogin,starter-classes"
 } | tee "$report"
 
@@ -61,8 +63,11 @@ if [ "$after_mb" -gt 55 ]; then
 fi
 
 test -s "$staging_root/asm/hotfix/hotfix.bytes"
+find "$staging_root/asm/hotfix" -maxdepth 1 -type f \
+  -name 'hotfix.bytes.*' -delete
 test -s "$staging_root/lua/packed32.bytes"
 test -s "$staging_root/lua/packed64.bytes"
+test -s "$staging_root/platform_build.info"
 # The iOS export stores Unity runtime data under bin/Data. Android's
 # bin/builtin.bytes does not exist in an exported Xcode project.
 test -s "$staging_root/bin/Data/globalgamemanagers"

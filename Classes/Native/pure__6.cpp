@@ -25246,7 +25246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NativeFactory_GetInterface_m42
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeFactory_tEFDDC90E2F093F7639F14E93069AAFDCE1DB95CD_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeImpl_Android_tC9C1EEDED989552518D6823D318B9665EEF615DE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeImpl_Editor_t78E59C10E9F4AB384BD3E5AD2CECC973618C76EE_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -25266,9 +25266,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NativeFactory_GetInterface_m42
 
 IL_0012:
 	{
-		NativeImpl_Android_tC9C1EEDED989552518D6823D318B9665EEF615DE* L_3 = (NativeImpl_Android_tC9C1EEDED989552518D6823D318B9665EEF615DE*)il2cpp_codegen_object_new(NativeImpl_Android_tC9C1EEDED989552518D6823D318B9665EEF615DE_il2cpp_TypeInfo_var);
+		NativeImpl_Editor_t78E59C10E9F4AB384BD3E5AD2CECC973618C76EE* L_3 = (NativeImpl_Editor_t78E59C10E9F4AB384BD3E5AD2CECC973618C76EE*)il2cpp_codegen_object_new(NativeImpl_Editor_t78E59C10E9F4AB384BD3E5AD2CECC973618C76EE_il2cpp_TypeInfo_var);
 		NullCheck(L_3);
-		NativeImpl_Android__ctor_mA704D46DDF7757492BD580732D4F050869D21108(L_3, NULL);
+		NativeImpl_Editor__ctor_m0A338F2F117645F99B3326CB65E9D4F4456EE093(L_3, NULL);
 		return L_3;
 	}
 }

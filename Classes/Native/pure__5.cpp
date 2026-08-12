@@ -32916,13 +32916,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RemoteAssetSite_ObjectName_mE231FE3
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6A70B0C5E6E9A76D35420332B97891C30041E2D5);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral77843243D4312B40A1163EFE55D56961E2352D09);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		NullCheck(_stringLiteral77843243D4312B40A1163EFE55D56961E2352D09);
-		String_t* L_0;
-		L_0 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(_stringLiteral77843243D4312B40A1163EFE55D56961E2352D09, NULL);
+		String_t* L_0 = il2cpp_codegen_string_new_wrapper("iOS");
+		NullCheck(L_0);
+		L_0 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_0, NULL);
 		String_t* L_1 = ___0_file;
 		String_t* L_2;
 		L_2 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_0, _stringLiteral6A70B0C5E6E9A76D35420332B97891C30041E2D5, L_1, NULL);
@@ -33047,7 +33046,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAssetSite_ParseConfigInfo_m6B6A318
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RemoteAssetSite_tE77B1712CB1EE3A0C16E918ED4C0727A23661458_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29F073308BF4C018B2C9D6A046D6503C80DB4085);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5BFA672003FEAB55EDEF8E637A1F8FBE70B7C286);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral77843243D4312B40A1163EFE55D56961E2352D09);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral78F4B5F6CC4DAA0C2DA78A7557FBA0A1D32B0760);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral98302EFDE44D8905033D26599DFC6580D91A31B0);
@@ -33170,9 +33168,9 @@ IL_00b7:
 		il2cpp_codegen_runtime_class_init_inline(RemoteAssetSite_tE77B1712CB1EE3A0C16E918ED4C0727A23661458_il2cpp_TypeInfo_var);
 		String_t* L_24;
 		L_24 = RemoteAssetSite_get_SiteRoot_m02BD29598263AD3C9C3D679E3D44D6B18AF23390_inline(NULL);
-		NullCheck(_stringLiteral77843243D4312B40A1163EFE55D56961E2352D09);
-		String_t* L_25;
-		L_25 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(_stringLiteral77843243D4312B40A1163EFE55D56961E2352D09, NULL);
+		String_t* L_25 = il2cpp_codegen_string_new_wrapper("iOS");
+		NullCheck(L_25);
+		L_25 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_25, NULL);
 		String_t* L_26;
 		L_26 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_24, _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1, L_25, NULL);
 		RemoteAssetSite_set_PlatformRoot_m0228CF3FAAAF23F8AAF5BE518C96920732C6013B_inline(L_26, NULL);

@@ -80,6 +80,12 @@ workflows:
           set -euo pipefail
           bash "$CM_BUILD_DIR/Tools/Codemagic/prepare-bootstrap-payload.sh"
 
+      - name: Verify dedicated iOS resource route
+        script: |
+          set -euo pipefail
+          python3 "$CM_BUILD_DIR/Tools/Codemagic/verify-ios-resource-route.py" \
+            --project-root "$CM_BUILD_DIR"
+
       - name: Build unsigned ARM64 device archive
         script: |
           set -euo pipefail
@@ -133,6 +139,7 @@ workflows:
       - Build/iOS/ios-native-xlua-summary.txt
       - Build/iOS/ios-native-legacy-bridge.log
       - Build/iOS/hybridclr-verification.txt
+      - Build/iOS/ios-resource-route-verification.txt
       - Build/bootstrap-payload-report.txt
       - NativeGenerated/legacy-native-symbols.txt
       - xcode-build-settings.txt
